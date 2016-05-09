@@ -21,7 +21,7 @@ import ve.zoonosis.model.entidades.Entidad;
  *
  * @author clases
  */
-public abstract class Persona extends Entidad {
+public class Persona extends Entidad {
 
     protected String nombre;
     protected String apellido;

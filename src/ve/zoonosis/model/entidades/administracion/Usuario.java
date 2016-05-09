@@ -16,16 +16,19 @@
 package ve.zoonosis.model.entidades.administracion;
 
 import java.util.Date;
+import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
  * @author clases
  */
-public class Usuario extends Persona {
+public class Usuario extends Entidad {
 
     private String usuario;
     private String contrasena;
     private Date fechaNacimiento;
+
+    private Persona persona;
 
     public String getUsuario() {
         return usuario;
@@ -51,6 +54,12 @@ public class Usuario extends Persona {
         this.fechaNacimiento = fechaNacimiento;
     }
 
-   
-    
+    public Persona getPersona() {
+        return persona;
+    }
+
+    public void setPersona(Persona persona) {
+        this.persona = persona;
+    }
+
 }

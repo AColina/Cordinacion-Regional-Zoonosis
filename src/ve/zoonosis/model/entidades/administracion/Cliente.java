@@ -15,15 +15,19 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import ve.zoonosis.model.entidades.Entidad;
+
 /**
  *
  * @author clases
  */
-public class Cliente extends Persona{
+public class Cliente extends Entidad {
 
     private String correo;
     private String telefono;
     private String direccion;
+    private Persona persona;
+    private Parroquia parroquia;
 
     public Cliente() {
     }
@@ -54,6 +58,22 @@ public class Cliente extends Persona{
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public Persona getPersona() {
+        return persona;
+    }
+
+    public void setPersona(Persona persona) {
+        this.persona = persona;
+    }
+
+    public Parroquia getParroquia() {
+        return parroquia;
+    }
+
+    public void setParroquia(Parroquia parroquia) {
+        this.parroquia = parroquia;
     }
 
 }
