@@ -24,7 +24,7 @@ public class BandejaCasos extends javax.swing.JPanel {
     /**
      * Creates new form BandejaJornadaVacunacion
      */
-    public BandejaCasos() {
+    protected BandejaCasos() {
         initComponents();
     }
 
