@@ -13,29 +13,42 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.model.entidades;
+package ve.zoonosis.model.entidades.administracion;
+
+import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
  * @author clases
  */
-public abstract class Entidad {
+public class Parroquia extends Entidad {
 
-    protected Long id;
+    private String nombre;
+    private Municipio municipio;
 
-    public Entidad() {
+    public Parroquia(String nombre) {
+        this.nombre = nombre;
     }
 
-    public Entidad(Long id) {
-        this.id = id;
+    public String getNombre() {
+        return nombre;
     }
 
-    public Long getId() {
-        return id;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public Municipio getMunicipio() {
+        return municipio;
+    }
+
+    public void setMunicipio(Municipio municipio) {
+        this.municipio = municipio;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
     }
 
 }
