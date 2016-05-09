@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.calendario.Semana;
+import ve.zoonosis.model.entidades.proceso.Caso;
 
 /**
  *
@@ -30,6 +31,7 @@ public class Parroquia extends Entidad {
     private Municipio municipio;
     private List<Cliente> clientes;
     private List<Semana> semanas;
+    private List<Caso> casos;
 
     public Parroquia(String nombre) {
         this.nombre = nombre;
@@ -68,6 +70,14 @@ public class Parroquia extends Entidad {
 
     public void setSemanas(List<Semana> semanas) {
         this.semanas = semanas;
+    }
+
+    public List<Caso> getCasos() {
+        return casos;
+    }
+
+    public void setCasos(List<Caso> casos) {
+        this.casos = casos;
     }
 
     @Override

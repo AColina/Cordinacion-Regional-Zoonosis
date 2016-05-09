@@ -17,6 +17,7 @@ package ve.zoonosis.model.entidades.funcionales;
 
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 import ve.zoonosis.model.entidades.proceso.Vacunacion_has_Animal;
 
 /**
@@ -28,6 +29,7 @@ public class Animal extends Entidad {
     private String nombre;
     private Especie especie;
     private List<Vacunacion_has_Animal> vacunacion_has_Animal;
+    private List<Animal_has_Caso> animal_has_Caso;
 
     public Animal(String nombre) {
         this.nombre = nombre;
@@ -55,6 +57,14 @@ public class Animal extends Entidad {
 
     public void setVacunacion_has_Animal(List<Vacunacion_has_Animal> vacunacion_has_Animal) {
         this.vacunacion_has_Animal = vacunacion_has_Animal;
+    }
+
+    public List<Animal_has_Caso> getAnimal_has_Caso() {
+        return animal_has_Caso;
+    }
+
+    public void setAnimal_has_Caso(List<Animal_has_Caso> animal_has_Caso) {
+        this.animal_has_Caso = animal_has_Caso;
     }
 
     @Override

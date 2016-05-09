@@ -15,13 +15,11 @@
  */
 package ve.zoonosis.model.components;
 
-import com.megagroup.utilidades.ComponentUtils;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import javax.swing.JInternalFrame;
 import javax.swing.WindowConstants;
-import javax.swing.event.InternalFrameAdapter;
 
 /**
  *
