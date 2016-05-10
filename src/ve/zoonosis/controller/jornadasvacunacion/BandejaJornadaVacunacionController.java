@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.controller.casos;
+package ve.zoonosis.controller.jornadasvacunacion;
 
 import com.megagroup.model.Controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import ve.zoonosis.vistas.modulos.casos.BandejaCasos;
+import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
 
 /**
  *
  * @author clases
  */
-public class BandejaCasosController extends BandejaCasos implements Controller{
+public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion implements Controller {
 
-    public BandejaCasosController() {
+    public BandejaJornadaVacunacionController() {
         inicializar();
     }
 
@@ -36,7 +36,7 @@ public class BandejaCasosController extends BandejaCasos implements Controller{
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                
+                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
             }
         });
     }

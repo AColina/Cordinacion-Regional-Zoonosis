@@ -13,32 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.controller.casos;
+package ve.zoonosis.controller.jornadasvacunacion;
 
+import com.megagroup.componentes.MDialog;
 import com.megagroup.model.Controller;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import ve.zoonosis.vistas.modulos.casos.BandejaCasos;
+import ve.zoonosis.vistas.modulos.jornadasvacunaciones.NuevaJornada;
 
 /**
  *
  * @author clases
  */
-public class BandejaCasosController extends BandejaCasos implements Controller{
+public class NuevaJornadaController extends NuevaJornada implements Controller {
 
-    public BandejaCasosController() {
+    private MDialog dialog;
+
+    public NuevaJornadaController() {
         inicializar();
     }
 
     @Override
     public final void inicializar() {
-        nuevo.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                
-            }
-        });
+        dialog = new MDialog();
+        dialog.add(this);
+        dialog.showDialog();
     }
 
 }

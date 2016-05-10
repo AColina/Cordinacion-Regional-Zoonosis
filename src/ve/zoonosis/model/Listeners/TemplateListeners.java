@@ -18,8 +18,8 @@ package ve.zoonosis.model.Listeners;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import ve.zoonosis.controller.casos.BandejaCasosController;
+import ve.zoonosis.controller.jornadasvacunacion.BandejaJornadaVacunacionController;
 import ve.zoonosis.model.components.AbstractInternalListener;
-import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
 
 /**
  *
@@ -28,7 +28,7 @@ import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
 public class TemplateListeners {
 
     public static Bandeja getJornadaVacunacionBandeja() {
-        return new Bandeja("Jornadas de Vacunación", BandejaJornadaVacunacion.class);
+        return new Bandeja("Jornadas de Vacunación", BandejaJornadaVacunacionController.class);
     }
 
     public static Bandeja getCasosBandeja() {

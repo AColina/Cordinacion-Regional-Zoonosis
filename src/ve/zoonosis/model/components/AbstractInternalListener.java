@@ -17,8 +17,13 @@ package ve.zoonosis.model.components;
 
 import com.megagroup.reflection.ReflectionUtils;
 import java.awt.Component;
+import java.beans.PropertyVetoException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JComponent;
+import javax.swing.JInternalFrame;
 import javax.swing.event.InternalFrameAdapter;
+import ve.zoonosis.utils.GUIUtils;
 import ve.zoonosis.vistas.Template;
 
 /**
@@ -34,7 +39,6 @@ public abstract class AbstractInternalListener {
             if (component instanceof InternalFrame) {
                 if (component.getName().equalsIgnoreCase(titulo)) {
                     component.requestFocus();
-                    ((InternalFrame) component).toFront();
                     return (InternalFrame) component;
                 }
             }

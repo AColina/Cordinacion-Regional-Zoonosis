@@ -18,14 +18,17 @@ package ve.zoonosis.model.components;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 import javax.swing.JInternalFrame;
 import javax.swing.WindowConstants;
+import ve.zoonosis.utils.GUIUtils;
 
 /**
  *
  * @author clases
  */
-public class InternalFrame extends JInternalFrame {
+public class InternalFrame extends JInternalFrame implements FocusListener {
 
     {
         setClosable(true);
@@ -33,6 +36,7 @@ public class InternalFrame extends JInternalFrame {
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         setResizable(true);
         this.setBackground(Color.WHITE);
+        this.addFocusListener(this);
     }
 
     public InternalFrame() {
@@ -52,6 +56,16 @@ public class InternalFrame extends JInternalFrame {
         this.pack();
         return c;
     }
- 
+
+    @Override
+    public void focusGained(FocusEvent e) {
+        GUIUtils.moveToFront(this);
+        System.out.println("active : " + this.title);
+    }
+
+    @Override
+    public void focusLost(FocusEvent e) {
+
+    }
 
 }
