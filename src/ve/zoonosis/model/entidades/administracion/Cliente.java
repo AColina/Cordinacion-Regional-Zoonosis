@@ -15,7 +15,9 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.proceso.Novedades;
 
 /**
  *
@@ -28,6 +30,7 @@ public class Cliente extends Entidad {
     private String direccion;
     private Persona persona;
     private Parroquia parroquia;
+    private List<Novedades> novedades;
 
     public Cliente() {
     }
@@ -74,6 +77,19 @@ public class Cliente extends Entidad {
 
     public void setParroquia(Parroquia parroquia) {
         this.parroquia = parroquia;
+    }
+
+    public List<Novedades> getNovedades() {
+        return novedades;
+    }
+
+    public void setNovedades(List<Novedades> novedades) {
+        this.novedades = novedades;
+    }
+
+    @Override
+    public String toString() {
+        return persona.toString();
     }
 
 }

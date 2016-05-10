@@ -17,6 +17,8 @@ package ve.zoonosis.model.entidades.proceso;
 
 import java.util.Date;
 import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.administracion.Cliente;
+import ve.zoonosis.model.entidades.administracion.Usuario;
 
 /**
  *
@@ -24,5 +26,62 @@ import ve.zoonosis.model.entidades.Entidad;
  */
 public class Novedades extends Entidad {
 
-    Date fechaElaboracion;
+    private Date fechaElaboracion;
+    private String nombre;
+    private String descripcion;
+    private Cliente cliente;
+    private Usuario usuario;
+
+    public Novedades() {
+    }
+
+    public Novedades(String nombre, String descripcion) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+    }
+
+    public Date getFechaElaboracion() {
+        return fechaElaboracion;
+    }
+
+    public void setFechaElaboracion(Date fechaElaboracion) {
+        this.fechaElaboracion = fechaElaboracion;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }

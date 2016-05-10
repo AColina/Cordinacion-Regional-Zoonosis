@@ -16,7 +16,9 @@
 package ve.zoonosis.model.entidades.administracion;
 
 import java.util.Date;
+import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.proceso.Novedades;
 
 /**
  *
@@ -29,6 +31,7 @@ public class Usuario extends Entidad {
     private Date fechaNacimiento;
 
     private Persona persona;
+    private List<Novedades> novedades;
 
     public String getUsuario() {
         return usuario;
@@ -62,4 +65,16 @@ public class Usuario extends Entidad {
         this.persona = persona;
     }
 
+    public List<Novedades> getNovedades() {
+        return novedades;
+    }
+
+    public void setNovedades(List<Novedades> novedades) {
+        this.novedades = novedades;
+    }
+
+    @Override
+    public String toString() {
+        return persona.toString();
+    }
 }
