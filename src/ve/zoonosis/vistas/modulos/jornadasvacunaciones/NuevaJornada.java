@@ -15,11 +15,13 @@
  */
 package ve.zoonosis.vistas.modulos.jornadasvacunaciones;
 
+import ve.zoonosis.model.bean.AbstractForm;
+
 /**
  *
  * @author angel.colina
  */
-public class NuevaJornada extends javax.swing.JPanel {
+public abstract class NuevaJornada extends AbstractForm<Object> {
 
     /**
      * Creates new form NuevaJornada

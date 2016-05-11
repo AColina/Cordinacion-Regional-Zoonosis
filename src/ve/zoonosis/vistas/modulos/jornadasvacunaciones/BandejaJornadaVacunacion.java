@@ -15,16 +15,18 @@
  */
 package ve.zoonosis.vistas.modulos.jornadasvacunaciones;
 
+import ve.zoonosis.model.bean.BandejaAbstract;
+
 /**
  *
  * @author clases
  */
-public class BandejaJornadaVacunacion extends javax.swing.JPanel {
+public abstract class BandejaJornadaVacunacion extends BandejaAbstract<Object> {
 
     /**
      * Creates new form BandejaJornadaVacunacion
      */
-    public BandejaJornadaVacunacion() {
+    protected BandejaJornadaVacunacion() {
         initComponents();
     }
 
@@ -61,15 +63,9 @@ public class BandejaJornadaVacunacion extends javax.swing.JPanel {
 
         mLabel1.setText("Semana");
 
-        semana.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
         mLabel2.setText("Parroquia");
 
-        municipio.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
         mLabel3.setText("Municipio");
-
-        parroquia.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         mLabel4.setText("Desde");
 

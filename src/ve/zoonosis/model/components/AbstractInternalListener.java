@@ -17,6 +17,9 @@ package ve.zoonosis.model.components;
 
 import com.megagroup.reflection.ReflectionUtils;
 import java.awt.Component;
+import java.beans.PropertyVetoException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JComponent;
 import javax.swing.event.InternalFrameAdapter;
 import ve.zoonosis.vistas.Template;
@@ -27,15 +30,29 @@ import ve.zoonosis.vistas.Template;
  */
 public abstract class AbstractInternalListener {
 
+    private final Template TEMPLATE;
+
+    public AbstractInternalListener(Template TEMPLATE) {
+        this.TEMPLATE = TEMPLATE;
+    }
+
     public InternalFrame crearInternalFrame(String titulo,
             Class<? extends JComponent> clase, Object... param) {
 
-        for (Component component : Template.INSTANCE.getContentPane().getComponents()) {
+        for (Component component : TEMPLATE.getFONDO().getAllFrames()) {
             if (component instanceof InternalFrame) {
                 if (component.getName().equalsIgnoreCase(titulo)) {
+                    InternalFrame i=(InternalFrame)component;
+                    if(i.isIcon()){
+                        try {
+                            i.setIcon(false);
+                        } catch (PropertyVetoException ex) {
+                            Logger.getLogger(AbstractInternalListener.class.getName()).log(Level.SEVERE, null, ex);
+                        }
+                    }
                     component.requestFocus();
-                    ((InternalFrame) component).toFront();
-                    return (InternalFrame) component;
+                    i.toFront();
+                    return i;
                 }
             }
         }
@@ -46,7 +63,7 @@ public abstract class AbstractInternalListener {
         i.add(component);
         i.show();
         i.addInternalFrameListener(new InternalFrameEvent());
-        Template.INSTANCE.add(i);
+        TEMPLATE.addInternalFrame(i);
         i.requestFocus();
         i.toFront();
         return i;
@@ -56,8 +73,13 @@ public abstract class AbstractInternalListener {
 
         @Override
         public void internalFrameClosing(javax.swing.event.InternalFrameEvent e) {
-            Template.INSTANCE.remove(e.getInternalFrame());
-            Template.INSTANCE.repaint();
+            if (e.getInternalFrame().isIcon()) {
+                TEMPLATE.getFONDO().remove(e.getInternalFrame().getDesktopIcon());
+            } else {
+                TEMPLATE.getFONDO().remove(e.getInternalFrame());
+
+            }
+            TEMPLATE.repaint();
         }
 
     }

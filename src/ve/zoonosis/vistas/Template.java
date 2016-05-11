@@ -5,8 +5,11 @@
  */
 package ve.zoonosis.vistas;
 
-import javax.swing.JFrame;
-import ve.zoonosis.model.Listeners.TemplateListeners;
+import com.megagroup.Application;
+import java.awt.Component;
+import javax.swing.JDesktopPane;
+import ve.zoonosis.model.components.InternalFrame;
+import ve.zoonosis.model.listeners.TemplateListeners;
 
 /**
  *
@@ -14,15 +17,17 @@ import ve.zoonosis.model.Listeners.TemplateListeners;
  */
 public class Template extends javax.swing.JFrame {
 
-    public static JFrame INSTANCE;
-
     /**
      * Creates new form Template
      */
     public Template() {
         initComponents();
+        TemplateListeners.inicializarTemplate(Template.this);
         addListeners();
-        INSTANCE = Template.this;        
+    }
+
+    public void addInternalFrame(InternalFrame internalFrame) {
+        FONDO.add(internalFrame);
     }
 
     /**
@@ -34,6 +39,7 @@ public class Template extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        FONDO = new javax.swing.JDesktopPane();
         menu = new javax.swing.JMenuBar();
         javax.swing.JMenu jMenu1 = new javax.swing.JMenu();
         casos = new javax.swing.JMenuItem();
@@ -85,6 +91,17 @@ public class Template extends javax.swing.JFrame {
         setTitle("Zoonosis System");
         setExtendedState(6);
         setModalExclusionType(java.awt.Dialog.ModalExclusionType.APPLICATION_EXCLUDE);
+
+        javax.swing.GroupLayout FONDOLayout = new javax.swing.GroupLayout(FONDO);
+        FONDO.setLayout(FONDOLayout);
+        FONDOLayout.setHorizontalGroup(
+            FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 800, Short.MAX_VALUE)
+        );
+        FONDOLayout.setVerticalGroup(
+            FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 405, Short.MAX_VALUE)
+        );
 
         jMenu1.setText("Control");
 
@@ -222,11 +239,11 @@ public class Template extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 800, Short.MAX_VALUE)
+            .addComponent(FONDO)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 405, Short.MAX_VALUE)
+            .addComponent(FONDO)
         );
 
         pack();
@@ -241,35 +258,11 @@ public class Template extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Template.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Template.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Template.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Template.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
+        Application.run(Template.class, args);
+    }
 
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Template().setVisible(true);
-            }
-        });
+    public JDesktopPane getFONDO() {
+        return FONDO;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -297,6 +290,7 @@ public class Template extends javax.swing.JFrame {
     private javax.swing.JMenuItem EJornadaSemanalP4;
     private javax.swing.JMenuItem EJornadaSemanalP5;
     private javax.swing.JMenuItem EJornadaSemanalP6;
+    private javax.swing.JDesktopPane FONDO;
     private javax.swing.JMenuItem acercaDe;
     private javax.swing.JMenuItem ayuda;
     private javax.swing.JMenuItem casos;

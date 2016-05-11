@@ -15,13 +15,11 @@
  */
 package ve.zoonosis.model.components;
 
-import com.megagroup.utilidades.ComponentUtils;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import javax.swing.JInternalFrame;
 import javax.swing.WindowConstants;
-import javax.swing.event.InternalFrameAdapter;
 
 /**
  *
@@ -34,6 +32,8 @@ public class InternalFrame extends JInternalFrame {
         setLayout(new BorderLayout());
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         setResizable(true);
+        setMaximizable(true);
+        setIconifiable(true);
         this.setBackground(Color.WHITE);
     }
 
@@ -54,6 +54,5 @@ public class InternalFrame extends JInternalFrame {
         this.pack();
         return c;
     }
- 
 
 }
