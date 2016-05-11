@@ -51,8 +51,10 @@ public abstract class AbstractInternalListener {
                         }
                     }
                     component.requestFocus();
+
                     i.toFront();
                     return i;
+
                 }
             }
         }
