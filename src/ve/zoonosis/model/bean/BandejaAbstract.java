@@ -35,7 +35,7 @@ public abstract class BandejaAbstract<Entidad extends Object> extends JPanel imp
 
     }
 
-    public BandejaAbstract() {
+    protected BandejaAbstract() {
 
     }
 
