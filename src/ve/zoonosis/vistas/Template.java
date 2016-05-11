@@ -6,10 +6,9 @@
 package ve.zoonosis.vistas;
 
 import com.megagroup.Application;
-import java.awt.Component;
 import javax.swing.JDesktopPane;
+import ve.zoonosis.model.listener.TemplateListeners;
 import ve.zoonosis.model.components.InternalFrame;
-import ve.zoonosis.model.listeners.TemplateListeners;
 
 /**
  *
