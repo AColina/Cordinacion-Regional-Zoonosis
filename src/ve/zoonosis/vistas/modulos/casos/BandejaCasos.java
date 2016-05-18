@@ -15,13 +15,15 @@
  */
 package ve.zoonosis.vistas.modulos.casos;
 
-import ve.zoonosis.model.bean.BandejaAbstract;
+import ve.zoonosis.model.bean.AbstractInbox;
+import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
  * @author clases
+ * @param <E>
  */
-public abstract class BandejaCasos extends BandejaAbstract<Object> {
+public abstract class BandejaCasos<E extends Entidad> extends AbstractInbox<E> {
 
     /**
      * Creates new form BandejaJornadaVacunacion

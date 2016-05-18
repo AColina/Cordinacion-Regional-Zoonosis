@@ -14,13 +14,14 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
+import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
  * @author angel.colina
- * @param <Entidad>
+ * @param <Entity>
  */
-public abstract class BandejaAbstract<Entidad extends Object> extends JPanel implements BandejaController {
+public abstract class AbstractInbox<Entity extends Entidad> extends JPanel implements BandejaController {
 
     protected final JPopupMenu popupMenu;
 
@@ -35,7 +36,7 @@ public abstract class BandejaAbstract<Entidad extends Object> extends JPanel imp
 
     }
 
-    protected BandejaAbstract() {
+    protected AbstractInbox() {
 
     }
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.vistas.modulos.jornadasvacunaciones;
+package ve.zoonosis.vistas.modulos.casos;
 
 import ve.zoonosis.model.bean.AbstractForm;
 
@@ -22,12 +22,12 @@ import ve.zoonosis.model.bean.AbstractForm;
  * @author angel.colina
  * @param <E>
  */
-public abstract class NuevaJornada<E> extends AbstractForm<E> {
+public abstract class NuevoCaso<E> extends AbstractForm<E> {
 
     /**
      * Creates new form NuevaJornada
      */
-    protected NuevaJornada() {
+    protected NuevoCaso() {
         initComponents();
     }
 
@@ -49,6 +49,8 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
         com.megagroup.componentes.MLabel mLabel2 = new com.megagroup.componentes.MLabel();
         com.megagroup.componentes.MLabel mLabel4 = new com.megagroup.componentes.MLabel();
         com.megagroup.componentes.MLabel mLabel5 = new com.megagroup.componentes.MLabel();
+        com.megagroup.componentes.MLabel mLabel3 = new com.megagroup.componentes.MLabel();
+        casosPositivos = new com.megagroup.componentes.MTextField();
         javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
         aceptar = new com.megagroup.componentes.MButton();
         cancelar = new com.megagroup.componentes.MButton();
@@ -61,13 +63,15 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
 
         animal.setBackground(new java.awt.Color(255, 255, 255));
 
-        mLabel1.setText("Cantidad vacunado");
+        mLabel1.setText("Cantidad animales");
 
         mLabel2.setText("Animal");
 
         mLabel4.setText("Parroquia");
 
         mLabel5.setText("Municipio");
+
+        mLabel3.setText("Casos Positivos");
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.GridBagLayout());
@@ -77,7 +81,7 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(11, 77, 11, 0);
+        gridBagConstraints.insets = new java.awt.Insets(11, 72, 11, 0);
         jPanel1.add(aceptar, gridBagConstraints);
 
         cancelar.setText("Cancelar");
@@ -85,7 +89,7 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 0;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-        gridBagConstraints.insets = new java.awt.Insets(11, 18, 11, 76);
+        gridBagConstraints.insets = new java.awt.Insets(11, 18, 11, 71);
         jPanel1.add(cancelar, gridBagConstraints);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -98,13 +102,15 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
                     .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(mLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(mLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(mLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(cantidad, javax.swing.GroupLayout.DEFAULT_SIZE, 187, Short.MAX_VALUE)
+                    .addComponent(cantidad, javax.swing.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)
                     .addComponent(municipio, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(parroquia, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(animal, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(animal, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(casosPositivos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
@@ -127,9 +133,13 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cantidad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(casosPositivos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -139,6 +149,7 @@ public abstract class NuevaJornada<E> extends AbstractForm<E> {
     protected javax.swing.JComboBox animal;
     protected com.megagroup.componentes.MButton cancelar;
     protected com.megagroup.componentes.MTextField cantidad;
+    protected com.megagroup.componentes.MTextField casosPositivos;
     protected javax.swing.JComboBox municipio;
     protected javax.swing.JComboBox parroquia;
     // End of variables declaration//GEN-END:variables

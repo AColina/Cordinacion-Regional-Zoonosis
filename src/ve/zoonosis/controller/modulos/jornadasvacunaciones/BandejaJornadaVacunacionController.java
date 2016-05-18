@@ -19,7 +19,7 @@ import com.megagroup.componentes.MDataTable;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JMenuItem;
-import ve.zoonosis.model.datamodel.JornadaTablaModel;
+import ve.zoonosis.model.datamodel.JornadaTableModel;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
 
 /**
@@ -45,7 +45,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
                 abrir(-1);
             }
         });
-        bandeja.setModel(new JornadaTablaModel());
+        bandeja.setModel(new JornadaTableModel());
     }
     
     @Override

@@ -20,6 +20,7 @@ import com.megagroup.bean.Controller;
 import com.megagroup.componentes.MDialog;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import javax.swing.JButton;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.NuevaJornada;
 
 /**
@@ -45,12 +46,11 @@ public class NuevaJornadaController extends NuevaJornada implements Controller {
     @Override
     public final void inicializar() {
         dialog = new MDialog(Application.getAPLICATION_FRAME());
-        
 
         dialog.addWindowListener(new WindowAdapter() {
 
             @Override
-            public void windowClosing(WindowEvent e) {
+            public void windowClosed(WindowEvent e) {
                 bandejaController.buscar();
             }
         });
@@ -64,7 +64,7 @@ public class NuevaJornadaController extends NuevaJornada implements Controller {
         } else {
 
         }
-        
+
         dialog.showPanel(this);
         dialog.setResizable(true);
     }
@@ -89,6 +89,21 @@ public class NuevaJornadaController extends NuevaJornada implements Controller {
     public void cancelar() {
         bandejaController.buscar();
         dialog.dispose();
+    }
+
+    @Override
+    public JButton getAceptar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public JButton getGuardar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public JButton getCancelar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }

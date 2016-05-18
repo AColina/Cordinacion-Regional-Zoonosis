@@ -21,6 +21,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseAdapter;
+import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.event.CaretEvent;
 import javax.swing.event.CaretListener;
@@ -34,41 +35,82 @@ import javax.swing.event.ChangeListener;
  */
 public abstract class AbstractForm< Entidad extends Object> extends JPanel implements FormController {
 
-    protected abstract class ValidarFormularioActionListener extends MouseAdapter implements ActionListener, KeyListener, CaretListener, ChangeListener {
+    protected void iniForm() {
+        if (getAceptar() != null) {
+            getAceptar().addActionListener(new AceptarActionListener());
+        }
+        if (getGuardar() != null) {
+            getGuardar().addActionListener(new GuardarActionListener());
+        }
+        if (getCancelar() != null) {
+            getCancelar().addActionListener(new CancelarActionListener());
+        }
+    }
+
+    public class ValidarFormularioActionListener extends MouseAdapter implements KeyListener, ActionListener, 
+                                                                                CaretListener, ChangeListener {
+
+        public ValidarFormularioActionListener() {
+        }
 
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            boolean enable = validar();
+            if (getAceptar() != null) {
+                getAceptar().setEnabled(enable);
+            }
+            if (getGuardar() != null) {
+                getGuardar().setEnabled(enable);
+            }
         }
 
         @Override
         public void keyTyped(KeyEvent e) {
-
         }
 
         @Override
         public void keyPressed(KeyEvent e) {
-
         }
 
         @Override
         public void keyReleased(KeyEvent e) {
-
+            boolean enable = validar();
+            if (getAceptar() != null) {
+                getAceptar().setEnabled(enable);
+            }
+            if (getGuardar() != null) {
+                getGuardar().setEnabled(enable);
+            }
         }
 
         @Override
         public void caretUpdate(CaretEvent e) {
-
+            boolean enable = validar();
+            if (getAceptar() != null) {
+                getAceptar().setEnabled(enable);
+            }
+            if (getGuardar() != null) {
+                getGuardar().setEnabled(enable);
+            }
         }
 
         @Override
         public void stateChanged(ChangeEvent e) {
-
+            boolean enable = validar();
+            if (getAceptar() != null) {
+                getAceptar().setEnabled(enable);
+            }
+            if (getGuardar() != null) {
+                getGuardar().setEnabled(enable);
+            }
         }
 
     }
 
     protected class AceptarActionListener implements ActionListener {
+
+        public AceptarActionListener() {
+        }
 
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -78,6 +120,9 @@ public abstract class AbstractForm< Entidad extends Object> extends JPanel imple
     }
 
     protected class GuardarActionListener implements ActionListener {
+
+        public GuardarActionListener() {
+        }
 
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -97,4 +142,10 @@ public abstract class AbstractForm< Entidad extends Object> extends JPanel imple
         }
 
     }
+
+    public abstract JButton getAceptar();
+
+    public abstract JButton getGuardar();
+
+    public abstract JButton getCancelar();
 }

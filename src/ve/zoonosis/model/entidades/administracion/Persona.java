@@ -25,7 +25,7 @@ public class Persona extends Entidad {
 
     protected String nombre;
     protected String apellido;
-    protected int cedula;
+    protected Integer cedula;
 
     public Persona() {
     }
@@ -50,11 +50,11 @@ public class Persona extends Entidad {
         this.apellido = apellido;
     }
 
-    public int getCedula() {
+    public Integer getCedula() {
         return cedula;
     }
 
-    public void setCedula(int cedula) {
+    public void setCedula(Integer cedula) {
         this.cedula = cedula;
     }
 

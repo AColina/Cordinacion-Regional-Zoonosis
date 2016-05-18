@@ -18,12 +18,13 @@ package ve.zoonosis.model.datamodel;
 import com.megagroup.model.builder.AbstractLazyDataModel;
 import java.util.Date;
 import java.util.List;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
 
 /**
  *
  * @author angel.colina
  */
-public class JornadaTablaModel extends AbstractLazyDataModel<Object> {
+public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
 
     private Long semana;
     private Date desde;
@@ -31,14 +32,14 @@ public class JornadaTablaModel extends AbstractLazyDataModel<Object> {
     private Long idMunicipio;
     private Long idParroquia;
 
-    public JornadaTablaModel() {
+    public JornadaTableModel() {
     }
 
-    public JornadaTablaModel(Long idMunicipio) {
+    public JornadaTableModel(Long idMunicipio) {
         this.idMunicipio = idMunicipio;
     }
 
-    public JornadaTablaModel(Long semana, Date desde, Date hasta, Long idMunicipio, Long idParroquia) {
+    public JornadaTableModel(Long semana, Date desde, Date hasta, Long idMunicipio, Long idParroquia) {
         this.semana = semana;
         this.desde = desde;
         this.hasta = hasta;

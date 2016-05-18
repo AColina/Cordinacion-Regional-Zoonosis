@@ -251,6 +251,7 @@ public class Template extends javax.swing.JFrame {
     private void addListeners() {
         jornadasVacunacion.addActionListener(TemplateListeners.getJornadaVacunacionBandeja());
         casos.addActionListener(TemplateListeners.getCasosBandeja());
+        novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
     }
 
     /**

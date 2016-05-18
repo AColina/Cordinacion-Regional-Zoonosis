@@ -13,41 +13,42 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.controller.modulos.casos;
+package ve.zoonosis.controller.modulos.novdedades;
 
 import com.megagroup.componentes.MDataTable;
-import javax.swing.JMenuItem;
-import ve.zoonosis.model.datamodel.CasosTableModel;
-import ve.zoonosis.vistas.modulos.casos.BandejaCasos;
+import com.megagroup.model.builder.LazyColumnListenerModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import ve.zoonosis.model.datamodel.NovedadesTableModel;
+import ve.zoonosis.model.entidades.proceso.Novedades;
+import ve.zoonosis.vistas.modulos.novedades.BandejaNovedades;
 
 /**
  *
  * @author angel.colina
  */
-public class BandejaCasosController extends BandejaCasos {
+public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
 
-    public BandejaCasosController() {
+    private CrearNovedadController novedadController;
+
+    public BandejaNovedadesController() {
         inicializar();
     }
 
     @Override
     public final void inicializar() {
-        iniciarBandeja(true);
+        iniciarBandeja(false);
         buscar.addActionListener(new BuscarLstener());
-        bandeja.setModel(new CasosTableModel());
+        bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
+        bandeja.setModel(new NovedadesTableModel());
+        botonVer = 4;
+        nuevo.addActionListener(new CrearNovedad());
+        
     }
 
     @Override
     protected void addItemPopUp(int index) {
-        
-        JMenuItem nuevo = new JMenuItem("Nuevo");
 
-        popupMenu.add(nuevo);
-        if (index > -1) {
-            JMenuItem ver = new JMenuItem("Ver");
-
-            popupMenu.add(ver);
-        }
     }
 
     @Override
@@ -57,17 +58,27 @@ public class BandejaCasosController extends BandejaCasos {
 
     @Override
     public void abrir(int index) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
     }
 
     @Override
     public void buscar() {
-   
+
     }
 
     @Override
     public Object getSelectItem() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
 
+    // ActionListener de jmenupopup
+    private class CrearNovedad implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            novedadController = new CrearNovedadController(BandejaNovedadesController.this);
+
+        }
+
+    }
 }
