@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 clases.
+ * Copyright 2016 angel.colina.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,26 +15,21 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import java.util.List;
+import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Usuario;
-import ve.zoonosis.model.entidades.funcionales.Animal;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
-public class Vacunacion_has_Animal {
+public class RegistroVacunacion extends Entidad {
 
-    private Usuario usuario;
     private Vacunacion vacunacion;
-    private Animal animal;
-    private int cantidad;
+    private Usuario usuario;
+    private List<RegistroVacunacion_has_Animal> vacunacion_has_Animal;
 
-    public Usuario getUsuario() {
-        return usuario;
-    }
-
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
+    public RegistroVacunacion() {
     }
 
     public Vacunacion getVacunacion() {
@@ -45,20 +40,20 @@ public class Vacunacion_has_Animal {
         this.vacunacion = vacunacion;
     }
 
-    public Animal getAnimal() {
-        return animal;
+    public Usuario getUsuario() {
+        return usuario;
     }
 
-    public void setAnimal(Animal animal) {
-        this.animal = animal;
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 
-    public int getCantidad() {
-        return cantidad;
+    public List<RegistroVacunacion_has_Animal> getVacunacion_has_Animal() {
+        return vacunacion_has_Animal;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
+    public void setVacunacion_has_Animal(List<RegistroVacunacion_has_Animal> vacunacion_has_Animal) {
+        this.vacunacion_has_Animal = vacunacion_has_Animal;
     }
 
 }

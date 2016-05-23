@@ -16,14 +16,38 @@
 package ve.zoonosis.model.datamodel;
 
 import com.megagroup.model.builder.AbstractLazyDataModel;
+import com.megagroup.utilidades.Logger;
+import com.megagroup.utilidades.StringUtils;
+import java.net.URISyntaxException;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.logging.Level;
 import ve.zoonosis.model.entidades.proceso.Novedades;
+import ve.zoonosis.model.pojos.BusquedasNovedadesPojo;
+import windows.RequestBuilder;
 
 /**
  *
  * @author angel.colina
  */
 public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
+
+    private static final Logger LOG = Logger.getLogger(NovedadesTableModel.class);
+
+    private RequestBuilder builder;
+    private String nombre;
+    private Date desde;
+    private Date hasta;
+
+    public NovedadesTableModel() {
+    }
+
+    public NovedadesTableModel(String nombre, Date desde, Date hasta) {
+        this.nombre = nombre;
+        this.desde = desde;
+        this.hasta = hasta;
+    }
 
     @Override
     public String columnValue(int i) {
@@ -54,7 +78,55 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
 
     @Override
     public void crearSubLista(int posicionInical) {
+        try {
 
+            HashMap map = new HashMap();
+            if (!StringUtils.isEmpty(nombre)) {
+                map.put("nombre", nombre);
+            }
+            if (desde != null) {
+                map.put("desde", desde);
+            }
+            if (hasta != null) {
+                map.put("hasta", hasta);
+            }
+            map.put("cantidad", (int) paginacion);
+            map.put("inicial", posicionInical);
+
+            builder = new RequestBuilder("services/proceso/NovedadesWs/BandejaNovedades.php", map);
+            BusquedasNovedadesPojo pojo = builder.ejecutarJson(BusquedasNovedadesPojo.class);
+            if (pojo != null) {
+                setResultados(pojo.getNovedades());
+                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+            }
+
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Date getDesde() {
+        return desde;
+    }
+
+    public void setDesde(Date desde) {
+        this.desde = desde;
+    }
+
+    public Date getHasta() {
+        return hasta;
+    }
+
+    public void setHasta(Date hasta) {
+        this.hasta = hasta;
     }
 
 }

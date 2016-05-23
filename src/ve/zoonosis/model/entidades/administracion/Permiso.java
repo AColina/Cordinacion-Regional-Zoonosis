@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 clases.
+ * Copyright 2016 angel.colina.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,32 +15,20 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
-import javax.validation.constraints.Size;
+import java.util.ArrayList;
+import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
-public class Persona extends Entidad {
+public class Permiso extends Entidad {
 
-    @NotNull
-    @Size(min = 2, max = 45)
     private String nombre;
-    @NotNull
-    @Size(min = 2, max = 45)
-    private String apellido;
-    @NotNull
-    @Pattern(regexp = "")
-    private String cedula;
+    private List<Usuario> usuarios;
 
-    public Persona() {
-    }
-
-    public Persona(String nombre) {
-        this.nombre = nombre;
+    public Permiso() {
     }
 
     public String getNombre() {
@@ -51,25 +39,20 @@ public class Persona extends Entidad {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
+    public List<Usuario> getUsuarios() {
+        if (usuarios == null) {
+            usuarios = new ArrayList<>();
+        }
+        return usuarios;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
-    }
-
-    public String getCedula() {
-        return cedula;
-    }
-
-    public void setCedula(String cedula) {
-        this.cedula = cedula;
+    public void setUsuarios(List<Usuario> usuarios) {
+        this.usuarios = usuarios;
     }
 
     @Override
     public String toString() {
-        return nombre + " " + apellido;
+        return nombre;
     }
 
 }

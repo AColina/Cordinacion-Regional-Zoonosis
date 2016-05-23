@@ -15,9 +15,10 @@
  */
 package ve.zoonosis.model.entidades.calendario;
 
+import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
-import ve.zoonosis.model.entidades.administracion.Parroquia;
+import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
 
 /**
@@ -27,9 +28,9 @@ import ve.zoonosis.model.entidades.proceso.Vacunacion;
 public class Semana extends Entidad {
 
     private String semana;
-    private int year;
-    private List<Parroquia> parroquiaAsociada;
+    private Integer year;
     private List<Vacunacion> vacunaciones;
+    private List<Caso> casos;
 
     public Semana() {
     }
@@ -42,28 +43,34 @@ public class Semana extends Entidad {
         this.semana = semana;
     }
 
-    public int getYear() {
+    public Integer getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(Integer year) {
         this.year = year;
     }
 
-    public List<Parroquia> getParroquiaAsociada() {
-        return parroquiaAsociada;
-    }
-
-    public void setParroquiaAsociada(List<Parroquia> parroquiaAsociada) {
-        this.parroquiaAsociada = parroquiaAsociada;
-    }
-
     public List<Vacunacion> getVacunaciones() {
+        if (vacunaciones == null) {
+            vacunaciones = new ArrayList<>();
+        }
         return vacunaciones;
     }
 
     public void setVacunaciones(List<Vacunacion> vacunaciones) {
         this.vacunaciones = vacunaciones;
+    }
+
+    public List<Caso> getCasos() {
+        if (casos == null) {
+            casos = new ArrayList<>();
+        }
+        return casos;
+    }
+
+    public void setCasos(List<Caso> casos) {
+        this.casos = casos;
     }
 
 }

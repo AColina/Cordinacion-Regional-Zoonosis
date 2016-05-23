@@ -16,35 +16,39 @@
 package ve.zoonosis.model.datamodel;
 
 import com.megagroup.model.builder.AbstractLazyDataModel;
+import com.megagroup.utilidades.Logger;
+import java.net.URISyntaxException;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
-import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import java.util.logging.Level;
+import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
+import ve.zoonosis.model.entidades.calendario.Semana;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.pojos.BusquedasVacunacionPojo;
+import windows.RequestBuilder;
 
 /**
  *
  * @author angel.colina
  */
-public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
+public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion> {
 
-    private Long semana;
+    private static final Logger LOG = Logger.getLogger(JornadaTableModel.class);
+
+    private RequestBuilder builder;
+    private Semana semana;
+    private Parroquia parroquia;
+    private Municipio municipio;
     private Date desde;
     private Date hasta;
-    private Long idMunicipio;
-    private Long idParroquia;
 
     public JornadaTableModel() {
     }
 
-    public JornadaTableModel(Long idMunicipio) {
-        this.idMunicipio = idMunicipio;
-    }
-
-    public JornadaTableModel(Long semana, Date desde, Date hasta, Long idMunicipio, Long idParroquia) {
+    public JornadaTableModel(Semana semana) {
         this.semana = semana;
-        this.desde = desde;
-        this.hasta = hasta;
-        this.idMunicipio = idMunicipio;
-        this.idParroquia = idParroquia;
     }
 
     @Override
@@ -60,12 +64,57 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
 
     @Override
     public String columnValue(int columnIndex) {
-        return " ";
+        switch (columnIndex) {
+            case 0:
+                return "{vacunacion.semana.semana}";
+            case 1:
+                return "{vacunacion.fechaElaboracion}";
+            case 2:
+                return "{vacunacion.parroquia.municipio.nombre}";
+            case 3:
+                return "{vacunacion.parroquia.nombre}";
+            case 4:
+                return "{usuario.persona.nombre}";
+            case 5:
+                return "Ver";
+            default:
+                throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
+        }
     }
 
     @Override
     public void crearSubLista(int posicionInical) {
+        try {
 
+            HashMap map = new HashMap();
+            if (semana != null) {
+                map.put("idSemana", semana.getId());
+            }
+            if (municipio != null) {
+                map.put("idMunicipio", municipio.getId());
+            }
+            if (parroquia != null) {
+                map.put("idParroquia", parroquia.getId());
+            }
+            if (desde != null) {
+                map.put("desde", desde);
+            }
+            if (hasta != null) {
+                map.put("hasta", hasta);
+            }
+            map.put("cantidad", (int) paginacion);
+            map.put("inicial", posicionInical);
+
+            builder = new RequestBuilder("services/proceso/VacunacionWs/BandejaVacunacion.php", map);
+            BusquedasVacunacionPojo pojo = builder.ejecutarJson(BusquedasVacunacionPojo.class);
+            if (pojo != null) {
+                setResultados(pojo.getVacunaciones());
+                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+            }
+
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
     }
 
 }

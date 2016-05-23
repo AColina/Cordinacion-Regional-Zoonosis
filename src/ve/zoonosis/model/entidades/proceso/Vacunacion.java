@@ -15,8 +15,11 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
 
 /**
@@ -27,6 +30,8 @@ public class Vacunacion extends Entidad {
 
     private Date fechaElaboracion;
     private Semana semana;
+    private Parroquia parroquia;
+    private List<RegistroVacunacion> registroVacunacion;
 
     public Vacunacion() {
     }
@@ -50,6 +55,25 @@ public class Vacunacion extends Entidad {
 
     public void setFechaElaboracion(Date fechaElaboracion) {
         this.fechaElaboracion = fechaElaboracion;
+    }
+
+    public Parroquia getParroquia() {
+        return parroquia;
+    }
+
+    public void setParroquia(Parroquia parroquia) {
+        this.parroquia = parroquia;
+    }
+
+    public List<RegistroVacunacion> getRegistroVacunacion() {
+        if (registroVacunacion == null) {
+            registroVacunacion = new ArrayList<>();
+        }
+        return registroVacunacion;
+    }
+
+    public void setRegistroVacunacion(List<RegistroVacunacion> registroVacunacion) {
+        this.registroVacunacion = registroVacunacion;
     }
 
 }

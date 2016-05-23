@@ -19,16 +19,22 @@ import com.megagroup.Application;
 import com.megagroup.binding.BindObject;
 import com.megagroup.binding.components.Bindings;
 import com.megagroup.componentes.MDialog;
-import com.megagroup.utilidades.StringUtils;
+import com.megagroup.utilidades.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.logging.Level;
 import javax.swing.JButton;
-import javax.swing.JComboBox;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.vistas.modulos.novedades.CrearNovedad;
+import windows.RequestBuilder;
+import windows.ValidateEntity;
 
 /**
  *
@@ -36,14 +42,16 @@ import ve.zoonosis.vistas.modulos.novedades.CrearNovedad;
  */
 public class CrearNovedadController extends CrearNovedad<Novedades> {
 
+    private static final Logger LOG = Logger.getLogger(CrearNovedadController.class);
+
     private BandejaNovedadesController controller;
-    private Novedades novedad;
     private MDialog dialog;
-private NuevoClienteController clienteController;
+    private RequestBuilder rb;
+    private NuevoClienteController clienteController;
+
     public CrearNovedadController(BandejaNovedadesController pantallaController, Novedades novedad) {
-        super();
+        super(novedad);
         this.controller = pantallaController;
-        this.novedad = novedad;
         inicializar();
     }
 
@@ -53,29 +61,37 @@ private NuevoClienteController clienteController;
 
     @Override
     public final void inicializar() {
-        if (novedad == null) {
-            novedad = new Novedades();
+        if (entity == null) {
+            entity = new Novedades();
         }
         aceptar.setEnabled(false);
         iniForm();
 
-        BindObject<Novedades> bindObject = new BindObject(novedad);
+        BindObject<Novedades> bindObject = new BindObject(entity);
         Bindings.bind(nombre, bindObject.getBind("nombre"));
         Bindings.bind(descripcion, bindObject.getBind("descripcion"));
-        Bindings.bind(cliente, bindObject.getBind("cliente"), true);
+        List<Cliente> clientes = null;
+        try {
+            rb = new RequestBuilder("services/administracion/PersonaWs/ListaClientes.php");
+            clientes = rb.ejecutarJson(List.class, Cliente.class);
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        if (clientes == null) {
+            clientes = new ArrayList();
+        }
+        Bindings.bind(cliente, bindObject.getBind("cliente"), clientes, true);
 
-        descripcion.addKeyListener(new ValidarFormularioActionListener());
-        nombre.addKeyListener(new ValidarFormularioActionListener());
-        cliente.addActionListener(new ValidarFormularioActionListener());
+        autoCreateValidateForm(Novedades.class);
         iniciarDialogo();
     }
 
     private void iniciarDialogo() {
-         nuevoCliente.addActionListener(new ActionListener() {
+        nuevoCliente.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-          clienteController=      new NuevoClienteController(CrearNovedadController.this);
+                clienteController = new NuevoClienteController(CrearNovedadController.this);
             }
         });
         dialog = new MDialog(Application.getAPLICATION_FRAME());
@@ -89,26 +105,18 @@ private NuevoClienteController clienteController;
                 controller.buscar();
             }
         });
-       
+
     }
 
     @Override
     public boolean validar() {
-        boolean enable = true;
-        if (StringUtils.isEmpty(novedad.getNombre())) {
-            enable = false;
-        } else if (StringUtils.isEmpty(novedad.getDescripcion())
-                || novedad.getDescripcion().replace(" ", "").length() < 5) {
-            enable = false;
-        } else if (novedad.getCliente() == null) {
-            enable = false;
-        }
-        return enable;
+        ValidateEntity validateEntity = new ValidateEntity(entity);
+        return validateEntity.validate();
     }
 
     @Override
     public void aceptar() {
-
+        entity.setFechaElaboracion(new Date());
     }
 
     @Override
@@ -119,7 +127,7 @@ private NuevoClienteController clienteController;
     @Override
     public void cancelar() {
         controller.buscar();
-        dialog.dispose();
+        dialog.close();
     }
 
     //GETTER AND SETTER
@@ -136,10 +144,6 @@ private NuevoClienteController clienteController;
     @Override
     public JButton getCancelar() {
         return cancelar;
-    }
-
-    public JComboBox getCliente() {
-        return cliente;
     }
 
 }

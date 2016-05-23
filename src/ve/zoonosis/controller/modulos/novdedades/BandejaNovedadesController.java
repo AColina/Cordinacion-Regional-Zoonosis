@@ -43,7 +43,7 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
         bandeja.setModel(new NovedadesTableModel());
         botonVer = 4;
         nuevo.addActionListener(new CrearNovedad());
-        
+
     }
 
     @Override
@@ -58,12 +58,13 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
 
     @Override
     public void abrir(int index) {
-
+        novedadController = new CrearNovedadController(BandejaNovedadesController.this,
+                bandeja.getModel().getValueAt(index));
     }
 
     @Override
     public void buscar() {
-
+        bandeja.setModel(new NovedadesTableModel());
     }
 
     @Override
@@ -77,7 +78,6 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
         @Override
         public void actionPerformed(ActionEvent e) {
             novedadController = new CrearNovedadController(BandejaNovedadesController.this);
-
         }
 
     }

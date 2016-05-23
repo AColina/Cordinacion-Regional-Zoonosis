@@ -1,0 +1,778 @@
+may 22, 2016 8:57:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 8:57:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 8:57:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 8:57:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:04:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:04:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:04:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:04:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:05:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:07:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:08:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:10:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:10:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+may 22, 2016 9:11:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+may 22, 2016 9:23:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:23:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:23:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:23:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:37:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:37:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:37:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+may 22, 2016 9:37:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo

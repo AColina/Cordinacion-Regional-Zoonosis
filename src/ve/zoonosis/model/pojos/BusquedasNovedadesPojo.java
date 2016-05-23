@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 clases.
+ * Copyright 2016 angel.colina.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,29 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.model.entidades;
+package ve.zoonosis.model.pojos;
+
+import java.util.List;
+import ve.zoonosis.model.entidades.proceso.Novedades;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
-public abstract class Entidad implements EntidadGlobal{
+public class BusquedasNovedadesPojo {
 
-    protected Long id;
+    private Long cantidad;
+    private List<Novedades> novedades;
 
-    public Entidad() {
+    public BusquedasNovedadesPojo() {
     }
 
-    public Entidad(Long id) {
-        this.id = id;
+    public Long getCantidad() {
+        return cantidad;
     }
 
-    public Long getId() {
-        return id;
+    public void setCantidad(Long cantidad) {
+        this.cantidad = cantidad;
     }
 
-    public void setId(Long id) {
-        this.id = id;
+    public List<Novedades> getNovedades() {
+        return novedades;
+    }
+
+    public void setNovedades(List<Novedades> novedades) {
+        this.novedades = novedades;
     }
 
 }

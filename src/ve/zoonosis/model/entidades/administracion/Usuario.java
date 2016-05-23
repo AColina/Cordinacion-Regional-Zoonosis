@@ -15,10 +15,14 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Novedades;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
 
 /**
  *
@@ -26,12 +30,23 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
  */
 public class Usuario extends Entidad {
 
+    @NotNull
     private String usuario;
+    @NotNull
+    @Pattern(regexp = "")
     private String contrasena;
+    @NotNull
     private Date fechaNacimiento;
 
+    @NotNull
     private Persona persona;
     private List<Novedades> novedades;
+    @NotNull
+    private Permiso permiso;
+    private List<RegistroVacunacion> registroVacunacion;
+
+    public Usuario() {
+    }
 
     public String getUsuario() {
         return usuario;
@@ -66,11 +81,33 @@ public class Usuario extends Entidad {
     }
 
     public List<Novedades> getNovedades() {
+        if (novedades == null) {
+            novedades = new ArrayList<>();
+        }
         return novedades;
     }
 
     public void setNovedades(List<Novedades> novedades) {
         this.novedades = novedades;
+    }
+
+    public Permiso getPermiso() {
+        return permiso;
+    }
+
+    public void setPermiso(Permiso permiso) {
+        this.permiso = permiso;
+    }
+
+    public List<RegistroVacunacion> getRegistroVacunacion() {
+        if (registroVacunacion == null) {
+            registroVacunacion = new ArrayList<>();
+        }
+        return registroVacunacion;
+    }
+
+    public void setRegistroVacunacion(List<RegistroVacunacion> registroVacunacion) {
+        this.registroVacunacion = registroVacunacion;
     }
 
     @Override

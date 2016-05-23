@@ -15,7 +15,11 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import java.util.ArrayList;
 import java.util.List;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 
@@ -25,10 +29,16 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
  */
 public class Cliente extends Entidad {
 
+    @NotNull
+    @Pattern(regexp = "")
     private String correo;
     private String telefono;
+    @NotNull
+    @Size(min = 10,max = 255)
     private String direccion;
+    @NotNull
     private Persona persona;
+    @NotNull
     private Parroquia parroquia;
     private List<Novedades> novedades;
 
@@ -80,6 +90,9 @@ public class Cliente extends Entidad {
     }
 
     public List<Novedades> getNovedades() {
+        if (novedades == null) {
+            novedades = new ArrayList<>();
+        }
         return novedades;
     }
 

@@ -18,8 +18,8 @@ package ve.zoonosis.model.entidades.administracion;
 import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
-import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.model.entidades.proceso.Caso;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
 
 /**
  *
@@ -30,7 +30,7 @@ public class Parroquia extends Entidad {
     private String nombre;
     private Municipio municipio;
     private List<Cliente> clientes;
-    private List<Semana> semanas;
+    private List<Vacunacion> vacunaciones;
     private List<Caso> casos;
 
     public Parroquia(String nombre) {
@@ -64,15 +64,21 @@ public class Parroquia extends Entidad {
         this.clientes = clientes;
     }
 
-    public List<Semana> getSemanas() {
-        return semanas;
+    public List<Vacunacion> getVacunaciones() {
+        if (vacunaciones == null) {
+            vacunaciones = new ArrayList<>();
+        }
+        return vacunaciones;
     }
 
-    public void setSemanas(List<Semana> semanas) {
-        this.semanas = semanas;
+    public void setVacunaciones(List<Vacunacion> vacunaciones) {
+        this.vacunaciones = vacunaciones;
     }
 
     public List<Caso> getCasos() {
+        if (casos == null) {
+            casos = new ArrayList<>();
+        }
         return casos;
     }
 

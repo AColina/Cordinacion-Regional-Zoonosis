@@ -15,10 +15,12 @@
  */
 package ve.zoonosis.model.entidades.funcionales;
 
+import java.util.ArrayList;
 import java.util.List;
+import javax.validation.constraints.NotNull;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
-import ve.zoonosis.model.entidades.proceso.Vacunacion_has_Animal;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
 
 /**
  *
@@ -26,10 +28,15 @@ import ve.zoonosis.model.entidades.proceso.Vacunacion_has_Animal;
  */
 public class Animal extends Entidad {
 
+    @NotNull
     private String nombre;
+
     private Especie especie;
-    private List<Vacunacion_has_Animal> vacunacion_has_Animal;
+    private List<RegistroVacunacion_has_Animal> vacunacion_has_Animal;
     private List<Animal_has_Caso> animal_has_Caso;
+
+    public Animal() {
+    }
 
     public Animal(String nombre) {
         this.nombre = nombre;
@@ -51,15 +58,21 @@ public class Animal extends Entidad {
         this.especie = especie;
     }
 
-    public List<Vacunacion_has_Animal> getVacunacion_has_Animal() {
+    public List<RegistroVacunacion_has_Animal> getVacunacion_has_Animal() {
+        if (vacunacion_has_Animal == null) {
+            vacunacion_has_Animal = new ArrayList<>();
+        }
         return vacunacion_has_Animal;
     }
 
-    public void setVacunacion_has_Animal(List<Vacunacion_has_Animal> vacunacion_has_Animal) {
+    public void setVacunacion_has_Animal(List<RegistroVacunacion_has_Animal> vacunacion_has_Animal) {
         this.vacunacion_has_Animal = vacunacion_has_Animal;
     }
 
     public List<Animal_has_Caso> getAnimal_has_Caso() {
+        if (animal_has_Caso == null) {
+            animal_has_Caso = new ArrayList<>();
+        }
         return animal_has_Caso;
     }
 

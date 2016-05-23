@@ -16,26 +16,47 @@
 package ve.zoonosis.model.bean;
 
 import com.megagroup.bean.FormController;
+import com.megagroup.reflection.ReflectionUtils;
+import com.toedter.calendar.JDateChooser;
+import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.MouseAdapter;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JPanel;
+import javax.swing.JTextField;
 import javax.swing.event.CaretEvent;
 import javax.swing.event.CaretListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+import javax.swing.text.JTextComponent;
+import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.EntidadGlobal;
 
 /**
  *
  * @author angel.colina
- * @param <Entidad>
+ * @param <Entity>
  */
-public abstract class AbstractForm< Entidad extends Object> extends JPanel implements FormController {
+public abstract class AbstractForm< Entity extends Entidad> extends JPanel implements FormController {
+
+    protected Entity entity;
+
+    public AbstractForm() {
+    }
+
+    public AbstractForm(Entity entity) {
+        this.entity = entity;
+    }
 
     protected void iniForm() {
+
         if (getAceptar() != null) {
             getAceptar().addActionListener(new AceptarActionListener());
         }
@@ -47,8 +68,37 @@ public abstract class AbstractForm< Entidad extends Object> extends JPanel imple
         }
     }
 
-    public class ValidarFormularioActionListener extends MouseAdapter implements KeyListener, ActionListener, 
-                                                                                CaretListener, ChangeListener {
+    protected final void autoCreateValidateForm(Class<? extends EntidadGlobal>... entitys) {
+        ValidarFormularioActionListener evt = new ValidarFormularioActionListener();
+        for (Class<? extends EntidadGlobal> e : entitys) {
+            Field[] fields = ReflectionUtils.getAllFields(e);
+            for (Field field : fields) {
+                Annotation[] annotation = field.getAnnotations();
+                if (annotation.length > 0) {
+                    Field f = ReflectionUtils.getField(this, field.getName());
+                    if (f != null && Component.class.isAssignableFrom(f.getType())) {
+                        Component c = ReflectionUtils.runGetter(f, this);
+                        agregarValidEvent(c, evt);
+                    }
+                }
+            }
+        }
+    }
+
+    protected void agregarValidEvent(Component o, ValidarFormularioActionListener evt) {
+        if (o instanceof JTextComponent) {
+            o.addKeyListener(evt);
+        } else if (o instanceof JComboBox) {
+            ((JComboBox) o).addActionListener(evt);
+        } else if (o instanceof JDateChooser) {
+            ((JTextField) ((JDateChooser) o).getDateEditor().getUiComponent()).addKeyListener(evt);
+            ((JDateChooser) o).getDateEditor().addPropertyChangeListener(evt);
+        }
+    }
+
+    public class ValidarFormularioActionListener implements KeyListener, ActionListener,
+            CaretListener, ChangeListener,
+            PropertyChangeListener {
 
         public ValidarFormularioActionListener() {
         }
@@ -105,6 +155,19 @@ public abstract class AbstractForm< Entidad extends Object> extends JPanel imple
             }
         }
 
+        @Override
+        public void propertyChange(PropertyChangeEvent evt) {
+            if ("date".equals(evt.getPropertyName())) {
+                boolean enable = validar();
+                if (getAceptar() != null) {
+                    getAceptar().setEnabled(enable);
+                }
+                if (getGuardar() != null) {
+                    getGuardar().setEnabled(enable);
+                }
+            }
+        }
+
     }
 
     protected class AceptarActionListener implements ActionListener {
@@ -148,4 +211,13 @@ public abstract class AbstractForm< Entidad extends Object> extends JPanel imple
     public abstract JButton getGuardar();
 
     public abstract JButton getCancelar();
+
+    public Entity getEntity() {
+        return entity;
+    }
+
+    public void setEntity(Entity entity) {
+        this.entity = entity;
+    }
+
 }

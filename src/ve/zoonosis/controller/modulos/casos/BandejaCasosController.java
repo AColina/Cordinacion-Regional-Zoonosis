@@ -16,15 +16,21 @@
 package ve.zoonosis.controller.modulos.casos;
 
 import com.megagroup.componentes.MDataTable;
+import com.megagroup.model.builder.LazyColumnListenerModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import javax.swing.JMenuItem;
 import ve.zoonosis.model.datamodel.CasosTableModel;
+import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.vistas.modulos.casos.BandejaCasos;
 
 /**
  *
  * @author angel.colina
  */
-public class BandejaCasosController extends BandejaCasos {
+public class BandejaCasosController extends BandejaCasos<Caso> {
+
+    private NuevoCasoController casoController;
 
     public BandejaCasosController() {
         inicializar();
@@ -32,14 +38,17 @@ public class BandejaCasosController extends BandejaCasos {
 
     @Override
     public final void inicializar() {
-        iniciarBandeja(true);
+        iniciarBandeja(false);
+        botonVer = 3;
         buscar.addActionListener(new BuscarLstener());
+        bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
         bandeja.setModel(new CasosTableModel());
+        nuevo.addActionListener(new CrearCasoListener());
     }
 
     @Override
     protected void addItemPopUp(int index) {
-        
+
         JMenuItem nuevo = new JMenuItem("Nuevo");
 
         popupMenu.add(nuevo);
@@ -57,12 +66,13 @@ public class BandejaCasosController extends BandejaCasos {
 
     @Override
     public void abrir(int index) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        casoController = new NuevoCasoController(BandejaCasosController.this,
+                bandeja.getModel().getValueAt(index));
     }
 
     @Override
     public void buscar() {
-   
+        bandeja.setModel(new CasosTableModel());
     }
 
     @Override
@@ -70,4 +80,14 @@ public class BandejaCasosController extends BandejaCasos {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    // ActionListener de jmenupopup
+    private class CrearCasoListener implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            casoController = new NuevoCasoController(BandejaCasosController.this);
+
+        }
+
+    }
 }

@@ -17,7 +17,9 @@ package ve.zoonosis.vistas.modulos.jornadasvacunaciones;
 
 import ve.zoonosis.model.bean.AbstractInbox;
 import ve.zoonosis.model.entidades.Entidad;
-import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
+import ve.zoonosis.model.entidades.calendario.Semana;
 
 /**
  *
@@ -46,11 +48,11 @@ public abstract class BandejaJornadaVacunacion<E extends Entidad> extends Abstra
         com.megagroup.componentes.MHeader mHeader1 = new com.megagroup.componentes.MHeader();
         com.megagroup.componentes.MPanel mPanel1 = new com.megagroup.componentes.MPanel();
         com.megagroup.componentes.MLabel mLabel1 = new com.megagroup.componentes.MLabel();
-        semana = new javax.swing.JComboBox();
+        semana = new javax.swing.JComboBox<Semana>();
         com.megagroup.componentes.MLabel mLabel2 = new com.megagroup.componentes.MLabel();
-        municipio = new javax.swing.JComboBox();
+        municipio = new javax.swing.JComboBox<Municipio>();
         com.megagroup.componentes.MLabel mLabel3 = new com.megagroup.componentes.MLabel();
-        parroquia = new javax.swing.JComboBox();
+        parroquia = new javax.swing.JComboBox<Parroquia>();
         com.megagroup.componentes.MLabel mLabel4 = new com.megagroup.componentes.MLabel();
         desde = new com.toedter.calendar.JDateChooser();
         com.megagroup.componentes.MLabel mLabel5 = new com.megagroup.componentes.MLabel();
@@ -58,7 +60,7 @@ public abstract class BandejaJornadaVacunacion<E extends Entidad> extends Abstra
         javax.swing.JPanel jPanel2 = new javax.swing.JPanel();
         buscar = new com.megagroup.componentes.MButton();
         nuevo = new com.megagroup.componentes.MButton();
-        bandeja = new com.megagroup.componentes.MDataTable<Vacunacion>();
+        bandeja = new com.megagroup.componentes.MDataTable<E>();
 
         mHeader1.setText("Jornadas de Vacunación");
 
@@ -170,13 +172,13 @@ public abstract class BandejaJornadaVacunacion<E extends Entidad> extends Abstra
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    protected com.megagroup.componentes.MDataTable<Vacunacion> bandeja;
+    protected com.megagroup.componentes.MDataTable<E> bandeja;
     protected com.megagroup.componentes.MButton buscar;
     protected com.toedter.calendar.JDateChooser desde;
     protected com.toedter.calendar.JDateChooser hasta;
-    protected javax.swing.JComboBox municipio;
+    protected javax.swing.JComboBox<Municipio> municipio;
     protected com.megagroup.componentes.MButton nuevo;
-    protected javax.swing.JComboBox parroquia;
-    protected javax.swing.JComboBox semana;
+    protected javax.swing.JComboBox<Parroquia> parroquia;
+    protected javax.swing.JComboBox<Semana> semana;
     // End of variables declaration//GEN-END:variables
 }

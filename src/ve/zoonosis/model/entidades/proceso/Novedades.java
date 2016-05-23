@@ -16,6 +16,8 @@
 package ve.zoonosis.model.entidades.proceso;
 
 import java.util.Date;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Usuario;
@@ -27,8 +29,13 @@ import ve.zoonosis.model.entidades.administracion.Usuario;
 public class Novedades extends Entidad {
 
     private Date fechaElaboracion;
+    @NotNull
+    @Size(min = 5, max = 45)
     private String nombre;
+    @NotNull
+    @Size(min = 5)
     private String descripcion;
+    @NotNull
     private Cliente cliente;
     private Usuario usuario;
 

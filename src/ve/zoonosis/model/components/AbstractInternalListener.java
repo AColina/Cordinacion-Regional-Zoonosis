@@ -16,10 +16,10 @@
 package ve.zoonosis.model.components;
 
 import com.megagroup.reflection.ReflectionUtils;
+import com.megagroup.utilidades.Logger;
 import java.awt.Component;
 import java.beans.PropertyVetoException;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JComponent;
 import javax.swing.event.InternalFrameAdapter;
 import ve.zoonosis.vistas.Template;
@@ -29,6 +29,8 @@ import ve.zoonosis.vistas.Template;
  * @author clases
  */
 public abstract class AbstractInternalListener {
+
+    private static final Logger LOG = Logger.getLogger(AbstractInternalListener.class);
 
     private final Template TEMPLATE;
 
@@ -42,12 +44,12 @@ public abstract class AbstractInternalListener {
         for (Component component : TEMPLATE.getFONDO().getAllFrames()) {
             if (component instanceof InternalFrame) {
                 if (component.getName().equalsIgnoreCase(titulo)) {
-                    InternalFrame i=(InternalFrame)component;
-                    if(i.isIcon()){
+                    InternalFrame i = (InternalFrame) component;
+                    if (i.isIcon()) {
                         try {
                             i.setIcon(false);
                         } catch (PropertyVetoException ex) {
-                            Logger.getLogger(AbstractInternalListener.class.getName()).log(Level.SEVERE, null, ex);
+                            LOG.LOGGER.log(Level.SEVERE, null, ex);
                         }
                     }
                     component.requestFocus();

@@ -15,18 +15,32 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.ws.rs.DefaultValue;
+import ve.zoonosis.model.entidades.EntidadGlobal;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 
 /**
  *
  * @author clases
  */
-public class Animal_has_Caso {
+public class Animal_has_Caso implements EntidadGlobal {
 
     private Caso caso;
+    @NotNull
     private Animal animal;
-    private int cantidadIngresado;
-    private int cantidadPositivo;
+    @NotNull
+    @Min(0)
+    @Max(100)
+    @DefaultValue("0")
+    private Integer cantidadIngresado;
+    @NotNull
+    @Min(0)
+    @Max(100)
+    @DefaultValue("0")
+    private Integer cantidadPositivo;
 
     public Animal_has_Caso() {
     }
@@ -47,19 +61,19 @@ public class Animal_has_Caso {
         this.animal = animal;
     }
 
-    public int getCantidadIngresado() {
+    public Integer getCantidadIngresado() {
         return cantidadIngresado;
     }
 
-    public void setCantidadIngresado(int cantidadIngresado) {
+    public void setCantidadIngresado(Integer cantidadIngresado) {
         this.cantidadIngresado = cantidadIngresado;
     }
 
-    public int getCantidadPositivo() {
+    public Integer getCantidadPositivo() {
         return cantidadPositivo;
     }
 
-    public void setCantidadPositivo(int cantidadPositivo) {
+    public void setCantidadPositivo(Integer cantidadPositivo) {
         this.cantidadPositivo = cantidadPositivo;
     }
 

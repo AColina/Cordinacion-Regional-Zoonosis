@@ -17,19 +17,29 @@ package ve.zoonosis.controller.modulos.novdedades;
 
 import com.megagroup.binding.BindObject;
 import com.megagroup.binding.components.Bindings;
+import com.megagroup.binding.model.BindingEvent;
 import com.megagroup.componentes.MDialog;
-import com.megagroup.utilidades.StringUtils;
+import com.megagroup.utilidades.ComponentUtils;
+import com.megagroup.utilidades.Logger;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.net.URISyntaxException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.SwingUtilities;
+import javax.swing.WindowConstants;
 import ve.zoonosis.model.entidades.administracion.Cliente;
+import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Persona;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
+import windows.RequestBuilder;
+import windows.ValidateEntity;
 
 /**
  *
@@ -37,6 +47,8 @@ import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
  */
 public class NuevoClienteController extends NuevoCliente<Cliente> {
 
+    private static final Logger LOG = Logger.getLogger(NuevoClienteController.class);
+    private RequestBuilder rb;
     private final Cliente cliente;
     private final CrearNovedadController novedadController;
     private Persona persona;
@@ -60,20 +72,37 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                 buscarPersona();
             }
         });
-        BindObject bindObject = new BindObject(persona);
-        Bindings.bind(nombre, bindObject.getBind("nombre"));
-        Bindings.bind(apellido, bindObject.getBind("apellido"));
-        Bindings.bind(cedula, bindObject.getBind("cedula"));
-        cliente.setPersona(persona);
+        limpiar.addActionListener(new ActionListener() {
 
-        nombre.addKeyListener(new ValidarFormularioActionListener());
-        apellido.addKeyListener(new ValidarFormularioActionListener());
-        cedula.addKeyListener(new ValidarFormularioActionListener());
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                persona = new Persona();
+                cedula.setText(null);
+                cedula.setEnabled(true);
+                nombre.setText(null);
+                nombre.setEnabled(true);
+                apellido.setText(null);
+                apellido.setEnabled(true);
+
+            }
+        });
+        autoCreateValidateForm(Persona.class, Cliente.class);
 
         BindObject bindObject2 = new BindObject(cliente);
         Bindings.bind(correo, bindObject2.getBind("correo"));
         Bindings.bind(direccion, bindObject2.getBind("direccion"));
         Bindings.bind(telefono, bindObject2.getBind("telefono"));
+
+        try {
+            rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
+            List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
+            if (municipios != null) {
+                municipio.setModel(new DefaultComboBoxModel(municipios.toArray()));
+            }
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+
         Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
         iniciarDialogo();
     }
@@ -83,6 +112,8 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         dialog.setTitle("Nuevo");
         dialog.setResizable(false);
         dialog.showPanel(this);
+        dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        
         dialog.addWindowListener(new WindowAdapter() {
 
             @Override
@@ -94,25 +125,49 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
     }
 
     private void buscarPersona() {
+        final String c = cedula.getText();
+        try {
+            persona = null;
+            rb = new RequestBuilder("services/administracion/PersonaWs/ObtenerPersonaPorCedula.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("cedula", cedula);
+                        }
+                    });
+            persona = rb.ejecutarJson(Persona.class);
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        ComponentUtils.removeListener(cedula, BindingEvent.class);
+        ComponentUtils.removeListener(nombre, BindingEvent.class);
+        ComponentUtils.removeListener(apellido, BindingEvent.class);
+
+        cedula.setEnabled(persona == null);
+        nombre.setEnabled(persona == null);
+        apellido.setEnabled(persona == null);
+
+        if (persona == null) {
+            persona = new Persona();
+            persona.setCedula(c);
+        }
+        BindObject bindObject = new BindObject(persona);
+        Bindings.bind(nombre, bindObject.getBind("nombre"));
+        Bindings.bind(apellido, bindObject.getBind("apellido"));
+        Bindings.bind(cedula, bindObject.getBind("cedula"));
+        cliente.setPersona(persona);
 
     }
 
     @Override
     public boolean validar() {
-        boolean enable = true;
-        if (cliente.getPersona() == null) {
-            enable = false;
-
-//        } else if (cliente.getParroquia() == null) {
-//            enable = false;
-        } else if (StringUtils.isEmpty(cliente.getPersona().getNombre())) {
-            enable = false;
-        } else if (StringUtils.isEmpty(cliente.getPersona().getApellido())) {
-            enable = false;
-        } else if (cliente.getPersona().getCedula() == null) {
-            enable = false;
+        boolean valid;
+        ValidateEntity validateEntity = new ValidateEntity(persona);
+        valid = validateEntity.validate();
+        if (!valid) {
+            return valid;
         }
-        return enable;
+        return new ValidateEntity(cliente).validate();
+
     }
 
     @Override
@@ -121,7 +176,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         model.addElement(cliente);
         novedadController.getCliente().setSelectedIndex(-1);
         cancelar();
-      
+
     }
 
     @Override

@@ -17,8 +17,10 @@ package ve.zoonosis.model.entidades.proceso;
 
 import java.util.Date;
 import java.util.List;
+import javax.validation.constraints.NotNull;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
+import ve.zoonosis.model.entidades.calendario.Semana;
 
 /**
  *
@@ -27,7 +29,10 @@ import ve.zoonosis.model.entidades.administracion.Parroquia;
 public class Caso extends Entidad {
 
     private Date fechaElaboracion;
+    @NotNull
     private Parroquia parroquia;
+    private Semana semana;
+
     private List<Animal_has_Caso> animal_has_Caso;
 
     public Caso() {
@@ -55,6 +60,14 @@ public class Caso extends Entidad {
 
     public void setAnimal_has_Caso(List<Animal_has_Caso> animal_has_Caso) {
         this.animal_has_Caso = animal_has_Caso;
+    }
+
+    public Semana getSemana() {
+        return semana;
+    }
+
+    public void setSemana(Semana semana) {
+        this.semana = semana;
     }
 
 }
