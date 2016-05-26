@@ -252,6 +252,8 @@ public class Template extends javax.swing.JFrame {
         jornadasVacunacion.addActionListener(TemplateListeners.getJornadaVacunacionBandeja());
         casos.addActionListener(TemplateListeners.getCasosBandeja());
         novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
+        EJornadaDiarioM5.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
+        
     }
 
     /**
