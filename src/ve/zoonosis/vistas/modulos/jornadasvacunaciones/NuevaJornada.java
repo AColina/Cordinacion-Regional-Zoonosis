@@ -28,11 +28,19 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
  */
 public abstract class NuevaJornada<E extends Entidad> extends AbstractForm<E> {
 
+    {
+        initComponents();
+    }
+
     /**
      * Creates new form NuevaJornada
      */
     protected NuevaJornada() {
-        initComponents();
+        super();
+    }
+
+    protected NuevaJornada(E entity) {
+        super(entity);
     }
 
     /**

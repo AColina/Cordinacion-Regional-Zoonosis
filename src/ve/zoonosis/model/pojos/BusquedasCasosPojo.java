@@ -25,7 +25,7 @@ import ve.zoonosis.model.entidades.proceso.Caso;
 public class BusquedasCasosPojo {
 
     private Long cantidad;
-    private List<Caso> casos;
+    private List<Caso> resultados;
 
     public BusquedasCasosPojo() {
     }
@@ -38,12 +38,12 @@ public class BusquedasCasosPojo {
         this.cantidad = cantidad;
     }
 
-    public List<Caso> getCasos() {
-        return casos;
+    public List<Caso> getResultados() {
+        return resultados;
     }
 
-    public void setCasos(List<Caso> casos) {
-        this.casos = casos;
+    public void setResultados(List<Caso> resultados) {
+        this.resultados = resultados;
     }
 
 }

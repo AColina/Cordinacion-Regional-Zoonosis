@@ -71,7 +71,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
 
     @Override
     public void abrir(int index) {
-        Object entidad = null;
+        RegistroVacunacion entidad = null;
         if (index > -1) {
             entidad = bandeja.getModel().getValueAt(index);
         }

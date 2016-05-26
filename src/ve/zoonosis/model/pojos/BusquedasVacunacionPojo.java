@@ -25,7 +25,7 @@ import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
 public class BusquedasVacunacionPojo {
 
     private Long cantidad;
-    private List<RegistroVacunacion> vacunaciones;
+    private List<RegistroVacunacion> resultados;
 
     public BusquedasVacunacionPojo() {
     }
@@ -38,12 +38,12 @@ public class BusquedasVacunacionPojo {
         this.cantidad = cantidad;
     }
 
-    public List<RegistroVacunacion> getVacunaciones() {
-        return vacunaciones;
+    public List<RegistroVacunacion> getResultados() {
+        return resultados;
     }
 
-    public void setVacunaciones(List<RegistroVacunacion> vacunaciones) {
-        this.vacunaciones = vacunaciones;
+    public void setResultados(List<RegistroVacunacion> resultados) {
+        this.resultados = resultados;
     }
 
 }

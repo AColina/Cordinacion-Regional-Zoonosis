@@ -96,7 +96,7 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
             builder = new RequestBuilder("services/proceso/NovedadesWs/BandejaNovedades.php", map);
             BusquedasNovedadesPojo pojo = builder.ejecutarJson(BusquedasNovedadesPojo.class);
             if (pojo != null) {
-                setResultados(pojo.getNovedades());
+                setResultados(pojo.getResultados());
                 numeroPaginas = Math.ceil(numeroRegistros / paginacion);
             }
 

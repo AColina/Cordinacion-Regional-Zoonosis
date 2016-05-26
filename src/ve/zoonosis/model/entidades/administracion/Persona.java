@@ -35,6 +35,8 @@ public class Persona extends Entidad {
     @NotNull
     @Pattern(regexp = "")
     private String cedula;
+    private Cliente cliente;
+    private Usuario usuario;
 
     public Persona() {
     }
@@ -65,6 +67,22 @@ public class Persona extends Entidad {
 
     public void setCedula(String cedula) {
         this.cedula = cedula;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 
     @Override

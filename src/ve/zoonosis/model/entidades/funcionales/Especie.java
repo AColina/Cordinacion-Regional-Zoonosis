@@ -16,6 +16,8 @@
 package ve.zoonosis.model.entidades.funcionales;
 
 import java.util.List;
+import org.codehaus.jackson.annotate.JsonManagedReference;
+import org.codehaus.jackson.annotate.JsonProperty;
 import ve.zoonosis.model.entidades.Entidad;
 
 /**
@@ -25,7 +27,12 @@ import ve.zoonosis.model.entidades.Entidad;
 public class Especie extends Entidad {
 
     private String nombre;
+    @JsonProperty("animales")
+    @JsonManagedReference("especie-animal")
     private List<Animal> animalesAsociados;
+
+    public Especie() {
+    }
 
     public Especie(String nombre) {
         this.nombre = nombre;

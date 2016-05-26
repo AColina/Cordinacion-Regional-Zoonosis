@@ -18,6 +18,7 @@ package ve.zoonosis.model.entidades.funcionales;
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.constraints.NotNull;
+import org.codehaus.jackson.annotate.JsonBackReference;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
@@ -30,7 +31,7 @@ public class Animal extends Entidad {
 
     @NotNull
     private String nombre;
-
+    @JsonBackReference("especie-animal")
     private Especie especie;
     private List<RegistroVacunacion_has_Animal> vacunacion_has_Animal;
     private List<Animal_has_Caso> animal_has_Caso;

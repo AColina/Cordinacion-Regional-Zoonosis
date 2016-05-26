@@ -17,6 +17,8 @@ package ve.zoonosis.model.entidades.administracion;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.codehaus.jackson.annotate.JsonBackReference;
+import org.codehaus.jackson.annotate.JsonProperty;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
@@ -28,10 +30,15 @@ import ve.zoonosis.model.entidades.proceso.Vacunacion;
 public class Parroquia extends Entidad {
 
     private String nombre;
+    @JsonBackReference("municipio-parroquia")
+    @JsonProperty(value = "municipio_id")
     private Municipio municipio;
     private List<Cliente> clientes;
     private List<Vacunacion> vacunaciones;
     private List<Caso> casos;
+
+    public Parroquia() {
+    }
 
     public Parroquia(String nombre) {
         this.nombre = nombre;

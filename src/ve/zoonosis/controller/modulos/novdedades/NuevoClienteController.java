@@ -37,6 +37,7 @@ import javax.swing.WindowConstants;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Persona;
+import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
@@ -98,11 +99,12 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
                 municipio.setModel(new DefaultComboBoxModel(municipios.toArray()));
+                municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-
+        municipio.addActionListener(new MunicipioListener(parroquia));
         Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
         iniciarDialogo();
     }
@@ -113,7 +115,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         dialog.setResizable(false);
         dialog.showPanel(this);
         dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-        
+
         dialog.addWindowListener(new WindowAdapter() {
 
             @Override
@@ -131,7 +133,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
             rb = new RequestBuilder("services/administracion/PersonaWs/ObtenerPersonaPorCedula.php",
                     new HashMap<String, Object>() {
                         {
-                            put("cedula", cedula);
+                            put("cedula", c);
                         }
                     });
             persona = rb.ejecutarJson(Persona.class);
