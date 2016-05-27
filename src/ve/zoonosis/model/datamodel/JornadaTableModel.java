@@ -108,7 +108,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion>
             builder = new RequestBuilder("services/proceso/VacunacionWs/BandejaVacunacion.php", map);
             BusquedasVacunacionPojo pojo = builder.ejecutarJson(BusquedasVacunacionPojo.class);
             if (pojo != null) {
-                setResultados(pojo.getVacunaciones());
+                setResultados(pojo.getResultados());
                 numeroPaginas = Math.ceil(numeroRegistros / paginacion);
             }
 

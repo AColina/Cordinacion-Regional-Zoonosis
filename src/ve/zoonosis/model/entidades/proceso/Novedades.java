@@ -24,7 +24,7 @@ import ve.zoonosis.model.entidades.administracion.Usuario;
 
 /**
  *
- * @author clases
+ * @author Angel Colina
  */
 public class Novedades extends Entidad {
 

@@ -17,6 +17,8 @@ package ve.zoonosis.model.entidades.administracion;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.codehaus.jackson.annotate.JsonManagedReference;
+import org.codehaus.jackson.annotate.JsonProperty;
 import ve.zoonosis.model.entidades.Entidad;
 
 /**
@@ -26,7 +28,12 @@ import ve.zoonosis.model.entidades.Entidad;
 public class Municipio extends Entidad {
 
     private String nombre;
+    @JsonManagedReference("municipio-parroquia")
+    @JsonProperty("parroquia")
     private List<Parroquia> parroquiasAsociadas;
+
+    public Municipio() {
+    }
 
     public Municipio(String nombre) {
         this.nombre = nombre;

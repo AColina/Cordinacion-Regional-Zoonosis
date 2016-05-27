@@ -98,7 +98,7 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
             builder = new RequestBuilder("services/proceso/CasoWs/BandejaCasos.php", map);
             BusquedasCasosPojo pojo = builder.ejecutarJson(BusquedasCasosPojo.class);
             if (pojo != null) {
-                setResultados(pojo.getCasos());
+                setResultados(pojo.getResultados());
                 numeroPaginas = Math.ceil(numeroRegistros / paginacion);
             }
 

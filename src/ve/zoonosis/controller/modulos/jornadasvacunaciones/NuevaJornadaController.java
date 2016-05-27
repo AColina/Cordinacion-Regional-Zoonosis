@@ -16,57 +16,78 @@
 package ve.zoonosis.controller.modulos.jornadasvacunaciones;
 
 import com.megagroup.Application;
-import com.megagroup.bean.Controller;
 import com.megagroup.componentes.MDialog;
+import com.megagroup.utilidades.Logger;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.net.URISyntaxException;
+import java.util.List;
+import java.util.logging.Level;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
+import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.NuevaJornada;
+import windows.RequestBuilder;
 
 /**
  *
  * @author angel.colina
  */
-public class NuevaJornadaController extends NuevaJornada implements Controller {
+public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion> {
 
+    private static final Logger LOG = Logger.getLogger(NuevaJornadaController.class);
+    private final BandejaJornadaVacunacionController controller;
     private MDialog dialog;
-    private final BandejaJornadaVacunacionController bandejaController;
-    private Object entidad;
+    private RequestBuilder rb;
 
-    public NuevaJornadaController(BandejaJornadaVacunacionController bandejaController) {
-        this(bandejaController, null);
+    public NuevaJornadaController(BandejaJornadaVacunacionController controller, RegistroVacunacion entidad) {
+        super(entidad);
+        this.controller = controller;
+        inicializar();
     }
 
-    public NuevaJornadaController(BandejaJornadaVacunacionController bandejaController, Object entidad) {
-        this.bandejaController = bandejaController;
-        this.entidad = entidad;
-        inicializar();
+    public NuevaJornadaController(BandejaJornadaVacunacionController controller) {
+        this(controller, null);
     }
 
     @Override
     public final void inicializar() {
-        dialog = new MDialog(Application.getAPLICATION_FRAME());
+        if (entity == null) {
+            entity = new RegistroVacunacion();
+        }
+        aceptar.setEnabled(false);
+        iniForm();
 
+        try {
+            rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
+            List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
+            if (municipios != null) {
+                municipio.setModel(new DefaultComboBoxModel(municipios.toArray()));
+                municipio.setSelectedIndex(-1);
+            }
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        municipio.addActionListener(new MunicipioListener(parroquia));
+        iniciarDialogo();
+    }
+
+    private void iniciarDialogo() {
+
+        dialog = new MDialog(Application.getAPLICATION_FRAME());
+        dialog.setTitle("Nuevo");
+        dialog.setResizable(false);
+        dialog.showPanel(this);
         dialog.addWindowListener(new WindowAdapter() {
 
             @Override
             public void windowClosed(WindowEvent e) {
-                bandejaController.buscar();
+                controller.buscar();
             }
         });
-        dialog.setTitle("Nueva Jornada de Vacunación");
-        //CREANDO LSITENERS
-        cancelar.addActionListener(new CancelarActionListener());
 
-        //CARGANDO DATA Y BUSCANDO DE INFORMACION
-        if (entidad == null) {
-            entidad = new Object();
-        } else {
-
-        }
-
-        dialog.showPanel(this);
-        dialog.setResizable(true);
     }
 
     @Override
@@ -87,23 +108,23 @@ public class NuevaJornadaController extends NuevaJornada implements Controller {
 
     @Override
     public void cancelar() {
-        bandejaController.buscar();
-        dialog.dispose();
+        controller.buscar();
+        dialog.close();
     }
 
     @Override
     public JButton getAceptar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return aceptar;
     }
 
     @Override
     public JButton getGuardar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
 
     @Override
     public JButton getCancelar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return cancelar;
     }
 
 }

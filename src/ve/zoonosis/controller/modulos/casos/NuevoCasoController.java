@@ -31,6 +31,7 @@ import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 import ve.zoonosis.model.entidades.proceso.Caso;
+import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.casos.NuevoCaso;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
@@ -79,6 +80,7 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
+        municipio.addActionListener(new MunicipioListener(parroquia));
         try {
             rb = new RequestBuilder("services/funcionales/AnimalWs/ListaAnimales.php");
             List<Animal> animales = rb.ejecutarJson(List.class, Animal.class);

@@ -25,7 +25,7 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
 public class BusquedasNovedadesPojo {
 
     private Long cantidad;
-    private List<Novedades> novedades;
+    private List<Novedades> resultados;
 
     public BusquedasNovedadesPojo() {
     }
@@ -38,12 +38,12 @@ public class BusquedasNovedadesPojo {
         this.cantidad = cantidad;
     }
 
-    public List<Novedades> getNovedades() {
-        return novedades;
+    public List<Novedades> getResultados() {
+        return resultados;
     }
 
-    public void setNovedades(List<Novedades> novedades) {
-        this.novedades = novedades;
+    public void setResultados(List<Novedades> resultados) {
+        this.resultados = resultados;
     }
 
 }
