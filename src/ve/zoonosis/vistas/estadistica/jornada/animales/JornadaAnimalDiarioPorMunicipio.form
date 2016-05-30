@@ -10,7 +10,7 @@
     <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
-    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="4"/>
   </AuxValues>
 
   <Layout>
@@ -70,7 +70,7 @@
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="mButton1" min="-2" pref="157" max="-2" attributes="0"/>
+                  <Component id="generar" min="-2" pref="157" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="291" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -91,7 +91,7 @@
                       </Group>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="mButton1" min="-2" max="-2" attributes="0"/>
+                  <Component id="generar" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -112,7 +112,7 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="com.megagroup.componentes.MButton" name="mButton1">
+        <Component class="com.megagroup.componentes.MButton" name="generar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Generar Estadistica"/>
           </Properties>

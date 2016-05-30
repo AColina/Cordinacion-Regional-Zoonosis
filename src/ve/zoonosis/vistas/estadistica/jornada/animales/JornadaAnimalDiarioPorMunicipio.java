@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.vistas.modulos.estadistica.jornada.animales;
+package ve.zoonosis.vistas.estadistica.jornada.animales;
 
 import ve.zoonosis.model.bean.AbstractForm;
 import ve.zoonosis.model.entidades.Entidad;
@@ -46,7 +46,7 @@ public abstract class JornadaAnimalDiarioPorMunicipio<E extends Entidad> extends
         mLabel2 = new com.megagroup.componentes.MLabel();
         jDateChooser1 = new com.toedter.calendar.JDateChooser();
         jComboBox1 = new javax.swing.JComboBox();
-        mButton1 = new com.megagroup.componentes.MButton();
+        generar = new com.megagroup.componentes.MButton();
         mLabel1 = new com.megagroup.componentes.MLabel();
         mPanel2 = new com.megagroup.componentes.MPanel();
 
@@ -56,7 +56,7 @@ public abstract class JornadaAnimalDiarioPorMunicipio<E extends Entidad> extends
 
         mLabel2.setText("Dia");
 
-        mButton1.setText("Generar Estadistica");
+        generar.setText("Generar Estadistica");
 
         mLabel1.setText("Municipio");
 
@@ -76,7 +76,7 @@ public abstract class JornadaAnimalDiarioPorMunicipio<E extends Entidad> extends
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(mButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(generar, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(291, 291, 291))
         );
         mPanel1Layout.setVerticalGroup(
@@ -92,7 +92,7 @@ public abstract class JornadaAnimalDiarioPorMunicipio<E extends Entidad> extends
                         .addComponent(mLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(18, 18, 18)
-                .addComponent(mButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(generar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(12, 12, 12))
         );
 
@@ -136,13 +136,13 @@ public abstract class JornadaAnimalDiarioPorMunicipio<E extends Entidad> extends
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox jComboBox1;
-    private com.toedter.calendar.JDateChooser jDateChooser1;
-    private com.megagroup.componentes.MButton mButton1;
-    private com.megagroup.componentes.MHeader mHeader1;
-    private com.megagroup.componentes.MLabel mLabel1;
-    private com.megagroup.componentes.MLabel mLabel2;
-    private com.megagroup.componentes.MPanel mPanel1;
-    private com.megagroup.componentes.MPanel mPanel2;
+    protected com.megagroup.componentes.MButton generar;
+    protected javax.swing.JComboBox jComboBox1;
+    protected com.toedter.calendar.JDateChooser jDateChooser1;
+    protected com.megagroup.componentes.MHeader mHeader1;
+    protected com.megagroup.componentes.MLabel mLabel1;
+    protected com.megagroup.componentes.MLabel mLabel2;
+    protected com.megagroup.componentes.MPanel mPanel1;
+    protected com.megagroup.componentes.MPanel mPanel2;
     // End of variables declaration//GEN-END:variables
 }
