@@ -29,7 +29,7 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
 public class Animal_has_Caso implements EntidadGlobal {
 
     private Caso caso;
-    @NotNull
+    @NotNull(message = "Debe seleccionar un animal")
     private Animal animal;
     @NotNull
     @Min(0)

@@ -126,7 +126,6 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
 
     @Override
     public void cancelar() {
-        controller.buscar();
         dialog.close();
     }
 

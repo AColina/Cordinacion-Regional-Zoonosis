@@ -108,7 +108,6 @@ public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion> {
 
     @Override
     public void cancelar() {
-        controller.buscar();
         dialog.close();
     }
 

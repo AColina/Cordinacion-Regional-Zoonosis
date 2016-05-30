@@ -77,7 +77,7 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
     }
 
     @Override
-    public void crearSubLista(int posicionInical) {
+    public IRegistrar crearSubLista(int posicionInical) {
         try {
 
             HashMap map = new HashMap();
@@ -94,15 +94,28 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
             map.put("inicial", posicionInical);
 
             builder = new RequestBuilder("services/proceso/NovedadesWs/BandejaNovedades.php", map);
-            BusquedasNovedadesPojo pojo = builder.ejecutarJson(BusquedasNovedadesPojo.class);
+            final BusquedasNovedadesPojo pojo = builder.ejecutarJson(BusquedasNovedadesPojo.class);
             if (pojo != null) {
-                setResultados(pojo.getResultados());
-                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+//                setResultados(pojo.getResultados());
+//                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+                return new IRegistrar() {
+
+                    @Override
+                    public List resultados() {
+                        return pojo.getResultados();
+                    }
+
+                    @Override
+                    public Long numeroRegistros() {
+                        return pojo.getCantidad();
+                    }
+                };
             }
 
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
+        return null;
     }
 
     public String getNombre() {

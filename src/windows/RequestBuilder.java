@@ -27,9 +27,9 @@ import windows.webservices.utilidades.MetodosDeEnvio;
  */
 public class RequestBuilder extends EjecutorJson {
 
-    private  final Template TEMPLATE;
+    private final Template TEMPLATE;
 
-     {
+    {
         TEMPLATE = Application.getAPLICATION_FRAME();
     }
     private final Logger LOG = Logger.getLogger(RequestBuilder.class);
@@ -122,6 +122,12 @@ public class RequestBuilder extends EjecutorJson {
      */
     public RequestBuilder(String path, HashMap<String, Object> param) throws URISyntaxException {
         super(path, param);
+    }
+
+    @Override
+    public RequestBuilder crearJson(Object objeto) {
+        super.crearJson(objeto);
+        return this;
     }
 
     /**

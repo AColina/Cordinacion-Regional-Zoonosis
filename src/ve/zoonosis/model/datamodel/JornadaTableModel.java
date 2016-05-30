@@ -83,7 +83,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion>
     }
 
     @Override
-    public void crearSubLista(int posicionInical) {
+    public IRegistrar crearSubLista(int posicionInical) {
         try {
 
             HashMap map = new HashMap();
@@ -106,15 +106,28 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion>
             map.put("inicial", posicionInical);
 
             builder = new RequestBuilder("services/proceso/VacunacionWs/BandejaVacunacion.php", map);
-            BusquedasVacunacionPojo pojo = builder.ejecutarJson(BusquedasVacunacionPojo.class);
+            final BusquedasVacunacionPojo pojo = builder.ejecutarJson(BusquedasVacunacionPojo.class);
             if (pojo != null) {
-                setResultados(pojo.getResultados());
-                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+//                setResultados(pojo.getResultados());
+//                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+                return new IRegistrar() {
+
+                    @Override
+                    public List resultados() {
+                        return pojo.getResultados();
+                    }
+
+                    @Override
+                    public Long numeroRegistros() {
+                        return pojo.getCantidad();
+                    }
+                };
             }
 
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
+        return null;
     }
 
 }

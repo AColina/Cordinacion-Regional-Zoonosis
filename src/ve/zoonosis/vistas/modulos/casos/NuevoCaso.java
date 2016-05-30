@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.vistas.modulos.casos;
 
+import com.megagroup.componentes.MLabel;
 import com.megagroup.componentes.MTextField;
 import javax.swing.JComboBox;
 import ve.zoonosis.model.bean.AbstractForm;
@@ -68,14 +69,27 @@ public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
         javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
         aceptar = new com.megagroup.componentes.MButton();
         cancelar = new com.megagroup.componentes.MButton();
+        parroquiaError = new com.megagroup.componentes.MLabel();
+        animalError = new com.megagroup.componentes.MLabel();
+        cantidadError = new com.megagroup.componentes.MLabel();
+        positivosError = new com.megagroup.componentes.MLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
         municipio.setBackground(new java.awt.Color(255, 255, 255));
+        municipio.setName("municipio"); // NOI18N
+        municipio.setPreferredSize(new java.awt.Dimension(150, 24));
 
         parroquia.setBackground(new java.awt.Color(255, 255, 255));
+        parroquia.setName("parroquia"); // NOI18N
+        parroquia.setPreferredSize(new java.awt.Dimension(150, 24));
 
         animal.setBackground(new java.awt.Color(255, 255, 255));
+        animal.setName("animal"); // NOI18N
+        animal.setPreferredSize(new java.awt.Dimension(150, 24));
+
+        cantidadIngresado.setName("cantidadIngresado"); // NOI18N
+        cantidadIngresado.setPreferredSize(new java.awt.Dimension(150, 24));
 
         mLabel1.setRequired(true);
         mLabel1.setText("Cantidad animales");
@@ -91,6 +105,9 @@ public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
 
         mLabel3.setRequired(true);
         mLabel3.setText("Casos Positivos");
+
+        cantidadPositivo.setName("cantidadPositivo"); // NOI18N
+        cantidadPositivo.setPreferredSize(new java.awt.Dimension(150, 24));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.GridBagLayout());
@@ -111,6 +128,14 @@ public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
         gridBagConstraints.insets = new java.awt.Insets(11, 18, 11, 71);
         jPanel1.add(cancelar, gridBagConstraints);
 
+        parroquiaError.setLabelFor(parroquia);
+
+        animalError.setLabelFor(animal);
+
+        cantidadError.setLabelFor(cantidadIngresado);
+
+        positivosError.setLabelFor(cantidadPositivo);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -124,14 +149,20 @@ public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
                     .addComponent(mLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(cantidadIngresado, javax.swing.GroupLayout.DEFAULT_SIZE, 196, Short.MAX_VALUE)
-                    .addComponent(municipio, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(parroquia, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(animal, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(cantidadPositivo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(parroquia, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cantidadPositivo, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cantidadIngresado, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(animal, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(municipio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(cantidadError, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(animalError, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(parroquiaError, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(positivosError, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 325, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -143,27 +174,40 @@ public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(parroquia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(mLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(mLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(parroquiaError, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(animal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(animalError, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cantidadIngresado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cantidadError, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cantidadPositivo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cantidadPositivo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(positivosError, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    public JComboBox getAnimal() {
+    public JComboBox<Animal> getAnimal() {
         return animal;
+    }
+
+    public MLabel getAnimalError() {
+        return animalError;
+    }
+
+    public MLabel getCantidadError() {
+        return cantidadError;
     }
 
     public MTextField getCantidadIngresado() {
@@ -174,22 +218,34 @@ public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
         return cantidadPositivo;
     }
 
-    public JComboBox getMunicipio() {
+    public JComboBox<Municipio> getMunicipio() {
         return municipio;
     }
 
-    public JComboBox getParroquia() {
+    public JComboBox<Parroquia> getParroquia() {
         return parroquia;
+    }
+
+    public MLabel getParroquiaError() {
+        return parroquiaError;
+    }
+
+    public MLabel getPositivosError() {
+        return positivosError;
     }
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     protected com.megagroup.componentes.MButton aceptar;
     protected javax.swing.JComboBox<Animal> animal;
+    private com.megagroup.componentes.MLabel animalError;
     protected com.megagroup.componentes.MButton cancelar;
+    private com.megagroup.componentes.MLabel cantidadError;
     protected com.megagroup.componentes.MTextField cantidadIngresado;
     protected com.megagroup.componentes.MTextField cantidadPositivo;
     protected javax.swing.JComboBox<Municipio> municipio;
     protected javax.swing.JComboBox<Parroquia> parroquia;
+    private com.megagroup.componentes.MLabel parroquiaError;
+    private com.megagroup.componentes.MLabel positivosError;
     // End of variables declaration//GEN-END:variables
 }

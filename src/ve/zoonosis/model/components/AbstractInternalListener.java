@@ -41,7 +41,7 @@ public abstract class AbstractInternalListener {
     public InternalFrame crearInternalFrame(String titulo,
             Class<? extends JComponent> clase, Object... param) {
 
-        for (Component component : TEMPLATE.getFONDO().getAllFrames()) {
+        for (Component component : TEMPLATE.getFondo().getAllFrames()) {
             if (component instanceof InternalFrame) {
                 if (component.getName().equalsIgnoreCase(titulo)) {
                     InternalFrame i = (InternalFrame) component;
@@ -78,9 +78,9 @@ public abstract class AbstractInternalListener {
         @Override
         public void internalFrameClosing(javax.swing.event.InternalFrameEvent e) {
             if (e.getInternalFrame().isIcon()) {
-                TEMPLATE.getFONDO().remove(e.getInternalFrame().getDesktopIcon());
+                TEMPLATE.getFondo().remove(e.getInternalFrame().getDesktopIcon());
             } else {
-                TEMPLATE.getFONDO().remove(e.getInternalFrame());
+                TEMPLATE.getFondo().remove(e.getInternalFrame());
 
             }
             TEMPLATE.repaint();

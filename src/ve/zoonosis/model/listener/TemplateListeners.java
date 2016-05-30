@@ -23,7 +23,6 @@ import ve.zoonosis.controller.modulos.jornadasvacunaciones.BandejaJornadaVacunac
 import ve.zoonosis.controller.modulos.novdedades.BandejaNovedadesController;
 import ve.zoonosis.model.components.AbstractInternalListener;
 import ve.zoonosis.vistas.Template;
-import ve.zoonosis.vistas.modulos.estadistica.jornada.animales.JornadaAnimalDiarioPorMunicipio;
 
 /**
  *

@@ -15,11 +15,14 @@
  */
 package ve.zoonosis.model.components;
 
+import com.sun.java.swing.plaf.windows.WindowsDesktopIconUI;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.event.MouseEvent;
 import javax.swing.JInternalFrame;
 import javax.swing.WindowConstants;
+import javax.swing.event.MouseInputListener;
 
 /**
  *
@@ -35,6 +38,7 @@ public class InternalFrame extends JInternalFrame {
         setMaximizable(true);
         setIconifiable(true);
         this.setBackground(Color.WHITE);
+        desktopIcon.setUI(new DesktopIconCustomUI());
     }
 
     public InternalFrame() {
@@ -55,4 +59,20 @@ public class InternalFrame extends JInternalFrame {
         return c;
     }
 
+    private class DesktopIconCustomUI extends WindowsDesktopIconUI {
+
+    
+        @Override
+        protected MouseInputListener createMouseInputListener() {
+            return new CustomMouseInputHandler();
+        }
+
+        private class CustomMouseInputHandler extends MouseInputHandler {
+
+            @Override
+            public void mouseDragged(MouseEvent e) {
+
+            }
+        }   
+    }
 }

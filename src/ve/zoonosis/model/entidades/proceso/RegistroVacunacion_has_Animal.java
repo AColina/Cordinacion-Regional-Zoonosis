@@ -15,13 +15,14 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import ve.zoonosis.model.entidades.EntidadGlobal;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 
 /**
  *
  * @author clases
  */
-public class RegistroVacunacion_has_Animal {
+public class RegistroVacunacion_has_Animal implements EntidadGlobal {
 
     private RegistroVacunacion registroVacunacion;
     private Animal animal;

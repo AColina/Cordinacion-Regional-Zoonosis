@@ -15,9 +15,8 @@
  */
 package ve.zoonosis.controller.modulos.estadistica;
 
-import com.megagroup.componentes.MDataTable;
 import javax.swing.JButton;
-import ve.zoonosis.vistas.modulos.estadistica.jornada.animales.JornadaAnimalDiarioPorMunicipio;
+import ve.zoonosis.vistas.estadistica.jornada.animales.JornadaAnimalDiarioPorMunicipio;
 
 /**
  *
@@ -25,45 +24,48 @@ import ve.zoonosis.vistas.modulos.estadistica.jornada.animales.JornadaAnimalDiar
  */
 public class JornadaAnimalDiarioPorMunicipioController extends JornadaAnimalDiarioPorMunicipio {
 
+    public JornadaAnimalDiarioPorMunicipioController() {
+        inicializar();
+    }
 
     @Override
-    public void inicializar() {
-        
+    public final void inicializar() {
+        iniForm();
     }
 
     @Override
     public JButton getAceptar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return generar;
     }
 
     @Override
     public JButton getGuardar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
 
     @Override
     public JButton getCancelar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return null;
     }
 
     @Override
     public boolean validar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return false;
     }
 
     @Override
     public void aceptar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
     }
 
     @Override
     public void guardar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
     }
 
     @Override
     public void cancelar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
     }
 
 }
