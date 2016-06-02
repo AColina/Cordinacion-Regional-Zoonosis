@@ -188,7 +188,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
 
     @Override
     public void cancelar() {
-        dialog.dispose();
+        dialog.close();
     }
 
     @Override

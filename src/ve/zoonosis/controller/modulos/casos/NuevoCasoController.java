@@ -19,20 +19,28 @@ import com.megagroup.Application;
 import com.megagroup.binding.BindObject;
 import com.megagroup.binding.components.Bindings;
 import com.megagroup.componentes.MDialog;
+import com.megagroup.componentes.MGrowl;
+import com.megagroup.model.enums.MGrowlState;
 import com.megagroup.utilidades.Logger;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.net.URISyntaxException;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.casos.NuevoCaso;
+import windows.Recursos;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
 
@@ -81,6 +89,7 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
+        parroquia.addItemListener(new CambioParroquia());
         try {
             rb = new RequestBuilder("services/funcionales/AnimalWs/ListaAnimales.php");
             List<Animal> animales = rb.ejecutarJson(List.class, Animal.class);
@@ -116,6 +125,71 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
     }
 
     @Override
+    public boolean validar() {
+        boolean v = new ValidateEntity(entity).validate(this);
+
+        if (v) {
+            v = new ValidateEntity(caso).validate(this);
+        }
+        dialog.revalidate();
+//        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
+//            dialog.pack();
+//        }
+        return v;
+    }
+
+    @Override
+    public void aceptar() {
+        try {
+            rb = new RequestBuilder("services/proceso/CasoWs/CrearCaso.php")
+                    .crearJson(entity);
+            entity = rb.ejecutarJson(Caso.class);
+            MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        cancelar();
+
+    }
+    //  METODOS PRIVADOS
+
+    private void buscarCaso() {
+        try {
+            if (parroquia.getSelectedIndex() == -1) {
+                return;
+            }
+            rb = new RequestBuilder("services/proceso/CasoWs/ObtenerCasoPorDia.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("dia", Recursos.FORMATO_FECHA.format(new Date()));
+                            put("parroquia", ((Parroquia) parroquia.getSelectedItem()).getId());
+                        }
+                    });
+            entity = null;
+            entity = rb.ejecutarJson(Caso.class);
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        if (entity == null) {
+            entity = new Caso();
+            entity.setFechaElaboracion(new Date());
+            entity.setParroquia((Parroquia) parroquia.getSelectedItem());
+            entity.getAnimal_has_Caso().add(caso);
+        }
+    }
+
+    //CLASES INTERNAS
+    private class CambioParroquia implements ItemListener {
+
+        @Override
+        public void itemStateChanged(ItemEvent e) {
+            buscarCaso();
+        }
+
+    }
+
+    //GETTER AND SETTER
+    @Override
     public JButton getAceptar() {
         return aceptar;
     }
@@ -128,16 +202,6 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
     @Override
     public JButton getCancelar() {
         return cancelar;
-    }
-
-    @Override
-    public boolean validar() {
-        return new ValidateEntity(entity).validate();
-    }
-
-    @Override
-    public void aceptar() {
-        cancelar();
     }
 
     @Override

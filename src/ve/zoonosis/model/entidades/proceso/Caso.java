@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import javax.validation.constraints.NotNull;
@@ -55,6 +56,9 @@ public class Caso extends Entidad {
     }
 
     public List<Animal_has_Caso> getAnimal_has_Caso() {
+        if (animal_has_Caso == null) {
+            animal_has_Caso = new ArrayList<>();
+        }
         return animal_has_Caso;
     }
 

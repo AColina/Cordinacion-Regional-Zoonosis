@@ -26,7 +26,7 @@ public class Template extends javax.swing.JFrame {
     }
 
     public void addInternalFrame(InternalFrame internalFrame) {
-        FONDO.add(internalFrame);
+        fondo.add(internalFrame);
     }
 
     /**
@@ -38,51 +38,51 @@ public class Template extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        FONDO = new javax.swing.JDesktopPane();
-        menu = new javax.swing.JMenuBar();
+        fondo = new javax.swing.JDesktopPane();
+        javax.swing.JMenuBar menu = new javax.swing.JMenuBar();
         javax.swing.JMenu jMenu1 = new javax.swing.JMenu();
         casos = new javax.swing.JMenuItem();
         jornadasVacunacion = new javax.swing.JMenuItem();
         novedades = new javax.swing.JMenuItem();
         javax.swing.JMenu jMenu2 = new javax.swing.JMenu();
-        jMenu4 = new javax.swing.JMenu();
-        EJornadaDiarioM1 = new javax.swing.JMenuItem();
-        EJornadaSemanalM1 = new javax.swing.JMenuItem();
-        EJornadaMensualM1 = new javax.swing.JMenuItem();
-        jSeparator3 = new javax.swing.JPopupMenu.Separator();
-        EJornadaDiarioP1 = new javax.swing.JMenuItem();
-        EJornadaSemanalP1 = new javax.swing.JMenuItem();
-        EJornadaMensualP1 = new javax.swing.JMenuItem();
-        jMenu13 = new javax.swing.JMenu();
-        EJornadaDiarioM4 = new javax.swing.JMenuItem();
-        EJornadaSemanalM4 = new javax.swing.JMenuItem();
-        EJornadaMensualM4 = new javax.swing.JMenuItem();
-        jSeparator8 = new javax.swing.JPopupMenu.Separator();
-        EJornadaDiarioP4 = new javax.swing.JMenuItem();
-        EJornadaSemanalP4 = new javax.swing.JMenuItem();
-        EJornadaMensualP4 = new javax.swing.JMenuItem();
-        jSeparator1 = new javax.swing.JPopupMenu.Separator();
+        javax.swing.JMenu jMenu4 = new javax.swing.JMenu();
+        casosAnimalDiarioPorMunicipio = new javax.swing.JMenuItem();
+        casosAnimalSemanalPorMunicipio = new javax.swing.JMenuItem();
+        casosAnimalMensualPorMunicipio = new javax.swing.JMenuItem();
+        javax.swing.JPopupMenu.Separator jSeparator3 = new javax.swing.JPopupMenu.Separator();
+        casosAnimalDiarioPorParroquia = new javax.swing.JMenuItem();
+        casosAnimalSemanalPorParroquia = new javax.swing.JMenuItem();
+        casosAnimalMensualPorParroquia = new javax.swing.JMenuItem();
+        javax.swing.JMenu jMenu13 = new javax.swing.JMenu();
+        casosEspecieDiarioPorMunicipio = new javax.swing.JMenuItem();
+        casosEspecieSemanalPorMunicipio = new javax.swing.JMenuItem();
+        casosEspecieMensualPorMunicipio = new javax.swing.JMenuItem();
+        javax.swing.JPopupMenu.Separator jSeparator8 = new javax.swing.JPopupMenu.Separator();
+        casosEspecieDiarioPorParroquia = new javax.swing.JMenuItem();
+        casosEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
+        casosEspecieMensualPorParroquia = new javax.swing.JMenuItem();
+        javax.swing.JPopupMenu.Separator jSeparator1 = new javax.swing.JPopupMenu.Separator();
         javax.swing.JMenu jMenu7 = new javax.swing.JMenu();
-        EJornadaDiarioM5 = new javax.swing.JMenuItem();
-        EJornadaSemanalM5 = new javax.swing.JMenuItem();
-        EJornadaMensualM5 = new javax.swing.JMenuItem();
-        jSeparator9 = new javax.swing.JPopupMenu.Separator();
-        EJornadaDiarioP5 = new javax.swing.JMenuItem();
-        EJornadaSemanalP5 = new javax.swing.JMenuItem();
-        EJornadaMensualP5 = new javax.swing.JMenuItem();
-        jMenu11 = new javax.swing.JMenu();
-        EJornadaDiarioM6 = new javax.swing.JMenuItem();
-        EJornadaSemanalM6 = new javax.swing.JMenuItem();
-        EJornadaMensualM6 = new javax.swing.JMenuItem();
-        jSeparator10 = new javax.swing.JPopupMenu.Separator();
-        EJornadaDiarioP6 = new javax.swing.JMenuItem();
-        EJornadaSemanalP6 = new javax.swing.JMenuItem();
-        EJornadaMensualP6 = new javax.swing.JMenuItem();
+        vacunacionAnimalDiariaPorMunicipio = new javax.swing.JMenuItem();
+        vacunacionAnimalSemanalPorMunicipio = new javax.swing.JMenuItem();
+        vacunacionAnimalMensualPorMunicipio = new javax.swing.JMenuItem();
+        javax.swing.JPopupMenu.Separator jSeparator9 = new javax.swing.JPopupMenu.Separator();
+        vacunacionAnimalDiariaPorParroquia = new javax.swing.JMenuItem();
+        vacunacionAnimalSemanalPorParroquia = new javax.swing.JMenuItem();
+        vacunacionAnimalMensualPorParroquia = new javax.swing.JMenuItem();
+        javax.swing.JMenu jMenu11 = new javax.swing.JMenu();
+        vacunacionEspecieDiariaPorMunicipio = new javax.swing.JMenuItem();
+        vacunacionEspecieSemanalPorMunicipio = new javax.swing.JMenuItem();
+        vacunacionEspecieMensualPorMunicipio = new javax.swing.JMenuItem();
+        javax.swing.JPopupMenu.Separator jSeparator10 = new javax.swing.JPopupMenu.Separator();
+        vacunacionEspecieDiariaPorParroquia = new javax.swing.JMenuItem();
+        vacunacionEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
+        vacunacionEspecieMensualPorParroquia = new javax.swing.JMenuItem();
         javax.swing.JMenu jMenu3 = new javax.swing.JMenu();
         javax.swing.JMenu opciones = new javax.swing.JMenu();
         importar = new javax.swing.JMenuItem();
         exportar = new javax.swing.JMenuItem();
-        jSeparator4 = new javax.swing.JPopupMenu.Separator();
+        javax.swing.JPopupMenu.Separator jSeparator4 = new javax.swing.JPopupMenu.Separator();
         acercaDe = new javax.swing.JMenuItem();
         ayuda = new javax.swing.JMenuItem();
 
@@ -91,14 +91,14 @@ public class Template extends javax.swing.JFrame {
         setExtendedState(6);
         setModalExclusionType(java.awt.Dialog.ModalExclusionType.APPLICATION_EXCLUDE);
 
-        javax.swing.GroupLayout FONDOLayout = new javax.swing.GroupLayout(FONDO);
-        FONDO.setLayout(FONDOLayout);
-        FONDOLayout.setHorizontalGroup(
-            FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout fondoLayout = new javax.swing.GroupLayout(fondo);
+        fondo.setLayout(fondoLayout);
+        fondoLayout.setHorizontalGroup(
+            fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 800, Short.MAX_VALUE)
         );
-        FONDOLayout.setVerticalGroup(
-            FONDOLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        fondoLayout.setVerticalGroup(
+            fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 405, Short.MAX_VALUE)
         );
 
@@ -119,94 +119,94 @@ public class Template extends javax.swing.JFrame {
 
         jMenu4.setText("Casos por animales");
 
-        EJornadaDiarioM1.setText("Diario por Municipio");
-        jMenu4.add(EJornadaDiarioM1);
+        casosAnimalDiarioPorMunicipio.setText("Diario por Municipio");
+        jMenu4.add(casosAnimalDiarioPorMunicipio);
 
-        EJornadaSemanalM1.setText("Semanal por Municipio");
-        jMenu4.add(EJornadaSemanalM1);
+        casosAnimalSemanalPorMunicipio.setText("Semanal por Municipio");
+        jMenu4.add(casosAnimalSemanalPorMunicipio);
 
-        EJornadaMensualM1.setText("Mensual por Municipio");
-        jMenu4.add(EJornadaMensualM1);
+        casosAnimalMensualPorMunicipio.setText("Mensual por Municipio");
+        jMenu4.add(casosAnimalMensualPorMunicipio);
         jMenu4.add(jSeparator3);
 
-        EJornadaDiarioP1.setText("Diario por Parroquia");
-        jMenu4.add(EJornadaDiarioP1);
+        casosAnimalDiarioPorParroquia.setText("Diario por Parroquia");
+        jMenu4.add(casosAnimalDiarioPorParroquia);
 
-        EJornadaSemanalP1.setText("Semanal por Parroquia");
-        jMenu4.add(EJornadaSemanalP1);
+        casosAnimalSemanalPorParroquia.setText("Semanal por Parroquia");
+        jMenu4.add(casosAnimalSemanalPorParroquia);
 
-        EJornadaMensualP1.setText("Mensual por Parroquia");
-        jMenu4.add(EJornadaMensualP1);
+        casosAnimalMensualPorParroquia.setText("Mensual por Parroquia");
+        jMenu4.add(casosAnimalMensualPorParroquia);
 
         jMenu2.add(jMenu4);
 
         jMenu13.setText("Casos por especies");
 
-        EJornadaDiarioM4.setText("Diario por Municipio");
-        jMenu13.add(EJornadaDiarioM4);
+        casosEspecieDiarioPorMunicipio.setText("Diario por Municipio");
+        jMenu13.add(casosEspecieDiarioPorMunicipio);
 
-        EJornadaSemanalM4.setText("Semanal por Municipio");
-        jMenu13.add(EJornadaSemanalM4);
+        casosEspecieSemanalPorMunicipio.setText("Semanal por Municipio");
+        jMenu13.add(casosEspecieSemanalPorMunicipio);
 
-        EJornadaMensualM4.setText("Mensual por Municipio");
-        jMenu13.add(EJornadaMensualM4);
+        casosEspecieMensualPorMunicipio.setText("Mensual por Municipio");
+        jMenu13.add(casosEspecieMensualPorMunicipio);
         jMenu13.add(jSeparator8);
 
-        EJornadaDiarioP4.setText("Diario por Parroquia");
-        jMenu13.add(EJornadaDiarioP4);
+        casosEspecieDiarioPorParroquia.setText("Diario por Parroquia");
+        jMenu13.add(casosEspecieDiarioPorParroquia);
 
-        EJornadaSemanalP4.setText("Semanal por Parroquia");
-        jMenu13.add(EJornadaSemanalP4);
+        casosEspecieSemanalPorParroquia.setText("Semanal por Parroquia");
+        jMenu13.add(casosEspecieSemanalPorParroquia);
 
-        EJornadaMensualP4.setText("Mensual por Parroquia");
-        jMenu13.add(EJornadaMensualP4);
+        casosEspecieMensualPorParroquia.setText("Mensual por Parroquia");
+        jMenu13.add(casosEspecieMensualPorParroquia);
 
         jMenu2.add(jMenu13);
         jMenu2.add(jSeparator1);
 
         jMenu7.setText("Jornada de Vacunación por animales");
 
-        EJornadaDiarioM5.setText("Diario por Municipio");
-        jMenu7.add(EJornadaDiarioM5);
+        vacunacionAnimalDiariaPorMunicipio.setText("Diario por Municipio");
+        jMenu7.add(vacunacionAnimalDiariaPorMunicipio);
 
-        EJornadaSemanalM5.setText("Semanal por Municipio");
-        jMenu7.add(EJornadaSemanalM5);
+        vacunacionAnimalSemanalPorMunicipio.setText("Semanal por Municipio");
+        jMenu7.add(vacunacionAnimalSemanalPorMunicipio);
 
-        EJornadaMensualM5.setText("Mensual por Municipio");
-        jMenu7.add(EJornadaMensualM5);
+        vacunacionAnimalMensualPorMunicipio.setText("Mensual por Municipio");
+        jMenu7.add(vacunacionAnimalMensualPorMunicipio);
         jMenu7.add(jSeparator9);
 
-        EJornadaDiarioP5.setText("Diario por Parroquia");
-        jMenu7.add(EJornadaDiarioP5);
+        vacunacionAnimalDiariaPorParroquia.setText("Diario por Parroquia");
+        jMenu7.add(vacunacionAnimalDiariaPorParroquia);
 
-        EJornadaSemanalP5.setText("Semanal por Parroquia");
-        jMenu7.add(EJornadaSemanalP5);
+        vacunacionAnimalSemanalPorParroquia.setText("Semanal por Parroquia");
+        jMenu7.add(vacunacionAnimalSemanalPorParroquia);
 
-        EJornadaMensualP5.setText("Mensual por Parroquia");
-        jMenu7.add(EJornadaMensualP5);
+        vacunacionAnimalMensualPorParroquia.setText("Mensual por Parroquia");
+        jMenu7.add(vacunacionAnimalMensualPorParroquia);
 
         jMenu2.add(jMenu7);
 
         jMenu11.setText("Jornada de Vacunación por especies");
 
-        EJornadaDiarioM6.setText("Diario por Municipio");
-        jMenu11.add(EJornadaDiarioM6);
+        vacunacionEspecieDiariaPorMunicipio.setText("Diario por Municipio");
+        jMenu11.add(vacunacionEspecieDiariaPorMunicipio);
 
-        EJornadaSemanalM6.setText("Semanal por Municipio");
-        jMenu11.add(EJornadaSemanalM6);
+        vacunacionEspecieSemanalPorMunicipio.setText("Semanal por Municipio");
+        jMenu11.add(vacunacionEspecieSemanalPorMunicipio);
 
-        EJornadaMensualM6.setText("Mensual por Municipio");
-        jMenu11.add(EJornadaMensualM6);
+        vacunacionEspecieMensualPorMunicipio.setText("Mensual por Municipio");
+        jMenu11.add(vacunacionEspecieMensualPorMunicipio);
         jMenu11.add(jSeparator10);
 
-        EJornadaDiarioP6.setText("Diario por Parroquia");
-        jMenu11.add(EJornadaDiarioP6);
+        vacunacionEspecieDiariaPorParroquia.setText("Diario por Parroquia");
+        jMenu11.add(vacunacionEspecieDiariaPorParroquia);
 
-        EJornadaSemanalP6.setText("Semanal por Parroquia");
-        jMenu11.add(EJornadaSemanalP6);
+        vacunacionEspecieSemanalPorParroquia.setText("Semanal por Parroquia");
+        jMenu11.add(vacunacionEspecieSemanalPorParroquia);
 
-        EJornadaMensualP6.setText("Mensual por Parroquia");
-        jMenu11.add(EJornadaMensualP6);
+        vacunacionEspecieMensualPorParroquia.setText("Mensual por Parroquia");
+        jMenu11.add(vacunacionEspecieMensualPorParroquia);
 
         jMenu2.add(jMenu11);
 
@@ -238,11 +238,11 @@ public class Template extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(FONDO)
+            .addComponent(fondo)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(FONDO)
+            .addComponent(fondo)
         );
 
         pack();
@@ -252,7 +252,7 @@ public class Template extends javax.swing.JFrame {
         jornadasVacunacion.addActionListener(TemplateListeners.getJornadaVacunacionBandeja());
         casos.addActionListener(TemplateListeners.getCasosBandeja());
         novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
-        EJornadaDiarioM5.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
+        vacunacionAnimalDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
         
     }
 
@@ -263,52 +263,42 @@ public class Template extends javax.swing.JFrame {
         Application.run(Template.class, args);
     }
 
-    public JDesktopPane getFONDO() {
-        return FONDO;
+    public JDesktopPane getFondo() {
+        return fondo;
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem EJornadaDiarioM1;
-    private javax.swing.JMenuItem EJornadaDiarioM4;
-    private javax.swing.JMenuItem EJornadaDiarioM5;
-    private javax.swing.JMenuItem EJornadaDiarioM6;
-    private javax.swing.JMenuItem EJornadaDiarioP1;
-    private javax.swing.JMenuItem EJornadaDiarioP4;
-    private javax.swing.JMenuItem EJornadaDiarioP5;
-    private javax.swing.JMenuItem EJornadaDiarioP6;
-    private javax.swing.JMenuItem EJornadaMensualM1;
-    private javax.swing.JMenuItem EJornadaMensualM4;
-    private javax.swing.JMenuItem EJornadaMensualM5;
-    private javax.swing.JMenuItem EJornadaMensualM6;
-    private javax.swing.JMenuItem EJornadaMensualP1;
-    private javax.swing.JMenuItem EJornadaMensualP4;
-    private javax.swing.JMenuItem EJornadaMensualP5;
-    private javax.swing.JMenuItem EJornadaMensualP6;
-    private javax.swing.JMenuItem EJornadaSemanalM1;
-    private javax.swing.JMenuItem EJornadaSemanalM4;
-    private javax.swing.JMenuItem EJornadaSemanalM5;
-    private javax.swing.JMenuItem EJornadaSemanalM6;
-    private javax.swing.JMenuItem EJornadaSemanalP1;
-    private javax.swing.JMenuItem EJornadaSemanalP4;
-    private javax.swing.JMenuItem EJornadaSemanalP5;
-    private javax.swing.JMenuItem EJornadaSemanalP6;
-    private javax.swing.JDesktopPane FONDO;
     private javax.swing.JMenuItem acercaDe;
     private javax.swing.JMenuItem ayuda;
     private javax.swing.JMenuItem casos;
+    private javax.swing.JMenuItem casosAnimalDiarioPorMunicipio;
+    private javax.swing.JMenuItem casosAnimalDiarioPorParroquia;
+    private javax.swing.JMenuItem casosAnimalMensualPorMunicipio;
+    private javax.swing.JMenuItem casosAnimalMensualPorParroquia;
+    private javax.swing.JMenuItem casosAnimalSemanalPorMunicipio;
+    private javax.swing.JMenuItem casosAnimalSemanalPorParroquia;
+    private javax.swing.JMenuItem casosEspecieDiarioPorMunicipio;
+    private javax.swing.JMenuItem casosEspecieDiarioPorParroquia;
+    private javax.swing.JMenuItem casosEspecieMensualPorMunicipio;
+    private javax.swing.JMenuItem casosEspecieMensualPorParroquia;
+    private javax.swing.JMenuItem casosEspecieSemanalPorMunicipio;
+    private javax.swing.JMenuItem casosEspecieSemanalPorParroquia;
     private javax.swing.JMenuItem exportar;
+    private javax.swing.JDesktopPane fondo;
     private javax.swing.JMenuItem importar;
-    private javax.swing.JMenu jMenu11;
-    private javax.swing.JMenu jMenu13;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JPopupMenu.Separator jSeparator1;
-    private javax.swing.JPopupMenu.Separator jSeparator10;
-    private javax.swing.JPopupMenu.Separator jSeparator3;
-    private javax.swing.JPopupMenu.Separator jSeparator4;
-    private javax.swing.JPopupMenu.Separator jSeparator8;
-    private javax.swing.JPopupMenu.Separator jSeparator9;
     private javax.swing.JMenuItem jornadasVacunacion;
-    private javax.swing.JMenuBar menu;
     private javax.swing.JMenuItem novedades;
+    private javax.swing.JMenuItem vacunacionAnimalDiariaPorMunicipio;
+    private javax.swing.JMenuItem vacunacionAnimalDiariaPorParroquia;
+    private javax.swing.JMenuItem vacunacionAnimalMensualPorMunicipio;
+    private javax.swing.JMenuItem vacunacionAnimalMensualPorParroquia;
+    private javax.swing.JMenuItem vacunacionAnimalSemanalPorMunicipio;
+    private javax.swing.JMenuItem vacunacionAnimalSemanalPorParroquia;
+    private javax.swing.JMenuItem vacunacionEspecieDiariaPorMunicipio;
+    private javax.swing.JMenuItem vacunacionEspecieDiariaPorParroquia;
+    private javax.swing.JMenuItem vacunacionEspecieMensualPorMunicipio;
+    private javax.swing.JMenuItem vacunacionEspecieMensualPorParroquia;
+    private javax.swing.JMenuItem vacunacionEspecieSemanalPorMunicipio;
+    private javax.swing.JMenuItem vacunacionEspecieSemanalPorParroquia;
     // End of variables declaration//GEN-END:variables
 }

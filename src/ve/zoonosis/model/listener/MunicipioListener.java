@@ -43,7 +43,7 @@ public class MunicipioListener implements ActionListener {
         } else {
             parroquia.setModel(new DefaultComboBoxModel<>());
         }
-
+        parroquia.setSelectedIndex(-1);
     }
 
 }
