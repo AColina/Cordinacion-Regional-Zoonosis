@@ -24,6 +24,8 @@ import com.megagroup.utilidades.Logger;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.net.URISyntaxException;
@@ -41,6 +43,7 @@ import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
@@ -85,6 +88,15 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                 apellido.setText(null);
                 apellido.setEnabled(true);
 
+            }
+        });
+        cedula.addKeyListener(new KeyAdapter() {
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                    buscarPersona();
+                }
             }
         });
         autoCreateValidateForm(Persona.class, Cliente.class);
@@ -174,6 +186,14 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
 
     @Override
     public void aceptar() {
+        try {
+            rb = new RequestBuilder("services/administracion/PersonaWs/CrearPersona.php");
+            rb.setMetodo(MetodosDeEnvio.POST).crearJson(cliente);
+            String t = rb.ejecutarJsonToString();
+            System.out.println(t);
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
         DefaultComboBoxModel model = (DefaultComboBoxModel) novedadController.getCliente().getModel();
         model.addElement(cliente);
         novedadController.getCliente().setSelectedIndex(-1);

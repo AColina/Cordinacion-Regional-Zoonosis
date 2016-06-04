@@ -29,7 +29,7 @@ public class Municipio extends Entidad {
 
     private String nombre;
     @JsonManagedReference("municipio-parroquia")
-    @JsonProperty("parroquia")
+    @JsonProperty("parroquias")
     private List<Parroquia> parroquiasAsociadas;
 
     public Municipio() {
