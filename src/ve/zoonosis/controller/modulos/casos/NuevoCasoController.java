@@ -132,9 +132,9 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
             v = new ValidateEntity(caso).validate(this);
         }
         dialog.revalidate();
-        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
-            dialog.pack();
-        }
+//        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
+//            dialog.pack();
+//        }
         return v;
     }
 
