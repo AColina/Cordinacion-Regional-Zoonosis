@@ -33,7 +33,7 @@ public class Animal extends Entidad {
     @NotNull
     private String nombre;
     @JsonBackReference("especie-animal")
-    @JsonProperty("especie_id")
+    @JsonProperty("especie")
     private Especie especie;
     private List<RegistroVacunacion_has_Animal> vacunacion_has_Animal;
     private List<Animal_has_Caso> animal_has_Caso;

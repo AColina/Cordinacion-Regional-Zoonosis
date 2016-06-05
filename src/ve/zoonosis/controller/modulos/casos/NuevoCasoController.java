@@ -43,6 +43,7 @@ import ve.zoonosis.vistas.modulos.casos.NuevoCaso;
 import windows.Recursos;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
@@ -142,6 +143,7 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
     public void aceptar() {
         try {
             rb = new RequestBuilder("services/proceso/CasoWs/CrearCaso.php")
+                    .setMetodo(MetodosDeEnvio.POST)
                     .crearJson(entity);
             entity = rb.ejecutarJson(Caso.class);
             MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");

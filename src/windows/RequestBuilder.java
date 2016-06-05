@@ -130,6 +130,12 @@ public class RequestBuilder extends EjecutorJson {
         return this;
     }
 
+    @Override
+    public RequestBuilder setMetodo(MetodosDeEnvio metodo) {
+        super.setMetodo(metodo); //To change body of generated methods, choose Tools | Templates.
+        return this;
+    }
+
     /**
      * Crea una nueva instancia de ejecuator json con la url especificada en el
      * propertie Config.
