@@ -1,0 +1,54 @@
+jun 06, 2016 8:53:25 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:55:00 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:56:18 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 9:38:55 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:00:16 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:00:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 06, 2016 8:00:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 06, 2016 8:00:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 06, 2016 8:00:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 06, 2016 8:11:29 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:12:11 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:21:26 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:23:58 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:27:09 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:29:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:30:29 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:32:17 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 06, 2016 8:32:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 06, 2016 8:32:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 06, 2016 8:32:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 06, 2016 8:32:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 06, 2016 8:32:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 06, 2016 8:32:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 06, 2016 8:32:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 06, 2016 8:32:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 06, 2016 8:32:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 06, 2016 8:32:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo

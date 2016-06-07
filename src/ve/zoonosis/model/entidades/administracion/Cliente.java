@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.constraints.NotNull;
@@ -40,6 +41,7 @@ public class Cliente extends Entidad {
     private Persona persona;
     @NotNull
     private Parroquia parroquia;
+    @JsonIgnore
     private List<Novedades> novedades;
 
     public Cliente() {

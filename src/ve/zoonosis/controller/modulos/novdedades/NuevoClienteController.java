@@ -43,7 +43,6 @@ import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
-import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
@@ -186,14 +185,6 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
 
     @Override
     public void aceptar() {
-        try {
-            rb = new RequestBuilder("services/administracion/PersonaWs/CrearPersona.php");
-            rb.setMetodo(MetodosDeEnvio.POST).crearJson(cliente);
-            String t = rb.ejecutarJsonToString();
-            System.out.println(t);
-        } catch (URISyntaxException | RuntimeException ex) {
-            LOG.LOGGER.log(Level.SEVERE, null, ex);
-        }
         DefaultComboBoxModel model = (DefaultComboBoxModel) novedadController.getCliente().getModel();
         model.addElement(cliente);
         novedadController.getCliente().setSelectedIndex(-1);

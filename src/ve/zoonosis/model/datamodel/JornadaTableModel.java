@@ -26,6 +26,7 @@ import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
 import ve.zoonosis.model.pojos.BusquedasVacunacionPojo;
 import windows.RequestBuilder;
 
@@ -33,7 +34,7 @@ import windows.RequestBuilder;
  *
  * @author angel.colina
  */
-public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion> {
+public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
 
     private static final Logger LOG = Logger.getLogger(JornadaTableModel.class);
 
@@ -57,7 +58,6 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion>
         nombres.add("Dia");
         nombres.add("Municipio");
         nombres.add("Parroquia");
-        nombres.add("Usuario");
         nombres.add("Opciones");
 
     }
@@ -66,16 +66,14 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion>
     public String columnValue(int columnIndex) {
         switch (columnIndex) {
             case 0:
-                return "{vacunacion.semana.semana}";
+                return "{semana.semana}";
             case 1:
-                return "{vacunacion.fechaElaboracion}";
+                return "{fechaElaboracion}";
             case 2:
-                return "{vacunacion.parroquia.municipio.nombre}";
+                return "{parroquia.municipio.nombre}";
             case 3:
-                return "{vacunacion.parroquia.nombre}";
+                return "{parroquia.nombre}";
             case 4:
-                return "{usuario.persona.nombre}";
-            case 5:
                 return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");

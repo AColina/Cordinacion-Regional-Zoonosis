@@ -1,0 +1,2070 @@
+jun 07, 2016 3:17:03 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:21:03 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:21:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:21:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:21:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:21:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:21:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:21:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:21:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:21:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:21:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:21:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:21:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:21:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:24:31 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:24:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:24:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:24:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:24:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:24:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:24:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:24:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:24:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:24:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:24:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:33:12 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:33:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:33:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:33:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:33:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:33:22 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:33:22 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:33:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:33:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:33:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:33:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:33:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:33:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:33:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:33:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:37:50 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:37:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:37:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:37:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:37:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:38:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:38:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:38:02 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:38:02 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:38:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:38:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:38:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:38:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:40:37 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:40:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:40:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:40:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:40:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:40:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:40:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:42:44 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:42:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:42:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:43:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:43:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:56:31 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:56:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:56:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:56:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:56:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:56:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:56:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:56:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:56:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:56:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:56:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:56:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:56:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 3:59:20 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 3:59:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:59:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 3:59:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:59:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 3:59:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 3:59:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:02:45 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:02:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:02:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:02:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:02:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:02:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:02:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:02:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:02:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:02:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:02:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:09:23 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:09:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:09:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:09:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:09:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:09:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:09:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:09:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:09:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:09:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:09:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:15:18 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:18:53 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:19:00 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 4:20:31 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 4:20:58 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 4:23:38 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 4:24:06 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 4:24:36 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:25:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:25:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:25:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:25:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:25:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:25:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:25:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:25:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:25:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:25:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:28:47 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:31:19 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:31:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:31:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:31:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:31:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 4:31:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:31:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 4:31:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:31:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:31:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:31:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 4:34:19 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:34:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 4:34:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:34:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:34:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:35:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:35:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:35:03 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:03 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:03 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:04 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:05 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:08 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:08 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:08 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:09 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:09 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:09 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:10 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:10 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:11 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:11 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:35:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:35:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:35:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:35:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:37:36 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:37:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:51 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:51 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:37:51 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:37:58 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:00 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:00 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:00 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:00 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:02 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:02 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:02 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:03 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:03 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:03 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:04 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:04 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:04 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:04 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:04 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:05 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:05 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:05 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:07 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:07 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:07 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:08 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:08 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:08 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:09 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:09 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:38:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:00 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:51:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:22 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:22 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:22 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:22 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:51:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:51:29 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:29 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:29 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:29 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:29 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:29 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:51:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:52:48 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:52:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:02 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:53:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:53:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:53:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 4:56:11 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:56:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:56:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:21 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 4:57:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:57:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:58:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:58:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:58:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:58:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:58:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 4:58:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 4:58:11 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:11 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:11 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 4:58:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 4:58:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:00:57 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 5:01:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:16 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:01:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:01:21 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:21 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:21 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:22 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:22 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:22 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:22 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:22 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:24 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:24 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:24 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:25 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:01:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:01:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 07, 2016 5:01:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:01:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:01:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:01:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:01:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:01:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:01:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:01:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:02:12 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 5 y 45 caracteres
+jun 07, 2016 5:06:01 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 5:06:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:26 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:06:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:06:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:06:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:06:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:06:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:06:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:06:36 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:36 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:36 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:36 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:36 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:36 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:37 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:37 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:37 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:37 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:38 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:38 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:38 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:38 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:39 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:39 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:39 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:39 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:41 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:41 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:46 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:47 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:48 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:51 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:51 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:06:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:07:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:07:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:07:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:04 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:05 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:07:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:22:54 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 5:23:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:23:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:23:31 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:31 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:31 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:31 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:31 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:31 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:23:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:23:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:23:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:56 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:23:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:38:07 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 5:38:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:20 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 07, 2016 5:38:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:38:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:38:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:38:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:38:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:38:28 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:30 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:31 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 5:38:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:38:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 07, 2016 5:38:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 07, 2016 5:38:44 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 07, 2016 5:38:44 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 07, 2016 5:38:44 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 07, 2016 5:38:44 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 07, 2016 6:31:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 6:31:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 6:31:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 6:31:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 6:31:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 6:31:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 6:31:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 6:31:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 07, 2016 6:31:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 6:31:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 6:31:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 6:31:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 07, 2016 6:48:49 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 6:57:35 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 6:57:42 AM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : acolina cerro sesion
+jun 07, 2016 7:00:01 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 7:00:05 AM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : acolina cerro sesion
+jun 07, 2016 7:01:00 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 7:02:24 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 7:03:57 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 7:04:05 AM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : acolina cerro sesion
+jun 07, 2016 7:04:07 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 8:00:11 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 8:01:22 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 07, 2016 8:01:24 AM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : cerro sesion
+jun 07, 2016 8:01:30 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:02:55 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:25:46 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:27:19 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:27:29 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:29:44 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:29:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:31:20 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:31:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:40:21 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:40:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:41:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:41:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:43:17 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:45:17 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:45:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:46:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:50:25 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:50:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:52:30 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:52:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:52:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 8:53:03 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 8:53:06 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 8:53:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:53:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:54:08 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 8:54:17 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 8:54:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 9:01:01 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 9:01:07 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 9:01:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 9:01:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 9:01:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 9:01:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 9:34:30 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 9:34:36 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 9:34:37 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 9:34:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 9:41:24 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 9:41:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 9:41:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 9:41:35 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 9:44:37 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 9:44:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 07, 2016 9:44:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 07, 2016 9:44:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 07, 2016 2:21:36 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion

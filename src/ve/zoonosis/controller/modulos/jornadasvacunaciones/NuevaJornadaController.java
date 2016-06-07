@@ -16,8 +16,14 @@
 package ve.zoonosis.controller.modulos.jornadasvacunaciones;
 
 import com.megagroup.Application;
+import com.megagroup.binding.BindObject;
+import com.megagroup.binding.components.Bindings;
 import com.megagroup.componentes.MDialog;
+import com.megagroup.componentes.MGrowl;
+import com.megagroup.model.enums.MGrowlState;
 import com.megagroup.utilidades.Logger;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.net.URISyntaxException;
@@ -25,24 +31,33 @@ import java.util.List;
 import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
+import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.funcionales.Animal;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.NuevaJornada;
+import windows.Recursos;
 import windows.RequestBuilder;
+import windows.ValidateEntity;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
  * @author angel.colina
  */
-public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion> {
+public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
 
     private static final Logger LOG = Logger.getLogger(NuevaJornadaController.class);
     private final BandejaJornadaVacunacionController controller;
     private MDialog dialog;
     private RequestBuilder rb;
+    private RegistroVacunacion vacunacion;
+    private RegistroVacunacion_has_Animal vacunacion_has_Animal;
 
-    public NuevaJornadaController(BandejaJornadaVacunacionController controller, RegistroVacunacion entidad) {
+    public NuevaJornadaController(BandejaJornadaVacunacionController controller, Vacunacion entidad) {
         super(entidad);
         this.controller = controller;
         inicializar();
@@ -55,11 +70,14 @@ public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion> {
     @Override
     public final void inicializar() {
         if (entity == null) {
-            entity = new RegistroVacunacion();
+            entity = new Vacunacion();
         }
+        vacunacion = new RegistroVacunacion();
+        vacunacion_has_Animal = new RegistroVacunacion_has_Animal();
         aceptar.setEnabled(false);
         iniForm();
-
+        BindObject bindObject = new BindObject(entity);
+        Bindings.bind(parroquia, bindObject.getBind("parroquia"), true);
         try {
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
@@ -71,6 +89,22 @@ public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion> {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
+        parroquia.addItemListener(new CambioParroquia());
+        try {
+            rb = new RequestBuilder("services/funcionales/AnimalWs/ListaAnimales.php");
+            List<Animal> animales = rb.ejecutarJson(List.class, Animal.class);
+            if (animales != null) {
+                animal.setModel(new DefaultComboBoxModel(animales.toArray()));
+                animal.setSelectedIndex(-1);
+            }
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+
+        BindObject bindObject2 = new BindObject(vacunacion_has_Animal);
+        Bindings.bind(animal, bindObject2.getBind("animal"), true);
+        Bindings.bind(cantidad, bindObject2.getBind("cantidad"));
+        autoCreateValidateForm(Vacunacion.class, RegistroVacunacion_has_Animal.class);
         iniciarDialogo();
     }
 
@@ -90,14 +124,52 @@ public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion> {
 
     }
 
+    private void buscarJornada() {
+
+    }
+
     @Override
     public boolean validar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        boolean v = new ValidateEntity(entity).validate(this);
+
+        if (v) {
+            v = new ValidateEntity(vacunacion_has_Animal).validate(this);
+        }
+        dialog.revalidate();
+        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
+            dialog.pack();
+        }
+        return v;
+    }
+
+    //CLASES INTERNAS
+    private class CambioParroquia implements ItemListener {
+
+        @Override
+        public void itemStateChanged(ItemEvent e) {
+            buscarJornada();
+        }
+
     }
 
     @Override
     public void aceptar() {
-        guardar();
+        try {
+            vacunacion.setUsuario(LoginController.getUsuario());
+            vacunacion.getVacunacion_has_Animal().add(vacunacion_has_Animal);
+            vacunacion_has_Animal.setRegistroVacunacion(vacunacion);
+            entity.getRegistroVacunacion().add(vacunacion);
+            entity.setSemana(Recursos.SEMANA_ACTUAL);
+            rb = new RequestBuilder("services/proceso/VacunacionWs/CrearVacunacion.php")
+                    .setMetodo(MetodosDeEnvio.POST)
+                    .crearJson(entity);
+            entity = rb.ejecutarJson(Vacunacion.class);
+            if (entity != null) {
+                MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
+            }
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
         cancelar();
     }
 

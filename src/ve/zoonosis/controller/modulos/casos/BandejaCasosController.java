@@ -20,6 +20,7 @@ import com.megagroup.model.builder.LazyColumnListenerModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JMenuItem;
+import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.datamodel.CasosTableModel;
 import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.vistas.modulos.casos.BandejaCasos;
@@ -40,6 +41,7 @@ public class BandejaCasosController extends BandejaCasos<Caso> {
     public final void inicializar() {
         iniciarBandeja(false);
         botonVer = 3;
+        nuevo.setVisible(LoginController.getUsuario()!=null);
         buscar.addActionListener(new BuscarLstener());
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
         bandeja.setModel(new CasosTableModel());

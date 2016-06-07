@@ -21,8 +21,8 @@ import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.modulos.estadistica.JornadaAnimalDiarioPorMunicipioController;
 import ve.zoonosis.controller.modulos.jornadasvacunaciones.BandejaJornadaVacunacionController;
 import ve.zoonosis.controller.modulos.novdedades.BandejaNovedadesController;
+import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.components.AbstractInternalListener;
-import ve.zoonosis.vistas.Template;
 
 /**
  *
@@ -30,14 +30,12 @@ import ve.zoonosis.vistas.Template;
  */
 public class TemplateListeners {
 
-    private static Template TEMPLATE;
-
-    public static void inicializarTemplate(Template template) {
-        TemplateListeners.TEMPLATE = template;
-    }
-
     public static Bandeja getJornadaVacunacionBandeja() {
         return new Bandeja("Jornadas de Vacunación", BandejaJornadaVacunacionController.class);
+    }
+
+    public static CerrarSesion getCerrarSesion() {
+        return new CerrarSesion();
     }
 
     public static Bandeja getCasosBandeja() {
@@ -47,8 +45,8 @@ public class TemplateListeners {
     public static Bandeja getNovedadesBandeja() {
         return new Bandeja("Novedades", BandejaNovedadesController.class);
     }
-    
-    public static Bandeja getJornadaAnimalDiarioPorMunicipio(){
+
+    public static Bandeja getJornadaAnimalDiarioPorMunicipio() {
         return new Bandeja("Estadistica animal diaria por municipio", JornadaAnimalDiarioPorMunicipioController.class);
     }
 
@@ -58,7 +56,6 @@ public class TemplateListeners {
         private final Class clase;
 
         public Bandeja(String titulo, Class clase) {
-            super(TEMPLATE);
             this.titulo = titulo;
             this.clase = clase;
         }
@@ -66,9 +63,16 @@ public class TemplateListeners {
         @Override
         public void actionPerformed(ActionEvent e) {
             crearInternalFrame(titulo, clase);
-
         }
 
     }
 
+    public static class CerrarSesion implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            LoginController.cerrarSesion();
+        }
+
+    }
 }

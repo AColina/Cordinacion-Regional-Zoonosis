@@ -1,32 +1,38 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Copyright 2016 angel.colina.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
 package ve.zoonosis.vistas;
 
-import com.megagroup.Application;
 import javax.swing.JDesktopPane;
-import ve.zoonosis.model.listener.TemplateListeners;
 import ve.zoonosis.model.components.InternalFrame;
 
 /**
  *
  * @author angel.colina
  */
-public class Template extends javax.swing.JFrame {
+public class Template extends JDesktopPane {
 
     /**
      * Creates new form Template
      */
     public Template() {
         initComponents();
-        TemplateListeners.inicializarTemplate(Template.this);
-        addListeners();
     }
 
     public void addInternalFrame(InternalFrame internalFrame) {
-        fondo.add(internalFrame);
+        this.add(internalFrame);
     }
 
     /**
@@ -38,267 +44,19 @@ public class Template extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        fondo = new javax.swing.JDesktopPane();
-        javax.swing.JMenuBar menu = new javax.swing.JMenuBar();
-        javax.swing.JMenu jMenu1 = new javax.swing.JMenu();
-        casos = new javax.swing.JMenuItem();
-        jornadasVacunacion = new javax.swing.JMenuItem();
-        novedades = new javax.swing.JMenuItem();
-        javax.swing.JMenu jMenu2 = new javax.swing.JMenu();
-        javax.swing.JMenu jMenu4 = new javax.swing.JMenu();
-        casosAnimalDiarioPorMunicipio = new javax.swing.JMenuItem();
-        casosAnimalSemanalPorMunicipio = new javax.swing.JMenuItem();
-        casosAnimalMensualPorMunicipio = new javax.swing.JMenuItem();
-        javax.swing.JPopupMenu.Separator jSeparator3 = new javax.swing.JPopupMenu.Separator();
-        casosAnimalDiarioPorParroquia = new javax.swing.JMenuItem();
-        casosAnimalSemanalPorParroquia = new javax.swing.JMenuItem();
-        casosAnimalMensualPorParroquia = new javax.swing.JMenuItem();
-        javax.swing.JMenu jMenu13 = new javax.swing.JMenu();
-        casosEspecieDiarioPorMunicipio = new javax.swing.JMenuItem();
-        casosEspecieSemanalPorMunicipio = new javax.swing.JMenuItem();
-        casosEspecieMensualPorMunicipio = new javax.swing.JMenuItem();
-        javax.swing.JPopupMenu.Separator jSeparator8 = new javax.swing.JPopupMenu.Separator();
-        casosEspecieDiarioPorParroquia = new javax.swing.JMenuItem();
-        casosEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
-        casosEspecieMensualPorParroquia = new javax.swing.JMenuItem();
-        javax.swing.JPopupMenu.Separator jSeparator1 = new javax.swing.JPopupMenu.Separator();
-        javax.swing.JMenu jMenu7 = new javax.swing.JMenu();
-        vacunacionAnimalDiariaPorMunicipio = new javax.swing.JMenuItem();
-        vacunacionAnimalSemanalPorMunicipio = new javax.swing.JMenuItem();
-        vacunacionAnimalMensualPorMunicipio = new javax.swing.JMenuItem();
-        javax.swing.JPopupMenu.Separator jSeparator9 = new javax.swing.JPopupMenu.Separator();
-        vacunacionAnimalDiariaPorParroquia = new javax.swing.JMenuItem();
-        vacunacionAnimalSemanalPorParroquia = new javax.swing.JMenuItem();
-        vacunacionAnimalMensualPorParroquia = new javax.swing.JMenuItem();
-        javax.swing.JMenu jMenu11 = new javax.swing.JMenu();
-        vacunacionEspecieDiariaPorMunicipio = new javax.swing.JMenuItem();
-        vacunacionEspecieSemanalPorMunicipio = new javax.swing.JMenuItem();
-        vacunacionEspecieMensualPorMunicipio = new javax.swing.JMenuItem();
-        javax.swing.JPopupMenu.Separator jSeparator10 = new javax.swing.JPopupMenu.Separator();
-        vacunacionEspecieDiariaPorParroquia = new javax.swing.JMenuItem();
-        vacunacionEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
-        vacunacionEspecieMensualPorParroquia = new javax.swing.JMenuItem();
-        javax.swing.JMenu jMenu3 = new javax.swing.JMenu();
-        javax.swing.JMenu opciones = new javax.swing.JMenu();
-        importar = new javax.swing.JMenuItem();
-        exportar = new javax.swing.JMenuItem();
-        javax.swing.JPopupMenu.Separator jSeparator4 = new javax.swing.JPopupMenu.Separator();
-        acercaDe = new javax.swing.JMenuItem();
-        ayuda = new javax.swing.JMenuItem();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Zoonosis System");
-        setExtendedState(6);
-        setModalExclusionType(java.awt.Dialog.ModalExclusionType.APPLICATION_EXCLUDE);
-
-        javax.swing.GroupLayout fondoLayout = new javax.swing.GroupLayout(fondo);
-        fondo.setLayout(fondoLayout);
-        fondoLayout.setHorizontalGroup(
-            fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 800, Short.MAX_VALUE)
-        );
-        fondoLayout.setVerticalGroup(
-            fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 405, Short.MAX_VALUE)
-        );
-
-        jMenu1.setText("Control");
-
-        casos.setText("Casos");
-        jMenu1.add(casos);
-
-        jornadasVacunacion.setText("Jornadas de Vacunacion");
-        jMenu1.add(jornadasVacunacion);
-
-        novedades.setText("Novedades");
-        jMenu1.add(novedades);
-
-        menu.add(jMenu1);
-
-        jMenu2.setText("Estadistica");
-
-        jMenu4.setText("Casos por animales");
-
-        casosAnimalDiarioPorMunicipio.setText("Diario por Municipio");
-        jMenu4.add(casosAnimalDiarioPorMunicipio);
-
-        casosAnimalSemanalPorMunicipio.setText("Semanal por Municipio");
-        jMenu4.add(casosAnimalSemanalPorMunicipio);
-
-        casosAnimalMensualPorMunicipio.setText("Mensual por Municipio");
-        jMenu4.add(casosAnimalMensualPorMunicipio);
-        jMenu4.add(jSeparator3);
-
-        casosAnimalDiarioPorParroquia.setText("Diario por Parroquia");
-        jMenu4.add(casosAnimalDiarioPorParroquia);
-
-        casosAnimalSemanalPorParroquia.setText("Semanal por Parroquia");
-        jMenu4.add(casosAnimalSemanalPorParroquia);
-
-        casosAnimalMensualPorParroquia.setText("Mensual por Parroquia");
-        jMenu4.add(casosAnimalMensualPorParroquia);
-
-        jMenu2.add(jMenu4);
-
-        jMenu13.setText("Casos por especies");
-
-        casosEspecieDiarioPorMunicipio.setText("Diario por Municipio");
-        jMenu13.add(casosEspecieDiarioPorMunicipio);
-
-        casosEspecieSemanalPorMunicipio.setText("Semanal por Municipio");
-        jMenu13.add(casosEspecieSemanalPorMunicipio);
-
-        casosEspecieMensualPorMunicipio.setText("Mensual por Municipio");
-        jMenu13.add(casosEspecieMensualPorMunicipio);
-        jMenu13.add(jSeparator8);
-
-        casosEspecieDiarioPorParroquia.setText("Diario por Parroquia");
-        jMenu13.add(casosEspecieDiarioPorParroquia);
-
-        casosEspecieSemanalPorParroquia.setText("Semanal por Parroquia");
-        jMenu13.add(casosEspecieSemanalPorParroquia);
-
-        casosEspecieMensualPorParroquia.setText("Mensual por Parroquia");
-        jMenu13.add(casosEspecieMensualPorParroquia);
-
-        jMenu2.add(jMenu13);
-        jMenu2.add(jSeparator1);
-
-        jMenu7.setText("Jornada de Vacunación por animales");
-
-        vacunacionAnimalDiariaPorMunicipio.setText("Diario por Municipio");
-        jMenu7.add(vacunacionAnimalDiariaPorMunicipio);
-
-        vacunacionAnimalSemanalPorMunicipio.setText("Semanal por Municipio");
-        jMenu7.add(vacunacionAnimalSemanalPorMunicipio);
-
-        vacunacionAnimalMensualPorMunicipio.setText("Mensual por Municipio");
-        jMenu7.add(vacunacionAnimalMensualPorMunicipio);
-        jMenu7.add(jSeparator9);
-
-        vacunacionAnimalDiariaPorParroquia.setText("Diario por Parroquia");
-        jMenu7.add(vacunacionAnimalDiariaPorParroquia);
-
-        vacunacionAnimalSemanalPorParroquia.setText("Semanal por Parroquia");
-        jMenu7.add(vacunacionAnimalSemanalPorParroquia);
-
-        vacunacionAnimalMensualPorParroquia.setText("Mensual por Parroquia");
-        jMenu7.add(vacunacionAnimalMensualPorParroquia);
-
-        jMenu2.add(jMenu7);
-
-        jMenu11.setText("Jornada de Vacunación por especies");
-
-        vacunacionEspecieDiariaPorMunicipio.setText("Diario por Municipio");
-        jMenu11.add(vacunacionEspecieDiariaPorMunicipio);
-
-        vacunacionEspecieSemanalPorMunicipio.setText("Semanal por Municipio");
-        jMenu11.add(vacunacionEspecieSemanalPorMunicipio);
-
-        vacunacionEspecieMensualPorMunicipio.setText("Mensual por Municipio");
-        jMenu11.add(vacunacionEspecieMensualPorMunicipio);
-        jMenu11.add(jSeparator10);
-
-        vacunacionEspecieDiariaPorParroquia.setText("Diario por Parroquia");
-        jMenu11.add(vacunacionEspecieDiariaPorParroquia);
-
-        vacunacionEspecieSemanalPorParroquia.setText("Semanal por Parroquia");
-        jMenu11.add(vacunacionEspecieSemanalPorParroquia);
-
-        vacunacionEspecieMensualPorParroquia.setText("Mensual por Parroquia");
-        jMenu11.add(vacunacionEspecieMensualPorParroquia);
-
-        jMenu2.add(jMenu11);
-
-        menu.add(jMenu2);
-
-        jMenu3.setText("Informes");
-        menu.add(jMenu3);
-
-        opciones.setText("Opciones");
-
-        importar.setText("Importar Excel");
-        opciones.add(importar);
-
-        exportar.setText("Exportar a Excel");
-        opciones.add(exportar);
-        opciones.add(jSeparator4);
-
-        acercaDe.setText("Acerca de");
-        opciones.add(acercaDe);
-
-        ayuda.setText("Ayuda");
-        opciones.add(ayuda);
-
-        menu.add(opciones);
-
-        setJMenuBar(menu);
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(fondo)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(fondo)
+            .addGap(0, 300, Short.MAX_VALUE)
         );
-
-        pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void addListeners() {
-        jornadasVacunacion.addActionListener(TemplateListeners.getJornadaVacunacionBandeja());
-        casos.addActionListener(TemplateListeners.getCasosBandeja());
-        novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
-        vacunacionAnimalDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
-        
-    }
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        Application.run(Template.class, args);
-    }
-
-    public JDesktopPane getFondo() {
-        return fondo;
-    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem acercaDe;
-    private javax.swing.JMenuItem ayuda;
-    private javax.swing.JMenuItem casos;
-    private javax.swing.JMenuItem casosAnimalDiarioPorMunicipio;
-    private javax.swing.JMenuItem casosAnimalDiarioPorParroquia;
-    private javax.swing.JMenuItem casosAnimalMensualPorMunicipio;
-    private javax.swing.JMenuItem casosAnimalMensualPorParroquia;
-    private javax.swing.JMenuItem casosAnimalSemanalPorMunicipio;
-    private javax.swing.JMenuItem casosAnimalSemanalPorParroquia;
-    private javax.swing.JMenuItem casosEspecieDiarioPorMunicipio;
-    private javax.swing.JMenuItem casosEspecieDiarioPorParroquia;
-    private javax.swing.JMenuItem casosEspecieMensualPorMunicipio;
-    private javax.swing.JMenuItem casosEspecieMensualPorParroquia;
-    private javax.swing.JMenuItem casosEspecieSemanalPorMunicipio;
-    private javax.swing.JMenuItem casosEspecieSemanalPorParroquia;
-    private javax.swing.JMenuItem exportar;
-    private javax.swing.JDesktopPane fondo;
-    private javax.swing.JMenuItem importar;
-    private javax.swing.JMenuItem jornadasVacunacion;
-    private javax.swing.JMenuItem novedades;
-    private javax.swing.JMenuItem vacunacionAnimalDiariaPorMunicipio;
-    private javax.swing.JMenuItem vacunacionAnimalDiariaPorParroquia;
-    private javax.swing.JMenuItem vacunacionAnimalMensualPorMunicipio;
-    private javax.swing.JMenuItem vacunacionAnimalMensualPorParroquia;
-    private javax.swing.JMenuItem vacunacionAnimalSemanalPorMunicipio;
-    private javax.swing.JMenuItem vacunacionAnimalSemanalPorParroquia;
-    private javax.swing.JMenuItem vacunacionEspecieDiariaPorMunicipio;
-    private javax.swing.JMenuItem vacunacionEspecieDiariaPorParroquia;
-    private javax.swing.JMenuItem vacunacionEspecieMensualPorMunicipio;
-    private javax.swing.JMenuItem vacunacionEspecieMensualPorParroquia;
-    private javax.swing.JMenuItem vacunacionEspecieSemanalPorMunicipio;
-    private javax.swing.JMenuItem vacunacionEspecieSemanalPorParroquia;
     // End of variables declaration//GEN-END:variables
 }

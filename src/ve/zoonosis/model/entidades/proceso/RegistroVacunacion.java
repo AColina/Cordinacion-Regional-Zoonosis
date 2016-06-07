@@ -15,6 +15,9 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Usuario;
@@ -25,8 +28,10 @@ import ve.zoonosis.model.entidades.administracion.Usuario;
  */
 public class RegistroVacunacion extends Entidad {
 
+    @JsonBackReference("registro_Vacunacion")
     private Vacunacion vacunacion;
     private Usuario usuario;
+    @JsonManagedReference("RegistroVacunacion_has_Animal")
     private List<RegistroVacunacion_has_Animal> vacunacion_has_Animal;
 
     public RegistroVacunacion() {
@@ -49,6 +54,9 @@ public class RegistroVacunacion extends Entidad {
     }
 
     public List<RegistroVacunacion_has_Animal> getVacunacion_has_Animal() {
+        if (vacunacion_has_Animal == null) {
+            vacunacion_has_Animal = new ArrayList<>();
+        }
         return vacunacion_has_Animal;
     }
 

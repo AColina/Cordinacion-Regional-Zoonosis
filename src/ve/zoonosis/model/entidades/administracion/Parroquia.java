@@ -15,9 +15,10 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
 import java.util.List;
-import org.codehaus.jackson.annotate.JsonBackReference;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
@@ -31,8 +32,11 @@ public class Parroquia extends Entidad {
     private String nombre;
     @JsonBackReference("municipio-parroquia")
     private Municipio municipio;
+    @JsonIgnore
     private List<Cliente> clientes;
+    @JsonIgnore
     private List<Vacunacion> vacunaciones;
+    @JsonIgnore
     private List<Caso> casos;
 
     public Parroquia() {

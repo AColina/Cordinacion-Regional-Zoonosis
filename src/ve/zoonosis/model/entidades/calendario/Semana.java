@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.calendario;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
@@ -29,7 +30,9 @@ public class Semana extends Entidad {
 
     private String semana;
     private Integer year;
+    @JsonIgnore
     private List<Vacunacion> vacunaciones;
+    @JsonIgnore
     private List<Caso> casos;
 
     public Semana() {

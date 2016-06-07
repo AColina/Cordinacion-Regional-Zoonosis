@@ -5,6 +5,8 @@
  */
 package windows.webservices.utilidades;
 
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.RequestBody;
@@ -16,6 +18,7 @@ import java.net.ConnectException;
 import java.net.SocketTimeoutException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -28,8 +31,6 @@ import java.util.logging.Logger;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import org.apache.http.client.utils.URIBuilder;
-import org.codehaus.jackson.JsonParseException;
-import org.codehaus.jackson.map.ObjectMapper;
 
 /**
  * Clase de ultilidades para enviar request a webservices
@@ -59,6 +60,7 @@ public abstract class EjecutorJson {
         client.setReadTimeout(120, TimeUnit.SECONDS);
         mapper = new ObjectMapper();
         metodosDeEnvio = MetodosDeEnvio.GET;
+        mapper.setDateFormat(new SimpleDateFormat("dd-MM-yyyy"));
     }
 
     /**

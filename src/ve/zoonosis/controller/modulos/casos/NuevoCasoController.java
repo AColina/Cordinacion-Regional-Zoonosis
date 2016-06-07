@@ -101,10 +101,10 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-        BindObject<Caso> bindObject2 = new BindObject(caso);
+        BindObject bindObject2 = new BindObject(caso);
         Bindings.bind(animal, bindObject2.getBind("animal"), true);
         Bindings.bind(cantidadIngresado, bindObject2.getBind("cantidadIngresado"));
-        Bindings.bind(cantidadPositivo, bindObject2.getBind("cantidadPositivo"));
+        Bindings.bind(cantidadPositivos, bindObject2.getBind("cantidadPositivos"));
         autoCreateValidateForm(Caso.class, Animal_has_Caso.class);
         iniciarDialogo();
     }
@@ -133,20 +133,25 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
             v = new ValidateEntity(caso).validate(this);
         }
         dialog.revalidate();
-//        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
-//            dialog.pack();
-//        }
+        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
+            dialog.pack();
+        }
         return v;
     }
 
     @Override
     public void aceptar() {
         try {
+            entity.setSemana(Recursos.SEMANA_ACTUAL);
+            entity.getParroquia().setCasos(null);
+            entity.getSemana().setCasos(null);
             rb = new RequestBuilder("services/proceso/CasoWs/CrearCaso.php")
                     .setMetodo(MetodosDeEnvio.POST)
                     .crearJson(entity);
             entity = rb.ejecutarJson(Caso.class);
-            MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
+            if (entity != null) {
+                MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
+            }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }

@@ -22,7 +22,7 @@ import java.beans.PropertyVetoException;
 import java.util.logging.Level;
 import javax.swing.JComponent;
 import javax.swing.event.InternalFrameAdapter;
-import ve.zoonosis.vistas.Template;
+import ve.zoonosis.vistas.Index;
 
 /**
  *
@@ -32,16 +32,13 @@ public abstract class AbstractInternalListener {
 
     private static final Logger LOG = Logger.getLogger(AbstractInternalListener.class);
 
-    private final Template TEMPLATE;
-
-    public AbstractInternalListener(Template TEMPLATE) {
-        this.TEMPLATE = TEMPLATE;
+    public AbstractInternalListener() {
     }
 
     public InternalFrame crearInternalFrame(String titulo,
             Class<? extends JComponent> clase, Object... param) {
 
-        for (Component component : TEMPLATE.getFondo().getAllFrames()) {
+        for (Component component : Index.getTemplate().getAllFrames()) {
             if (component instanceof InternalFrame) {
                 if (component.getName().equalsIgnoreCase(titulo)) {
                     InternalFrame i = (InternalFrame) component;
@@ -67,7 +64,7 @@ public abstract class AbstractInternalListener {
         i.add(component);
         i.show();
         i.addInternalFrameListener(new InternalFrameEvent());
-        TEMPLATE.addInternalFrame(i);
+        Index.getTemplate().addInternalFrame(i);
         i.requestFocus();
         i.toFront();
         return i;
@@ -78,12 +75,12 @@ public abstract class AbstractInternalListener {
         @Override
         public void internalFrameClosing(javax.swing.event.InternalFrameEvent e) {
             if (e.getInternalFrame().isIcon()) {
-                TEMPLATE.getFondo().remove(e.getInternalFrame().getDesktopIcon());
+                Index.getTemplate().remove(e.getInternalFrame().getDesktopIcon());
             } else {
-                TEMPLATE.getFondo().remove(e.getInternalFrame());
+                Index.getTemplate().remove(e.getInternalFrame());
 
             }
-            TEMPLATE.repaint();
+            Index.getTemplate().repaint();
         }
 
     }

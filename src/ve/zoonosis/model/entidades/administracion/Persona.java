@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
@@ -35,7 +36,9 @@ public class Persona extends Entidad {
     @NotNull
     @Pattern(regexp = "")
     private String cedula;
+    @JsonIgnore
     private Cliente cliente;
+    @JsonIgnore
     private Usuario usuario;
 
     public Persona() {

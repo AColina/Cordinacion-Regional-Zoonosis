@@ -15,9 +15,9 @@
  */
 package ve.zoonosis.model.entidades.funcionales;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
-import org.codehaus.jackson.annotate.JsonManagedReference;
-import org.codehaus.jackson.annotate.JsonProperty;
 import ve.zoonosis.model.entidades.Entidad;
 
 /**

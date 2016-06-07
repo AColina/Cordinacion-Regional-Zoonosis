@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -30,10 +31,10 @@ import ve.zoonosis.model.entidades.calendario.Semana;
 public class Caso extends Entidad {
 
     private Date fechaElaboracion;
-    @NotNull
+    @NotNull(message = "Debe seleccionar una parroquia")
     private Parroquia parroquia;
     private Semana semana;
-
+    @JsonManagedReference("caso_has_animal")
     private List<Animal_has_Caso> animal_has_Caso;
 
     public Caso() {

@@ -1,0 +1,21 @@
+jun 05, 2016 10:17:25 PM ve.zoonosis.controller.seguridad.LoginController run
+ADVERTENCIA: null
+java.lang.ClassCastException: ve.zoonosis.vistas.Index cannot be cast to ve.zoonosis.vistas.Template
+	at windows.RequestBuilder.<init>(RequestBuilder.java:33)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:134)
+	at java.lang.Thread.run(Thread.java:745)
+
+jun 05, 2016 10:17:28 PM ve.zoonosis.controller.seguridad.LoginController run
+ADVERTENCIA: null
+java.lang.ClassCastException: ve.zoonosis.vistas.Index cannot be cast to ve.zoonosis.vistas.Template
+	at windows.RequestBuilder.<init>(RequestBuilder.java:33)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:134)
+	at java.lang.Thread.run(Thread.java:745)
+
+jun 05, 2016 10:32:11 PM ve.zoonosis.controller.seguridad.LoginController run
+ADVERTENCIA: null
+java.lang.ClassCastException: ve.zoonosis.vistas.Index cannot be cast to ve.zoonosis.vistas.Template
+	at windows.RequestBuilder.<init>(RequestBuilder.java:33)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:134)
+	at java.lang.Thread.run(Thread.java:745)
+

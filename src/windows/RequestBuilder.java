@@ -10,14 +10,13 @@ import com.megagroup.componentes.MGrowl;
 import com.megagroup.model.enums.MGrowlState;
 import com.megagroup.utilidades.Logger;
 import java.awt.Cursor;
-import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
-import ve.zoonosis.vistas.Template;
+import ve.zoonosis.vistas.Index;
 import windows.webservices.utilidades.EjecutorJson;
 import windows.webservices.utilidades.MetodosDeEnvio;
 
@@ -27,10 +26,10 @@ import windows.webservices.utilidades.MetodosDeEnvio;
  */
 public class RequestBuilder extends EjecutorJson {
 
-    private final Template TEMPLATE;
+    private final Index index;
 
     {
-        TEMPLATE = Application.getAPLICATION_FRAME();
+        index = Application.getAPLICATION_FRAME();
     }
     private final Logger LOG = Logger.getLogger(RequestBuilder.class);
 
@@ -159,7 +158,7 @@ public class RequestBuilder extends EjecutorJson {
      */
     @Override
     public void ejecutarJson() {
-        TEMPLATE.setCursor(Recursos.WAIT_CURSOR);
+        index.setCursor(Recursos.WAIT_CURSOR);
         try {
             super.ejecutarJson();
         } catch (Exception ex) {
@@ -167,7 +166,7 @@ public class RequestBuilder extends EjecutorJson {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
             throw new RuntimeException();
         } finally {
-            TEMPLATE.setCursor(Recursos.DEFAULT_CURSOR);
+            index.setCursor(Recursos.DEFAULT_CURSOR);
         }
 
     }
@@ -179,7 +178,7 @@ public class RequestBuilder extends EjecutorJson {
      */
     @Override
     public String ejecutarJsonToString() {
-        TEMPLATE.setCursor(Recursos.WAIT_CURSOR);
+        index.setCursor(Recursos.WAIT_CURSOR);
         try {
             return super.ejecutarJson(String.class);
         } catch (Exception ex) {
@@ -187,7 +186,7 @@ public class RequestBuilder extends EjecutorJson {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
             throw new RuntimeException();
         } finally {
-            TEMPLATE.setCursor(Recursos.DEFAULT_CURSOR);
+            index.setCursor(Recursos.DEFAULT_CURSOR);
         }
 
     }
@@ -201,7 +200,7 @@ public class RequestBuilder extends EjecutorJson {
      */
     @Override
     public <T> T ejecutarJson(Class<T> entidad) {
-        TEMPLATE.setCursor(Recursos.WAIT_CURSOR);
+        index.setCursor(Recursos.WAIT_CURSOR);
         try {
             return super.ejecutarJson(entidad);
         } catch (Exception ex) {
@@ -209,7 +208,7 @@ public class RequestBuilder extends EjecutorJson {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
             throw new RuntimeException();
         } finally {
-            TEMPLATE.setCursor(Recursos.DEFAULT_CURSOR);
+            index.setCursor(Recursos.DEFAULT_CURSOR);
         }
 
     }
@@ -223,21 +222,21 @@ public class RequestBuilder extends EjecutorJson {
      */
     @Override
     public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad) {
-        TEMPLATE.setCursor(Recursos.WAIT_CURSOR);
+        index.setCursor(Recursos.WAIT_CURSOR);
         try {
             return super.ejecutarJson(colleccion, entidad);
-        } catch (IOException ex) {
+        } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
             throw new RuntimeException();
         } finally {
-            TEMPLATE.setCursor(Recursos.DEFAULT_CURSOR);
+            index.setCursor(Recursos.DEFAULT_CURSOR);
         }
     }
 
     @Override
     public <K, V> Map<K, V> ejecutarJson(Class<? extends Map> mapClass, Class<K> classKey, Class<V> classValue) {
-        TEMPLATE.setCursor(Recursos.WAIT_CURSOR);
+        index.setCursor(Recursos.WAIT_CURSOR);
         try {
             return super.ejecutarJson(mapClass, classKey, classValue);
         } catch (Exception ex) {
@@ -245,7 +244,7 @@ public class RequestBuilder extends EjecutorJson {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
             throw new RuntimeException();
         } finally {
-            TEMPLATE.setCursor(Recursos.DEFAULT_CURSOR);
+            index.setCursor(Recursos.DEFAULT_CURSOR);
         }
 
     }
@@ -256,7 +255,7 @@ public class RequestBuilder extends EjecutorJson {
 
     private void alerta(String msj) {
         MGrowl.showGrowl(MGrowlState.ERROR, msj);
-        TEMPLATE.setCursor(Cursor.getDefaultCursor());
+        index.setCursor(Cursor.getDefaultCursor());
     }
 
 }
