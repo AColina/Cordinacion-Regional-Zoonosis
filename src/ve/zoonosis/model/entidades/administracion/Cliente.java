@@ -16,7 +16,6 @@
 package ve.zoonosis.model.entidades.administracion;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.constraints.NotNull;
@@ -32,7 +31,7 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
 public class Cliente extends Entidad {
 
     @NotNull(message = "Debe ingresar un correo electronico")
-    @Pattern(regexp = "", message = "Formato de correo no valido")
+    @Pattern(regexp = "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\\\.[A-Z]{2,6}$", message = "Formato de correo no valido")
     private String correo;
     private String telefono;
     @NotNull(message = "Debe ingresar la dirección")

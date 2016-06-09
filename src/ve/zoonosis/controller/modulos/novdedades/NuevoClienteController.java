@@ -34,13 +34,12 @@ import java.util.List;
 import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Persona;
-import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
-import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
@@ -161,11 +160,13 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         ComponentUtils.removeListener(nombre, BindingEvent.class);
         ComponentUtils.removeListener(apellido, BindingEvent.class);
 
-        cedula.setEnabled(persona == null);
-        nombre.setEnabled(persona == null);
-        apellido.setEnabled(persona == null);
+        cedula.setEnabled(persona != null);
+        nombre.setEnabled(persona != null);
+        apellido.setEnabled(persona != null);
 
         if (persona == null) {
+            JOptionPane.showMessageDialog(this, "La persona con la cedula especificada "
+                    + "no fue encontrada", "Información", JOptionPane.INFORMATION_MESSAGE);
             persona = new Persona();
             persona.setCedula(c);
         }

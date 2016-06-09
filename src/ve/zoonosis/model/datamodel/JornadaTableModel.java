@@ -127,4 +127,44 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
         return null;
     }
 
+    public Semana getSemana() {
+        return semana;
+    }
+
+    public void setSemana(Semana semana) {
+        this.semana = semana;
+    }
+
+    public Parroquia getParroquia() {
+        return parroquia;
+    }
+
+    public void setParroquia(Parroquia parroquia) {
+        this.parroquia = parroquia;
+    }
+
+    public Municipio getMunicipio() {
+        return municipio;
+    }
+
+    public void setMunicipio(Municipio municipio) {
+        this.municipio = municipio;
+    }
+
+    public Date getDesde() {
+        return desde;
+    }
+
+    public void setDesde(Date desde) {
+        this.desde = desde;
+    }
+
+    public Date getHasta() {
+        return hasta;
+    }
+
+    public void setHasta(Date hasta) {
+        this.hasta = hasta;
+    }
+
 }
