@@ -7,6 +7,7 @@ package windows.webservices.utilidades;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.RequestBody;
@@ -31,6 +32,34 @@ import java.util.logging.Logger;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import org.apache.http.client.utils.URIBuilder;
+import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
+import ve.zoonosis.model.entidades.administracion.Permiso;
+import ve.zoonosis.model.entidades.administracion.Persona;
+import ve.zoonosis.model.entidades.administracion.Usuario;
+import ve.zoonosis.model.entidades.calendario.Semana;
+import ve.zoonosis.model.entidades.funcionales.Animal;
+import ve.zoonosis.model.entidades.funcionales.Especie;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
+import ve.zoonosis.model.entidades.proceso.Caso;
+import ve.zoonosis.model.entidades.proceso.Novedades;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import windows.webservices.JsonDeserializer.funcionales.AnimalDeserializer;
+import windows.webservices.JsonDeserializer.proceso.CasoDeserializer;
+import windows.webservices.JsonDeserializer.funcionales.EspecieDeserializer;
+import windows.webservices.JsonDeserializer.administracion.MunicipioDeserializer;
+import windows.webservices.JsonDeserializer.administracion.ParroquiaDeserializer;
+import windows.webservices.JsonDeserializer.administracion.PermisoDeserializer;
+import windows.webservices.JsonDeserializer.administracion.PersonaDeserializer;
+import windows.webservices.JsonDeserializer.calendario.SemanaDeserializer;
+import windows.webservices.JsonDeserializer.administracion.UsuarioDeserializer;
+import windows.webservices.JsonDeserializer.proceso.Animal_has_CasoDeserializer;
+import windows.webservices.JsonDeserializer.proceso.NovedadesDeserializer;
+import windows.webservices.JsonDeserializer.proceso.RegistroVacunacionDeserializer;
+import windows.webservices.JsonDeserializer.proceso.RegistroVacunacion_has_AnimalDeserializer;
+import windows.webservices.JsonDeserializer.proceso.VacunacionDeserializer;
 
 /**
  * Clase de ultilidades para enviar request a webservices
@@ -39,6 +68,7 @@ import org.apache.http.client.utils.URIBuilder;
  */
 public abstract class EjecutorJson {
 
+    private final SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
     private static final String EXCEPTION_REPORT = "Exception report";
     private static final String ERROR_REPORT = "Error report";
     private static final String INFORME_ERROR = "Informe de Error";
@@ -60,7 +90,7 @@ public abstract class EjecutorJson {
         client.setReadTimeout(120, TimeUnit.SECONDS);
         mapper = new ObjectMapper();
         metodosDeEnvio = MetodosDeEnvio.GET;
-        mapper.setDateFormat(new SimpleDateFormat("dd-MM-yyyy"));
+
     }
 
     /**
@@ -212,7 +242,7 @@ public abstract class EjecutorJson {
      * leer el json de respuesta.
      */
     public String ejecutarJsonToString() throws IOException {
-        return ejecutarJson(String.class);
+        return ejecutarJson(String.class, null);
     }
 
     /**
@@ -220,11 +250,12 @@ public abstract class EjecutorJson {
      *
      * @param <T> Clase Generica
      * @param entidad
+     * @param modulus modeulos a desderializar
      * @return
      * @throws java.io.IOException
      */
-    public <T> T ejecutarJson(Class<T> entidad) throws IOException {
-        return ejecutarJsonGeneral(prepararRequest(), null, null, null, entidad);
+    public <T> T ejecutarJson(Class<T> entidad, SimpleModule[] modulus) throws IOException {
+        return ejecutarJsonGeneral(prepararRequest(), null, null, null, entidad, modulus);
     }
 
     /**
@@ -232,11 +263,12 @@ public abstract class EjecutorJson {
      * @param <T> Clase Generica
      * @param colleccion
      * @param entidad
+     * @param modulus
      * @return
      * @throws java.io.IOException
      */
-    public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad) throws IOException {
-        return (List<T>) ejecutarJsonGeneral(prepararRequest(), colleccion, null, null, entidad);
+    public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad, SimpleModule[] modulus) throws IOException {
+        return (List<T>) ejecutarJsonGeneral(prepararRequest(), colleccion, null, null, entidad, modulus);
     }
 
     /**
@@ -246,16 +278,40 @@ public abstract class EjecutorJson {
      * @param mapClass
      * @param classKey
      * @param classValue
+     * @param modulus
      * @return
      * @throws IOException
      */
-    public <K, V> Map<K, V> ejecutarJson(Class<? extends Map> mapClass, Class<K> classKey, Class<V> classValue) throws IOException {
-        return (Map<K, V>) ejecutarJsonGeneral(prepararRequest(), null, mapClass, classKey, classValue);
+    public <K, V> Map<K, V> ejecutarJson(Class<? extends Map> mapClass, Class<K> classKey, Class<V> classValue, SimpleModule[] modulus) throws IOException {
+        return (Map<K, V>) ejecutarJsonGeneral(prepararRequest(), null, mapClass, classKey, classValue, modulus);
     }
 
     //METODOS PRIVADOS
     private <T> T ejecutarJsonGeneral(Request request, Class<? extends List> colleccion,
-            Class<? extends Map> map, Class<?> key, Class<T> mappe) throws IOException {
+            Class<? extends Map> map, Class<?> key, Class<T> mappe, SimpleModule[] modules) throws IOException {
+        mapper = new ObjectMapper();
+        SimpleModule modul = new SimpleModule("entidades")
+                   .addDeserializer(Parroquia.class, new ParroquiaDeserializer())
+                    .addDeserializer(Semana.class, new SemanaDeserializer())
+                    .addDeserializer(Animal.class, new AnimalDeserializer())
+                    .addDeserializer(Semana.class, new SemanaDeserializer())
+                    .addDeserializer(Especie.class, new EspecieDeserializer())
+                    .addDeserializer(Persona.class, new PersonaDeserializer())
+                    .addDeserializer(Permiso.class, new PermisoDeserializer())
+                    .addDeserializer(Usuario.class, new UsuarioDeserializer())
+                    .addDeserializer(Municipio.class, new MunicipioDeserializer())
+                    .addDeserializer(Animal_has_Caso.class, new Animal_has_CasoDeserializer())
+                    .addDeserializer(Caso.class, new CasoDeserializer())
+                    .addDeserializer(Novedades.class, new NovedadesDeserializer())
+                    .addDeserializer(RegistroVacunacion.class, new RegistroVacunacionDeserializer())
+                    .addDeserializer(RegistroVacunacion_has_Animal.class, new RegistroVacunacion_has_AnimalDeserializer())
+                    .addDeserializer(Vacunacion.class, new VacunacionDeserializer());
+        mapper.registerModule(modul);
+        if (modules != null) {
+            for (SimpleModule module : modules) {
+                mapper.registerModule(module);
+            }
+        }
 
         try {
             System.out.println("enlace : " + request.urlString()

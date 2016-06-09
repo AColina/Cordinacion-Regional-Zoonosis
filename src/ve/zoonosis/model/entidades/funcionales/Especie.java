@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.funcionales;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
@@ -24,6 +25,7 @@ import ve.zoonosis.model.entidades.Entidad;
  *
  * @author clases
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Especie extends Entidad {
 
     private String nombre;

@@ -2068,3 +2068,15 @@ jun 07, 2016 9:44:45 AM windows.ValidateEntity validateNotNull
 INFORMACIÓN: El atributo cantidad no debe ser nulo
 jun 07, 2016 2:21:36 PM ve.zoonosis.controller.seguridad.LoginController run
 INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 2:27:07 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 2:27:25 PM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : cerro sesion
+jun 07, 2016 2:36:07 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 2:47:07 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 2:52:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 07, 2016 2:53:30 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion

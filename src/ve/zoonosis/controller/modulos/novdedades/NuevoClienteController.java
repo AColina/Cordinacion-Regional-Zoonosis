@@ -39,6 +39,8 @@ import javax.swing.WindowConstants;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Persona;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
+import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
@@ -52,21 +54,25 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
 
     private static final Logger LOG = Logger.getLogger(NuevoClienteController.class);
     private RequestBuilder rb;
-    private final Cliente cliente;
+
     private final CrearNovedadController novedadController;
     private Persona persona;
     private MDialog dialog;
 
     public NuevoClienteController(CrearNovedadController novedadController) {
         this.novedadController = novedadController;
-        cliente = new Cliente();
+
         inicializar();
     }
 
     @Override
     public final void inicializar() {
-        aceptar.setEnabled(false);
+
+        if (entity == null) {
+            entity = new Cliente();
+        }
         persona = new Persona();
+        aceptar.setEnabled(false);
         iniForm();
         buscar.addActionListener(new ActionListener() {
 
@@ -98,9 +104,8 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                 }
             }
         });
-        autoCreateValidateForm(Persona.class, Cliente.class);
 
-        BindObject bindObject2 = new BindObject(cliente);
+        BindObject bindObject2 = new BindObject(entity);
         Bindings.bind(correo, bindObject2.getBind("correo"));
         Bindings.bind(direccion, bindObject2.getBind("direccion"));
         Bindings.bind(telefono, bindObject2.getBind("telefono"));
@@ -117,6 +122,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
         Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
+        autoCreateValidateForm(Persona.class, Cliente.class);
         iniciarDialogo();
     }
 
@@ -167,26 +173,29 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         Bindings.bind(nombre, bindObject.getBind("nombre"));
         Bindings.bind(apellido, bindObject.getBind("apellido"));
         Bindings.bind(cedula, bindObject.getBind("cedula"));
-        cliente.setPersona(persona);
+        entity.setPersona(persona);
 
     }
 
     @Override
     public boolean validar() {
-        boolean valid;
-        ValidateEntity validateEntity = new ValidateEntity(persona);
-        valid = validateEntity.validate();
-        if (!valid) {
-            return valid;
+        boolean v = new ValidateEntity(persona).validate(this);
+
+        if (v) {
+            v = new ValidateEntity(entity).validate(this);
         }
-        return new ValidateEntity(cliente).validate();
+        dialog.revalidate();
+        if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
+            dialog.pack();
+        }
+        return v;
 
     }
 
     @Override
     public void aceptar() {
         DefaultComboBoxModel model = (DefaultComboBoxModel) novedadController.getCliente().getModel();
-        model.addElement(cliente);
+        model.addElement(entity);
         novedadController.getCliente().setSelectedIndex(-1);
         cancelar();
 

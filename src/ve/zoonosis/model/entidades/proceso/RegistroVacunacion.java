@@ -16,7 +16,9 @@
 package ve.zoonosis.model.entidades.proceso;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
@@ -26,12 +28,14 @@ import ve.zoonosis.model.entidades.administracion.Usuario;
  *
  * @author angel.colina
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class RegistroVacunacion extends Entidad {
 
     @JsonBackReference("registro_Vacunacion")
     private Vacunacion vacunacion;
     private Usuario usuario;
     @JsonManagedReference("RegistroVacunacion_has_Animal")
+    @JsonProperty("registroVacunacion_has_Animal")
     private List<RegistroVacunacion_has_Animal> vacunacion_has_Animal;
 
     public RegistroVacunacion() {

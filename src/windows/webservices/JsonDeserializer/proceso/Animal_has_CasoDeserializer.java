@@ -13,42 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.model.pojos;
+package windows.webservices.JsonDeserializer.proceso;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
+import windows.webservices.JsonDeserializer.Deserializer;
 
 /**
  *
  * @author angel.colina
  */
-@JsonIgnoreProperties(ignoreUnknown=true)
-public class CrearSemanasPojo {
+public class Animal_has_CasoDeserializer extends Deserializer<Animal_has_Caso> {
 
-    int year;
-    int semanas;
-
-    public CrearSemanasPojo() {
-    }
-
-    public CrearSemanasPojo(int year, int semanas) {
-        this.year = year;
-        this.semanas = semanas;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
-    public int getSemanas() {
-        return semanas;
-    }
-
-    public void setSemanas(int semanas) {
-        this.semanas = semanas;
+    public Animal_has_CasoDeserializer() {
+        super(Animal_has_Caso.class);
     }
 
 }

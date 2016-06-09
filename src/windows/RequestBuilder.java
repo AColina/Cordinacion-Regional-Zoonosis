@@ -5,6 +5,7 @@
  */
 package windows;
 
+import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.megagroup.Application;
 import com.megagroup.componentes.MGrowl;
 import com.megagroup.model.enums.MGrowlState;
@@ -103,7 +104,6 @@ public class RequestBuilder extends EjecutorJson {
      */
     public RequestBuilder(String path) throws URISyntaxException {
         super(path);
-
     }
 
     /**
@@ -180,7 +180,7 @@ public class RequestBuilder extends EjecutorJson {
     public String ejecutarJsonToString() {
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(String.class);
+            return super.ejecutarJsonToString();
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
@@ -199,10 +199,10 @@ public class RequestBuilder extends EjecutorJson {
      * @return
      */
     @Override
-    public <T> T ejecutarJson(Class<T> entidad) {
+    public <T> T ejecutarJson(Class<T> entidad, SimpleModule... modulus) {
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(entidad);
+            return super.ejecutarJson(entidad, modulus);
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
@@ -221,10 +221,12 @@ public class RequestBuilder extends EjecutorJson {
      * @return
      */
     @Override
-    public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad) {
+    public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad,
+            SimpleModule... modulus) {
+
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(colleccion, entidad);
+            return super.ejecutarJson(colleccion, entidad, modulus);
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
@@ -232,13 +234,16 @@ public class RequestBuilder extends EjecutorJson {
         } finally {
             index.setCursor(Recursos.DEFAULT_CURSOR);
         }
+
     }
 
     @Override
-    public <K, V> Map<K, V> ejecutarJson(Class<? extends Map> mapClass, Class<K> classKey, Class<V> classValue) {
+    public <K, V> Map<K, V> ejecutarJson(Class<? extends Map> mapClass,
+            Class<K> classKey, Class<V> classValue, SimpleModule... modulus) {
+
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(mapClass, classKey, classValue);
+            return super.ejecutarJson(mapClass, classKey, classValue, modulus);
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
@@ -246,7 +251,6 @@ public class RequestBuilder extends EjecutorJson {
         } finally {
             index.setCursor(Recursos.DEFAULT_CURSOR);
         }
-
     }
 
     private void alerta(Exception exception) {

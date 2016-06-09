@@ -16,6 +16,7 @@
 package ve.zoonosis.model.entidades.proceso;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -26,6 +27,7 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
  *
  * @author clases
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class RegistroVacunacion_has_Animal implements EntidadGlobal {
 
     @JsonBackReference("RegistroVacunacion_has_Animal")

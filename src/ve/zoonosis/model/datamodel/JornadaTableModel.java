@@ -25,7 +25,6 @@ import java.util.logging.Level;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
-import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
 import ve.zoonosis.model.pojos.BusquedasVacunacionPojo;
 import windows.RequestBuilder;
@@ -66,7 +65,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
     public String columnValue(int columnIndex) {
         switch (columnIndex) {
             case 0:
-                return "{semana.semana}";
+                return "{semana.nombre}";
             case 1:
                 return "{fechaElaboracion}";
             case 2:

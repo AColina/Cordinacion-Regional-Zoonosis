@@ -1,0 +1,374 @@
+jun 08, 2016 9:54:31 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 08, 2016 10:03:24 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 08, 2016 10:08:36 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 08, 2016 4:02:00 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 08, 2016 4:16:16 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 08, 2016 4:19:35 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : acolina inicia sesion
+jun 08, 2016 4:41:57 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 4:48:19 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 4:48:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 08, 2016 4:48:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 08, 2016 4:48:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 08, 2016 4:48:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 08, 2016 4:48:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 08, 2016 4:48:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 08, 2016 4:48:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 4:48:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 4:48:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 4:48:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 4:50:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 4:55:22 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 4:58:11 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 4:59:21 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:01:05 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:13:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:14:50 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:16:51 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:20:19 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:24:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:25:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 08, 2016 5:25:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 08, 2016 5:25:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 08, 2016 5:25:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 08, 2016 5:25:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 08, 2016 5:25:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 08, 2016 5:25:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 08, 2016 5:25:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 08, 2016 5:25:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:35 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:38 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:38 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:38 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:38 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:38 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:38 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 08, 2016 5:25:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:44 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:45 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:45 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:45 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:45 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:45 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:45 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:51 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:51 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:51 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:51 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:51 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:51 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:52 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:55 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:25:55 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 08, 2016 5:28:47 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:28:53 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.IllegalArgumentException: Can not handle managed/back reference 'municipio-parroquia': no back reference property found from type [collection type; class java.util.List, contains [simple type, class ve.zoonosis.model.entidades.administracion.Parroquia]]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase._resolveManagedReferenceProperty(BeanDeserializerBase.java:686)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:455)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:428)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.findDeserializer(StdDeserializer.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:439)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:428)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.findDeserializer(StdDeserializer.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:439)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:428)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.createContextual(CollectionDeserializer.java:164)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.createContextual(CollectionDeserializer.java:25)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleSecondaryContextualization(DeserializationContext.java:669)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:430)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.findDeserializer(StdDeserializer.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:439)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findRootValueDeserializer(DeserializationContext.java:461)
+	at com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer(ObjectMapper.java:3838)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3732)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2726)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:275)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:227)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:205)
+	at ve.zoonosis.model.datamodel.CasosTableModel.crearSubLista(CasosTableModel.java:102)
+	at com.megagroup.model.builder.AbstractLazyDataModel.crearSubLista(AbstractLazyDataModel.java:43)
+	at com.megagroup.model.builder.AbstractLazyDataModel.setPaginacion(AbstractLazyDataModel.java:65)
+	at com.megagroup.componentes.LoadModel.load(LoadModel.java:30)
+	at com.megagroup.componentes.LoadModel.run(LoadModel.java:52)
+
+jun 08, 2016 5:28:53 PM ve.zoonosis.model.datamodel.CasosTableModel crearSubLista
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:209)
+	at ve.zoonosis.model.datamodel.CasosTableModel.crearSubLista(CasosTableModel.java:102)
+	at com.megagroup.model.builder.AbstractLazyDataModel.crearSubLista(AbstractLazyDataModel.java:43)
+	at com.megagroup.model.builder.AbstractLazyDataModel.setPaginacion(AbstractLazyDataModel.java:65)
+	at com.megagroup.componentes.LoadModel.load(LoadModel.java:30)
+	at com.megagroup.componentes.LoadModel.run(LoadModel.java:52)
+
+jun 08, 2016 5:29:45 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:35:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:35:59 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.IllegalArgumentException: Can not handle managed/back reference 'municipio-parroquia': no back reference property found from type [collection type; class java.util.List, contains [simple type, class ve.zoonosis.model.entidades.administracion.Parroquia]]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase._resolveManagedReferenceProperty(BeanDeserializerBase.java:686)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:455)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:428)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.findDeserializer(StdDeserializer.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:439)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:428)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.findDeserializer(StdDeserializer.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:439)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:428)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.createContextual(CollectionDeserializer.java:164)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.createContextual(CollectionDeserializer.java:25)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleSecondaryContextualization(DeserializationContext.java:669)
+	at com.fasterxml.jackson.databind.DeserializationContext.findContextualValueDeserializer(DeserializationContext.java:430)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.findDeserializer(StdDeserializer.java:947)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.resolve(BeanDeserializerBase.java:439)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCache2(DeserializerCache.java:296)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache._createAndCacheValueDeserializer(DeserializerCache.java:244)
+	at com.fasterxml.jackson.databind.deser.DeserializerCache.findValueDeserializer(DeserializerCache.java:142)
+	at com.fasterxml.jackson.databind.DeserializationContext.findRootValueDeserializer(DeserializationContext.java:461)
+	at com.fasterxml.jackson.databind.ObjectMapper._findRootDeserializer(ObjectMapper.java:3838)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:3732)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2726)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:277)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:229)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:205)
+	at ve.zoonosis.model.datamodel.CasosTableModel.crearSubLista(CasosTableModel.java:102)
+	at com.megagroup.model.builder.AbstractLazyDataModel.crearSubLista(AbstractLazyDataModel.java:43)
+	at com.megagroup.model.builder.AbstractLazyDataModel.setPaginacion(AbstractLazyDataModel.java:65)
+	at com.megagroup.componentes.LoadModel.load(LoadModel.java:30)
+	at com.megagroup.componentes.LoadModel.run(LoadModel.java:52)
+
+jun 08, 2016 5:35:59 PM ve.zoonosis.model.datamodel.CasosTableModel crearSubLista
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:209)
+	at ve.zoonosis.model.datamodel.CasosTableModel.crearSubLista(CasosTableModel.java:102)
+	at com.megagroup.model.builder.AbstractLazyDataModel.crearSubLista(AbstractLazyDataModel.java:43)
+	at com.megagroup.model.builder.AbstractLazyDataModel.setPaginacion(AbstractLazyDataModel.java:65)
+	at com.megagroup.componentes.LoadModel.load(LoadModel.java:30)
+	at com.megagroup.componentes.LoadModel.run(LoadModel.java:52)
+
+jun 08, 2016 5:37:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 08, 2016 5:39:20 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 3:42:57 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado

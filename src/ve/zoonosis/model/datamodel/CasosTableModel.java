@@ -59,6 +59,8 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
                 return "{parroquia.nombre}";
             case 2:
                 return "{parroquia.municipio.nombre}";
+            case 3:
+                return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
         }
@@ -98,8 +100,7 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
             builder = new RequestBuilder("services/proceso/CasoWs/BandejaCasos.php", map);
             final BusquedasCasosPojo pojo = builder.ejecutarJson(BusquedasCasosPojo.class);
             if (pojo != null) {
-//                setResultados(pojo.getResultados());
-//                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+
                 return new IRegistrar() {
 
                     @Override

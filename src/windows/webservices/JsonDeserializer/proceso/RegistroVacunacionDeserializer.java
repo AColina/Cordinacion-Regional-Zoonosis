@@ -13,40 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.model.pojos;
+package windows.webservices.JsonDeserializer.proceso;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import java.util.List;
+import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
-import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import windows.webservices.JsonDeserializer.Deserializer;
 
 /**
  *
  * @author angel.colina
  */
-@JsonIgnoreProperties(ignoreUnknown=true)
-public class BusquedasVacunacionPojo {
+public class RegistroVacunacionDeserializer extends Deserializer<RegistroVacunacion> {
 
-    private Long cantidad;
-    private List<Vacunacion> resultados;
-
-    public BusquedasVacunacionPojo() {
-    }
-
-    public Long getCantidad() {
-        return cantidad;
-    }
-
-    public void setCantidad(Long cantidad) {
-        this.cantidad = cantidad;
-    }
-
-    public List<Vacunacion> getResultados() {
-        return resultados;
-    }
-
-    public void setResultados(List<Vacunacion> resultados) {
-        this.resultados = resultados;
+    public RegistroVacunacionDeserializer() {
+        super(RegistroVacunacion.class);
     }
 
 }

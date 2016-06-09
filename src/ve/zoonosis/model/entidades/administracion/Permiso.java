@@ -16,6 +16,7 @@
 package ve.zoonosis.model.entidades.administracion;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
@@ -24,6 +25,7 @@ import ve.zoonosis.model.entidades.Entidad;
  *
  * @author angel.colina
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Permiso extends Entidad {
 
     private String nombre;

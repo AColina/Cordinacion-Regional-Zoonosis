@@ -43,8 +43,8 @@ public class ScanWeek extends Thread {
                         }
 
                     }).ejecutarJson(List.class, Semana.class);
-            
-            Recursos.SEMANA_ACTUAL  = new RequestBuilder("services/calendario/WeekForYearNumber.php",
+
+            Recursos.SEMANA_ACTUAL = new RequestBuilder("services/calendario/WeekForYearNumber.php",
                     new HashMap<String, Object>() {
                         {
                             put("year", new DateTime().getYear());
@@ -52,14 +52,23 @@ public class ScanWeek extends Thread {
                         }
 
                     }).ejecutarJson(Semana.class);
-          
+
             if (s != null && !s.isEmpty()) {
                 return;
             }
-            
-            new RequestBuilder("services/calendario/createWeeks")
+
+            new RequestBuilder("services/calendario/createWeeks.php")
                     .crearJson(new CrearSemanasPojo(new DateTime().getYear(), Recursos.generateWeeks()))
                     .setMetodo(MetodosDeEnvio.POST).ejecutarJson();
+
+            Recursos.SEMANA_ACTUAL = new RequestBuilder("services/calendario/WeekForYearNumber.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("year", new DateTime().getYear());
+                            put("number", Recursos.getActualweek());
+                        }
+
+                    }).ejecutarJson(Semana.class);
 
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);

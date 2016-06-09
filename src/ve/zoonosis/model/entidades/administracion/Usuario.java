@@ -31,19 +31,16 @@ import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
  */
 public class Usuario extends Entidad {
 
-    @NotNull
+    @NotNull(message = "Debe ingresar el nombre")
     private String nombre;
-    @NotNull
+    @NotNull(message = "Debe ingresar la contraseña")
     @Pattern(regexp = "")
     private String contrasena;
-    @NotNull
+    @NotNull(message = "Debe ingresar la fecha de nacimiento")
     private Date fechaNacimiento;
-
-    @NotNull
     private Persona persona;
     @JsonIgnore
     private List<Novedades> novedades;
-    @NotNull
     private Permiso permiso;
     @JsonIgnore
     private List<RegistroVacunacion> registroVacunacion;

@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.List;
 import ve.zoonosis.model.entidades.proceso.Caso;
 
@@ -22,6 +23,7 @@ import ve.zoonosis.model.entidades.proceso.Caso;
  *
  * @author angel.colina
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class BusquedasCasosPojo {
 
     private Long cantidad;
