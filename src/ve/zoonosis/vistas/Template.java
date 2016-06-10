@@ -253,7 +253,22 @@ public class Template extends javax.swing.JFrame {
         casos.addActionListener(TemplateListeners.getCasosBandeja());
         novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
         vacunacionAnimalDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
-        
+        vacunacionAnimalSemanalPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalSemanalPorMunicipio());
+        vacunacionAnimalMensualPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalMensualPorMunicipio());
+        vacunacionAnimalDiariaPorParroquia.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorParroquia());
+        vacunacionEspecieDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaEspecieDiarioPorMunicipio());
+        vacunacionEspecieDiariaPorParroquia.addActionListener(TemplateListeners.getJornadaEspecieDiarioPorParroquia());
+        casosAnimalDiarioPorMunicipio.addActionListener(TemplateListeners.getCasoAnimalDiarioPorMunicipio());
+        casosAnimalDiarioPorParroquia.addActionListener(TemplateListeners.getCasoAnimalDiarioPorParroquia());
+        casosEspecieDiarioPorMunicipio.addActionListener(TemplateListeners.getCasoEspecieDiarioPorMunicipio());
+        casosEspecieDiarioPorParroquia.addActionListener(TemplateListeners.getCasoEspecieDiarioPorParroquia());
+        vacunacionAnimalMensualPorParroquia.addActionListener(TemplateListeners.getJornadaAnimalMensualPorParroquia());
+        casosAnimalMensualPorMunicipio.addActionListener(TemplateListeners.getCasoAnimalMensualPorMunicipio());
+        casosAnimalMensualPorParroquia.addActionListener(TemplateListeners.getCasoAnimalMensualPorParroquia());
+        vacunacionEspecieMensualPorMunicipio.addActionListener(TemplateListeners.getJornadaEspecieMensualPorMunicipio());
+        vacunacionEspecieMensualPorParroquia.addActionListener(TemplateListeners.getJornadaEspecieMensualPorParroquia());
+        casosEspecieMensualPorMunicipio.addActionListener(TemplateListeners.getCasoEspecieMensualPorMunicipio());
+        casosEspecieMensualPorParroquia.addActionListener(TemplateListeners.getCasoEspecieMensualPorParroquia());
     }
 
     /**
