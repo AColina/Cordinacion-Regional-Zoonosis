@@ -20,6 +20,7 @@ import com.megagroup.utilidades.Logger;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.logging.Level;
@@ -30,6 +31,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
+import org.apache.commons.lang3.StringUtils;
 import ve.zoonosis.model.bean.AbstractForm;
 import ve.zoonosis.model.entidades.EntidadGlobal;
 
@@ -47,7 +49,7 @@ public class ValidateEntity {
         this.entidad = Objects.requireNonNull(entidad, "La entidad no puede ser nula");
     }
 
-    public boolean validate(AbstractForm form) {
+    public boolean validate(AbstractForm form, String... excludeField) {
         List<JLabel> lista = new ArrayList<>();
         Field[] fields = ReflectionUtils.getAllFields(form.getClass());
         for (Field field : fields) {
@@ -58,13 +60,13 @@ public class ValidateEntity {
                 lista.add(l);
             }
         }
-        ValidationContex fieldError = validateGeneral();
+        ValidationContex fieldError = validateGeneral(excludeField);
         if (fieldError == null) {
             return true;
         }
         for (JLabel label : lista) {
             if (label.getLabelFor().getName().equalsIgnoreCase(fieldError.field().getName())) {
-                label.setText("<html><p>"+fieldError.message()+"</p></html>");
+                label.setText("<html><p>" + fieldError.message() + "</p></html>");
                 label.setVisible(true);
             }
         }
@@ -76,7 +78,7 @@ public class ValidateEntity {
      * @return
      */
     public boolean validate() {
-        return validateGeneral() == null;
+        return validateGeneral(new String[0]) == null;
     }
 
     public ValidationContex validateNotNull(Field field) {
@@ -159,6 +161,9 @@ public class ValidateEntity {
         Pattern pattern = field.getAnnotation(Pattern.class);
         if (pattern != null) {
             String v = ReflectionUtils.runGetter(field, entidad);
+            if (StringUtils.isEmpty(pattern.regexp())) {
+                return null;
+            }
             Matcher m = java.util.regex.Pattern.compile(pattern.regexp()).matcher(v);
 
             if (!m.find()) {
@@ -176,10 +181,20 @@ public class ValidateEntity {
 
     }
 
-    private ValidationContex validateGeneral() {
+    private ValidationContex validateGeneral(String[] excludeField) {
         ValidationContex contex;
         Field[] fields = ReflectionUtils.getAllFields(entidad.getClass());
         for (Field field : fields) {
+            boolean b = false;
+            for (String exField : excludeField) {
+                if (exField.equalsIgnoreCase(field.getName())) {
+                    b = true;
+                    break;
+                }
+            }
+            if (b) {
+                continue;
+            }
             Annotation[] annotation = field.getAnnotations();
             if (annotation.length == 0) {
                 continue;
@@ -197,6 +212,10 @@ public class ValidateEntity {
                 return contex;
             }
             contex = validateMax(field);
+            if (contex != null) {
+                return contex;
+            }
+            contex = validatePattern(field);
             if (contex != null) {
                 return contex;
             }

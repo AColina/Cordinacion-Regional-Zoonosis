@@ -21,6 +21,7 @@ import com.megagroup.binding.model.BindingEvent;
 import com.megagroup.componentes.MDialog;
 import com.megagroup.utilidades.ComponentUtils;
 import com.megagroup.utilidades.Logger;
+import java.awt.Component;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -34,11 +35,15 @@ import java.util.List;
 import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
+import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
+import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.administracion.Persona;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
@@ -50,52 +55,49 @@ import windows.ValidateEntity;
  * @author angel.colina
  */
 public class NuevoClienteController extends NuevoCliente<Cliente> {
-
+    
     private static final Logger LOG = Logger.getLogger(NuevoClienteController.class);
     private RequestBuilder rb;
-
+    
     private final CrearNovedadController novedadController;
     private Persona persona;
     private MDialog dialog;
-
+    
     public NuevoClienteController(CrearNovedadController novedadController) {
         this.novedadController = novedadController;
-
         inicializar();
     }
-
+    
     @Override
     public final void inicializar() {
-
+        activeInput(false);
+        cedula.setEnabled(true);
+        
         if (entity == null) {
             entity = new Cliente();
         }
         persona = new Persona();
+        
         aceptar.setEnabled(false);
         iniForm();
         buscar.addActionListener(new ActionListener() {
-
+            
             @Override
             public void actionPerformed(ActionEvent e) {
                 buscarPersona();
             }
         });
         limpiar.addActionListener(new ActionListener() {
-
+            
             @Override
             public void actionPerformed(ActionEvent e) {
                 persona = new Persona();
-                cedula.setText(null);
+                activeInput(false);
                 cedula.setEnabled(true);
-                nombre.setText(null);
-                nombre.setEnabled(true);
-                apellido.setText(null);
-                apellido.setEnabled(true);
-
             }
         });
         cedula.addKeyListener(new KeyAdapter() {
-
+            
             @Override
             public void keyReleased(KeyEvent e) {
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
@@ -103,47 +105,70 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                 }
             }
         });
-
+        
         BindObject bindObject2 = new BindObject(entity);
         Bindings.bind(correo, bindObject2.getBind("correo"));
         Bindings.bind(direccion, bindObject2.getBind("direccion"));
         Bindings.bind(telefono, bindObject2.getBind("telefono"));
-
+        Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
+        
         try {
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
-                municipio.setModel(new DefaultComboBoxModel(municipios.toArray()));
+                municipios.add(0, null);
+                municipio.setModel(new ListComboBoxModel<>(municipios));
                 municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
-        Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
+        parroquia.addActionListener(new ActionListener() {
+            
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                entity.setParroquia((Parroquia) parroquia.getSelectedItem());
+                aceptar.setEnabled(validar());
+            }
+        });
         autoCreateValidateForm(Persona.class, Cliente.class);
         iniciarDialogo();
     }
-
+    
     private void iniciarDialogo() {
         dialog = new MDialog((Dialog) SwingUtilities.getWindowAncestor(novedadController));
         dialog.setTitle("Nuevo");
         dialog.setResizable(false);
         dialog.showPanel(this);
         dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-
+        
         dialog.addWindowListener(new WindowAdapter() {
-
+            
             @Override
             public void windowClosed(WindowEvent e) {
                 cancelar();
             }
         });
-
+        
     }
-
+    
+    private void activeInput(boolean b) {
+        for (Component component : this.getComponents()) {
+            if ((component instanceof JTextField) || (component instanceof JComboBox)) {
+                component.setEnabled(b);
+                if (component instanceof JTextField) {
+                    ((JTextField) component).setText(null);
+                } else {
+                    ((JComboBox) component).setSelectedIndex(-1);
+                }
+            }
+        }
+    }
+    
     private void buscarPersona() {
         final String c = cedula.getText();
+        activeInput(true);
         try {
             persona = null;
             rb = new RequestBuilder("services/administracion/PersonaWs/ObtenerPersonaPorCedula.php",
@@ -159,29 +184,35 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         ComponentUtils.removeListener(cedula, BindingEvent.class);
         ComponentUtils.removeListener(nombre, BindingEvent.class);
         ComponentUtils.removeListener(apellido, BindingEvent.class);
-
-        cedula.setEnabled(persona != null);
-        nombre.setEnabled(persona != null);
-        apellido.setEnabled(persona != null);
-
+        
+        cedula.setEnabled(persona == null);
+        nombre.setEnabled(persona == null);
+        apellido.setEnabled(persona == null);
+        
         if (persona == null) {
             JOptionPane.showMessageDialog(this, "La persona con la cedula especificada "
                     + "no fue encontrada", "Información", JOptionPane.INFORMATION_MESSAGE);
             persona = new Persona();
             persona.setCedula(c);
         }
-        BindObject bindObject = new BindObject(persona);
-        Bindings.bind(nombre, bindObject.getBind("nombre"));
-        Bindings.bind(apellido, bindObject.getBind("apellido"));
-        Bindings.bind(cedula, bindObject.getBind("cedula"));
+        BindObject bindObject2 = new BindObject(persona);
+        Bindings.bind(cedula, bindObject2.getBind("cedula"));
+        Bindings.bind(nombre, bindObject2.getBind("nombre"));
+        Bindings.bind(apellido, bindObject2.getBind("apellido"));
+        
         entity.setPersona(persona);
-
+        
+        if (apellido.isEnabled()) {
+            nombre.requestFocus();
+        } else {
+            correo.requestFocus();
+        }
     }
-
+    
     @Override
     public boolean validar() {
-        boolean v = new ValidateEntity(persona).validate(this);
-
+        boolean v = new ValidateEntity(persona).validate(this, "cedula");
+        
         if (v) {
             v = new ValidateEntity(entity).validate(this);
         }
@@ -190,41 +221,41 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
             dialog.pack();
         }
         return v;
-
+        
     }
-
+    
     @Override
     public void aceptar() {
         DefaultComboBoxModel model = (DefaultComboBoxModel) novedadController.getCliente().getModel();
         model.addElement(entity);
         novedadController.getCliente().setSelectedIndex(-1);
         cancelar();
-
+        
     }
-
+    
     @Override
     public void guardar() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
+    
     @Override
     public void cancelar() {
         dialog.close();
     }
-
+    
     @Override
     public JButton getGuardar() {
         return null;
     }
-
+    
     @Override
     public JButton getCancelar() {
         return cancelar;
     }
-
+    
     @Override
     public JButton getAceptar() {
         return aceptar;
     }
-
+    
 }

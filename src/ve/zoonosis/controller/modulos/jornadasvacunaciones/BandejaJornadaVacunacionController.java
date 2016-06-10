@@ -20,6 +20,7 @@ import com.megagroup.model.builder.LazyColumnListenerModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URISyntaxException;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
@@ -29,11 +30,13 @@ import javax.swing.JMenuItem;
 import org.joda.time.DateTime;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.seguridad.LoginController;
+import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.datamodel.JornadaTableModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import ve.zoonosis.model.listener.FechaListener;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
 import windows.RequestBuilder;
@@ -61,11 +64,12 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
                 abrir(-1);
             }
         });
+        FechaListener.createListener(desde, hasta, buscar);
         nuevo.setVisible(LoginController.getUsuario() != null);
         botonVer = 4;
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
-        bandeja.setModel(new JornadaTableModel());
-                try {
+
+        try {
             List<Semana> s = new RequestBuilder("services/calendario/WeeksForYear.php",
                     new HashMap<String, Object>() {
                         {
@@ -74,6 +78,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
 
                     }).ejecutarJson(List.class, Semana.class);
             if (s != null) {
+                s.add(0, null);
                 semana.setModel(new DefaultComboBoxModel(s.toArray()));
                 semana.setSelectedIndex(-1);
             }
@@ -84,13 +89,16 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
             List<Municipio> municipios = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php")
                     .ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
-                municipio.setModel(new DefaultComboBoxModel(municipios.toArray()));
+                municipios.add(0, null);
+                 municipio.setModel(new ListComboBoxModel<>(municipios));
                 municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             Logger.getLogger(BandejaCasosController.class.getName()).log(Level.SEVERE, null, ex);
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
+        hasta.setMaxSelectableDate(new Date());
+        bandeja.setModel(new JornadaTableModel());
     }
 
     @Override
@@ -121,8 +129,8 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
 
     @Override
     public void buscar() {
-       
-         JornadaTableModel model= new JornadaTableModel();
+
+        JornadaTableModel model = new JornadaTableModel();
         model.setDesde(desde.getDate());
         model.setHasta(hasta.getDate());
         model.setSemana((Semana) semana.getSelectedItem());

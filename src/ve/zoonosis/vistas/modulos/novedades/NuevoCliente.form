@@ -27,7 +27,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="mLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="cedula" max="32767" attributes="0"/>
+                      <Component id="cedula" min="-2" pref="165" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="buscar" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -45,13 +45,13 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="apellido" alignment="0" max="32767" attributes="0"/>
-                          <Component id="correo" alignment="0" max="32767" attributes="0"/>
-                          <Component id="direccion" alignment="0" max="32767" attributes="0"/>
-                          <Component id="municipio" alignment="0" max="32767" attributes="0"/>
-                          <Component id="parroquia" alignment="0" max="32767" attributes="0"/>
-                          <Component id="nombre" alignment="0" max="32767" attributes="0"/>
-                          <Component id="telefono" alignment="0" max="32767" attributes="0"/>
+                          <Component id="apellido" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+                          <Component id="correo" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+                          <Component id="direccion" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+                          <Component id="municipio" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+                          <Component id="parroquia" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+                          <Component id="nombre" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
+                          <Component id="telefono" alignment="0" min="-2" pref="195" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -68,7 +68,7 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
-          <Component id="jPanel1" alignment="0" pref="424" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -349,7 +349,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="nombre"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel9"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="errorApellido">
@@ -357,7 +356,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="apellido"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel10"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="errorCorreo">
@@ -365,7 +363,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="correo"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel11"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="errorTelefono">
@@ -373,7 +370,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="telefono"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel12"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="errorDireccion">
@@ -381,7 +377,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="direccion"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel13"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="errorMunicipio">
@@ -389,7 +384,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="municipio"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel14"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="errorParroquia">
@@ -397,7 +391,6 @@
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
           <ComponentRef name="parroquia"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="mLabel15"/>
       </Properties>
     </Component>
   </SubComponents>

@@ -19,6 +19,7 @@ import com.megagroup.model.builder.AbstractLazyDataModel;
 import com.megagroup.utilidades.Logger;
 import com.megagroup.utilidades.StringUtils;
 import java.net.URISyntaxException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -34,6 +35,7 @@ import windows.RequestBuilder;
 public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
 
     private static final Logger LOG = Logger.getLogger(NovedadesTableModel.class);
+    private final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
     private RequestBuilder builder;
     private String nombre;
@@ -69,7 +71,7 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
 
     @Override
     public void nombreColumnas(List<String> list) {
-        list.add("Fecha Elaboración");
+        list.add("Dia");
         list.add("Nombre");
         list.add("Descripción");
         list.add("Cliente");
@@ -85,10 +87,10 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
                 map.put("nombre", nombre);
             }
             if (desde != null) {
-                map.put("desde", desde);
+                map.put("desde", format.format(desde));
             }
             if (hasta != null) {
-                map.put("hasta", hasta);
+                map.put("hasta", format.format(hasta));
             }
             map.put("cantidad", (int) paginacion);
             map.put("inicial", posicionInical);
