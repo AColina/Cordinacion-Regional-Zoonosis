@@ -1282,3 +1282,5 @@ jun 10, 2016 10:46:43 AM windows.ValidateEntity validateSize
 INFORMACIÓN: El atributo nombre debe contener entre 5 y 45 caracteres
 jun 10, 2016 10:46:43 AM windows.ValidateEntity validateSize
 INFORMACIÓN: El atributo nombre debe contener entre 5 y 45 caracteres
+jun 10, 2016 3:23:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

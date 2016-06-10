@@ -76,7 +76,7 @@ public abstract class Deserializer<E extends Object> extends JsonDeserializer<E>
 
             JsonNode json = jp.getCodec().readTree(jp);
 
-            if (StringUtils.isEmpty(json.toString()) || json.toString().length() < 4){
+            if (StringUtils.isEmpty(json.toString()) || json.toString().length() < 4) {
                 return getNullValue(dc);
             }
             E instance = classChild.newInstance();
@@ -130,7 +130,11 @@ public abstract class Deserializer<E extends Object> extends JsonDeserializer<E>
                         value = null;
                     }
                 } else if (!field.getType().equals(Date.class)) {
-                    value = mapper.convertValue(json.get(column), field.getType());
+                    try {
+                        value = mapper.convertValue(json.get(column), field.getType());
+                    } catch (IllegalArgumentException ex) {
+                        value = null;
+                    }
                 } else {
                     String date = json.get(column).textValue();
                     try {
