@@ -28,7 +28,6 @@ import ve.zoonosis.controller.modulos.estadistica.caso.especies.parroquia.CasoEs
 import ve.zoonosis.controller.modulos.estadistica.caso.especies.parroquia.CasoEspecieMensualPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.animales.municipio.JornadaAnimalDiarioPorMunicipioController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.animales.municipio.JornadaAnimalMensualPorMunicipioController;
-import ve.zoonosis.controller.modulos.estadistica.jornada.animales.municipio.JornadaAnimalSemanaPorMunicipioController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.animales.parroquia.JornadaAnimalDiarioPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.animales.parroquia.JornadaAnimalMensualPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.municipio.JornadaEspecieMensualPorMunicipioController;
@@ -66,9 +65,9 @@ public class TemplateListeners {
         return new Bandeja("Estadistica animal diaria por municipio", JornadaAnimalDiarioPorMunicipioController.class);
     }
 
-    public static Bandeja getJornadaAnimalSemanalPorMunicipio() {
-        return new Bandeja("Estadistica animal semanal por municipio", JornadaAnimalSemanaPorMunicipioController.class);
-    }
+//    public static Bandeja getJornadaAnimalSemanalPorMunicipio() {
+//        return new Bandeja("Estadistica animal semanal por municipio", JornadaAnimalSemanaPorMunicipioController.class);
+//    }
 
     public static Bandeja getJornadaAnimalMensualPorMunicipio() {
         return new Bandeja("Estadistica animal mensual por municipio", JornadaAnimalMensualPorMunicipioController.class);

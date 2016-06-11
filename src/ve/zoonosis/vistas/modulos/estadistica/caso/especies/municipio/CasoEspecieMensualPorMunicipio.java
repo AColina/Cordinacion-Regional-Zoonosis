@@ -83,8 +83,6 @@ public abstract class CasoEspecieMensualPorMunicipio<E extends Entidad> extends 
                 .addContainerGap())
         );
 
-        año.setMinimum(1800);
-
         mLabel3.setText("Año");
 
         javax.swing.GroupLayout mPanel1Layout = new javax.swing.GroupLayout(mPanel1);

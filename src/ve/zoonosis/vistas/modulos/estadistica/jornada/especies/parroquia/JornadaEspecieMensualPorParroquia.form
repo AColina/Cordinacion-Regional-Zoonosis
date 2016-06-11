@@ -161,9 +161,6 @@
           </AuxValues>
         </Component>
         <Component class="com.toedter.calendar.JYearChooser" name="a&#xf1;o">
-          <Properties>
-            <Property name="minimum" type="int" value="1800"/>
-          </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
           </AuxValues>

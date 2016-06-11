@@ -160,11 +160,12 @@ public class PieChart
             g2d.setColor(backgroundColor);
             g2d.fillOval(0, 0, width, width);
             for (int i = 0; i < this.values.size(); i++) {
+                System.out.println("dibujando");
                 g2d.setColor(colors.get(i));
 
                 Long lon = Math.round(values.get(i));
-                Double val = lon.doubleValue();
-                Double angle = ((Long)Math.round((val / 100) * 360)).doubleValue();
+                Double val = ((Long)Math.round(lon.doubleValue())).doubleValue();
+                Double angle = (val / 100) * 360;
                 g2d.fillArc(0, 0, width, width, lastPoint, -angle.intValue());
 
                 lastPoint += -angle.intValue();
