@@ -28,7 +28,6 @@ import ve.zoonosis.model.entidades.Entidad;
 public class Municipio extends Entidad {
 
     private String nombre;
-    @JsonManagedReference("municipio-parroquia")
     @JsonProperty("parroquias")
     private List<Parroquia> parroquiasAsociadas;
 

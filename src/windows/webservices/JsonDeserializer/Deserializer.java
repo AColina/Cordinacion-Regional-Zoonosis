@@ -76,8 +76,10 @@ public abstract class Deserializer<E extends Object> extends JsonDeserializer<E>
 
             JsonNode json = jp.getCodec().readTree(jp);
 
+            if (StringUtils.isEmpty(json.toString()) || json.toString().length() < 4) {
+                return getNullValue(dc);
+            }
             E instance = classChild.newInstance();
-
             ObjectMapper mapper = new ObjectMapper();
             SimpleModule modul = new SimpleModule("parroquia")
                     .addDeserializer(Parroquia.class, new ParroquiaDeserializer())

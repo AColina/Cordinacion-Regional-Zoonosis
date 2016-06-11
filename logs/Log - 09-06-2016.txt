@@ -1258,3 +1258,359 @@ jun 09, 2016 11:40:36 AM windows.ValidateEntity validateNotNull
 INFORMACIÓN: El atributo nombre no debe ser nulo
 jun 09, 2016 1:23:51 PM ve.zoonosis.controller.seguridad.LoginController run
 INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 2:27:51 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 2:28:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:28:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:28:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 2:44:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:44:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:30 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:50:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 2:59:19 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 3:56:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:56:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:57:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:57:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:57:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:59:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:59:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 3:59:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:59:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:59:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 3:59:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:02:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:02:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:02:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:02:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:02:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:05:00 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 4:05:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:05:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:05:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:05:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:05:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:05:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:07:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:07:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:07:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:07:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:07:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 4:31:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 4:32:39 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 4:35:00 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 4:38:32 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 4:45:21 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 4:46:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 8:57:55 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 8:58:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 8:58:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 8:58:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 8:58:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 8:58:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 8:58:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 8:58:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 9:01:36 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:05:11 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:10:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:11:36 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:12:47 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:16:16 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:17:58 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:19:42 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:31:09 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:34:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:36:56 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:40:03 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:50:28 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:58:21 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:59:03 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:59:31 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 9:59:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 9:59:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:01:20 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:01:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:01:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:04:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:04:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:04:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:04:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:03 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:05:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 09, 2016 10:11:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:13:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:13:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:13:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:13:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:22:40 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:29:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:29:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:33 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:34:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:34:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:42:46 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:42:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:42:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:44:40 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:44:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:44:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:44:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:44:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:47:29 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:47:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:50:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 09, 2016 10:50:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:51:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:51:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:51:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 09, 2016 10:51:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:51:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:52:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 09, 2016 10:52:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 2:55:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 2:55:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
