@@ -16,6 +16,7 @@
 package ve.zoonosis.model.entidades.administracion;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -24,6 +25,7 @@ import javax.validation.constraints.Pattern;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import windows.webservices.JsonSerializer.JsonDateSerializer;
 
 /**
  *
@@ -37,6 +39,7 @@ public class Usuario extends Entidad {
     @Pattern(regexp = "")
     private String contrasena;
     @NotNull(message = "Debe ingresar la fecha de nacimiento")
+    @JsonSerialize(using = JsonDateSerializer.class)
     private Date fechaNacimiento;
     private Persona persona;
     @JsonIgnore

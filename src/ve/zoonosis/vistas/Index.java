@@ -46,6 +46,7 @@ public class Index extends javax.swing.JFrame {
         casos.addActionListener(TemplateListeners.getCasosBandeja());
         novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
         vacunacionAnimalDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
+        registarUsuario.addActionListener(TemplateListeners.getNuevoUsuario());
     }
 
     /**

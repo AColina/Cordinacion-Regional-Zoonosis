@@ -68,7 +68,7 @@ import windows.webservices.JsonDeserializer.proceso.VacunacionDeserializer;
  */
 public abstract class EjecutorJson {
 
-    private final SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+    private final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
     private static final String EXCEPTION_REPORT = "Exception report";
     private static final String ERROR_REPORT = "Error report";
     private static final String INFORME_ERROR = "Informe de Error";
@@ -312,7 +312,7 @@ public abstract class EjecutorJson {
                 mapper.registerModule(module);
             }
         }
-
+mapper.setDateFormat(format);
         try {
             System.out.println("enlace : " + request.urlString()
                     + (json != null && !json.isEmpty()

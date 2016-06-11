@@ -47,6 +47,7 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
         botonVer = 4;
         nuevo.addActionListener(new CrearNovedad());
+        desde.setMaxSelectableDate(new Date());
         hasta.setMaxSelectableDate(new Date());
         bandeja.setModel(new NovedadesTableModel());
     }

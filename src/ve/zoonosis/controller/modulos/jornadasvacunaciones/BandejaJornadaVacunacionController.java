@@ -98,6 +98,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
         hasta.setMaxSelectableDate(new Date());
+        desde.setMaxSelectableDate(new Date());
         bandeja.setModel(new JornadaTableModel());
     }
 

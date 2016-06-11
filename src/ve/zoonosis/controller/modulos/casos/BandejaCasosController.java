@@ -90,6 +90,7 @@ public class BandejaCasosController extends BandejaCasos<Caso> {
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
         hasta.setMaxSelectableDate(new Date());
+        desde.setMaxSelectableDate(new Date());
         bandeja.setModel(new CasosTableModel());
     }
 
