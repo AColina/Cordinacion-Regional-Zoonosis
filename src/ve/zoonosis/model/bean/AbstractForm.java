@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.bean;
 
+import com.fasterxml.jackson.annotation.JacksonAnnotation;
 import com.megagroup.bean.FormController;
 import com.megagroup.reflection.ReflectionUtils;
 import com.toedter.calendar.JDateChooser;
@@ -75,10 +76,18 @@ public abstract class AbstractForm< Entity extends Entidad> extends JPanel imple
             for (Field field : fields) {
                 Annotation[] annotation = field.getAnnotations();
                 if (annotation.length > 0) {
-                    Field f = ReflectionUtils.getField(this, field.getName());
-                    if (f != null && Component.class.isAssignableFrom(f.getType())) {
-                        Component c = ReflectionUtils.runGetter(f, this);
-                        agregarValidEvent(c, evt);
+                    boolean add = false;
+                    for (Annotation annotation1 : annotation) {
+                        if (annotation1.annotationType().getAnnotation(JacksonAnnotation.class) == null) {
+                            add = true;
+                        }
+                    }
+                    if (add) {
+                        Field f = ReflectionUtils.getField(this, field.getName());
+                        if (f != null && Component.class.isAssignableFrom(f.getType())) {
+                            Component c = ReflectionUtils.runGetter(f, this);
+                            agregarValidEvent(c, evt);
+                        }
                     }
                 }
             }

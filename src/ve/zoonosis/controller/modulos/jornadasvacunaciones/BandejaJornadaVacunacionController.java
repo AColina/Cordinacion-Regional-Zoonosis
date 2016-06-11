@@ -20,15 +20,16 @@ import com.megagroup.model.builder.LazyColumnListenerModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JMenuItem;
+import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.datamodel.JornadaTableModel;
-import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
 
 /**
  *
  * @author angel.colina
  */
-public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion<RegistroVacunacion> {
+public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion<Vacunacion> {
 
     private NuevaJornadaController jornadaController;
 
@@ -47,7 +48,8 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
                 abrir(-1);
             }
         });
-        botonVer = 5;
+        nuevo.setVisible(LoginController.getUsuario() != null);
+        botonVer = 4;
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
         bandeja.setModel(new JornadaTableModel());
     }
@@ -71,7 +73,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
 
     @Override
     public void abrir(int index) {
-        RegistroVacunacion entidad = null;
+        Vacunacion entidad = null;
         if (index > -1) {
             entidad = bandeja.getModel().getValueAt(index);
         }

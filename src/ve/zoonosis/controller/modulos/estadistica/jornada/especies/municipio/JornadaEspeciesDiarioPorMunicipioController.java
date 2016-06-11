@@ -52,6 +52,7 @@ public class JornadaEspeciesDiarioPorMunicipioController extends JornadaEspecieD
     public final void inicializar() {
         iniForm();
         dia.setDate(new Date());
+        dia.setMaxSelectableDate(new Date());
 
         //  municipios.adda
         try {

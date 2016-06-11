@@ -15,10 +15,12 @@
  */
 package ve.zoonosis.model.listener;
 
+import com.megagroup.model.adapter.ListDataAdapter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
+import javax.swing.event.ListDataListener;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 
@@ -39,7 +41,14 @@ public class MunicipioListener implements ActionListener {
         JComboBox c = (JComboBox) e.getSource();
         Municipio m = (Municipio) c.getSelectedItem();
         if (m != null) {
-            parroquia.setModel(new DefaultComboBoxModel<>(m.getParroquiasAsociadas().toArray()));
+            DefaultComboBoxModel oldModel = (DefaultComboBoxModel) parroquia.getModel();
+            DefaultComboBoxModel model = new DefaultComboBoxModel<>(m.getParroquiasAsociadas().toArray());
+            for (ListDataListener col : oldModel.getListDataListeners()) {
+                if (col instanceof ListDataAdapter) {
+                    model.addListDataListener((ListDataListener) col);
+                }
+            }
+            parroquia.setModel(model);
         } else {
             parroquia.setModel(new DefaultComboBoxModel<>());
         }

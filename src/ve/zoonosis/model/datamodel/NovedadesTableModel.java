@@ -61,7 +61,7 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
             case 3:
                 return "{cliente.persona.nombre}";
             case 4:
-                return "Opciones";
+                return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + i + " aún no se ha programado.");
         }
@@ -96,8 +96,6 @@ public class NovedadesTableModel extends AbstractLazyDataModel<Novedades> {
             builder = new RequestBuilder("services/proceso/NovedadesWs/BandejaNovedades.php", map);
             final BusquedasNovedadesPojo pojo = builder.ejecutarJson(BusquedasNovedadesPojo.class);
             if (pojo != null) {
-//                setResultados(pojo.getResultados());
-//                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
                 return new IRegistrar() {
 
                     @Override

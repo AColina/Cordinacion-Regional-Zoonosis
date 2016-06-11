@@ -15,11 +15,10 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
-
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
 import java.util.List;
-import org.codehaus.jackson.annotate.JsonBackReference;
-import org.codehaus.jackson.annotate.JsonIgnore;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;

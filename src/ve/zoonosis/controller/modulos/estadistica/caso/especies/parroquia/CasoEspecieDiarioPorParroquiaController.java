@@ -15,7 +15,6 @@
  */
 package ve.zoonosis.controller.modulos.estadistica.caso.especies.parroquia;
 
-import ve.zoonosis.controller.modulos.estadistica.caso.animales.parroquia.*;
 import com.megagroup.utilidades.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,7 +31,6 @@ import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.utils.RandomColor;
 import ve.zoonosis.vistas.componente.piechart.ChartObject;
-import ve.zoonosis.vistas.modulos.estadistica.caso.animales.parroquia.CasoAnimalDiarioPorParroquia;
 import ve.zoonosis.vistas.modulos.estadistica.caso.especies.parroquia.CasoEspecieDiarioPorParroquia;
 import windows.RequestBuilder;
 
@@ -54,6 +52,7 @@ public class CasoEspecieDiarioPorParroquiaController extends CasoEspecieDiarioPo
     public final void inicializar() {
         iniForm();
         dia.setDate(new Date());
+        dia.setMaxSelectableDate(new Date());
 
         //  municipios.adda
         try {

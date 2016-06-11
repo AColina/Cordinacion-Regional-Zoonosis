@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.administracion;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -30,30 +31,29 @@ import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
  */
 public class Usuario extends Entidad {
 
-    @NotNull
-    private String usuario;
-    @NotNull
+    @NotNull(message = "Debe ingresar el nombre")
+    private String nombre;
+    @NotNull(message = "Debe ingresar la contraseña")
     @Pattern(regexp = "")
     private String contrasena;
-    @NotNull
+    @NotNull(message = "Debe ingresar la fecha de nacimiento")
     private Date fechaNacimiento;
-
-    @NotNull
     private Persona persona;
+    @JsonIgnore
     private List<Novedades> novedades;
-    @NotNull
     private Permiso permiso;
+    @JsonIgnore
     private List<RegistroVacunacion> registroVacunacion;
 
     public Usuario() {
     }
 
-    public String getUsuario() {
-        return usuario;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getContrasena() {

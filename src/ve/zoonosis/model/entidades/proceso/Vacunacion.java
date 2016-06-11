@@ -15,9 +15,12 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import javax.validation.constraints.NotNull;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
@@ -26,11 +29,14 @@ import ve.zoonosis.model.entidades.calendario.Semana;
  *
  * @author clases
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Vacunacion extends Entidad {
 
     private Date fechaElaboracion;
     private Semana semana;
+    @NotNull(message = "Debe seleccionar una parroquia")
     private Parroquia parroquia;
+    @JsonManagedReference("registro_Vacunacion")
     private List<RegistroVacunacion> registroVacunacion;
 
     public Vacunacion() {

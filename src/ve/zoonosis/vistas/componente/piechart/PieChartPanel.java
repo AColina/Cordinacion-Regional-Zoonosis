@@ -7,6 +7,7 @@ package ve.zoonosis.vistas.componente.piechart;
 
 import java.awt.Color;
 import java.awt.Component;
+import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -18,7 +19,8 @@ import java.text.DecimalFormat;
 import java.util.List;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
-
+import javax.swing.SwingConstants;
+import javax.swing.text.StyleConstants;
 
 /**
  *
@@ -54,14 +56,15 @@ public class PieChartPanel extends javax.swing.JPanel {
 
     private void generarLeyenda(double percent) {
         java.awt.GridBagConstraints gridBagConstraints;
-      //  jScrollPane1 = new javax.swing.JScrollPane();
+        //  jScrollPane1 = new javax.swing.JScrollPane();
         System.out.println("generar leyenda");
         panelLeyenda = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         panelLeyenda.setLayout(new java.awt.GridBagLayout());
-        
+
         GridBagLayout gb = (GridBagLayout) panelLeyenda.getLayout();
-         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setFont(new java.awt.Font("Dialog", 0, 14));
         jLabel1.setText("Leyenda");
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -79,13 +82,13 @@ public class PieChartPanel extends javax.swing.JPanel {
         int pos = -300;
         for (int i = 0; i < listaChartObject.size(); i += 2) {
             System.out.println("entre");
-            JLabel l = createLabelLeyend(listaChartObject.get(i).getEtiqueta(), listaChartObject.get(i).getColor(),listaChartObject.get(i).getValor(),percent);
+            JLabel l = createLabelLeyend(listaChartObject.get(i).getEtiqueta(), listaChartObject.get(i).getColor(), listaChartObject.get(i).getValor(), percent);
             panelLeyenda.add(l, addGrid(0, position, new java.awt.Insets(pos, 10, 0, 0)));
             if (l.getPreferredSize().width > maxLeft) {
                 maxLeft = l.getPreferredSize().width;
             }
             if (i + 1 < listaChartObject.size()) {
-                JLabel l2 = createLabelLeyend(listaChartObject.get(i + 1).getEtiqueta(), listaChartObject.get(i + 1).getColor(),listaChartObject.get(i + 1).getValor(),percent);
+                JLabel l2 = createLabelLeyend(listaChartObject.get(i + 1).getEtiqueta(), listaChartObject.get(i + 1).getColor(), listaChartObject.get(i + 1).getValor(), percent);
                 panelLeyenda.add(l2, addGrid(1, position, new java.awt.Insets(pos, 0, 0, 10)));
                 if (l2.getPreferredSize().width > maxRigth) {
                     maxRigth = l2.getPreferredSize().width;
@@ -103,9 +106,9 @@ public class PieChartPanel extends javax.swing.JPanel {
                     if (component.getPreferredSize().width <= maxLeft && constraints.gridwidth < 2) {
                         int padding = maxLeft - component.getPreferredSize().width;
                         constraints.ipadx = padding;
-                          Insets s= constraints.insets;
-                        s.right=maxLeft/2;
-                        constraints.insets=s;
+                        Insets s = constraints.insets;
+                        s.right = maxLeft / 2;
+                        constraints.insets = s;
                         gb.setConstraints(component, constraints);
                     }
                     break;
@@ -113,9 +116,9 @@ public class PieChartPanel extends javax.swing.JPanel {
                     if (component.getPreferredSize().width <= maxRigth && constraints.gridwidth < 2) {
                         int padding = maxRigth - component.getPreferredSize().width;
                         constraints.ipadx = padding;
-                        Insets s= constraints.insets;
-                        s.left=maxRigth/2;
-                        constraints.insets=s;
+                        Insets s = constraints.insets;
+                        s.left = maxRigth / 2;
+                        constraints.insets = s;
                         gb.setConstraints(component, constraints);
                     }
                     break;
@@ -123,9 +126,10 @@ public class PieChartPanel extends javax.swing.JPanel {
         }
     }
 
-    private JLabel createLabelLeyend(String textLabel, Color label, Double valor,double percent) {
+    private JLabel createLabelLeyend(String textLabel, Color label, Double valor, double percent) {
         DecimalFormat decimales = new DecimalFormat("0.00");
-        JLabel l = new JLabel("<html>" + textLabel + " ("+valor.intValue()+") <b>" +decimales.format(((valor)*100)/percent) + "%</b></html>");
+        JLabel l = new JLabel("<html>" + textLabel + " (" + valor.intValue() + ") <b>" + decimales.format(((valor) * 100) / percent) + "%</b></html>");
+        l.setFont(new Font("Calibri", Font.PLAIN, 14));
         FontMetrics fm = l.getFontMetrics(l.getFont());
         BufferedImage bf = new BufferedImage(fm.getHeight(), fm.getHeight(), BufferedImage.TYPE_INT_RGB);
         Graphics2D bGr = bf.createGraphics();
@@ -165,6 +169,7 @@ public class PieChartPanel extends javax.swing.JPanel {
 
         panelLeyenda.setLayout(new java.awt.GridBagLayout());
 
+        jLabel1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Leyenda");
         jLabel1.setVerticalAlignment(javax.swing.SwingConstants.TOP);

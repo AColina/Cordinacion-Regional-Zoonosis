@@ -52,6 +52,7 @@ public class CasoEspecieDiarioPorMunicipioController extends CasoEspecieDiarioPo
     public final void inicializar() {
         iniForm();
         dia.setDate(new Date());
+        dia.setMaxSelectableDate(new Date());
 
         //  municipios.adda
         try {
@@ -83,11 +84,11 @@ public class CasoEspecieDiarioPorMunicipioController extends CasoEspecieDiarioPo
             final Date fecha = dia.getDate();
             rb = new RequestBuilder("services/funcionales/EspecieWs/ObtenerListaEspeciesPorFechaDeCasoPorMunicipio.php",
                     new HashMap<String, Object>() {
-                {
-                    put("nombreMunicipio", nombreMunicipio);
-                    put("dia", fecha);
-                }
-            });
+                        {
+                            put("nombreMunicipio", nombreMunicipio);
+                            put("dia", fecha);
+                        }
+                    });
             List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
 
             if (valores == null || valores.isEmpty()) {

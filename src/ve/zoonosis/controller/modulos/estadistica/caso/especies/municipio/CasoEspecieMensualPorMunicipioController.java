@@ -18,6 +18,8 @@ package ve.zoonosis.controller.modulos.estadistica.caso.especies.municipio;
 import com.megagroup.utilidades.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Date;
@@ -28,6 +30,8 @@ import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
+import javax.swing.JSpinner;
+import javax.swing.JTextField;
 import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.utils.RandomColor;
@@ -53,6 +57,31 @@ public class CasoEspecieMensualPorMunicipioController extends CasoEspecieMensual
     @Override
     public final void inicializar() {
         iniForm();
+        JSpinner s = (JSpinner) año.getSpinner();
+        JTextField t = (JTextField) s.getEditor();
+        t.setEditable(false);
+        año.setMaximum(1900 + new Date().getYear());
+        PropertyChangeListener validator = new PropertyChangeListener() {
+
+            @Override
+            public void propertyChange(PropertyChangeEvent evt) {
+                Date fechaActual = new Date();
+                if (evt.getPropertyName().equals("year") || evt.getPropertyName().equals("month")) {
+                    System.out.println("entra");
+                    // System.out.println(año.getYear());
+                    if (año.getYear() == 1900 + fechaActual.getYear()) {
+                        if (mes.getMonth() > fechaActual.getMonth()) {
+                            mes.setMonth(fechaActual.getMonth());
+
+                        }
+
+                    }
+                }
+            }
+        };
+
+        año.addPropertyChangeListener(validator);
+        mes.addPropertyChangeListener(validator);
 //        dia.setDate(new Date());
 
         //  municipios.adda
@@ -93,11 +122,11 @@ public class CasoEspecieMensualPorMunicipioController extends CasoEspecieMensual
             System.out.println(numeroAño);
             rb = new RequestBuilder("services/funcionales/EspecieWs/ObtenerListaEspeciesPorMesDeCasoPorMunicipio.php",
                     new HashMap<String, Object>() {
-                {
-                    put("nombreMunicipio", nombreMunicipio);
-                    put("dia", fecha);
-                }
-            });
+                        {
+                            put("nombreMunicipio", nombreMunicipio);
+                            put("dia", fecha);
+                        }
+                    });
             List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
 
             if (valores == null || valores.isEmpty()) {

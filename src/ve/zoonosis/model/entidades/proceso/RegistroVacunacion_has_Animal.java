@@ -15,6 +15,11 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import ve.zoonosis.model.entidades.EntidadGlobal;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 
@@ -22,10 +27,16 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
  *
  * @author clases
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class RegistroVacunacion_has_Animal implements EntidadGlobal {
 
+    @JsonBackReference("RegistroVacunacion_has_Animal")
     private RegistroVacunacion registroVacunacion;
+    @NotNull(message = "Debe seleccionar un animal")
     private Animal animal;
+    @NotNull(message = "Debe ingresar una cantidad")
+    @Min(value = 0, message = "El valor minimo requrido es 0")
+    @Max(value = 100, message = "El valor maximo requerido es 100")
     private Integer cantidad;
 
     public RegistroVacunacion_has_Animal() {

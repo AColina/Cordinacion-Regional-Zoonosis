@@ -15,6 +15,7 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.Date;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -26,6 +27,7 @@ import ve.zoonosis.model.entidades.administracion.Usuario;
  *
  * @author Angel Colina
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Novedades extends Entidad {
 
     private Date fechaElaboracion;

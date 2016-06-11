@@ -15,6 +15,8 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -28,19 +30,20 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
  */
 public class Animal_has_Caso implements EntidadGlobal {
 
+    @JsonBackReference("caso_has_animal")
     private Caso caso;
     @NotNull(message = "Debe seleccionar un animal")
     private Animal animal;
-    @NotNull
-    @Min(0)
-    @Max(100)
+    @NotNull(message = "Debe ingresar una cantidad")
+    @Min(value = 0, message = "El valor minimo requrido es 0")
+    @Max(value=100,message = "El valor maximo requerido es 100")
     @DefaultValue("0")
     private Integer cantidadIngresado;
-    @NotNull
-    @Min(0)
-    @Max(100)
+    @NotNull(message = "Debe ingresar una cantidad")
+    @Min(value = 0, message = "El valor minimo requrido es 0")
+    @Max(value=100,message = "El valor maximo requerido es 100")
     @DefaultValue("0")
-    private Integer cantidadPositivo;
+    private Integer cantidadPositivos;
 
     public Animal_has_Caso() {
     }
@@ -69,12 +72,12 @@ public class Animal_has_Caso implements EntidadGlobal {
         this.cantidadIngresado = cantidadIngresado;
     }
 
-    public Integer getCantidadPositivo() {
-        return cantidadPositivo;
+    public Integer getCantidadPositivos() {
+        return cantidadPositivos;
     }
 
-    public void setCantidadPositivo(Integer cantidadPositivo) {
-        this.cantidadPositivo = cantidadPositivo;
+    public void setCantidadPositivos(Integer cantidadPositivos) {
+        this.cantidadPositivos = cantidadPositivos;
     }
 
 }

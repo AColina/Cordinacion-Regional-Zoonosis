@@ -19,6 +19,8 @@ import com.megagroup.Application;
 import com.megagroup.binding.BindObject;
 import com.megagroup.binding.components.Bindings;
 import com.megagroup.componentes.MDialog;
+import com.megagroup.componentes.MGrowl;
+import com.megagroup.model.enums.MGrowlState;
 import com.megagroup.utilidades.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -30,11 +32,13 @@ import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import javax.swing.JButton;
+import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.vistas.modulos.novedades.CrearNovedad;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
@@ -116,7 +120,21 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
 
     @Override
     public void aceptar() {
+        try{
+            
         entity.setFechaElaboracion(new Date());
+        entity.setUsuario(LoginController.getUsuario());
+                    rb = new RequestBuilder("services/proceso/NovedadesWs/CrearNovedad.php")
+                    .setMetodo(MetodosDeEnvio.POST)
+                    .crearJson(entity);
+            entity = rb.ejecutarJson(Novedades.class);
+            if (entity != null) {
+                MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
+            }
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        cancelar();
     }
 
     @Override

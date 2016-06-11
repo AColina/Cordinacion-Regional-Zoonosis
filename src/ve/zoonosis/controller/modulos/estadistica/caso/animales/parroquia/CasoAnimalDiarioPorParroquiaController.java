@@ -52,6 +52,7 @@ public class CasoAnimalDiarioPorParroquiaController extends CasoAnimalDiarioPorP
     public final void inicializar() {
         iniForm();
         dia.setDate(new Date());
+        dia.setMaxSelectableDate(new Date());
 
         //  municipios.adda
         try {

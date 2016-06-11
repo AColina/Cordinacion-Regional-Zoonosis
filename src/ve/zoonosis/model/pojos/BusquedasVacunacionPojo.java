@@ -15,17 +15,20 @@
  */
 package ve.zoonosis.model.pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.List;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import ve.zoonosis.model.entidades.proceso.Vacunacion;
 
 /**
  *
  * @author angel.colina
  */
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class BusquedasVacunacionPojo {
 
     private Long cantidad;
-    private List<RegistroVacunacion> resultados;
+    private List<Vacunacion> resultados;
 
     public BusquedasVacunacionPojo() {
     }
@@ -38,11 +41,11 @@ public class BusquedasVacunacionPojo {
         this.cantidad = cantidad;
     }
 
-    public List<RegistroVacunacion> getResultados() {
+    public List<Vacunacion> getResultados() {
         return resultados;
     }
 
-    public void setResultados(List<RegistroVacunacion> resultados) {
+    public void setResultados(List<Vacunacion> resultados) {
         this.resultados = resultados;
     }
 

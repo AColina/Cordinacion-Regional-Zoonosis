@@ -15,7 +15,7 @@
     <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
-    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="4"/>
   </AuxValues>
 
   <Layout>
@@ -33,7 +33,7 @@
               <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="parroquia" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="cantidadPositivo" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cantidadPositivos" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="cantidadIngresado" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="animal" alignment="0" min="-2" max="-2" attributes="0"/>
                   <Component id="municipio" min="-2" max="-2" attributes="0"/>
@@ -80,7 +80,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="mLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="cantidadPositivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cantidadPositivos" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Component id="positivosError" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -207,9 +207,9 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
       </AuxValues>
     </Component>
-    <Component class="com.megagroup.componentes.MTextField" name="cantidadPositivo">
+    <Component class="com.megagroup.componentes.MTextField" name="cantidadPositivos">
       <Properties>
-        <Property name="name" type="java.lang.String" value="cantidadPositivo" noResource="true"/>
+        <Property name="name" type="java.lang.String" value="cantidadPositivos" noResource="true"/>
         <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[150, 24]"/>
         </Property>
@@ -283,7 +283,7 @@
     <Component class="com.megagroup.componentes.MLabel" name="positivosError">
       <Properties>
         <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
-          <ComponentRef name="cantidadPositivo"/>
+          <ComponentRef name="cantidadPositivos"/>
         </Property>
       </Properties>
     </Component>

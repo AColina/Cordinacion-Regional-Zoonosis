@@ -19,6 +19,7 @@ import com.megagroup.componentes.MDataTable;
 import com.megagroup.model.builder.LazyColumnListenerModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.datamodel.NovedadesTableModel;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.vistas.modulos.novedades.BandejaNovedades;
@@ -39,6 +40,7 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
     public final void inicializar() {
         iniciarBandeja(false);
         buscar.addActionListener(new BuscarLstener());
+        nuevo.setVisible(LoginController.getUsuario() != null);
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
         bandeja.setModel(new NovedadesTableModel());
         botonVer = 4;
