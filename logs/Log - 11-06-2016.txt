@@ -1,0 +1,2 @@
+jun 11, 2016 1:12:58 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : acolina inicia sesion

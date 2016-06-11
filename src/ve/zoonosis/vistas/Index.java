@@ -288,7 +288,7 @@ public class Index extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     public static void cambiarPagina(Login login) {
-        Index frame = Application.getAPLICATION_FRAME();;
+        Index frame = Application.getAPLICATION_FRAME();
         frame.setContentPane(login);
         frame.revalidate();
         frame.repaint();

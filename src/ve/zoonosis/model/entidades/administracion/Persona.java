@@ -27,11 +27,11 @@ import ve.zoonosis.model.entidades.Entidad;
  */
 public class Persona extends Entidad {
 
-    @NotNull
-    @Size(min = 2, max = 45)
+    @NotNull(message = "Debe ingresar el nombre")
+    @Size(min = 2, max = 45, message = "El nombre debe poseer minimo 2\n caracteres y maximo 45")
     private String nombre;
-    @NotNull
-    @Size(min = 2, max = 45)
+     @NotNull(message = "Debe ingresar el apelldio")
+    @Size(min = 2, max = 45, message = "El apellido debe poseer minimo 2\n caracteres y maximo 45")
     private String apellido;
     @NotNull
     @Pattern(regexp = "")
