@@ -18,7 +18,6 @@ package ve.zoonosis.model.datamodel;
 import com.megagroup.model.builder.AbstractLazyDataModel;
 import com.megagroup.utilidades.Logger;
 import java.net.URISyntaxException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -37,7 +36,6 @@ import windows.RequestBuilder;
 public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
 
     private static final Logger LOG = Logger.getLogger(JornadaTableModel.class);
-    private final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
     private RequestBuilder builder;
     private Semana semana;
@@ -96,10 +94,10 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
                 map.put("idParroquia", parroquia.getId());
             }
             if (desde != null) {
-                map.put("desde", format.format(desde));
+                map.put("desde", desde);
             }
             if (hasta != null) {
-                map.put("hasta", format.format(hasta));
+                map.put("hasta", hasta);
             }
             map.put("cantidad", (int) paginacion);
             map.put("inicial", posicionInical);
@@ -127,46 +125,6 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
         return null;
-    }
-
-    public Semana getSemana() {
-        return semana;
-    }
-
-    public void setSemana(Semana semana) {
-        this.semana = semana;
-    }
-
-    public Parroquia getParroquia() {
-        return parroquia;
-    }
-
-    public void setParroquia(Parroquia parroquia) {
-        this.parroquia = parroquia;
-    }
-
-    public Municipio getMunicipio() {
-        return municipio;
-    }
-
-    public void setMunicipio(Municipio municipio) {
-        this.municipio = municipio;
-    }
-
-    public Date getDesde() {
-        return desde;
-    }
-
-    public void setDesde(Date desde) {
-        this.desde = desde;
-    }
-
-    public Date getHasta() {
-        return hasta;
-    }
-
-    public void setHasta(Date hasta) {
-        this.hasta = hasta;
     }
 
 }

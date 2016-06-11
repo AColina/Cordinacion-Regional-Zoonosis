@@ -18,7 +18,6 @@ package ve.zoonosis.model.datamodel;
 import com.megagroup.model.builder.AbstractLazyDataModel;
 import com.megagroup.utilidades.Logger;
 import java.net.URISyntaxException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -37,7 +36,6 @@ import windows.RequestBuilder;
 public class CasosTableModel extends AbstractLazyDataModel<Caso> {
 
     private static final Logger LOG = Logger.getLogger(CasosTableModel.class.getName());
-    private final SimpleDateFormat format= new SimpleDateFormat("yyyy-MM-dd");
     private RequestBuilder builder;
     private Semana semana;
     private Parroquia parroquia;
@@ -56,14 +54,12 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
     public String columnValue(int columnIndex) {
         switch (columnIndex) {
             case 0:
-                return "{semana.nombre}";
-            case 1:
                 return "{fechaElaboracion}";
-            case 2:
+            case 1:
                 return "{parroquia.nombre}";
-            case 3:
+            case 2:
                 return "{parroquia.municipio.nombre}";
-            case 4:
+            case 3:
                 return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
@@ -72,8 +68,7 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
 
     @Override
     public void nombreColumnas(List<String> list) {
-        list.add("Semana");
-        list.add("Dia");
+        list.add("Fecha de elaboracioón");
         list.add("Parroquia");
         list.add("Municipio");
         list.add("Opciones");
@@ -94,10 +89,10 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
                 map.put("idParroquia", parroquia.getId());
             }
             if (desde != null) {
-                map.put("desde", format.format(desde));
+                map.put("desde", desde);
             }
             if (hasta != null) {
-                map.put("hasta", format.format(hasta));
+                map.put("hasta", hasta);
             }
             map.put("cantidad", (int) paginacion);
             map.put("inicial", posicionInical);

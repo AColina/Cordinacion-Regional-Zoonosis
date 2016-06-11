@@ -16,6 +16,7 @@
 package ve.zoonosis.model.entidades.calendario;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
@@ -74,11 +75,6 @@ public class Semana extends Entidad {
 
     public void setCasos(List<Caso> casos) {
         this.casos = casos;
-    }
-
-    @Override
-    public String toString() {
-        return nombre;
     }
 
 }

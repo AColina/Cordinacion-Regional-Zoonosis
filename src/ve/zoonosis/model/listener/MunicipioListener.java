@@ -18,10 +18,9 @@ package ve.zoonosis.model.listener;
 import com.megagroup.model.adapter.ListDataAdapter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.AbstractListModel;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.JComboBox;
 import javax.swing.event.ListDataListener;
-import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 
@@ -36,14 +35,14 @@ public class MunicipioListener implements ActionListener {
     public MunicipioListener(JComboBox<Parroquia> parroquia) {
         this.parroquia = parroquia;
     }
-  
+
     @Override
     public void actionPerformed(ActionEvent e) {
         JComboBox c = (JComboBox) e.getSource();
         Municipio m = (Municipio) c.getSelectedItem();
         if (m != null) {
-            AbstractListModel oldModel = (AbstractListModel) parroquia.getModel();
-            ListComboBoxModel model = new ListComboBoxModel<>(m.getParroquiasAsociadas());
+            DefaultComboBoxModel oldModel = (DefaultComboBoxModel) parroquia.getModel();
+            DefaultComboBoxModel model = new DefaultComboBoxModel<>(m.getParroquiasAsociadas().toArray());
             for (ListDataListener col : oldModel.getListDataListeners()) {
                 if (col instanceof ListDataAdapter) {
                     model.addListDataListener((ListDataListener) col);
@@ -51,7 +50,7 @@ public class MunicipioListener implements ActionListener {
             }
             parroquia.setModel(model);
         } else {
-            parroquia.setModel(new ListComboBoxModel<>());
+            parroquia.setModel(new DefaultComboBoxModel<>());
         }
         parroquia.setSelectedIndex(-1);
     }

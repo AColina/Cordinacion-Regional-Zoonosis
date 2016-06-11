@@ -32,7 +32,6 @@ import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import ve.zoonosis.controller.seguridad.LoginController;
-import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
@@ -83,7 +82,7 @@ public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
-                 municipio.setModel(new ListComboBoxModel<>(municipios));
+                municipio.setModel(new DefaultComboBoxModel(municipios.toArray()));
                 municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
