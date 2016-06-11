@@ -22,6 +22,7 @@ public class PieChart
         extends JPanel {
 
     public static enum Type {
+
         STANDARD, SIMPLE_INDICATOR, GRADED_INDICATOR;
 
         private Type() {
@@ -164,8 +165,8 @@ public class PieChart
                 g2d.setColor(colors.get(i));
 
                 Long lon = Math.round(values.get(i));
-                Double val = ((Long)Math.round(lon.doubleValue())).doubleValue();
-                Double angle = (val / 100) * 360;
+                Double val = ((Long) Math.round(lon.doubleValue())).doubleValue();
+                Double angle = ((Long) Math.round((val / 100) * 360)).doubleValue();
                 g2d.fillArc(0, 0, width, width, lastPoint, -angle.intValue());
 
                 lastPoint += -angle.intValue();
