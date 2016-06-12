@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ve.zoonosis.vistas.componente.piechart;
+package ve.zoonosis.model.components.piechart;
 
 import java.awt.Color;
 

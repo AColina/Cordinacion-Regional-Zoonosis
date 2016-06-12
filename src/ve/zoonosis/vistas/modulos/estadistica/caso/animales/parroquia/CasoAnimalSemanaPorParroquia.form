@@ -210,7 +210,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="ve.zoonosis.vistas.componente.piechart.PieChartPanel" name="pieChartPanel2">
+        <Component class="ve.zoonosis.model.components.piechart.PieChartPanel" name="pieChartPanel2">
         </Component>
       </SubComponents>
     </Container>

@@ -72,7 +72,6 @@ public class TemplateListeners {
 //    public static Bandeja getJornadaAnimalSemanalPorMunicipio() {
 //        return new Bandeja("Estadistica animal semanal por municipio", JornadaAnimalSemanaPorMunicipioController.class);
 //    }
-
     public static Bandeja getJornadaAnimalMensualPorMunicipio() {
         return new Bandeja("Estadistica animal mensual por municipio", JornadaAnimalMensualPorMunicipioController.class);
     }
@@ -131,6 +130,8 @@ public class TemplateListeners {
 
     public static Bandeja getCasoEspecieMensualPorParroquia() {
         return new Bandeja("Estadistica especie mensual por parroquia", CasoEspecieMensualPorParroquiaController.class);
+    }
+
     public CrearDialogo getNuevoUsuario() {
         return new CrearDialogo(NuevoUsuarioController.class);
     }

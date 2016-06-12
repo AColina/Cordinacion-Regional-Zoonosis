@@ -53,7 +53,7 @@ public abstract class CasoAnimalSemanaPorMunicipio<E extends Entidad> extends Ab
         years = new javax.swing.JComboBox();
         mLabel3 = new com.megagroup.componentes.MLabel();
         mPanel2 = new com.megagroup.componentes.MPanel();
-        pieChartPanel2 = new ve.zoonosis.vistas.componente.piechart.PieChartPanel();
+        pieChartPanel2 = new ve.zoonosis.model.components.piechart.PieChartPanel();
 
         mHeader1.setText("Estadistica semanal de casos por animales y municipio");
 
@@ -178,7 +178,7 @@ public abstract class CasoAnimalSemanaPorMunicipio<E extends Entidad> extends Ab
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
     protected javax.swing.JComboBox<Municipio> municipios;
-    protected ve.zoonosis.vistas.componente.piechart.PieChartPanel pieChartPanel2;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     protected javax.swing.JComboBox semana;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables

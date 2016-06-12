@@ -51,7 +51,7 @@ public abstract class CasoAnimalDiarioPorMunicipio<E extends Entidad> extends Ab
         jPanel1 = new javax.swing.JPanel();
         mButton1 = new com.megagroup.componentes.MButton();
         mPanel2 = new com.megagroup.componentes.MPanel();
-        pieChartPanel1 = new ve.zoonosis.vistas.componente.piechart.PieChartPanel();
+        pieChartPanel1 = new ve.zoonosis.model.components.piechart.PieChartPanel();
 
         mHeader1.setText("Estadistica diaria de casos por animales y municipio");
 
@@ -169,6 +169,6 @@ public abstract class CasoAnimalDiarioPorMunicipio<E extends Entidad> extends Ab
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
     protected javax.swing.JComboBox municipios;
-    protected ve.zoonosis.vistas.componente.piechart.PieChartPanel pieChartPanel1;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel1;
     // End of variables declaration//GEN-END:variables
 }

@@ -36,7 +36,7 @@ import javax.swing.JTextField;
 import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.utils.RandomColor;
-import ve.zoonosis.vistas.componente.piechart.ChartObject;
+import ve.zoonosis.model.components.piechart.ChartObject;
 import ve.zoonosis.vistas.modulos.estadistica.jornada.animales.municipio.JornadaAnimalMensualPorMunicipio;
 import windows.RequestBuilder;
 

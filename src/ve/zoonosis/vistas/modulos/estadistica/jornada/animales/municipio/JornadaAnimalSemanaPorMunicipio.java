@@ -53,7 +53,7 @@ public abstract class JornadaAnimalSemanaPorMunicipio<E extends Entidad> extends
         mLabel3 = new com.megagroup.componentes.MLabel();
         years = new javax.swing.JComboBox();
         mPanel2 = new com.megagroup.componentes.MPanel();
-        pieChartPanel2 = new ve.zoonosis.vistas.componente.piechart.PieChartPanel();
+        pieChartPanel2 = new ve.zoonosis.model.components.piechart.PieChartPanel();
 
         mHeader1.setText("Estadistica semanal de jornadas por animales y municipio");
 
@@ -177,7 +177,7 @@ public abstract class JornadaAnimalSemanaPorMunicipio<E extends Entidad> extends
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
     protected javax.swing.JComboBox<Municipio> municipios;
-    protected ve.zoonosis.vistas.componente.piechart.PieChartPanel pieChartPanel2;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     protected javax.swing.JComboBox semana;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables
