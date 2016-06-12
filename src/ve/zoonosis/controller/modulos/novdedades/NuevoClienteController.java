@@ -19,6 +19,8 @@ import com.megagroup.binding.BindObject;
 import com.megagroup.binding.components.Bindings;
 import com.megagroup.binding.model.BindingEvent;
 import com.megagroup.componentes.MDialog;
+import com.megagroup.componentes.MGrowl;
+import com.megagroup.model.enums.MGrowlState;
 import com.megagroup.utilidades.ComponentUtils;
 import com.megagroup.utilidades.Logger;
 import java.awt.Component;
@@ -40,6 +42,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
+import org.apache.commons.lang3.StringUtils;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
@@ -77,8 +80,8 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
             entity = new Cliente();
         }
         persona = new Persona();
-
         aceptar.setEnabled(false);
+        
         iniForm();
         buscar.addActionListener(new ActionListener() {
 
@@ -91,9 +94,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                persona = new Persona();
-                activeInput(false);
-                cedula.setEnabled(true);
+                limpiar();
             }
         });
         cedula.addKeyListener(new KeyAdapter() {
@@ -165,8 +166,18 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         }
     }
 
+    public void limpiar() {
+        persona = new Persona();
+        activeInput(false);
+        cedula.setEnabled(true);
+    }
+
     private void buscarPersona() {
         final String c = cedula.getText();
+        if (StringUtils.isEmpty(c)) {
+            cedula.requestFocus();
+            return;
+        }
         activeInput(true);
         try {
             persona = null;
@@ -177,6 +188,12 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                         }
                     });
             persona = rb.ejecutarJson(Persona.class);
+            if (persona != null && persona.getCliente() != null) {
+                MGrowl.showGrowl(MGrowlState.ERROR,
+                        String.format("El cliente con la cedula \"%s\" ya ha sido regisrtado", c));
+                limpiar();
+                return;
+            }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
@@ -200,7 +217,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         Bindings.bind(apellido, bindObject2.getBind("apellido"));
 
         entity.setPersona(persona);
-
+        validar();
         if (apellido.isEnabled()) {
             nombre.requestFocus();
         } else {
@@ -213,14 +230,13 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         boolean v = new ValidateEntity(persona).validate(this, "cedula");
 
         if (v) {
-            v = new ValidateEntity(entity).validate(this);
+            v = new ValidateEntity(entity).validate(this, new String[]{"correo", "direccion", "parroquia"}, null);
         }
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
             dialog.pack();
         }
         return v;
-
     }
 
     @Override

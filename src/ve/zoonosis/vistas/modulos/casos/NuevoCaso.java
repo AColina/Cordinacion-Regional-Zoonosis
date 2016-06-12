@@ -19,7 +19,7 @@ import com.megagroup.componentes.MLabel;
 import com.megagroup.componentes.MTextField;
 import javax.swing.JComboBox;
 import ve.zoonosis.model.bean.AbstractForm;
-import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.EntidadGlobal;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.funcionales.Animal;
@@ -29,7 +29,7 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
  * @author angel.colina
  * @param <E>
  */
-public abstract class NuevoCaso<E extends Entidad> extends AbstractForm<E> {
+public abstract class NuevoCaso<E extends EntidadGlobal> extends AbstractForm<E> {
 
     {
         initComponents();

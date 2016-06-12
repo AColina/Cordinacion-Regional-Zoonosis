@@ -29,7 +29,7 @@ import ve.zoonosis.model.components.AbstractInternalListener;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 @SuppressWarnings("ResultOfObjectAllocationIgnored")
 public class TemplateListeners {
@@ -54,8 +54,13 @@ public class TemplateListeners {
         return new Bandeja("Estadistica animal diaria por municipio", JornadaAnimalDiarioPorMunicipioController.class);
     }
 
-    public static CrearDialogo getNuevoUsuario() {
+    public CrearDialogo getNuevoUsuario() {
         return new CrearDialogo(NuevoUsuarioController.class);
+    }
+
+    public CrearDialogo getDatosDeUsuario() {
+
+        return new CrearDialogo(NuevoUsuarioController.class, LoginController.getUsuario());
     }
 
     public static class Bandeja extends AbstractInternalListener implements ActionListener {
@@ -74,19 +79,20 @@ public class TemplateListeners {
         }
     }
 
-    public static class CrearDialogo implements ActionListener {
+    public class CrearDialogo implements ActionListener {
 
         private final Class<? extends Container> container;
+        private final Object[] values;
 
-        public CrearDialogo(Class<? extends Container> container) {
+        public CrearDialogo(Class<? extends Container> container, Object... values) {
             this.container = container;
+            this.values = values;
         }
 
         @Override
 
         public void actionPerformed(ActionEvent e) {
-            System.out.println(container);
-            ReflectionUtils.newInstance(container);
+            ReflectionUtils.newInstanceForVector(container, values);
         }
 
     }

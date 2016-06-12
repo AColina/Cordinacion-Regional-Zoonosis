@@ -32,6 +32,7 @@ import java.util.logging.Logger;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import org.apache.http.client.utils.URIBuilder;
+import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.administracion.Permiso;
@@ -46,6 +47,7 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import windows.webservices.JsonDeserializer.administracion.ClienteDeserializer;
 import windows.webservices.JsonDeserializer.funcionales.AnimalDeserializer;
 import windows.webservices.JsonDeserializer.proceso.CasoDeserializer;
 import windows.webservices.JsonDeserializer.funcionales.EspecieDeserializer;
@@ -291,7 +293,7 @@ public abstract class EjecutorJson {
             Class<? extends Map> map, Class<?> key, Class<T> mappe, SimpleModule[] modules) throws IOException {
         mapper = new ObjectMapper();
         SimpleModule modul = new SimpleModule("entidades")
-                   .addDeserializer(Parroquia.class, new ParroquiaDeserializer())
+      .addDeserializer(Parroquia.class, new ParroquiaDeserializer())
                     .addDeserializer(Semana.class, new SemanaDeserializer())
                     .addDeserializer(Animal.class, new AnimalDeserializer())
                     .addDeserializer(Semana.class, new SemanaDeserializer())
@@ -299,6 +301,7 @@ public abstract class EjecutorJson {
                     .addDeserializer(Persona.class, new PersonaDeserializer())
                     .addDeserializer(Permiso.class, new PermisoDeserializer())
                     .addDeserializer(Usuario.class, new UsuarioDeserializer())
+                    .addDeserializer(Cliente.class, new ClienteDeserializer())
                     .addDeserializer(Municipio.class, new MunicipioDeserializer())
                     .addDeserializer(Animal_has_Caso.class, new Animal_has_CasoDeserializer())
                     .addDeserializer(Caso.class, new CasoDeserializer())

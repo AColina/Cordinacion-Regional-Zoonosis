@@ -15,8 +15,8 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -24,14 +24,15 @@ import javax.validation.constraints.NotNull;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
+import windows.webservices.JsonSerializer.JsonDateSerializer;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
-@JsonIgnoreProperties(ignoreUnknown=true)
 public class Vacunacion extends Entidad {
 
+    @JsonSerialize(using = JsonDateSerializer.class)
     private Date fechaElaboracion;
     private Semana semana;
     @NotNull(message = "Debe seleccionar una parroquia")

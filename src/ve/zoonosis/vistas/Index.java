@@ -16,7 +16,9 @@
 package ve.zoonosis.vistas;
 
 import com.megagroup.Application;
+import com.megagroup.utilidades.ComponentUtils;
 import ve.zoonosis.controller.seguridad.LoginController;
+import ve.zoonosis.model.entidades.administracion.Usuario;
 import ve.zoonosis.model.listener.TemplateListeners;
 import ve.zoonosis.vistas.seguridad.Login;
 import windows.Recursos;
@@ -40,13 +42,31 @@ public class Index extends javax.swing.JFrame {
         this.setContentPane(new LoginController(Index.this));
     }
 
-    public final void addListeners() {
+    private void addListeners() {
         jornadasVacunacion.addActionListener(TemplateListeners.getJornadaVacunacionBandeja());
         cerrarSesion.addActionListener(TemplateListeners.getCerrarSesion());
         casos.addActionListener(TemplateListeners.getCasosBandeja());
         novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
         vacunacionAnimalDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
-        registarUsuario.addActionListener(TemplateListeners.getNuevoUsuario());
+
+    }
+
+    public final void addListeners(Usuario usuario) {
+        String permiso = usuario == null ? "" : usuario.getPermiso().getNombre();
+        TemplateListeners listener = new TemplateListeners();
+        registarUsuario.setVisible(true);
+        modificarDatos.setVisible(true);
+        switch (permiso) {
+            default:
+                modificarDatos.setVisible(false);
+            case "Usuario":
+                registarUsuario.setVisible(false);
+            case "Coordinador":
+        }
+        ComponentUtils.removeListener(registarUsuario, TemplateListeners.CrearDialogo.class);
+        ComponentUtils.removeListener(modificarDatos, TemplateListeners.CrearDialogo.class);
+        registarUsuario.addActionListener(listener.getNuevoUsuario());
+        modificarDatos.addActionListener(listener.getDatosDeUsuario());
     }
 
     /**
@@ -296,8 +316,6 @@ public class Index extends javax.swing.JFrame {
     public static Template getTemplate() {
         return template;
     }
-
-
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

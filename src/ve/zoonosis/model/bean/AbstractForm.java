@@ -37,7 +37,6 @@ import javax.swing.event.CaretListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.text.JTextComponent;
-import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.EntidadGlobal;
 
 /**
@@ -45,15 +44,21 @@ import ve.zoonosis.model.entidades.EntidadGlobal;
  * @author angel.colina
  * @param <Entity>
  */
-public abstract class AbstractForm< Entity extends Entidad> extends JPanel implements FormController {
+public abstract class AbstractForm< Entity extends EntidadGlobal> extends JPanel implements FormController {
 
+    protected ValidarFormularioActionListener formularioActionListener;
     protected Entity entity;
+
+    {
+        formularioActionListener = new ValidarFormularioActionListener();
+    }
 
     public AbstractForm() {
     }
 
     public AbstractForm(Entity entity) {
         this.entity = entity;
+
     }
 
     protected void iniForm() {
@@ -70,7 +75,6 @@ public abstract class AbstractForm< Entity extends Entidad> extends JPanel imple
     }
 
     protected final void autoCreateValidateForm(Class<? extends EntidadGlobal>... entitys) {
-        ValidarFormularioActionListener evt = new ValidarFormularioActionListener();
         for (Class<? extends EntidadGlobal> e : entitys) {
             Field[] fields = ReflectionUtils.getAllFields(e);
             for (Field field : fields) {
@@ -86,7 +90,7 @@ public abstract class AbstractForm< Entity extends Entidad> extends JPanel imple
                         Field f = ReflectionUtils.getField(this, field.getName());
                         if (f != null && Component.class.isAssignableFrom(f.getType())) {
                             Component c = ReflectionUtils.runGetter(f, this);
-                            agregarValidEvent(c, evt);
+                            agregarValidEvent(c, formularioActionListener);
                         }
                     }
                 }

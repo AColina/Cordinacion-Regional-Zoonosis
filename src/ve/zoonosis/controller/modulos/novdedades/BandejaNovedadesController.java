@@ -64,8 +64,10 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
 
     @Override
     public void abrir(int index) {
-        novedadController = new CrearNovedadController(BandejaNovedadesController.this,
-                bandeja.getModel().getValueAt(index));
+        if (LoginController.getUsuario() != null) {
+            novedadController = new CrearNovedadController(BandejaNovedadesController.this,
+                    bandeja.getModel().getValueAt(index));
+        }
     }
 
     @Override

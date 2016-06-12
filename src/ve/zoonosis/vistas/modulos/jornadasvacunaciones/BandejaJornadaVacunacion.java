@@ -23,7 +23,7 @@ import ve.zoonosis.model.entidades.calendario.Semana;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  * @param <E>
  */
 public abstract class BandejaJornadaVacunacion<E extends Entidad> extends AbstractInbox<E> {

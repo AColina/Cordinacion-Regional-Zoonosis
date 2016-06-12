@@ -29,10 +29,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.net.URISyntaxException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
@@ -40,7 +39,8 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-import javax.swing.WindowConstants;
+import org.apache.commons.lang3.StringUtils;
+import org.joda.time.DateTime;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Permiso;
 import ve.zoonosis.model.entidades.administracion.Persona;
@@ -48,6 +48,7 @@ import ve.zoonosis.model.entidades.administracion.Usuario;
 import ve.zoonosis.vistas.seguridad.NuevoUsuario;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
+import windows.ValidationContex;
 import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
@@ -62,6 +63,11 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
     private MDialog dialog;
 
     public NuevoUsuarioController() {
+        this(null);
+    }
+
+    public NuevoUsuarioController(Usuario usuario) {
+        super(usuario);
         inicializar();
     }
 
@@ -71,9 +77,18 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         cedula.setEnabled(true);
         if (entity == null) {
             entity = new Usuario();
+            persona = new Persona();
+        } else {
+            activeInput(true);
+            persona = entity.getPersona();
+            permiso.setEnabled(false);
+            buscar.setVisible(false);
+            BindObject bindObject2 = new BindObject(persona);
+            Bindings.bind(cedula, bindObject2.getBind("cedula"));
+            Bindings.bind(nombre, bindObject2.getBind("nombre"));
+            Bindings.bind(apellido, bindObject2.getBind("apellido"));
         }
 
-        persona = new Persona();
         aceptar.setEnabled(false);
 
         iniForm();
@@ -87,9 +102,7 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         limpiar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                persona = new Persona();
-                activeInput(false);
-                cedula.setEnabled(true);
+                limpiar();
             }
         });
         cedula.addKeyListener(new KeyAdapter() {
@@ -118,7 +131,14 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         Bindings.bind(contrasena, bindObject2.getBind("contrasena"));
         Bindings.bind(fechaNacimiento, bindObject2.getBind("fechaNacimiento"), new SimpleDateFormat("dd/MM/yyyy"));
         Bindings.bind(permiso, bindObject2.getBind("permiso"), true);
-        autoCreateValidateForm(Persona.class,Usuario.class);
+
+        autoCreateValidateForm(Persona.class, Usuario.class);
+        repeatPass.addKeyListener(formularioActionListener);
+        usr.addKeyListener(formularioActionListener);
+        DateTime d = new DateTime();
+        Date dia = new Date(d.getDayOfMonth() + "/" + d.getMonthOfYear() + "/" + (d.getYear() - 18));
+        fechaNacimiento.setMaxSelectableDate(dia);
+
         iniciarDialogo();
     }
 
@@ -127,16 +147,12 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         dialog.setTitle("Nuevo");
         dialog.setResizable(false);
         dialog.showPanel(this);
-        dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+    }
 
-        dialog.addWindowListener(new WindowAdapter() {
-
-            @Override
-            public void windowClosed(WindowEvent e) {
-                cancelar();
-            }
-        });
-
+    public void limpiar() {
+        persona = new Persona();
+        activeInput(false);
+        cedula.setEnabled(true);
     }
 
     private void activeInput(boolean b) {
@@ -156,6 +172,10 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
 
     private void buscarPersona() {
         final String c = cedula.getText();
+        if (StringUtils.isEmpty(c)) {
+            cedula.requestFocus();
+            return;
+        }
         activeInput(true);
         try {
             persona = null;
@@ -166,6 +186,12 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
                         }
                     });
             persona = rb.ejecutarJson(Persona.class);
+            if (persona != null && persona.getUsuario() != null) {
+                MGrowl.showGrowl(MGrowlState.ERROR,
+                        String.format("El usuario con la cedula \"%s\" ya ha sido regisrtado", c));
+                limpiar();
+                return;
+            }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
@@ -189,7 +215,7 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         Bindings.bind(apellido, bindObject2.getBind("apellido"));
 
         entity.setPersona(persona);
-
+        validar();
         if (apellido.isEnabled()) {
             nombre.requestFocus();
         } else {
@@ -199,11 +225,26 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
 
     @Override
     public boolean validar() {
-        boolean v = new ValidateEntity(persona).validate();
-
+        boolean v = new ValidateEntity(persona).validate(this, "cedula");
+        ValidateEntity valid = new ValidateEntity(entity);
+        errorRepeat.setText("");
         if (v) {
-            v = new ValidateEntity(entity).validate();
+            ValidationContex con;
+            if ((con = valid.validFields("nombre")) != null) {
+                errorUser.setText("<html><p>" + con.message().replace("\n", "<br>") + "</p></html>");
+                errorUser.setVisible(true);
+                v = false;
+            } else if (!valid.validate(this, new String[]{"contrasena"}, new String[]{"nombre"})) {
+                v = false;
+            } else if (!contrasena.getText().equals(repeatPass.getText())) {
+                errorRepeat.setText("<html><p>Las contraseñas no coinciden</p></html>");
+                errorRepeat.setVisible(true);
+                v = false;
+            } else if (!valid.validate(this, new String[]{"fechaNacimiento", "permiso"}, new String[]{"nombre"})) {
+                v = false;
+            }
         }
+
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
             dialog.pack();
@@ -221,7 +262,9 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
                     .crearJson(entity)
                     .ejecutarJson(Usuario.class);
             if (u != null) {
-                MGrowl.showGrowl(MGrowlState.SUCCESS, "Usuario creado con exito");
+                MGrowl.showGrowl(MGrowlState.SUCCESS, entity.getId() == null
+                        ? "Usuario creado con exito"
+                        : "Datos modificados con exito");
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);

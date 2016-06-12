@@ -36,7 +36,6 @@ import ve.zoonosis.vistas.seguridad.Login;
 import windows.Recursos;
 import windows.RequestBuilder;
 import windows.ScanWeek;
-import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
@@ -53,7 +52,7 @@ public class LoginController extends Login implements Runnable {
     }
 
     public LoginController(Index index) {
-       nombreUsuario.setPlaceHolder("Usuario");
+        nombreUsuario.setPlaceHolder("Usuario");
         PromptSupport.setPrompt("Contraseña", contrasena);
         JMenuBar m = index.getJMenuBar();
         m.setVisible(false);
@@ -78,10 +77,8 @@ public class LoginController extends Login implements Runnable {
             public void actionPerformed(ActionEvent e) {
                 usuario = null;
                 LOG.LOGGER.log(Level.INFO, "Usuario : Sesion de invitado");
-                Index.cambiarPagina(new Template());
                 new ScanWeek().start();
-                JMenuBar m = Application.getAPLICATION_FRAME().getJMenuBar();
-                m.setVisible(true);
+                validarPermisos();
             }
         });
         nombreUsuario.requestFocus();
@@ -90,7 +87,7 @@ public class LoginController extends Login implements Runnable {
     //METODOS PUBLICOS
     public static void cerrarSesion() {
 //        try {
-            System.gc();
+        System.gc();
 //            Boolean b = new RequestBuilder("rest/seguridad/logout",
 //                    new HashMap<String, Object>() {
 //                        {
@@ -98,11 +95,11 @@ public class LoginController extends Login implements Runnable {
 //                        }
 //                    }, MetodosDeEnvio.POST)
 //                    .ejecutarJson(Boolean.class);
-            if (true) {
-                LOG.LOGGER.log(Level.INFO, "Usuario : cerro sesion");
-                usuario = null;
-                Index.cambiarPagina(new LoginController());
-            }
+        if (true) {
+            LOG.LOGGER.log(Level.INFO, "Usuario : cerro sesion");
+            usuario = null;
+            Index.cambiarPagina(new LoginController());
+        }
 //        } catch (URISyntaxException ex) {
 //            LOG.LOGGER.log(Level.SEVERE, null, ex);
 //        }
@@ -172,9 +169,8 @@ public class LoginController extends Login implements Runnable {
         }
         if (usuario != null && !usuario.getNombre().equalsIgnoreCase("error")) {
             LOG.LOGGER.log(Level.INFO, "Usuario : {0} inicia sesion", usuario.getNombre());
-             new ScanWeek().start();
+            new ScanWeek().start();
             validarPermisos();
-            Index.cambiarPagina(new Template());
             Application.getAPLICATION_FRAME().setCursor(Recursos.DEFAULT_CURSOR);
             return;
         }
@@ -186,7 +182,9 @@ public class LoginController extends Login implements Runnable {
     private void validarPermisos() {
         JMenuBar m = Application.getAPLICATION_FRAME().getJMenuBar();
         m.setVisible(true);
-        
+        Index index = Application.getAPLICATION_FRAME();
+        index.addListeners(usuario);
+        Index.cambiarPagina(new Template());
     }
 
     public static Usuario getUsuario() {

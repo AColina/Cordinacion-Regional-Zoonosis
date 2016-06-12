@@ -23,7 +23,7 @@ import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public class Persona extends Entidad {
 

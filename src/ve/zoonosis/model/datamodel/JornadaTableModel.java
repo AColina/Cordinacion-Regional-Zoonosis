@@ -26,15 +26,17 @@ import java.util.logging.Level;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
 import ve.zoonosis.model.pojos.BusquedasVacunacionPojo;
 import windows.RequestBuilder;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
  * @author angel.colina
  */
-public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
+public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_has_Animal> {
 
     private static final Logger LOG = Logger.getLogger(JornadaTableModel.class);
     private final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
@@ -59,6 +61,8 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
         nombres.add("Dia");
         nombres.add("Municipio");
         nombres.add("Parroquia");
+        nombres.add("Usuario");
+        nombres.add("Animal");
         nombres.add("Opciones");
 
     }
@@ -67,14 +71,18 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
     public String columnValue(int columnIndex) {
         switch (columnIndex) {
             case 0:
-                return "{semana.nombre}";
+                return "{registroVacunacion.vacunacion.semana.nombre}";
             case 1:
-                return "{fechaElaboracion}";
+                return "{registroVacunacion.vacunacion.fechaElaboracion}";
             case 2:
-                return "{parroquia.municipio.nombre}";
+                return "{registroVacunacion.vacunacion.parroquia.municipio.nombre}";
             case 3:
-                return "{parroquia.nombre}";
+                return "{registroVacunacion.vacunacion.parroquia.nombre}";
             case 4:
+                return "{registroVacunacion.usuario.nombre}";
+            case 5:
+                return "{animal.nombre}";
+            case 6:
                 return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
@@ -107,8 +115,23 @@ public class JornadaTableModel extends AbstractLazyDataModel<Vacunacion> {
             builder = new RequestBuilder("services/proceso/VacunacionWs/BandejaVacunacion.php", map);
             final BusquedasVacunacionPojo pojo = builder.ejecutarJson(BusquedasVacunacionPojo.class);
             if (pojo != null) {
-//                setResultados(pojo.getResultados());
-//                numeroPaginas = Math.ceil(numeroRegistros / paginacion);
+                for (final RegistroVacunacion_has_Animal resultado : pojo.getResultados()) {
+
+                    try {
+                        builder = new RequestBuilder("services/proceso/VacunacionWs/ObtenerVacunacion.php",
+                                new HashMap<String, Object>() {
+                                    {
+                                        put("idVacunacion", resultado.getRegistroVacunacion().getVacunacion().getId());
+                                    }
+                                }, MetodosDeEnvio.GET);
+                        Vacunacion v = builder.ejecutarJson(Vacunacion.class);
+
+                        resultado.getRegistroVacunacion().setVacunacion(v);
+                    } catch (URISyntaxException | RuntimeException ex) {
+                        LOG.LOGGER.log(Level.SEVERE, null, ex);
+                    }
+                   
+                }
                 return new IRegistrar() {
 
                     @Override

@@ -34,7 +34,7 @@ import ve.zoonosis.model.datamodel.CasosTableModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
-import ve.zoonosis.model.entidades.proceso.Caso;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 import ve.zoonosis.model.listener.FechaListener;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.casos.BandejaCasos;
@@ -44,7 +44,7 @@ import windows.RequestBuilder;
  *
  * @author angel.colina
  */
-public class BandejaCasosController extends BandejaCasos<Caso> {
+public class BandejaCasosController extends BandejaCasos<Animal_has_Caso> {
 
     private NuevoCasoController casoController;
 
@@ -55,7 +55,7 @@ public class BandejaCasosController extends BandejaCasos<Caso> {
     @Override
     public final void inicializar() {
         iniciarBandeja(false);
-        botonVer = 4;
+        botonVer = 5;
         nuevo.setVisible(LoginController.getUsuario() != null);
         buscar.addActionListener(new BuscarLstener());
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
@@ -114,8 +114,10 @@ public class BandejaCasosController extends BandejaCasos<Caso> {
 
     @Override
     public void abrir(int index) {
-        casoController = new NuevoCasoController(BandejaCasosController.this,
-                bandeja.getModel().getValueAt(index));
+        if (LoginController.getUsuario() != null) {
+            casoController = new NuevoCasoController(BandejaCasosController.this,
+                    bandeja.getModel().getValueAt(index));
+        }
     }
 
     @Override

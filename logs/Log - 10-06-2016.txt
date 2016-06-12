@@ -1544,3 +1544,107 @@ jun 10, 2016 7:48:10 PM windows.ValidateEntity validateNotNull
 INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
 jun 10, 2016 7:48:10 PM windows.ValidateEntity validateNotNull
 INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 8:21:09 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 8:21:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:02 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:35 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:35 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:27:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 8:27:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:19 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 8:29:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:32:39 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

@@ -26,7 +26,7 @@ import javax.swing.event.MouseInputListener;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public class InternalFrame extends JInternalFrame {
 

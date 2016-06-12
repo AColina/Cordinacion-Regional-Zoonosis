@@ -35,6 +35,7 @@ import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.lang3.StringUtils;
+import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.administracion.Permiso;
@@ -49,6 +50,7 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
 import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import windows.webservices.JsonDeserializer.administracion.ClienteDeserializer;
 import windows.webservices.JsonDeserializer.administracion.PermisoDeserializer;
 import windows.webservices.JsonDeserializer.proceso.Animal_has_CasoDeserializer;
 import windows.webservices.JsonDeserializer.proceso.NovedadesDeserializer;
@@ -90,6 +92,7 @@ public abstract class Deserializer<E extends Object> extends JsonDeserializer<E>
                     .addDeserializer(Persona.class, new PersonaDeserializer())
                     .addDeserializer(Permiso.class, new PermisoDeserializer())
                     .addDeserializer(Usuario.class, new UsuarioDeserializer())
+                    .addDeserializer(Cliente.class, new ClienteDeserializer())
                     .addDeserializer(Municipio.class, new MunicipioDeserializer())
                     .addDeserializer(Animal_has_Caso.class, new Animal_has_CasoDeserializer())
                     .addDeserializer(Caso.class, new CasoDeserializer())
@@ -116,7 +119,7 @@ public abstract class Deserializer<E extends Object> extends JsonDeserializer<E>
                     }
                 }
                 if (column == null) {
-                    System.out.println("No se reconoce la siguente columna : " + fieldName);
+                    System.out.println("No se reconoce la siguente columna : " + fieldName + " de : "+classChild.getSimpleName());
                     continue;
                 }
                 if (field.getType().equals(String.class)) {

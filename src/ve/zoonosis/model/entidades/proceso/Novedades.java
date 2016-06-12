@@ -15,21 +15,21 @@
  */
 package ve.zoonosis.model.entidades.proceso;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.util.Date;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Usuario;
+import windows.webservices.JsonSerializer.JsonDateSerializer;
 
 /**
  *
  * @author Angel Colina
  */
-@JsonIgnoreProperties(ignoreUnknown=true)
 public class Novedades extends Entidad {
-
+    @JsonSerialize(using = JsonDateSerializer.class)
     private Date fechaElaboracion;
     @NotNull
     @Size(min = 5, max = 45)
