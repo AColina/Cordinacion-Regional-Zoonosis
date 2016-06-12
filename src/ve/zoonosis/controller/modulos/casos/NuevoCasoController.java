@@ -85,6 +85,7 @@ public class NuevoCasoController extends NuevoCaso<Animal_has_Caso> {
         iniForm();
 
         try {
+            System.out.println("asdasdasdasdasdasda");
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {

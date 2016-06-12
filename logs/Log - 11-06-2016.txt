@@ -1,3 +1,7 @@
+jun 11, 2016 2:30:19 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : acolina inicia sesion
+jun 11, 2016 2:32:02 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
 jun 11, 2016 6:38:18 AM ve.zoonosis.controller.seguridad.LoginController run
 INFORMACIÓN: Usuario : admin inicia sesion
 jun 11, 2016 6:38:30 AM windows.ValidateEntity validateNotNull

@@ -48,6 +48,8 @@ import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.administracion.Persona;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
+import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
