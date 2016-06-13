@@ -31,6 +31,7 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -63,7 +64,7 @@ import windows.webservices.JsonDeserializer.proceso.VacunacionDeserializer;
  */
 public abstract class Deserializer<E extends Object> extends JsonDeserializer<E> {
 
-    public static final SimpleDateFormat d = new SimpleDateFormat("dd/MM/yyyy");
+    public static final SimpleDateFormat d = new SimpleDateFormat("dd/MM/yyyy",Locale.UK);
     private final Class<E> classChild;
 
     public Deserializer(Class<E> classChild) {
@@ -138,13 +139,13 @@ public abstract class Deserializer<E extends Object> extends JsonDeserializer<E>
                 } else {
                     String date = json.get(column).textValue();
                     try {
-                        if (date != null) {
-                            value = d.parse(date);
+                    if (date != null) {
+                            value = d.parse(date.replace("-", "/"));
                         }
-                    } catch (ParseException ex) {
-                        Logger.getLogger(Deserializer.class.getName()).log(Level.SEVERE, null, ex);
+                        } catch (ParseException ex) {
+                            Logger.getLogger(Deserializer.class.getName()).log(Level.SEVERE, null, ex);
+                        }
                     }
-                }
                 ReflectionUtils.runSetter(field, instance, value);
             }
             return instance;
