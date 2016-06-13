@@ -148,7 +148,18 @@ public class NuevoCasoController extends NuevoCaso<Animal_has_Caso> {
         boolean v = new ValidateEntity(entity).validate(this);
 
         if (v) {
-            v = new ValidateEntity(caso).validate(this);
+            if (new ValidateEntity(caso).validate(this)) {
+                if (entity.getCantidadIngresado() < entity.getCantidadPositivos()) {
+                    v = false;
+                    positivosError.setText("<html><p>La cantidad de casos positivos <br>"
+                            + " no debe ser mayor a la cantidad <br>"
+                            + " de animales ingresados</p></html>");
+                    positivosError.setVisible(true);
+                }else{
+                    positivosError.setText(null);
+                      positivosError.setVisible(false);
+                }
+            }
         }
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {

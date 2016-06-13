@@ -38,7 +38,7 @@ public class Usuario extends Entidad {
     @Size(min = 2, max = 45, message = "El nombre debe contener\n entre 2 y 45 caracteres")
     private String nombre;
     @NotNull(message = "Debe ingresar la contraseña")
-    @Pattern(regexp = "^(?=.*\\d).{4,8}$", message = "La contraseña debe tener \nentre 4 y 8 caracteres, ademas \ndebe contener letras y numeros")
+    @Pattern(regexp = "((?=.*\\d)(?=.*[a-z-Az]).{4,10})", message = "La contraseña debe tener \nentre 4 y 10 caracteres, ademas \ndebe contener letras y numeros")
     private String contrasena;
     @NotNull(message = "Debe ingresar la fecha de nacimiento")
     @JsonSerialize(using = JsonDateSerializer.class)

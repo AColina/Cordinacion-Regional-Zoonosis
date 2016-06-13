@@ -66,7 +66,7 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
         cancelar = new com.megagroup.componentes.MButton();
         com.megagroup.componentes.MLabel mLabel4 = new com.megagroup.componentes.MLabel();
         limpiar = new com.megagroup.componentes.MButton();
-        cedula = new com.megagroup.componentes.MTextField();
+        cardNumber = new com.megagroup.componentes.MTextField();
         telefono = new com.megagroup.componentes.MTextField();
         errorNombre = new com.megagroup.componentes.MLabel();
         errorApellido = new com.megagroup.componentes.MLabel();
@@ -85,6 +85,7 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
         apellido.setName("apellido"); // NOI18N
 
         correo.setName("correo"); // NOI18N
+        correo.setPlaceHolder("xxxxxxxx@xxxxxx.xx");
 
         direccion.setName("direccion"); // NOI18N
 
@@ -138,7 +139,8 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
 
         limpiar.setText("Limpiar");
 
-        cedula.setPlaceHolder("x-xxxxxxxx");
+        cardNumber.setName(""); // NOI18N
+        cardNumber.setPlaceHolder("xx-xxxxxxxx");
 
         telefono.setName("telefono"); // NOI18N
         telefono.setPlaceHolder("XXXX-XXXXXXX");
@@ -167,7 +169,7 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(cedula, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(buscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
@@ -200,7 +202,7 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
                     .addComponent(errorMunicipio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(errorParroquia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 424, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -210,7 +212,7 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
                     .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(buscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(limpiar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cedula, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -258,9 +260,10 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
         return apellido;
     }
 
-    public MTextField getCedula() {
-        return cedula;
+    public MTextField getCardNumber() {
+        return cardNumber;
     }
+
 
     public MTextField getCorreo() {
         return correo;
@@ -320,7 +323,7 @@ public abstract class NuevoCliente<E extends Entidad> extends AbstractForm<E> {
     protected com.megagroup.componentes.MTextField apellido;
     protected com.megagroup.componentes.MButton buscar;
     protected com.megagroup.componentes.MButton cancelar;
-    protected com.megagroup.componentes.MTextField cedula;
+    protected com.megagroup.componentes.MTextField cardNumber;
     protected com.megagroup.componentes.MTextField correo;
     protected com.megagroup.componentes.MTextField direccion;
     protected com.megagroup.componentes.MLabel errorApellido;

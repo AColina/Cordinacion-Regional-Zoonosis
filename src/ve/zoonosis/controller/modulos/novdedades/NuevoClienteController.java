@@ -48,8 +48,6 @@ import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.administracion.Persona;
-import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
-import ve.zoonosis.model.entidades.proceso.Caso;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
 import windows.RequestBuilder;
@@ -76,14 +74,13 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
     @Override
     public final void inicializar() {
         activeInput(false);
-        cedula.setEnabled(true);
-
+        cardNumber.setEnabled(true);
+        buscar.setEnabled(false);
         if (entity == null) {
             entity = new Cliente();
         }
-        persona = new Persona();
-        aceptar.setEnabled(false);
-        
+
+        limpiar();
         iniForm();
         buscar.addActionListener(new ActionListener() {
 
@@ -99,11 +96,13 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                 limpiar();
             }
         });
-        cedula.addKeyListener(new KeyAdapter() {
+        telefono.addKeyListener(formularioActionListener);
+        cardNumber.addKeyListener(new KeyAdapter() {
 
             @Override
             public void keyReleased(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                buscar.setEnabled(validarCedula());
+                if (e.getKeyCode() == KeyEvent.VK_ENTER && buscar.isEnabled()) {
                     buscarPersona();
                 }
             }
@@ -136,6 +135,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         });
         autoCreateValidateForm(Persona.class, Cliente.class);
         iniciarDialogo();
+        cardNumber.requestFocus();
     }
 
     private void iniciarDialogo() {
@@ -169,15 +169,21 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
     }
 
     public void limpiar() {
-        persona = new Persona();
         activeInput(false);
-        cedula.setEnabled(true);
+        persona = new Persona();
+        aceptar.setEnabled(false);
+        buscar.setEnabled(false);
+        cardNumber.setEnabled(true);
+        ComponentUtils.removeListener(cardNumber, BindingEvent.class);
+        BindObject bindObject = new BindObject(persona);
+        Bindings.bind(cardNumber, bindObject.getBind("cedula"));
+
     }
 
     private void buscarPersona() {
-        final String c = cedula.getText();
+        final String c = cardNumber.getText();
         if (StringUtils.isEmpty(c)) {
-            cedula.requestFocus();
+            cardNumber.requestFocus();
             return;
         }
         activeInput(true);
@@ -199,11 +205,11 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-        ComponentUtils.removeListener(cedula, BindingEvent.class);
+        ComponentUtils.removeListener(cardNumber, BindingEvent.class);
         ComponentUtils.removeListener(nombre, BindingEvent.class);
         ComponentUtils.removeListener(apellido, BindingEvent.class);
 
-        cedula.setEnabled(persona == null);
+        cardNumber.setEnabled(persona == null);
         nombre.setEnabled(persona == null);
         apellido.setEnabled(persona == null);
 
@@ -214,7 +220,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
             persona.setCedula(c);
         }
         BindObject bindObject2 = new BindObject(persona);
-        Bindings.bind(cedula, bindObject2.getBind("cedula"));
+        Bindings.bind(cardNumber, bindObject2.getBind("cedula"));
         Bindings.bind(nombre, bindObject2.getBind("nombre"));
         Bindings.bind(apellido, bindObject2.getBind("apellido"));
 
@@ -227,12 +233,16 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         }
     }
 
+    private boolean validarCedula() {
+        return new ValidateEntity(persona).validFields("cedula") == null;
+    }
+
     @Override
     public boolean validar() {
         boolean v = new ValidateEntity(persona).validate(this, "cedula");
 
         if (v) {
-            v = new ValidateEntity(entity).validate(this, new String[]{"correo", "direccion", "parroquia"}, null);
+            v = new ValidateEntity(entity).validate(this, new String[]{"correo", "direccion","telefono", "parroquia"}, null);
         }
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {

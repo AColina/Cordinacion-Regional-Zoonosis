@@ -86,7 +86,8 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
             clientes = new ArrayList();
         }
         Bindings.bind(cliente, bindObject.getBind("cliente"), clientes, true);
-        cliente.setEnabled(entity.getId() != null);
+        cliente.setEnabled(entity.getId() == null);
+        nuevoCliente.setEnabled(entity.getId() == null);
         autoCreateValidateForm(Novedades.class);
         iniciarDialogo();
     }

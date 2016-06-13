@@ -89,7 +89,7 @@ public class ValidateEntity {
         NotNull notnull = field.getAnnotation(NotNull.class);
         if (notnull != null) {
             Object v = ReflectionUtils.runGetter(field, entidad);
-            if (v == null) {
+            if (v == null || StringUtils.isEmpty(v.toString())) {
                 contex.annotation = notnull;
                 contex.field = field;
                 contex.classError = entidad.getClass();
@@ -164,9 +164,10 @@ public class ValidateEntity {
         Pattern pattern = field.getAnnotation(Pattern.class);
         if (pattern != null) {
             String v = ReflectionUtils.runGetter(field, entidad);
-            if (StringUtils.isEmpty(pattern.regexp())) {
+            if (StringUtils.isEmpty(pattern.regexp()) || StringUtils.isEmpty(v)) {
                 return null;
             }
+
             Matcher m = java.util.regex.Pattern.compile(pattern.regexp()).matcher(v);
 
             if (!m.find()) {
@@ -179,6 +180,7 @@ public class ValidateEntity {
                         new Object[]{field.getName()});
                 return contex;
             }
+
         }
         return null;
 
