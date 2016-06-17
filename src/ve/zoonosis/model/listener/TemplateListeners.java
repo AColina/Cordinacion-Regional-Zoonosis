@@ -19,6 +19,7 @@ import com.megagroup.reflection.ReflectionUtils;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import ve.zoonosis.controller.modulos.ImportarController;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.municipio.CasoAnimalDiarioPorMunicipioController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.municipio.CasoAnimalMensualPorMunicipioController;
@@ -137,8 +138,11 @@ public class TemplateListeners {
     }
 
     public CrearDialogo getDatosDeUsuario() {
-
         return new CrearDialogo(NuevoUsuarioController.class, LoginController.getUsuario());
+    }
+
+    public CrearDialogo getImportar() {
+        return new CrearDialogo(ImportarController.class);
     }
 
     public static class Bandeja extends AbstractInternalListener implements ActionListener {
