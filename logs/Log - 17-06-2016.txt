@@ -1,3 +1,35 @@
+jun 17, 2016 7:20:51 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 17, 2016 7:21:48 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 17, 2016 8:38:43 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 17, 2016 8:43:39 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 17, 2016 8:45:34 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 8:46:07 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 8:49:19 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 17, 2016 8:53:23 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:28:55 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:31:53 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:33:31 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:35:09 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:41:23 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:45:37 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:47:30 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 17, 2016 9:49:16 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
 jun 17, 2016 6:25:24 PM windows.RequestBuilder ejecutarJson
 GRAVE: null
 java.net.ConnectException: No se pudo conectar al servidor

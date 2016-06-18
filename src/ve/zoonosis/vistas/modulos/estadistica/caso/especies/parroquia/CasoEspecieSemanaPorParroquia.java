@@ -44,23 +44,23 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
         mHeader1 = new com.megagroup.componentes.MHeader();
         mPanel1 = new com.megagroup.componentes.MPanel();
         mLabel2 = new com.megagroup.componentes.MLabel();
-        municipios = new javax.swing.JComboBox();
+        parroquias = new javax.swing.JComboBox();
         mLabel1 = new com.megagroup.componentes.MLabel();
         jPanel1 = new javax.swing.JPanel();
         mButton1 = new com.megagroup.componentes.MButton();
-        semana = new javax.swing.JComboBox();
+        semanas = new javax.swing.JComboBox();
         mLabel3 = new com.megagroup.componentes.MLabel();
         years = new javax.swing.JComboBox();
         mPanel2 = new com.megagroup.componentes.MPanel();
         pieChartPanel2 = new ve.zoonosis.model.components.piechart.PieChartPanel();
 
-        mHeader1.setText("Estadistica semanal de casos por especies y municipio");
+        mHeader1.setText("Estadistica semanal de casos por especies y parroquias");
 
         mPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         mLabel2.setText("Semana");
 
-        mLabel1.setText("Municipio");
+        mLabel1.setText("Parroquia");
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -93,7 +93,7 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
                 .addGap(51, 51, 51)
                 .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(semana, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(semanas, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -101,7 +101,7 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
                 .addGap(44, 44, 44)
                 .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(municipios, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(parroquias, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
@@ -110,9 +110,9 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(mPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(municipios, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(parroquias, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(semana)
+                    .addComponent(semanas)
                     .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(years, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -128,8 +128,8 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
         mPanel2Layout.setHorizontalGroup(
             mPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(pieChartPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pieChartPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         mPanel2Layout.setVerticalGroup(
@@ -175,9 +175,9 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
     private com.megagroup.componentes.MLabel mLabel3;
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
-    protected javax.swing.JComboBox municipios;
+    protected javax.swing.JComboBox parroquias;
     protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
-    protected javax.swing.JComboBox semana;
+    protected javax.swing.JComboBox semanas;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables
 }

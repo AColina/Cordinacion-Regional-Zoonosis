@@ -44,7 +44,7 @@
   <SubComponents>
     <Component class="com.megagroup.componentes.MHeader" name="mHeader1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Estadistica semanal de jornadas por especies y municipio"/>
+        <Property name="text" type="java.lang.String" value="Estadistica semanal de jornadas por especies y parroquia"/>
       </Properties>
     </Component>
     <Container class="com.megagroup.componentes.MPanel" name="mPanel1">
@@ -69,7 +69,7 @@
                   <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                   <Component id="mLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="municipios" min="-2" pref="180" max="-2" attributes="0"/>
+                  <Component id="parroquias" min="-2" pref="180" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
@@ -81,7 +81,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" alignment="1" groupAlignment="3" attributes="0">
-                          <Component id="municipios" alignment="3" max="32767" attributes="0"/>
+                          <Component id="parroquias" alignment="3" max="32767" attributes="0"/>
                           <Component id="mLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Component id="semanas" alignment="0" max="32767" attributes="0"/>
@@ -102,7 +102,7 @@
             <Property name="text" type="java.lang.String" value="Semana"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JComboBox" name="municipios">
+        <Component class="javax.swing.JComboBox" name="parroquias">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="0"/>
@@ -114,7 +114,7 @@
         </Component>
         <Component class="com.megagroup.componentes.MLabel" name="mLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Municipio"/>
+            <Property name="text" type="java.lang.String" value="Parroquia"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel1">
@@ -193,18 +193,18 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" max="-2" attributes="0"/>
-                  <Component id="pieChartPanel2" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="pieChartPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="20" max="32767" attributes="0"/>
-                  <Component id="pieChartPanel2" min="-2" max="-2" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pieChartPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

@@ -171,7 +171,7 @@ public abstract class CasoAnimalSemanaPorParroquia<E extends Entidad> extends Ab
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel jPanel1;
-    private com.megagroup.componentes.MButton mButton1;
+    protected com.megagroup.componentes.MButton mButton1;
     private com.megagroup.componentes.MHeader mHeader1;
     private com.megagroup.componentes.MLabel mLabel1;
     private com.megagroup.componentes.MLabel mLabel2;
@@ -179,7 +179,7 @@ public abstract class CasoAnimalSemanaPorParroquia<E extends Entidad> extends Ab
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
     protected javax.swing.JComboBox parroquias;
-    private ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     protected javax.swing.JComboBox semanas;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables

@@ -1,0 +1,822 @@
+jun 16, 2016 6:33:40 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 16, 2016 6:34:13 PM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+Información: Usuario : cerro sesion
+jun 16, 2016 6:34:33 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 16, 2016 6:37:23 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 16, 2016 6:37:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo parroquia no debe ser nulo
+jun 16, 2016 6:37:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo animal no debe ser nulo
+jun 16, 2016 6:37:48 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidad no debe ser nulo
+jun 16, 2016 6:39:55 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:39:55 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:39:57 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:39:57 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:44 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:47 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:47 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:48 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:48 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:52 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:52 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:53 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:53 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:55 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:55 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:40:56 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:56 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:56 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:56 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:56 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:56 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:57 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:57 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:58 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:59 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:59 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:40:59 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:59 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:59 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:40:59 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:09 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:10 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:10 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:11 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:11 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:33 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:33 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:34 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:34 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:35 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:35 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:35 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:35 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:51 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:51 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:55 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:55 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:41:57 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:57 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:58 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:58 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:58 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:41:58 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:00 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:00 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:00 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:00 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:01 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:04 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:07 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:16 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:16 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:20 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:20 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:25 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:25 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:26 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:26 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:27 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:30 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:30 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:30 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:30 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:30 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:30 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:36 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:36 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:42:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:42:45 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:06 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:06 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:06 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:06 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:07 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:08 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:09 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:10 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:11 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:43:12 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:13 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:14 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:14 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:14 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:14 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:14 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:44:14 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:44:16 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:16 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:17 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:17 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:18 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:19 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:44:20 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:20 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:21 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:21 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:21 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:44:21 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:44:21 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:21 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:22 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:22 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:22 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:44:22 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 16, 2016 6:57:45 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:57:45 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:57:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:57:46 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:57:48 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:57:48 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:57:50 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:50 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:51 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:51 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:51 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:57:51 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:57:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:54 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:56 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:57:56 PM windows.ValidateEntity validateMax
+Información: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 16, 2016 6:57:57 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:57:57 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:58:35 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:58:35 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:58:36 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:58:36 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:58:38 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:58:38 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 16, 2016 6:58:39 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:58:39 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:58:40 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 6:58:40 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 16, 2016 7:00:56 PM windows.ValidateEntity validateNotNull
+Información: El atributo parroquia no debe ser nulo
+jun 16, 2016 7:00:56 PM windows.ValidateEntity validateNotNull
+Información: El atributo parroquia no debe ser nulo
+jun 16, 2016 7:00:58 PM windows.ValidateEntity validateNotNull
+Información: El atributo animal no debe ser nulo
+jun 16, 2016 7:00:58 PM windows.ValidateEntity validateNotNull
+Información: El atributo animal no debe ser nulo
+jun 16, 2016 7:01:00 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidad no debe ser nulo
+jun 16, 2016 7:01:00 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidad no debe ser nulo
+jun 16, 2016 7:01:22 PM windows.ValidateEntity validateNotNull
+Información: El atributo parroquia no debe ser nulo
+jun 16, 2016 7:01:22 PM windows.ValidateEntity validateNotNull
+Información: El atributo parroquia no debe ser nulo
+jun 16, 2016 7:01:24 PM windows.ValidateEntity validateNotNull
+Información: El atributo animal no debe ser nulo
+jun 16, 2016 7:01:24 PM windows.ValidateEntity validateNotNull
+Información: El atributo animal no debe ser nulo
+jun 16, 2016 7:01:25 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidad no debe ser nulo
+jun 16, 2016 7:01:25 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidad no debe ser nulo

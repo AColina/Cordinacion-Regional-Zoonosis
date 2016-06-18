@@ -61,16 +61,16 @@
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="mLabel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="semana" min="-2" pref="138" max="-2" attributes="0"/>
+                  <Component id="semanas" min="-2" pref="138" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="mLabel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="years" min="-2" pref="84" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="mLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="municipios" min="-2" pref="180" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
               <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
           </Group>
@@ -81,7 +81,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="semana" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="semanas" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="mLabel3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="mLabel2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="years" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
@@ -157,7 +157,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JComboBox" name="semana">
+        <Component class="javax.swing.JComboBox" name="semanas">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
               <StringArray count="0"/>

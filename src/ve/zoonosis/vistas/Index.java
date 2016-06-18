@@ -48,7 +48,7 @@ public class Index extends javax.swing.JFrame {
         casos.addActionListener(TemplateListeners.getCasosBandeja());
         novedades.addActionListener(TemplateListeners.getNovedadesBandeja());
         vacunacionAnimalDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorMunicipio());
-        //    vacunacionAnimalSemanalPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalSemanalPorMunicipio());
+        vacunacionAnimalSemanalPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalSemanalPorMunicipio());
         vacunacionAnimalMensualPorMunicipio.addActionListener(TemplateListeners.getJornadaAnimalMensualPorMunicipio());
         vacunacionAnimalDiariaPorParroquia.addActionListener(TemplateListeners.getJornadaAnimalDiarioPorParroquia());
         vacunacionEspecieDiariaPorMunicipio.addActionListener(TemplateListeners.getJornadaEspecieDiarioPorMunicipio());
@@ -64,6 +64,14 @@ public class Index extends javax.swing.JFrame {
         vacunacionEspecieMensualPorParroquia.addActionListener(TemplateListeners.getJornadaEspecieMensualPorParroquia());
         casosEspecieMensualPorMunicipio.addActionListener(TemplateListeners.getCasoEspecieMensualPorMunicipio());
         casosEspecieMensualPorParroquia.addActionListener(TemplateListeners.getCasoEspecieMensualPorParroquia());
+        vacunacionAnimalSemanalPorParroquia.addActionListener(TemplateListeners.getJornadaAnimalSemanalPorParroquia());
+        casosAnimalSemanalPorMunicipio.addActionListener(TemplateListeners.getCasoAnimalSemanalPorMunicipio());
+        casosAnimalSemanalPorParroquia.addActionListener(TemplateListeners.getCasoAnimalSemanalPorParroquia());
+        vacunacionEspecieSemanalPorMunicipio.addActionListener(TemplateListeners.getJornadaEspecieSemanalPorMunicipio());
+        vacunacionEspecieSemanalPorParroquia.addActionListener(TemplateListeners.getJornadaEspecieSemanalPorParroquia());
+        casosEspecieSemanalPorMunicipio.addActionListener(TemplateListeners.getCasoEspecieSemanalPorMunicipio());
+        casosEspecieSemanalPorParroquia.addActionListener(TemplateListeners.getCasoEspecieSemanalPorParroquia());
+        comparativaAnual.addActionListener(TemplateListeners.getComparativaAnual());
 
     }
 
@@ -142,6 +150,8 @@ public class Index extends javax.swing.JFrame {
         vacunacionEspecieDiariaPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieMensualPorParroquia = new javax.swing.JMenuItem();
+        jSeparator5 = new javax.swing.JPopupMenu.Separator();
+        comparativaAnual = new javax.swing.JMenuItem();
         javax.swing.JMenu jMenu3 = new javax.swing.JMenu();
         javax.swing.JMenu opciones = new javax.swing.JMenu();
         importar = new javax.swing.JMenuItem();
@@ -273,6 +283,10 @@ public class Index extends javax.swing.JFrame {
         jMenu11.add(vacunacionEspecieMensualPorParroquia);
 
         jMenu2.add(jMenu11);
+        jMenu2.add(jSeparator5);
+
+        comparativaAnual.setText("Comparativa Anual");
+        jMenu2.add(comparativaAnual);
 
         menu.add(jMenu2);
 
@@ -355,8 +369,10 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JMenuItem casosEspecieSemanalPorMunicipio;
     private javax.swing.JMenuItem casosEspecieSemanalPorParroquia;
     private javax.swing.JMenuItem cerrarSesion;
+    private javax.swing.JMenuItem comparativaAnual;
     private javax.swing.JMenuItem exportar;
     private javax.swing.JMenuItem importar;
+    private javax.swing.JPopupMenu.Separator jSeparator5;
     private javax.swing.JMenuItem jornadasVacunacion;
     private javax.swing.JMenuBar menu;
     private javax.swing.JMenuItem modificarDatos;
