@@ -27,7 +27,7 @@ import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public class Animal extends Entidad {
 

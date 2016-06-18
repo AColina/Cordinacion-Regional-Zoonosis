@@ -26,7 +26,7 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public class Cliente extends Entidad {
 

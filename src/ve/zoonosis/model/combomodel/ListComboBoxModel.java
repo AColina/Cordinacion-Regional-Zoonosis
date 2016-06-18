@@ -20,7 +20,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import javax.swing.AbstractListModel;
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.MutableComboBoxModel;
 
 /**

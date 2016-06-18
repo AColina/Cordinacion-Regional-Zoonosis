@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ve.zoonosis.vistas.componente.piechart;
+package ve.zoonosis.model.components.piechart;
 
 import java.awt.Color;
 import java.awt.Component;
@@ -165,7 +165,7 @@ public class PieChartPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         panelLeyenda = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        pieChartGraphic = new ve.zoonosis.vistas.componente.piechart.PieChart();
+        pieChartGraphic = new ve.zoonosis.model.components.piechart.PieChart();
 
         panelLeyenda.setLayout(new java.awt.GridBagLayout());
 
@@ -267,6 +267,6 @@ public class PieChartPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JPanel panelLeyenda;
-    private ve.zoonosis.vistas.componente.piechart.PieChart pieChartGraphic;
+    private ve.zoonosis.model.components.piechart.PieChart pieChartGraphic;
     // End of variables declaration//GEN-END:variables
 }

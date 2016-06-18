@@ -26,18 +26,19 @@ import java.util.logging.Level;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
-import ve.zoonosis.model.entidades.proceso.Caso;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 import ve.zoonosis.model.pojos.BusquedasCasosPojo;
 import windows.RequestBuilder;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
  * @author angel.colina
  */
-public class CasosTableModel extends AbstractLazyDataModel<Caso> {
+public class CasosTableModel extends AbstractLazyDataModel<Animal_has_Caso> {
 
     private static final Logger LOG = Logger.getLogger(CasosTableModel.class.getName());
-    private final SimpleDateFormat format= new SimpleDateFormat("yyyy-MM-dd");
+    private final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
     private RequestBuilder builder;
     private Semana semana;
     private Parroquia parroquia;
@@ -56,14 +57,16 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
     public String columnValue(int columnIndex) {
         switch (columnIndex) {
             case 0:
-                return "{semana.nombre}";
+                return "{caso.semana.nombre}";
             case 1:
-                return "{fechaElaboracion}";
+                return "{caso.fechaElaboracion}";
             case 2:
-                return "{parroquia.nombre}";
+                return "{caso.parroquia.nombre}";
             case 3:
-                return "{parroquia.municipio.nombre}";
+                return "{caso.parroquia.municipio.nombre}";
             case 4:
+                return "{animal.nombre}";
+            case 5:
                 return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
@@ -76,6 +79,7 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
         list.add("Dia");
         list.add("Parroquia");
         list.add("Municipio");
+        list.add("Animal");
         list.add("Opciones");
     }
 
@@ -105,7 +109,21 @@ public class CasosTableModel extends AbstractLazyDataModel<Caso> {
             builder = new RequestBuilder("services/proceso/CasoWs/BandejaCasos.php", map);
             final BusquedasCasosPojo pojo = builder.ejecutarJson(BusquedasCasosPojo.class);
             if (pojo != null) {
-
+                for (Animal_has_Caso resultado : pojo.getResultados()) {
+                    final Parroquia p = resultado.getCaso().getParroquia();
+                    try {
+                        builder = new RequestBuilder("services/administracion/MunicipioWs/BuscarMunicipioPorParroquia.php",
+                                new HashMap<String, Object>() {
+                                    {
+                                        put("idParroquia", p.getId());
+                                    }
+                                }, MetodosDeEnvio.GET);
+                        Municipio municipios = builder.ejecutarJson(Municipio.class);
+                        p.setMunicipio(municipios);
+                    } catch (URISyntaxException | RuntimeException ex) {
+                        LOG.LOGGER.log(Level.SEVERE, null, ex);
+                    }
+                }
                 return new IRegistrar() {
 
                     @Override

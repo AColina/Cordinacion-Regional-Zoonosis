@@ -52,7 +52,7 @@ public abstract class CasoEspecieMensualPorMunicipio<E extends Entidad> extends 
         año = new com.toedter.calendar.JYearChooser();
         mLabel3 = new com.megagroup.componentes.MLabel();
         mPanel2 = new com.megagroup.componentes.MPanel();
-        pieChartPanel2 = new ve.zoonosis.vistas.componente.piechart.PieChartPanel();
+        pieChartPanel2 = new ve.zoonosis.model.components.piechart.PieChartPanel();
 
         mHeader1.setText("Estadistica mensual de casos por especies y municipio");
 
@@ -179,6 +179,6 @@ public abstract class CasoEspecieMensualPorMunicipio<E extends Entidad> extends 
     private com.megagroup.componentes.MPanel mPanel2;
     protected com.toedter.calendar.JMonthChooser mes;
     protected javax.swing.JComboBox municipios;
-    protected ve.zoonosis.vistas.componente.piechart.PieChartPanel pieChartPanel2;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     // End of variables declaration//GEN-END:variables
 }

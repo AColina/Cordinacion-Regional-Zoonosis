@@ -24,7 +24,7 @@ import ve.zoonosis.model.entidades.proceso.Vacunacion;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public class Semana extends Entidad {
 

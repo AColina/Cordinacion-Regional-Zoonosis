@@ -15,6 +15,8 @@
  */
 package ve.zoonosis.model.listener;
 
+import com.megagroup.reflection.ReflectionUtils;
+import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
@@ -45,12 +47,14 @@ import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.Jor
 import ve.zoonosis.controller.modulos.jornadasvacunaciones.BandejaJornadaVacunacionController;
 import ve.zoonosis.controller.modulos.novdedades.BandejaNovedadesController;
 import ve.zoonosis.controller.seguridad.LoginController;
+import ve.zoonosis.controller.seguridad.NuevoUsuarioController;
 import ve.zoonosis.model.components.AbstractInternalListener;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
+@SuppressWarnings("ResultOfObjectAllocationIgnored")
 public class TemplateListeners {
 
     public static Bandeja getJornadaVacunacionBandeja() {
@@ -165,6 +169,15 @@ public class TemplateListeners {
         return new Bandeja("Estadistica por especie semanal por parroquia", CasoEspecieSemanalPorParroquiaController.class);
     }
 
+    public CrearDialogo getNuevoUsuario() {
+        return new CrearDialogo(NuevoUsuarioController.class);
+    }
+
+    public CrearDialogo getDatosDeUsuario() {
+
+        return new CrearDialogo(NuevoUsuarioController.class, LoginController.getUsuario());
+    }
+
     public static class Bandeja extends AbstractInternalListener implements ActionListener {
 
         private final String titulo;
@@ -178,6 +191,23 @@ public class TemplateListeners {
         @Override
         public void actionPerformed(ActionEvent e) {
             crearInternalFrame(titulo, clase);
+        }
+    }
+
+    public class CrearDialogo implements ActionListener {
+
+        private final Class<? extends Container> container;
+        private final Object[] values;
+
+        public CrearDialogo(Class<? extends Container> container, Object... values) {
+            this.container = container;
+            this.values = values;
+        }
+
+        @Override
+
+        public void actionPerformed(ActionEvent e) {
+            ReflectionUtils.newInstanceForVector(container, values);
         }
 
     }

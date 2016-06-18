@@ -52,7 +52,7 @@ public abstract class JornadaAnimalMensualPorParroquia<E extends Entidad> extend
         año = new com.toedter.calendar.JYearChooser();
         mLabel3 = new com.megagroup.componentes.MLabel();
         mPanel2 = new com.megagroup.componentes.MPanel();
-        pieChartPanel2 = new ve.zoonosis.vistas.componente.piechart.PieChartPanel();
+        pieChartPanel2 = new ve.zoonosis.model.components.piechart.PieChartPanel();
 
         mHeader1.setText("Estadistica mensual de jornadas por animales y parroquias");
 
@@ -181,6 +181,6 @@ public abstract class JornadaAnimalMensualPorParroquia<E extends Entidad> extend
     private com.megagroup.componentes.MPanel mPanel2;
     protected com.toedter.calendar.JMonthChooser mes;
     protected javax.swing.JComboBox parroquias;
-    protected ve.zoonosis.vistas.componente.piechart.PieChartPanel pieChartPanel2;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     // End of variables declaration//GEN-END:variables
 }

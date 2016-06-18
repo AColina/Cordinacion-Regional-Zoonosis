@@ -20,7 +20,6 @@ import com.megagroup.utilidades.Logger;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.logging.Level;
@@ -50,6 +49,10 @@ public class ValidateEntity {
     }
 
     public boolean validate(AbstractForm form, String... excludeField) {
+        return validate(form, null, excludeField);
+    }
+
+    public boolean validate(AbstractForm form, String[] fieldsName, String[] excludeField) {
         List<JLabel> lista = new ArrayList<>();
         Field[] fields = ReflectionUtils.getAllFields(form.getClass());
         for (Field field : fields) {
@@ -60,25 +63,25 @@ public class ValidateEntity {
                 lista.add(l);
             }
         }
-        ValidationContex fieldError = validateGeneral(excludeField);
+        ValidationContex fieldError = validateGeneral(fieldsName, excludeField);
         if (fieldError == null) {
             return true;
         }
         for (JLabel label : lista) {
             if (label.getLabelFor().getName().equalsIgnoreCase(fieldError.field().getName())) {
-                label.setText("<html><p>" + fieldError.message() + "</p></html>");
+                label.setText("<html><p>" + fieldError.message().replace("\n", "<br>") + "</p></html>");
                 label.setVisible(true);
             }
         }
         return false;
     }
 
-    /**
-     *
-     * @return
-     */
+    public ValidationContex validFields(String... fields) {
+        return validateGeneral(fields, null);
+    }
+
     public boolean validate() {
-        return validateGeneral(new String[0]) == null;
+        return validateGeneral(new String[0], new String[0]) == null;
     }
 
     public ValidationContex validateNotNull(Field field) {
@@ -181,19 +184,29 @@ public class ValidateEntity {
 
     }
 
-    private ValidationContex validateGeneral(String[] excludeField) {
+    private ValidationContex validateGeneral(String[] fieldsName, String[] excludeField) {
         ValidationContex contex;
-        Field[] fields = ReflectionUtils.getAllFields(entidad.getClass());
-        for (Field field : fields) {
-            boolean b = false;
-            for (String exField : excludeField) {
-                if (exField.equalsIgnoreCase(field.getName())) {
-                    b = true;
-                    break;
-                }
+        Field[] fields;
+        if (fieldsName == null || fieldsName.length == 0) {
+            fields = ReflectionUtils.getAllFields(entidad.getClass());
+        } else {
+            fields = new Field[fieldsName.length];
+            for (int i = 0; i < fieldsName.length; i++) {
+                fields[i] = ReflectionUtils.getField(entidad, fieldsName[i]);
             }
-            if (b) {
-                continue;
+        }
+        for (Field field : fields) {
+            if (excludeField != null) {
+                boolean b = false;
+                for (String exField : excludeField) {
+                    if (exField.equalsIgnoreCase(field.getName())) {
+                        b = true;
+                        break;
+                    }
+                }
+                if (b) {
+                    continue;
+                }
             }
             Annotation[] annotation = field.getAnnotations();
             if (annotation.length == 0) {

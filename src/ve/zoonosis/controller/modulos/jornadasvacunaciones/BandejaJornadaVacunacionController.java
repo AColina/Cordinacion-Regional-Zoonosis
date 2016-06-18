@@ -35,7 +35,7 @@ import ve.zoonosis.model.datamodel.JornadaTableModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
-import ve.zoonosis.model.entidades.proceso.Vacunacion;
+import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
 import ve.zoonosis.model.listener.FechaListener;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.vistas.modulos.jornadasvacunaciones.BandejaJornadaVacunacion;
@@ -45,7 +45,7 @@ import windows.RequestBuilder;
  *
  * @author angel.colina
  */
-public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion<Vacunacion> {
+public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion<RegistroVacunacion_has_Animal> {
 
     private NuevaJornadaController jornadaController;
 
@@ -66,7 +66,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
         });
         FechaListener.createListener(desde, hasta, buscar);
         nuevo.setVisible(LoginController.getUsuario() != null);
-        botonVer = 4;
+        botonVer = 6;
         bandeja.setColumnListenerModel(LazyColumnListenerModel.class);
 
         try {
@@ -90,7 +90,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
                     .ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
                 municipios.add(0, null);
-                 municipio.setModel(new ListComboBoxModel<>(municipios));
+                municipio.setModel(new ListComboBoxModel<>(municipios));
                 municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
@@ -98,6 +98,7 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
         hasta.setMaxSelectableDate(new Date());
+        desde.setMaxSelectableDate(new Date());
         bandeja.setModel(new JornadaTableModel());
     }
 
@@ -120,11 +121,13 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
 
     @Override
     public void abrir(int index) {
-        Vacunacion entidad = null;
-        if (index > -1) {
-            entidad = bandeja.getModel().getValueAt(index);
+        if (LoginController.getUsuario() != null) {
+            RegistroVacunacion_has_Animal entidad = null;
+            if (index > -1) {
+                entidad = bandeja.getModel().getValueAt(index);
+            }
+            jornadaController = new NuevaJornadaController(this, entidad);
         }
-        jornadaController = new NuevaJornadaController(this, entidad);
     }
 
     @Override

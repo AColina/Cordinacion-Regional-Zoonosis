@@ -16,19 +16,18 @@
 package ve.zoonosis.model.entidades.proceso;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.DefaultValue;
-import ve.zoonosis.model.entidades.EntidadGlobal;
+import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
-public class Animal_has_Caso implements EntidadGlobal {
+public class Animal_has_Caso extends Entidad{
 
     @JsonBackReference("caso_has_animal")
     private Caso caso;

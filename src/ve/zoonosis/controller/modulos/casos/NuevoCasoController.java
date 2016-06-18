@@ -31,7 +31,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
@@ -50,16 +49,16 @@ import windows.webservices.utilidades.MetodosDeEnvio;
  *
  * @author angel.colina
  */
-public class NuevoCasoController extends NuevoCaso<Caso> {
+public class NuevoCasoController extends NuevoCaso<Animal_has_Caso> {
 
     private static final Logger LOG = Logger.getLogger(NuevoCasoController.class);
 
     private final BandejaCasosController controller;
     private MDialog dialog;
     private RequestBuilder rb;
-    private Animal_has_Caso caso;
+    private Caso caso;
 
-    public NuevoCasoController(BandejaCasosController controller, Caso caso) {
+    public NuevoCasoController(BandejaCasosController controller, Animal_has_Caso caso) {
         super(caso);
         this.controller = controller;
         inicializar();
@@ -71,44 +70,60 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
 
     @Override
     public final void inicializar() {
-        System.out.println("inicializando");
+        parroquia.setModel(new ListComboBoxModel<Parroquia>());
+
         if (entity == null) {
-            entity = new Caso();
+            entity = new Animal_has_Caso();
+            caso = new Caso();
+            parroquia.addItemListener(new CambioParroquia());
+        } else {
+            caso = entity.getCaso();
+            caso.getAnimal_has_Caso().add(entity);
         }
-        caso = new Animal_has_Caso();
+
         aceptar.setEnabled(false);
         iniForm();
-        BindObject<Caso> bindObject = new BindObject(entity);
-        Bindings.bind(parroquia, bindObject.getBind("parroquia"), true);
 
         try {
             System.out.println("asdasdasdasdasdasda");
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
-                 municipio.setModel(new ListComboBoxModel<>(municipios));
+                municipio.setModel(new ListComboBoxModel<>(municipios));
                 municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
-        parroquia.addItemListener(new CambioParroquia());
+
+        if (caso.getParroquia() != null) {
+            municipio.setSelectedItem(caso.getParroquia().getMunicipio());
+            parroquia.setSelectedItem(caso.getParroquia());
+            municipio.setEnabled(false);
+            parroquia.setEnabled(false);
+        }
+        BindObject<Caso> bindObject = new BindObject(caso);
+
+        Bindings.bind(parroquia, bindObject.getBind("parroquia"), ((ListComboBoxModel) parroquia.getModel()).getItems(), true);
         try {
             rb = new RequestBuilder("services/funcionales/AnimalWs/ListaAnimales.php");
             List<Animal> animales = rb.ejecutarJson(List.class, Animal.class);
             if (animales != null) {
-                animal.setModel(new DefaultComboBoxModel(animales.toArray()));
+                animal.setModel(new ListComboBoxModel(animales));
                 animal.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-        BindObject bindObject2 = new BindObject(caso);
-        Bindings.bind(animal, bindObject2.getBind("animal"), true);
+        BindObject bindObject2 = new BindObject(entity);
+        Bindings.bind(animal, bindObject2.getBind("animal"), ((ListComboBoxModel) animal.getModel()).getItems(), true);
         Bindings.bind(cantidadIngresado, bindObject2.getBind("cantidadIngresado"));
         Bindings.bind(cantidadPositivos, bindObject2.getBind("cantidadPositivos"));
         autoCreateValidateForm(Caso.class, Animal_has_Caso.class);
+        if (entity.getAnimal() != null) {
+            animal.setEnabled(false);
+        }
         iniciarDialogo();
     }
 
@@ -145,14 +160,15 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
     @Override
     public void aceptar() {
         try {
-            entity.setSemana(Recursos.SEMANA_ACTUAL);
-            entity.getParroquia().setCasos(null);
-            entity.getSemana().setCasos(null);
+            if (entity.getId() == null) {
+                caso.getAnimal_has_Caso().add(entity);
+            }
+
             rb = new RequestBuilder("services/proceso/CasoWs/CrearCaso.php")
                     .setMetodo(MetodosDeEnvio.POST)
-                    .crearJson(entity);
-            entity = rb.ejecutarJson(Caso.class);
-            if (entity != null) {
+                    .crearJson(caso);
+            caso = rb.ejecutarJson(Caso.class);
+            if (caso != null) {
                 MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
             }
         } catch (URISyntaxException | RuntimeException ex) {
@@ -175,17 +191,17 @@ public class NuevoCasoController extends NuevoCaso<Caso> {
                             put("parroquia", ((Parroquia) parroquia.getSelectedItem()).getId());
                         }
                     });
-            entity = null;
-            entity = rb.ejecutarJson(Caso.class);
+            caso = rb.ejecutarJson(Caso.class);
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-        if (entity == null) {
-            entity = new Caso();
-            entity.setFechaElaboracion(new Date());
-            entity.setParroquia((Parroquia) parroquia.getSelectedItem());
-            entity.getAnimal_has_Caso().add(caso);
+        if (caso == null) {
+            caso = new Caso();
+            caso.setFechaElaboracion(new Date());
+            caso.setParroquia((Parroquia) parroquia.getSelectedItem());
+            caso.setSemana(Recursos.SEMANA_ACTUAL);
         }
+        entity.setCaso(caso);
     }
 
     //CLASES INTERNAS

@@ -16,31 +16,37 @@
 package ve.zoonosis.model.entidades.administracion;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
+import windows.webservices.JsonSerializer.JsonDateSerializer;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public class Usuario extends Entidad {
 
     @NotNull(message = "Debe ingresar el nombre")
+    @Size(min = 2, max = 45, message = "El nombre debe contener\n entre 2 y 45 caracteres")
     private String nombre;
     @NotNull(message = "Debe ingresar la contraseña")
-    @Pattern(regexp = "")
+    @Pattern(regexp = "^(?=.*\\d).{4,8}$", message = "La contraseña debe tener \nentre 4 y 8 caracteres, ademas \ndebe contener letras y numeros")
     private String contrasena;
     @NotNull(message = "Debe ingresar la fecha de nacimiento")
+    @JsonSerialize(using = JsonDateSerializer.class)
     private Date fechaNacimiento;
     private Persona persona;
     @JsonIgnore
     private List<Novedades> novedades;
+     @NotNull(message = "Debe seleccionar un permiso")
     private Permiso permiso;
     @JsonIgnore
     private List<RegistroVacunacion> registroVacunacion;

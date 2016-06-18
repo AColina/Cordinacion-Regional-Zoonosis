@@ -15,19 +15,18 @@
  */
 package ve.zoonosis.model.pojos;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.ArrayList;
 import java.util.List;
-import ve.zoonosis.model.entidades.proceso.Caso;
+import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
 
 /**
  *
  * @author angel.colina
  */
-@JsonIgnoreProperties(ignoreUnknown=true)
 public class BusquedasCasosPojo {
 
     private Long cantidad;
-    private List<Caso> resultados;
+    private List<Animal_has_Caso> resultados;
 
     public BusquedasCasosPojo() {
     }
@@ -40,12 +39,11 @@ public class BusquedasCasosPojo {
         this.cantidad = cantidad;
     }
 
-    public List<Caso> getResultados() {
+    public List<Animal_has_Caso> getResultados() {
+        if (resultados == null) {
+            resultados = new ArrayList<>();
+        }
         return resultados;
-    }
-
-    public void setResultados(List<Caso> resultados) {
-        this.resultados = resultados;
     }
 
 }

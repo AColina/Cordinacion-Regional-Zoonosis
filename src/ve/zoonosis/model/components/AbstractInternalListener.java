@@ -26,7 +26,7 @@ import ve.zoonosis.vistas.Index;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 public abstract class AbstractInternalListener {
 
@@ -37,6 +37,11 @@ public abstract class AbstractInternalListener {
 
     public InternalFrame crearInternalFrame(String titulo,
             Class<? extends JComponent> clase, Object... param) {
+        return crearInternalFrameForVector(titulo, clase, param);
+    }
+
+    public InternalFrame crearInternalFrameForVector(String titulo,
+            Class<? extends JComponent> clase, Object[] param) {
 
         for (Component component : Index.getTemplate().getAllFrames()) {
             if (component instanceof InternalFrame) {

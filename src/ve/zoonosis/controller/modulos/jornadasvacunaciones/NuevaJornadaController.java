@@ -27,6 +27,8 @@ import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.net.URISyntaxException;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
@@ -34,6 +36,7 @@ import javax.swing.JButton;
 import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.funcionales.Animal;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion;
 import ve.zoonosis.model.entidades.proceso.RegistroVacunacion_has_Animal;
@@ -49,16 +52,16 @@ import windows.webservices.utilidades.MetodosDeEnvio;
  *
  * @author angel.colina
  */
-public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
+public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion_has_Animal> {
 
     private static final Logger LOG = Logger.getLogger(NuevaJornadaController.class);
     private final BandejaJornadaVacunacionController controller;
     private MDialog dialog;
     private RequestBuilder rb;
-    private RegistroVacunacion vacunacion;
-    private RegistroVacunacion_has_Animal vacunacion_has_Animal;
+    private Vacunacion vacunacion;
+    private RegistroVacunacion registroVacunacion;
 
-    public NuevaJornadaController(BandejaJornadaVacunacionController controller, Vacunacion entidad) {
+    public NuevaJornadaController(BandejaJornadaVacunacionController controller, RegistroVacunacion_has_Animal entidad) {
         super(entidad);
         this.controller = controller;
         inicializar();
@@ -70,27 +73,43 @@ public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
 
     @Override
     public final void inicializar() {
+        parroquia.setModel(new ListComboBoxModel<Parroquia>());
         if (entity == null) {
-            entity = new Vacunacion();
+            entity = new RegistroVacunacion_has_Animal();
+            vacunacion = new Vacunacion();
+            registroVacunacion = new RegistroVacunacion();
+            parroquia.addItemListener(new CambioParroquia());
+        } else {
+            registroVacunacion = entity.getRegistroVacunacion();
+            registroVacunacion.getVacunacion_has_Animal().add(entity);
+            vacunacion = registroVacunacion.getVacunacion();
+            vacunacion.getRegistroVacunacion().add(registroVacunacion);
         }
-        vacunacion = new RegistroVacunacion();
-        vacunacion_has_Animal = new RegistroVacunacion_has_Animal();
+
         aceptar.setEnabled(false);
         iniForm();
-        BindObject bindObject = new BindObject(entity);
-        Bindings.bind(parroquia, bindObject.getBind("parroquia"), true);
+
         try {
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
             List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
             if (municipios != null) {
-                 municipio.setModel(new ListComboBoxModel<>(municipios));
+                municipio.setModel(new ListComboBoxModel<>(municipios));
                 municipio.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
         municipio.addActionListener(new MunicipioListener(parroquia));
-        parroquia.addItemListener(new CambioParroquia());
+
+        if (vacunacion.getParroquia() != null) {
+            municipio.setSelectedItem(vacunacion.getParroquia().getMunicipio());
+            parroquia.setSelectedItem(vacunacion.getParroquia());
+            municipio.setEnabled(false);
+            parroquia.setEnabled(false);
+        }
+        BindObject bindObject = new BindObject(vacunacion);
+
+        Bindings.bind(parroquia, bindObject.getBind("parroquia"), ((ListComboBoxModel) parroquia.getModel()).getItems(), true);
         try {
             rb = new RequestBuilder("services/funcionales/AnimalWs/ListaAnimales.php");
             List<Animal> animales = rb.ejecutarJson(List.class, Animal.class);
@@ -102,7 +121,7 @@ public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
 
-        BindObject bindObject2 = new BindObject(vacunacion_has_Animal);
+        BindObject bindObject2 = new BindObject(entity);
         Bindings.bind(animal, bindObject2.getBind("animal"), true);
         Bindings.bind(cantidad, bindObject2.getBind("cantidad"));
         autoCreateValidateForm(Vacunacion.class, RegistroVacunacion_has_Animal.class);
@@ -126,15 +145,49 @@ public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
     }
 
     private void buscarJornada() {
+        try {
+            if (parroquia.getSelectedIndex() == -1) {
+                return;
+            }
+            rb = new RequestBuilder("services/proceso/VacunacionWs/ObtenerVacunacionPorDia.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("dia", Recursos.FORMATO_FECHA.format(new Date()));
+                            put("parroquia", ((Parroquia) parroquia.getSelectedItem()).getId());
+                        }
+                    });
+            vacunacion = rb.ejecutarJson(Vacunacion.class);
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        if (vacunacion == null) {
+            vacunacion = new Vacunacion();
+            vacunacion.setFechaElaboracion(new Date());
+            vacunacion.setParroquia((Parroquia) parroquia.getSelectedItem());
+            vacunacion.setSemana(Recursos.SEMANA_ACTUAL);
+        }
+        registroVacunacion = null;
+        for (RegistroVacunacion reg : vacunacion.getRegistroVacunacion()) {
+            if (reg.getUsuario().getId().equals(LoginController.getUsuario().getId())) {
+                registroVacunacion = reg;
+            }
+        }
+        if (registroVacunacion == null) {
+            registroVacunacion = new RegistroVacunacion();
+            registroVacunacion.setUsuario(LoginController.getUsuario());
+            registroVacunacion.setVacunacion(vacunacion);
+            vacunacion.getRegistroVacunacion().add(registroVacunacion);
+        }
 
+        entity.setRegistroVacunacion(registroVacunacion);
     }
 
     @Override
     public boolean validar() {
-        boolean v = new ValidateEntity(entity).validate(this);
+        boolean v = new ValidateEntity(vacunacion).validate(this);
 
         if (v) {
-            v = new ValidateEntity(vacunacion_has_Animal).validate(this);
+            v = new ValidateEntity(entity).validate(this);
         }
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
@@ -156,15 +209,13 @@ public class NuevaJornadaController extends NuevaJornada<Vacunacion> {
     @Override
     public void aceptar() {
         try {
-            vacunacion.setUsuario(LoginController.getUsuario());
-            vacunacion.getVacunacion_has_Animal().add(vacunacion_has_Animal);
-            vacunacion_has_Animal.setRegistroVacunacion(vacunacion);
-            entity.getRegistroVacunacion().add(vacunacion);
-            entity.setSemana(Recursos.SEMANA_ACTUAL);
+            if (entity.getId() == null) {
+                registroVacunacion.getVacunacion_has_Animal().add(entity);
+            }
             rb = new RequestBuilder("services/proceso/VacunacionWs/CrearVacunacion.php")
                     .setMetodo(MetodosDeEnvio.POST)
-                    .crearJson(entity);
-            entity = rb.ejecutarJson(Vacunacion.class);
+                    .crearJson(vacunacion);
+            vacunacion = rb.ejecutarJson(Vacunacion.class);
             if (entity != null) {
                 MGrowl.showGrowl(MGrowlState.SUCCESS, "Registro guardado con exito");
             }

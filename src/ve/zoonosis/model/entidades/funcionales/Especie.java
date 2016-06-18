@@ -23,7 +23,7 @@ import ve.zoonosis.model.entidades.Entidad;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  */
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Especie extends Entidad {

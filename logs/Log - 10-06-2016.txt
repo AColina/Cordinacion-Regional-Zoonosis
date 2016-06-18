@@ -1284,3 +1284,367 @@ jun 10, 2016 10:46:43 AM windows.ValidateEntity validateSize
 INFORMACIÓN: El atributo nombre debe contener entre 5 y 45 caracteres
 jun 10, 2016 3:23:38 PM ve.zoonosis.controller.seguridad.LoginController run
 INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 4:35:40 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 5:17:16 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 5:18:56 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 10, 2016 5:26:14 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 5:27:45 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 5:30:19 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 5:32:20 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 5:32:53 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:05:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:07:10 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:10:40 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:12:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:44:35 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:47:40 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:49:03 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:50:00 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 6:50:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 6:50:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 6:50:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 6:50:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 6:50:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 6:50:17 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 10, 2016 6:50:17 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 10, 2016 6:50:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 6:50:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:03:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:03:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:40:06 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 7:40:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:40:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:40:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:40:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:40:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:40:53 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:40:53 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:40:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:40:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:41:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:41:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:47:16 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 7:47:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:47:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:47:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:47:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 10, 2016 7:47:38 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:47:38 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 10, 2016 7:47:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 7:47:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:47:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 7:48:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo fechaNacimiento no debe ser nulo
+jun 10, 2016 8:21:09 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 8:21:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:46 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:21:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:21:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:02 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:35 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:35 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:22:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 10, 2016 8:27:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 8:27:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:27:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:19 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 10, 2016 8:29:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:29:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 10, 2016 8:32:39 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

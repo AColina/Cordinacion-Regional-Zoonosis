@@ -16,7 +16,9 @@
 package ve.zoonosis.vistas;
 
 import com.megagroup.Application;
+import com.megagroup.utilidades.ComponentUtils;
 import ve.zoonosis.controller.seguridad.LoginController;
+import ve.zoonosis.model.entidades.administracion.Usuario;
 import ve.zoonosis.model.listener.TemplateListeners;
 import ve.zoonosis.vistas.seguridad.Login;
 import windows.Recursos;
@@ -40,7 +42,7 @@ public class Index extends javax.swing.JFrame {
         this.setContentPane(new LoginController(Index.this));
     }
 
-    public final void addListeners() {
+    private void addListeners() {
         jornadasVacunacion.addActionListener(TemplateListeners.getJornadaVacunacionBandeja());
         cerrarSesion.addActionListener(TemplateListeners.getCerrarSesion());
         casos.addActionListener(TemplateListeners.getCasosBandeja());
@@ -296,7 +298,7 @@ public class Index extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     public static void cambiarPagina(Login login) {
-        Index frame = Application.getAPLICATION_FRAME();;
+        Index frame = Application.getAPLICATION_FRAME();
         frame.setContentPane(login);
         frame.revalidate();
         frame.repaint();
@@ -319,8 +321,6 @@ public class Index extends javax.swing.JFrame {
     public static Template getTemplate() {
         return template;
     }
-
-
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

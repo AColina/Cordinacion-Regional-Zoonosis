@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package ve.zoonosis.controller.modulos.novdedades;
+package ve.zoonosis.controller.seguridad;
 
 import com.megagroup.binding.BindObject;
 import com.megagroup.binding.components.Bindings;
@@ -23,53 +23,51 @@ import com.megagroup.componentes.MGrowl;
 import com.megagroup.model.enums.MGrowlState;
 import com.megagroup.utilidades.ComponentUtils;
 import com.megagroup.utilidades.Logger;
+import com.toedter.calendar.JDateChooser;
 import java.awt.Component;
-import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.net.URISyntaxException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
-import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
-import javax.swing.WindowConstants;
 import org.apache.commons.lang3.StringUtils;
+import org.joda.time.DateTime;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
-import ve.zoonosis.model.entidades.administracion.Cliente;
-import ve.zoonosis.model.entidades.administracion.Municipio;
-import ve.zoonosis.model.entidades.administracion.Parroquia;
+import ve.zoonosis.model.entidades.administracion.Permiso;
 import ve.zoonosis.model.entidades.administracion.Persona;
-import ve.zoonosis.model.entidades.proceso.Animal_has_Caso;
-import ve.zoonosis.model.entidades.proceso.Caso;
-import ve.zoonosis.model.listener.MunicipioListener;
-import ve.zoonosis.vistas.modulos.novedades.NuevoCliente;
+import ve.zoonosis.model.entidades.administracion.Usuario;
+import ve.zoonosis.vistas.seguridad.NuevoUsuario;
 import windows.RequestBuilder;
 import windows.ValidateEntity;
+import windows.ValidationContex;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
  * @author angel.colina
  */
-public class NuevoClienteController extends NuevoCliente<Cliente> {
+public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
 
-    private static final Logger LOG = Logger.getLogger(NuevoClienteController.class);
+    private static final Logger LOG = Logger.getLogger(NuevoUsuarioController.class);
     private RequestBuilder rb;
-
-    private final CrearNovedadController novedadController;
     private Persona persona;
     private MDialog dialog;
 
-    public NuevoClienteController(CrearNovedadController novedadController) {
-        this.novedadController = novedadController;
+    public NuevoUsuarioController() {
+        this(null);
+    }
+
+    public NuevoUsuarioController(Usuario usuario) {
+        super(usuario);
         inicializar();
     }
 
@@ -77,101 +75,99 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
     public final void inicializar() {
         activeInput(false);
         cedula.setEnabled(true);
-
         if (entity == null) {
-            entity = new Cliente();
+            entity = new Usuario();
+            persona = new Persona();
+        } else {
+            activeInput(true);
+            persona = entity.getPersona();
+            permiso.setEnabled(false);
+            buscar.setVisible(false);
+            BindObject bindObject2 = new BindObject(persona);
+            Bindings.bind(cedula, bindObject2.getBind("cedula"));
+            Bindings.bind(nombre, bindObject2.getBind("nombre"));
+            Bindings.bind(apellido, bindObject2.getBind("apellido"));
         }
-        persona = new Persona();
+
         aceptar.setEnabled(false);
-        
+
         iniForm();
         buscar.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent e) {
                 buscarPersona();
             }
         });
-        limpiar.addActionListener(new ActionListener() {
 
+        limpiar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 limpiar();
             }
         });
         cedula.addKeyListener(new KeyAdapter() {
-
             @Override
             public void keyReleased(KeyEvent e) {
+
                 if (e.getKeyCode() == KeyEvent.VK_ENTER) {
                     buscarPersona();
                 }
             }
         });
 
-        BindObject bindObject2 = new BindObject(entity);
-        Bindings.bind(correo, bindObject2.getBind("correo"));
-        Bindings.bind(direccion, bindObject2.getBind("direccion"));
-        Bindings.bind(telefono, bindObject2.getBind("telefono"));
-        Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
-
         try {
-            rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
-            List<Municipio> municipios = rb.ejecutarJson(List.class, Municipio.class);
-            if (municipios != null) {
-                municipios.add(0, null);
-                municipio.setModel(new ListComboBoxModel<>(municipios));
-                municipio.setSelectedIndex(-1);
+            rb = new RequestBuilder("services/administracion/PermisoWs/BuscarPermiso.php");
+            List<Permiso> permisos = rb.ejecutarJson(List.class, Permiso.class);
+            if (permisos != null) {
+                permisos.add(0, null);
+                permiso.setModel(new ListComboBoxModel<>(permisos));
+                permiso.setSelectedIndex(-1);
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-        municipio.addActionListener(new MunicipioListener(parroquia));
-        parroquia.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                entity.setParroquia((Parroquia) parroquia.getSelectedItem());
-                aceptar.setEnabled(validar());
-            }
-        });
-        autoCreateValidateForm(Persona.class, Cliente.class);
+        BindObject bindObject2 = new BindObject(entity);
+        Bindings.bind(usr, bindObject2.getBind("nombre"));
+        Bindings.bind(contrasena, bindObject2.getBind("contrasena"));
+        Bindings.bind(fechaNacimiento, bindObject2.getBind("fechaNacimiento"), new SimpleDateFormat("dd/MM/yyyy"));
+        Bindings.bind(permiso, bindObject2.getBind("permiso"), true);
+
+        autoCreateValidateForm(Persona.class, Usuario.class);
+        repeatPass.addKeyListener(formularioActionListener);
+        usr.addKeyListener(formularioActionListener);
+        DateTime d = new DateTime();
+        Date dia = new Date(d.getDayOfMonth() + "/" + d.getMonthOfYear() + "/" + (d.getYear() - 18));
+        fechaNacimiento.setMaxSelectableDate(dia);
+
         iniciarDialogo();
     }
 
     private void iniciarDialogo() {
-        dialog = new MDialog((Dialog) SwingUtilities.getWindowAncestor(novedadController));
+        dialog = new MDialog();
         dialog.setTitle("Nuevo");
         dialog.setResizable(false);
         dialog.showPanel(this);
-        dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-
-        dialog.addWindowListener(new WindowAdapter() {
-
-            @Override
-            public void windowClosed(WindowEvent e) {
-                cancelar();
-            }
-        });
-
-    }
-
-    private void activeInput(boolean b) {
-        for (Component component : this.getComponents()) {
-            if ((component instanceof JTextField) || (component instanceof JComboBox)) {
-                component.setEnabled(b);
-                if (component instanceof JTextField) {
-                    ((JTextField) component).setText(null);
-                } else {
-                    ((JComboBox) component).setSelectedIndex(-1);
-                }
-            }
-        }
     }
 
     public void limpiar() {
         persona = new Persona();
         activeInput(false);
         cedula.setEnabled(true);
+    }
+
+    private void activeInput(boolean b) {
+        for (Component component : this.getComponents()) {
+            if ((component instanceof JTextField) || (component instanceof JComboBox) || (component instanceof JDateChooser)) {
+                component.setEnabled(b);
+                if (component instanceof JTextField) {
+                    ((JTextField) component).setText(null);
+                } else if (component instanceof JDateChooser) {
+                    ((JDateChooser) component).setDate(null);
+                } else {
+                    ((JComboBox) component).setSelectedIndex(-1);
+                }
+            }
+        }
     }
 
     private void buscarPersona() {
@@ -190,9 +186,9 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
                         }
                     });
             persona = rb.ejecutarJson(Persona.class);
-            if (persona != null && persona.getCliente() != null) {
+            if (persona != null && persona.getUsuario() != null) {
                 MGrowl.showGrowl(MGrowlState.ERROR,
-                        String.format("El cliente con la cedula \"%s\" ya ha sido regisrtado", c));
+                        String.format("El usuario con la cedula \"%s\" ya ha sido regisrtado", c));
                 limpiar();
                 return;
             }
@@ -223,31 +219,57 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         if (apellido.isEnabled()) {
             nombre.requestFocus();
         } else {
-            correo.requestFocus();
+            usr.requestFocus();
         }
     }
 
     @Override
     public boolean validar() {
         boolean v = new ValidateEntity(persona).validate(this, "cedula");
-
+        ValidateEntity valid = new ValidateEntity(entity);
+        errorRepeat.setText("");
         if (v) {
-            v = new ValidateEntity(entity).validate(this, new String[]{"correo", "direccion", "parroquia"}, null);
+            ValidationContex con;
+            if ((con = valid.validFields("nombre")) != null) {
+                errorUser.setText("<html><p>" + con.message().replace("\n", "<br>") + "</p></html>");
+                errorUser.setVisible(true);
+                v = false;
+            } else if (!valid.validate(this, new String[]{"contrasena"}, new String[]{"nombre"})) {
+                v = false;
+            } else if (!contrasena.getText().equals(repeatPass.getText())) {
+                errorRepeat.setText("<html><p>Las contraseñas no coinciden</p></html>");
+                errorRepeat.setVisible(true);
+                v = false;
+            } else if (!valid.validate(this, new String[]{"fechaNacimiento", "permiso"}, new String[]{"nombre"})) {
+                v = false;
+            }
         }
+
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {
             dialog.pack();
         }
         return v;
+
     }
 
     @Override
     public void aceptar() {
-        DefaultComboBoxModel model = (DefaultComboBoxModel) novedadController.getCliente().getModel();
-        model.addElement(entity);
-        novedadController.getCliente().setSelectedIndex(-1);
-        cancelar();
+        try {
 
+            Usuario u = new RequestBuilder("services/administracion/PersonaWs/CrearUsuario.php")
+                    .setMetodo(MetodosDeEnvio.POST)
+                    .crearJson(entity)
+                    .ejecutarJson(Usuario.class);
+            if (u != null) {
+                MGrowl.showGrowl(MGrowlState.SUCCESS, entity.getId() == null
+                        ? "Usuario creado con exito"
+                        : "Datos modificados con exito");
+            }
+        } catch (URISyntaxException | RuntimeException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
+        cancelar();
     }
 
     @Override

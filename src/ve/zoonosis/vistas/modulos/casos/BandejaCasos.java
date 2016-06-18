@@ -16,17 +16,17 @@
 package ve.zoonosis.vistas.modulos.casos;
 
 import ve.zoonosis.model.bean.AbstractInbox;
-import ve.zoonosis.model.entidades.Entidad;
+import ve.zoonosis.model.entidades.EntidadGlobal;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
 
 /**
  *
- * @author clases
+ * @author angel.colina
  * @param <E>
  */
-public abstract class BandejaCasos<E extends Entidad> extends AbstractInbox<E> {
+public abstract class BandejaCasos<E extends EntidadGlobal> extends AbstractInbox<E> {
 
     /**
      * Creates new form BandejaJornadaVacunacion
