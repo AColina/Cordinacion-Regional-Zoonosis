@@ -78,3 +78,15 @@ jun 17, 2016 6:29:01 PM windows.ValidateEntity validateMax
 INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
 jun 17, 2016 6:29:01 PM windows.ValidateEntity validateMax
 INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:45:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 6:48:06 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:08:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:11:15 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:13:41 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:18:18 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

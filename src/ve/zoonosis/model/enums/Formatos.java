@@ -19,14 +19,12 @@ package ve.zoonosis.model.enums;
  *
  * @author angel.colina
  */
-public enum Modulos implements IEnum<String> {
+public enum Formatos implements IEnum<String> {
 
-//    CASOS("Casos"),
-    JORNADA("Jornada de Vacunación");
-
+    VACUNACION_POR_MUNICIPIO("Vacunación por Municipio");
     private final String value;
 
-    private Modulos(String value) {
+    private Formatos(String value) {
         this.value = value;
     }
 
@@ -34,5 +32,4 @@ public enum Modulos implements IEnum<String> {
     public String getValue() {
         return value;
     }
-
 }

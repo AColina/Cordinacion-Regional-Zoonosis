@@ -47,6 +47,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
     private Municipio municipio;
     private Date desde;
     private Date hasta;
+    private HashMap<Long, Vacunacion> vacunacion;
 
     public JornadaTableModel() {
     }
@@ -92,7 +93,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
     @Override
     public IRegistrar crearSubLista(int posicionInical) {
         try {
-
+            vacunacion = new HashMap<>();
             HashMap map = new HashMap();
             if (semana != null) {
                 map.put("idSemana", semana.getId());
@@ -118,19 +119,23 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
                 for (final RegistroVacunacion_has_Animal resultado : pojo.getResultados()) {
 
                     try {
-                        builder = new RequestBuilder("services/proceso/VacunacionWs/ObtenerVacunacion.php",
-                                new HashMap<String, Object>() {
-                                    {
-                                        put("idVacunacion", resultado.getRegistroVacunacion().getVacunacion().getId());
-                                    }
-                                }, MetodosDeEnvio.GET);
-                        Vacunacion v = builder.ejecutarJson(Vacunacion.class);
-
+                        Vacunacion v=vacunacion.get(resultado.getRegistroVacunacion().getVacunacion().getId());
+                        if (v == null) {
+                            builder = new RequestBuilder("services/proceso/VacunacionWs/ObtenerVacunacion.php",
+                                    new HashMap<String, Object>() {
+                                        {
+                                            put("idVacunacion", resultado.getRegistroVacunacion().getVacunacion().getId());
+                                        }
+                                    }, MetodosDeEnvio.GET);
+                        
+                        v = builder.ejecutarJson(Vacunacion.class);
+                        vacunacion.put(resultado.getRegistroVacunacion().getVacunacion().getId(), v);
+                        }
                         resultado.getRegistroVacunacion().setVacunacion(v);
                     } catch (URISyntaxException | RuntimeException ex) {
                         LOG.LOGGER.log(Level.SEVERE, null, ex);
                     }
-                   
+
                 }
                 return new IRegistrar() {
 

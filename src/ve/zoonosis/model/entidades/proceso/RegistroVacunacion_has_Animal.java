@@ -26,7 +26,7 @@ import ve.zoonosis.model.entidades.funcionales.Animal;
  *
  * @author angel.colina
  */
-public class RegistroVacunacion_has_Animal extends Entidad{
+public class RegistroVacunacion_has_Animal extends Entidad {
 
     @JsonBackReference("RegistroVacunacion_has_Animal")
     private RegistroVacunacion registroVacunacion;
@@ -38,6 +38,12 @@ public class RegistroVacunacion_has_Animal extends Entidad{
     private Integer cantidad;
 
     public RegistroVacunacion_has_Animal() {
+    }
+
+    public RegistroVacunacion_has_Animal(RegistroVacunacion registroVacunacion, Animal animal, Integer cantidad) {
+        this.registroVacunacion = registroVacunacion;
+        this.animal = animal;
+        this.cantidad = cantidad;
     }
 
     public RegistroVacunacion getRegistroVacunacion() {
@@ -62,6 +68,11 @@ public class RegistroVacunacion_has_Animal extends Entidad{
 
     public void setCantidad(Integer cantidad) {
         this.cantidad = cantidad;
+    }
+
+    @Override
+    public String toString() {
+        return "RegistroVacunacion_has_Animal{ animal=" + animal + ", cantidad=" + cantidad + '}';
     }
 
 }

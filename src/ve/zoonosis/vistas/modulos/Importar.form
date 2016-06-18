@@ -24,29 +24,33 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="mLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="mLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="mLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="mLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="fechaElaboracion" max="32767" attributes="0"/>
-                          <Component id="modulo" pref="166" max="32767" attributes="0"/>
-                          <Component id="tipoFormato" max="32767" attributes="0"/>
-                          <Component id="formato" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="buscar" min="-2" max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                       <Component id="aceptar" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                       <Component id="cancelar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="mLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="mLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="mLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="mLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="year" min="-2" pref="88" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="municipio" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="modulo" alignment="0" pref="166" max="32767" attributes="0"/>
+                                  <Component id="formato" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="buscar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
@@ -63,15 +67,15 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="fechaElaboracion" min="-2" max="-2" attributes="0"/>
+                  <Component id="year" min="-2" max="-2" attributes="0"/>
                   <Component id="mLabel2" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="mLabel3" min="-2" max="-2" attributes="0"/>
-                  <Component id="tipoFormato" min="-2" max="-2" attributes="0"/>
+                  <Component id="municipio" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="mLabel4" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -100,39 +104,8 @@
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="mLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Modulos"/>
+        <Property name="text" type="java.lang.String" value="Modulos" postCode="mLabel1.setRequired(true);"/>
         <Property name="name" type="java.lang.String" value="mLabel1" noResource="true"/>
-        <Property name="required" type="boolean" value="true"/>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-      </AuxValues>
-    </Component>
-    <Component class="com.megagroup.componentes.MLabel" name="mLabel2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Fecha Elaboracion"/>
-        <Property name="name" type="java.lang.String" value="mLabel2" noResource="true"/>
-        <Property name="required" type="boolean" value="true"/>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
-      </AuxValues>
-    </Component>
-    <Component class="com.toedter.calendar.JDateChooser" name="fechaElaboracion">
-      <Properties>
-        <Property name="name" type="java.lang.String" value="fechaElaboracion" noResource="true"/>
-        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[84, 24]"/>
-        </Property>
-      </Properties>
-    </Component>
-    <Component class="com.megagroup.componentes.MLabel" name="mLabel3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Tipo Formato"/>
-        <Property name="name" type="java.lang.String" value="mLabel3" noResource="true"/>
-        <Property name="required" type="boolean" value="true"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
@@ -141,27 +114,13 @@
     </Component>
     <Component class="com.megagroup.componentes.MLabel" name="mLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Formato"/>
+        <Property name="text" type="java.lang.String" value="Formato" postCode="mLabel4.setRequired(true);"/>
         <Property name="name" type="java.lang.String" value="mLabel4" noResource="true"/>
-        <Property name="required" type="boolean" value="true"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
       </AuxValues>
-    </Component>
-    <Component class="javax.swing.JComboBox" name="tipoFormato">
-      <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="4">
-            <StringItem index="0" value="Item 1"/>
-            <StringItem index="1" value="Item 2"/>
-            <StringItem index="2" value="Item 3"/>
-            <StringItem index="3" value="Item 4"/>
-          </StringArray>
-        </Property>
-        <Property name="name" type="java.lang.String" value="tipoFormato" noResource="true"/>
-      </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MTextField" name="formato">
       <Properties>
@@ -189,6 +148,46 @@
         <Property name="text" type="java.lang.String" value="Cancelar"/>
         <Property name="name" type="java.lang.String" value="cancelar" noResource="true"/>
       </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JYearChooser" name="year">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="year" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[44, 24]"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="com.megagroup.componentes.MLabel" name="mLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;o"/>
+        <Property name="name" type="java.lang.String" value="mLabel2" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mLabel2.setRequired(true);"/>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
+    </Component>
+    <Component class="com.megagroup.componentes.MLabel" name="mLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Municipio" postCode="mLabel3.setRequired(true);"/>
+        <Property name="name" type="java.lang.String" value="mLabel3" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="municipio">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="municipio" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Municipio&gt;"/>
+      </AuxValues>
     </Component>
   </SubComponents>
 </Form>

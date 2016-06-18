@@ -39,6 +39,11 @@ public class RegistroVacunacion extends Entidad {
     public RegistroVacunacion() {
     }
 
+    public RegistroVacunacion(Vacunacion vacunacion, Usuario usuario) {
+        this.vacunacion = vacunacion;
+        this.usuario = usuario;
+    }
+
     public Vacunacion getVacunacion() {
         return vacunacion;
     }
