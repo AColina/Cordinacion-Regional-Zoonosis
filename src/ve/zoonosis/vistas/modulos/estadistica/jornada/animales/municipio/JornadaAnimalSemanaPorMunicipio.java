@@ -184,7 +184,7 @@ public abstract class JornadaAnimalSemanaPorMunicipio<E extends Entidad> extends
     private com.megagroup.componentes.MPanel mPanel2;
     protected javax.swing.JComboBox<Municipio> municipios;
     protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
-    protected javax.swing.JComboBox semana;
+    protected javax.swing.JComboBox semanas;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables
 }

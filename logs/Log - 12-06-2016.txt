@@ -248,3 +248,85 @@ jun 12, 2016 10:01:21 AM windows.ValidateEntity validateMax
 INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
 jun 12, 2016 10:01:21 AM windows.ValidateEntity validateMax
 INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 12, 2016 11:01:35 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 12, 2016 11:01:49 PM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+Información: Usuario : cerro sesion
+jun 12, 2016 11:03:28 PM ve.zoonosis.controller.seguridad.LoginController run
+Información: Usuario : xea inicia sesion
+jun 12, 2016 11:03:46 PM windows.ValidateEntity validatePattern
+Información: El atributo contrasena no posee concidencia
+jun 12, 2016 11:03:46 PM windows.ValidateEntity validatePattern
+Información: El atributo contrasena no posee concidencia
+jun 12, 2016 11:03:46 PM windows.ValidateEntity validatePattern
+Información: El atributo contrasena no posee concidencia
+jun 12, 2016 11:04:08 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:10 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:10 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:13 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:22 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:23 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:26 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:26 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:26 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:26 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:26 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:26 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:29 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:29 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:04:30 PM windows.ValidateEntity validateNotNull
+Información: El atributo apellido no debe ser nulo
+jun 12, 2016 11:13:23 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:13:23 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:13:31 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:13:31 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:13:38 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:13:38 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:13:47 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:13:47 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:13:47 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:13:47 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:14:19 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:14:19 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:14:22 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:14:22 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:14:25 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:14:25 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadIngresado no debe ser nulo
+jun 12, 2016 11:14:27 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:14:27 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:14:30 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo
+jun 12, 2016 11:14:30 PM windows.ValidateEntity validateNotNull
+Información: El atributo cantidadPositivos no debe ser nulo

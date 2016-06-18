@@ -1,0 +1,4 @@
+jun 14, 2016 10:40:55 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado
+jun 14, 2016 10:42:53 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+Información: Usuario : Sesion de invitado

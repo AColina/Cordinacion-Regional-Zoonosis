@@ -128,8 +128,8 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
         mPanel2Layout.setHorizontalGroup(
             mPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(pieChartPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pieChartPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         mPanel2Layout.setVerticalGroup(
@@ -175,9 +175,9 @@ public abstract class CasoEspecieSemanaPorParroquia<E extends Entidad> extends A
     private com.megagroup.componentes.MLabel mLabel3;
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
-    protected javax.swing.JComboBox municipios;
+    protected javax.swing.JComboBox parroquias;
     protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
-    protected javax.swing.JComboBox semana;
+    protected javax.swing.JComboBox semanas;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables
 }

@@ -129,16 +129,16 @@ public abstract class JornadaEspecieSemanaPorParroquia<E extends Entidad> extend
         mPanel2Layout.setHorizontalGroup(
             mPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(pieChartPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pieChartPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         mPanel2Layout.setVerticalGroup(
             mPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mPanel2Layout.createSequentialGroup()
-                .addContainerGap(20, Short.MAX_VALUE)
+            .addGroup(mPanel2Layout.createSequentialGroup()
+                .addContainerGap()
                 .addComponent(pieChartPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -176,7 +176,7 @@ public abstract class JornadaEspecieSemanaPorParroquia<E extends Entidad> extend
     private com.megagroup.componentes.MLabel mLabel3;
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
-    protected javax.swing.JComboBox municipios;
+    protected javax.swing.JComboBox parroquias;
     protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     protected javax.swing.JComboBox semanas;
     protected javax.swing.JComboBox years;

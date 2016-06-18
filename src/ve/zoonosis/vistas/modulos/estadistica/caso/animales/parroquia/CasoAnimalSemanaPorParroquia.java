@@ -179,7 +179,7 @@ public abstract class CasoAnimalSemanaPorParroquia<E extends Entidad> extends Ab
     private com.megagroup.componentes.MPanel mPanel1;
     private com.megagroup.componentes.MPanel mPanel2;
     protected javax.swing.JComboBox parroquias;
-    private ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
+    protected ve.zoonosis.model.components.piechart.PieChartPanel pieChartPanel2;
     protected javax.swing.JComboBox semanas;
     protected javax.swing.JComboBox years;
     // End of variables declaration//GEN-END:variables

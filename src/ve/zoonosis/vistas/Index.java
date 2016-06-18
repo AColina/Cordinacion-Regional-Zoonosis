@@ -71,7 +71,26 @@ public class Index extends javax.swing.JFrame {
         vacunacionEspecieSemanalPorParroquia.addActionListener(TemplateListeners.getJornadaEspecieSemanalPorParroquia());
         casosEspecieSemanalPorMunicipio.addActionListener(TemplateListeners.getCasoEspecieSemanalPorMunicipio());
         casosEspecieSemanalPorParroquia.addActionListener(TemplateListeners.getCasoEspecieSemanalPorParroquia());
-        
+        comparativaAnual.addActionListener(TemplateListeners.getComparativaAnual());
+
+    }
+
+    public final void addListeners(Usuario usuario) {
+        String permiso = usuario == null ? "" : usuario.getPermiso().getNombre();
+        TemplateListeners listener = new TemplateListeners();
+        registarUsuario.setVisible(true);
+        modificarDatos.setVisible(true);
+        switch (permiso) {
+            default:
+                modificarDatos.setVisible(false);
+            case "Usuario":
+                registarUsuario.setVisible(false);
+            case "Coordinador":
+        }
+        ComponentUtils.removeListener(registarUsuario, TemplateListeners.CrearDialogo.class);
+        ComponentUtils.removeListener(modificarDatos, TemplateListeners.CrearDialogo.class);
+        registarUsuario.addActionListener(listener.getNuevoUsuario());
+        modificarDatos.addActionListener(listener.getDatosDeUsuario());
     }
 
     /**
@@ -127,6 +146,8 @@ public class Index extends javax.swing.JFrame {
         vacunacionEspecieDiariaPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieMensualPorParroquia = new javax.swing.JMenuItem();
+        jSeparator5 = new javax.swing.JPopupMenu.Separator();
+        comparativaAnual = new javax.swing.JMenuItem();
         javax.swing.JMenu jMenu3 = new javax.swing.JMenu();
         javax.swing.JMenu opciones = new javax.swing.JMenu();
         importar = new javax.swing.JMenuItem();
@@ -258,6 +279,10 @@ public class Index extends javax.swing.JFrame {
         jMenu11.add(vacunacionEspecieMensualPorParroquia);
 
         jMenu2.add(jMenu11);
+        jMenu2.add(jSeparator5);
+
+        comparativaAnual.setText("Comparativa Anual");
+        jMenu2.add(comparativaAnual);
 
         menu.add(jMenu2);
 
@@ -340,8 +365,10 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JMenuItem casosEspecieSemanalPorMunicipio;
     private javax.swing.JMenuItem casosEspecieSemanalPorParroquia;
     private javax.swing.JMenuItem cerrarSesion;
+    private javax.swing.JMenuItem comparativaAnual;
     private javax.swing.JMenuItem exportar;
     private javax.swing.JMenuItem importar;
+    private javax.swing.JPopupMenu.Separator jSeparator5;
     private javax.swing.JMenuItem jornadasVacunacion;
     private javax.swing.JMenuBar menu;
     private javax.swing.JMenuItem modificarDatos;

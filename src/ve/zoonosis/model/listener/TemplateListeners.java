@@ -20,6 +20,7 @@ import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
+import ve.zoonosis.controller.modulos.estadistica.ComparativaAnualController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.municipio.CasoAnimalDiarioPorMunicipioController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.municipio.CasoAnimalMensualPorMunicipioController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.municipio.CasoAnimalSemanalPorMunicipioController;
@@ -219,5 +220,9 @@ public class TemplateListeners {
             LoginController.cerrarSesion();
         }
 
+    }
+
+    public static Bandeja getComparativaAnual() {
+        return new Bandeja("Estadistica Comparativa Anual", ComparativaAnualController.class);
     }
 }

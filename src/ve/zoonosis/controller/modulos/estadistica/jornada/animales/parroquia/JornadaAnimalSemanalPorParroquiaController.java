@@ -29,11 +29,10 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
-import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.components.piechart.ChartObject;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.utils.RandomColor;
-import ve.zoonosis.vistas.componente.piechart.ChartObject;
 import ve.zoonosis.vistas.modulos.estadistica.jornada.animales.parroquia.JornadaAnimalSemanaPorParroquia;
 import windows.RequestBuilder;
 

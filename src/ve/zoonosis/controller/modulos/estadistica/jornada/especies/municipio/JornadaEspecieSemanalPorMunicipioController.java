@@ -15,7 +15,6 @@
  */
 package ve.zoonosis.controller.modulos.estadistica.jornada.especies.municipio;
 
-import ve.zoonosis.controller.modulos.estadistica.jornada.animales.municipio.*;
 import com.megagroup.utilidades.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -23,7 +22,6 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
@@ -31,11 +29,10 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
+import ve.zoonosis.model.components.piechart.ChartObject;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.utils.RandomColor;
-import ve.zoonosis.vistas.componente.piechart.ChartObject;
-import ve.zoonosis.vistas.modulos.estadistica.jornada.animales.municipio.JornadaAnimalSemanaPorMunicipio;
 import ve.zoonosis.vistas.modulos.estadistica.jornada.especies.municipio.JornadaEspecieSemanaPorMunicipio;
 import windows.RequestBuilder;
 
