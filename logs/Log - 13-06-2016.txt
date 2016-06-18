@@ -1,208 +1,2292 @@
-jun 13, 2016 12:59:45 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
-Información: Usuario : Sesion de invitado
-jun 13, 2016 1:01:21 AM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
-Información: Usuario : cerro sesion
-jun 13, 2016 1:01:29 AM ve.zoonosis.controller.seguridad.LoginController run
-Información: Usuario : xea inicia sesion
-jun 13, 2016 1:01:49 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 1:01:49 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 1:01:51 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 1:01:51 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 1:01:54 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 1:01:54 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 1:01:56 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:56 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:56 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:56 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:56 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:56 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:57 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 1:01:57 AM windows.ValidateEntity validateMax
-Información: El atributo cantidadIngresado debe tener un valor maximo de 100
-jun 13, 2016 7:44:45 AM ve.zoonosis.controller.seguridad.LoginController run
-Información: Usuario : xea inicia sesion
-jun 13, 2016 7:45:16 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:16 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:16 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:17 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:17 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:17 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:20 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:20 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:20 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:20 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:20 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:20 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:21 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:22 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:23 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:23 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:23 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:24 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:24 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:25 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:31 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:31 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:31 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:31 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:31 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:31 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:45:32 AM windows.ValidateEntity validateNotNull
-Información: El atributo nombre no debe ser nulo
-jun 13, 2016 7:45:32 AM windows.ValidateEntity validateNotNull
-Información: El atributo nombre no debe ser nulo
-jun 13, 2016 7:45:34 AM windows.ValidateEntity validateNotNull
-Información: El atributo contrasena no debe ser nulo
-jun 13, 2016 7:45:34 AM windows.ValidateEntity validateNotNull
-Información: El atributo contrasena no debe ser nulo
-jun 13, 2016 7:45:34 AM windows.ValidateEntity validateNotNull
-Información: El atributo contrasena no debe ser nulo
-jun 13, 2016 7:45:35 AM windows.ValidateEntity validateNotNull
-Información: El atributo contrasena no debe ser nulo
-jun 13, 2016 7:45:36 AM windows.ValidateEntity validateSize
-Información: El atributo nombre debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:45:36 AM windows.ValidateEntity validateSize
-Información: El atributo nombre debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:45:41 AM windows.ValidateEntity validateSize
-Información: El atributo nombre debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:45:42 AM windows.ValidateEntity validateNotNull
-Información: El atributo contrasena no debe ser nulo
-jun 13, 2016 7:45:42 AM windows.ValidateEntity validateNotNull
-Información: El atributo contrasena no debe ser nulo
-jun 13, 2016 7:45:44 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:44 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:44 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:48 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:48 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:48 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:51 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:53 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:53 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:54 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:54 AM windows.ValidateEntity validatePattern
-Información: El atributo contrasena no posee concidencia
-jun 13, 2016 7:45:56 AM windows.ValidateEntity validateNotNull
-Información: El atributo fechaNacimiento no debe ser nulo
-jun 13, 2016 7:46:07 AM windows.ValidateEntity validateNotNull
-Información: El atributo permiso no debe ser nulo
-jun 13, 2016 7:48:29 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:48:29 AM windows.ValidateEntity validateNotNull
-Información: El atributo apellido no debe ser nulo
-jun 13, 2016 7:48:35 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:38 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:39 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:39 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:40 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:41 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:41 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:48:42 AM windows.ValidateEntity validateSize
-Información: El atributo apellido debe contener entre 2 y 45 caracteres
-jun 13, 2016 7:50:08 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 7:50:08 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 7:50:09 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 7:50:09 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 7:50:11 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 7:50:11 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadIngresado no debe ser nulo
-jun 13, 2016 7:50:12 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadPositivos no debe ser nulo
-jun 13, 2016 7:50:12 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadPositivos no debe ser nulo
-jun 13, 2016 7:50:13 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadPositivos no debe ser nulo
-jun 13, 2016 7:50:13 AM windows.ValidateEntity validateNotNull
-Información: El atributo cantidadPositivos no debe ser nulo
+jun 13, 2016 9:38:38 AM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:362)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:260)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:205)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+jun 13, 2016 9:38:38 AM ve.zoonosis.controller.seguridad.LoginController run
+ADVERTENCIA: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:209)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+jun 13, 2016 9:39:32 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 9:40:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 9:40:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 9:40:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 9:40:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 9:40:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 9:40:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 9:40:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:40:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:40:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:40:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:40:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:40:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:40:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:40:38 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:09 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:12 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 9:41:13 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:14 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:41:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:54:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:54:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 9:54:11 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 10:46:30 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:10:30 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:19 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:21 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:23 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:24 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:25 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:11:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:11:27 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:18:54 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:21:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:21:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:21:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:21:15 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:39 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:40 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:43 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:22:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:22:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:28:15 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:30:40 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:30:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:30:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:30:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:30:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:30:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:30:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:30:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:02 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:02 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:31:02 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:34:14 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:34:25 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:25 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:26 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:26 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:33 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:33 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:34 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:39 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:39 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:39 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:39 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:39 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:40 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:41 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:42 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:43 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:34:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:07 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:08 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:08 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:09 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:10 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:10 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:11 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:11 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:22 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:24 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:25 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:25 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:32 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:32 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:33 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:33 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:34 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:34 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:37 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:37 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:37 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:35:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:15 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:36:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:33 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:37 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:47 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:47 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:47 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:51 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:52 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:36:53 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:37:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:08 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:37:18 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:41:41 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:41:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:51 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:51 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:52 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:54 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:54 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:54 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:55 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:55 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:41:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:41:57 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:41:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:41:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:41:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:19 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:19 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:21 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:21 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:21 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:23 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:23 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:23 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:24 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:24 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:24 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:24 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:25 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:25 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:26 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:26 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:27 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:42:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:32 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:33 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:42:34 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:43:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:50 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:51 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:55 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:58 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:43:59 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:44:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:44:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:44:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:44:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:44:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 11:44:07 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:44:07 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:44:08 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:44:08 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:44:09 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:44:09 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:21 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:47:32 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:32 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:33 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:34 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:34 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:35 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:36 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:37 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:37 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:38 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:39 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:47:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:47:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:47:41 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:47:42 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:47:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 11:47:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 11:47:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 11:47:44 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 11:47:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 11:47:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 11:47:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 11:47:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 11:47:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 11:47:45 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 11:47:47 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:47 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:47 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 11:47:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 11:47:49 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:51 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:52 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 11:47:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:52 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:53 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:54 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 11:47:55 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 11:47:55 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 11:47:55 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 11:47:55 AM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 11:47:57 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:58 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:58 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:58 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:58 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:59 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:59 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:47:59 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:00 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:01 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:01 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:01 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:01 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:48:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:48:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:48:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:48:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:13 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:13 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:48:14 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:42 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:49:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:48 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:49 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:50 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:51 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:51 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:49:51 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:50:00 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:50:01 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:50:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:50:10 AM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:12 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:13 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:13 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:13 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:13 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:14 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:14 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:14 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:19 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:19 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:20 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:20 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:20 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:21 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:34 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:41 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:43 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:43 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:50:44 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:23 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 11:54:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:28 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:29 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:30 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 11:54:31 AM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 1:48:18 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 1:50:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 1:50:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 1:50:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 13, 2016 1:50:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 13, 2016 1:50:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 13, 2016 1:50:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 13, 2016 2:41:24 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 2:41:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:41:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:41:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:41:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:41:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:41:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:24 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:24 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:24 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:42:24 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:45:28 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 2:45:40 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:45:40 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:45:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:45:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:32 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 2:48:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 2:48:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:54 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:54 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:54 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:48:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 2:49:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:34 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:34 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:36 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:49:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:50:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:50:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:50:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:50:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:50:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 2:53:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:54 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:54 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:53:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:00 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:01 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:01 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:02 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:03 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:04 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:04 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:54:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:54:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:54:26 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 13, 2016 2:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:54:27 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 2:54:27 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 2:54:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:54:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:54:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:54:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:54:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:54:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:32 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:34 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:54:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:54:59 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:06 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:55:14 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:15 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:55:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:55:19 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:55:19 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:55:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:56:58 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 2:57:16 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:16 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:57:20 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:57:20 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:57:20 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:57:20 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:57:21 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:57:21 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:57:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:57:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:57:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:57:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:57:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:57:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:57:23 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 2:57:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:57:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:57:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:57:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:57:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:27 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:27 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:27 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:57:28 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:57:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:36 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:57:37 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 2:59:17 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 2:59:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:33 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 2:59:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:59:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:59:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:59:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:59:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:59:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 2:59:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:59:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:59:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:59:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 2:59:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:41 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:43 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 2:59:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:59:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:59:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:59:45 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:45 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:45 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:45 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:46 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 2:59:57 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 3:00:00 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:00 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:04 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:04 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:05 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:05 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:08 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:08 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:11 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:11 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:11 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:11 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 3:00:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 4:05:15 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 4:34:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 4:39:31 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 7:21:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:53 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:54 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:21:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:22:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 7:22:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 13, 2016 7:22:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:27 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:30 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:31 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:22:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:22:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:22:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:22:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:22:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:22:39 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 13, 2016 7:22:39 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 13, 2016 7:22:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 7:22:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 7:22:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 7:22:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo apellido no debe ser nulo
+jun 13, 2016 7:22:41 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 7:22:41 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo apellido debe contener entre 2 y 45 caracteres
+jun 13, 2016 7:22:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 7:22:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 7:22:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 7:22:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 7:22:42 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 7:22:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo correo no debe ser nulo
+jun 13, 2016 7:22:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:50 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo correo no posee concidencia
+jun 13, 2016 7:22:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:58 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:59 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:59 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:59 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:22:59 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo direccion no debe ser nulo
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo direccion debe contener entre 10 y 255 caracteres
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:04 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:04 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:06 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:06 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:06 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:06 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:07 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:07 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:09 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:10 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:13 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:13 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:16 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:16 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:20 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:20 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:20 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:20 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo telefono no posee concidencia
+jun 13, 2016 7:23:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 13, 2016 7:23:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 13, 2016 7:23:44 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 13, 2016 7:23:44 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 13, 2016 7:23:44 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 13, 2016 7:23:44 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 13, 2016 7:24:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:27 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:28 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:29 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 13, 2016 7:24:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:24:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:24:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 13, 2016 7:24:35 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo nombre debe contener entre 2 y 45 caracteres
+jun 13, 2016 7:24:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:36 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:39 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:39 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:39 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:39 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:39 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:39 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:42 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:44 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:48 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:49 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:51 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo contrasena no debe ser nulo
+jun 13, 2016 7:24:58 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:58 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:58 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:58 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:58 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:24:59 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo contrasena no posee concidencia
+jun 13, 2016 7:25:11 PM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : cerro sesion
+jun 13, 2016 7:25:13 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jun 13, 2016 7:27:02 PM ve.zoonosis.controller.seguridad.LoginController cerrarSesion
+INFORMACIÓN: Usuario : cerro sesion
+jun 13, 2016 7:27:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 13, 2016 7:27:31 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

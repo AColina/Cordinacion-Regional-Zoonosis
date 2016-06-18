@@ -30,11 +30,11 @@ public class Persona extends Entidad {
     @NotNull(message = "Debe ingresar el nombre")
     @Size(min = 2, max = 45, message = "El nombre debe poseer minimo 2\n caracteres y maximo 45")
     private String nombre;
-     @NotNull(message = "Debe ingresar el apelldio")
+    @NotNull(message = "Debe ingresar el apelldio")
     @Size(min = 2, max = 45, message = "El apellido debe poseer minimo 2\n caracteres y maximo 45")
     private String apellido;
     @NotNull
-    @Pattern(regexp = "")
+    @Pattern(regexp = "^[A-Z+]-[\\d+]{7,12}$", message = "Formato de cedula no valido")
     private String cedula;
     @JsonIgnore
     private Cliente cliente;

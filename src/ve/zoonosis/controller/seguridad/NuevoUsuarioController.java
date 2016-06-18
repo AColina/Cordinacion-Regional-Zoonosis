@@ -74,17 +74,41 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
     @Override
     public final void inicializar() {
         activeInput(false);
-        cedula.setEnabled(true);
+        cardNumber.setEnabled(true);
+
         if (entity == null) {
             entity = new Usuario();
-            persona = new Persona();
+            limpiar();
+            buscar.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    buscarPersona();
+                }
+            });
+
+            limpiar.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    limpiar();
+                }
+            });
+            cardNumber.addKeyListener(new KeyAdapter() {
+                @Override
+                public void keyReleased(KeyEvent e) {
+                    buscar.setEnabled(validarCedula());
+                    if (e.getKeyCode() == KeyEvent.VK_ENTER && buscar.isEnabled()) {
+                        buscarPersona();
+                    }
+                }
+            });
+
         } else {
             activeInput(true);
             persona = entity.getPersona();
             permiso.setEnabled(false);
             buscar.setVisible(false);
             BindObject bindObject2 = new BindObject(persona);
-            Bindings.bind(cedula, bindObject2.getBind("cedula"));
+            Bindings.bind(cardNumber, bindObject2.getBind("cedula"));
             Bindings.bind(nombre, bindObject2.getBind("nombre"));
             Bindings.bind(apellido, bindObject2.getBind("apellido"));
         }
@@ -92,28 +116,6 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         aceptar.setEnabled(false);
 
         iniForm();
-        buscar.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                buscarPersona();
-            }
-        });
-
-        limpiar.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                limpiar();
-            }
-        });
-        cedula.addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyReleased(KeyEvent e) {
-
-                if (e.getKeyCode() == KeyEvent.VK_ENTER) {
-                    buscarPersona();
-                }
-            }
-        });
 
         try {
             rb = new RequestBuilder("services/administracion/PermisoWs/BuscarPermiso.php");
@@ -150,9 +152,15 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
     }
 
     public void limpiar() {
-        persona = new Persona();
         activeInput(false);
-        cedula.setEnabled(true);
+        persona = new Persona();
+        aceptar.setEnabled(false);
+        buscar.setEnabled(false);
+        cardNumber.setEnabled(true);
+        ComponentUtils.removeListener(cardNumber, BindingEvent.class);
+        BindObject bindObject = new BindObject(persona);
+        Bindings.bind(cardNumber, bindObject.getBind("cedula"));
+
     }
 
     private void activeInput(boolean b) {
@@ -171,9 +179,9 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
     }
 
     private void buscarPersona() {
-        final String c = cedula.getText();
+        final String c = cardNumber.getText();
         if (StringUtils.isEmpty(c)) {
-            cedula.requestFocus();
+            cardNumber.requestFocus();
             return;
         }
         activeInput(true);
@@ -195,11 +203,11 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);
         }
-        ComponentUtils.removeListener(cedula, BindingEvent.class);
+        ComponentUtils.removeListener(cardNumber, BindingEvent.class);
         ComponentUtils.removeListener(nombre, BindingEvent.class);
         ComponentUtils.removeListener(apellido, BindingEvent.class);
 
-        cedula.setEnabled(persona == null);
+        cardNumber.setEnabled(persona == null);
         nombre.setEnabled(persona == null);
         apellido.setEnabled(persona == null);
 
@@ -210,7 +218,7 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
             persona.setCedula(c);
         }
         BindObject bindObject2 = new BindObject(persona);
-        Bindings.bind(cedula, bindObject2.getBind("cedula"));
+        Bindings.bind(cardNumber, bindObject2.getBind("cedula"));
         Bindings.bind(nombre, bindObject2.getBind("nombre"));
         Bindings.bind(apellido, bindObject2.getBind("apellido"));
 
@@ -223,9 +231,13 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         }
     }
 
+    private boolean validarCedula() {
+        return new ValidateEntity(persona).validFields("cedula") == null;
+    }
+
     @Override
     public boolean validar() {
-        boolean v = new ValidateEntity(persona).validate(this, "cedula");
+        boolean v = new ValidateEntity(persona).validate(this);
         ValidateEntity valid = new ValidateEntity(entity);
         errorRepeat.setText("");
         if (v) {

@@ -34,7 +34,7 @@ public class Animal_has_Caso extends Entidad{
     @NotNull(message = "Debe seleccionar un animal")
     private Animal animal;
     @NotNull(message = "Debe ingresar una cantidad")
-    @Min(value = 0, message = "El valor minimo requrido es 0")
+    @Min(value = 0, message = "El valor minimo requrido es 1")
     @Max(value=100,message = "El valor maximo requerido es 100")
     @DefaultValue("0")
     private Integer cantidadIngresado;

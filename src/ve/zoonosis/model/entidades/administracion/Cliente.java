@@ -31,9 +31,10 @@ import ve.zoonosis.model.entidades.proceso.Novedades;
 public class Cliente extends Entidad {
 
     @NotNull(message = "Debe ingresar un correo electronico")
-    @Pattern(regexp = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@" 
-		+ "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$", message = "Formato de correo no valido")
+    @Pattern(regexp = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
+            + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$", message = "Formato de correo no valido")
     private String correo;
+    @Pattern(regexp = "^[\\d+]{4}-[\\d+]{7}$", message = "Formato de telefono no valido")
     private String telefono;
     @NotNull(message = "Debe ingresar la dirección")
     @Size(min = 10, max = 255, message = "La dirección debe\n contener entre 10 y 255 caracteres")

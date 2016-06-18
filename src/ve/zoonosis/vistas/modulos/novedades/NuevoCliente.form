@@ -27,7 +27,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="mLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="cedula" min="-2" pref="165" max="-2" attributes="0"/>
+                      <Component id="cardNumber" min="-2" pref="165" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="buscar" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -68,7 +68,7 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
-          <Component id="jPanel1" alignment="0" pref="424" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -79,7 +79,7 @@
                   <Component id="mLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="buscar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="limpiar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="cedula" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cardNumber" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -162,6 +162,7 @@
     <Component class="com.megagroup.componentes.MTextField" name="correo">
       <Properties>
         <Property name="name" type="java.lang.String" value="correo" noResource="true"/>
+        <Property name="placeHolder" type="java.lang.String" value="xxxxxxxx@xxxxxx.xx"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
@@ -333,9 +334,10 @@
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
       </AuxValues>
     </Component>
-    <Component class="com.megagroup.componentes.MTextField" name="cedula">
+    <Component class="com.megagroup.componentes.MTextField" name="cardNumber">
       <Properties>
-        <Property name="placeHolder" type="java.lang.String" value="x-xxxxxxxx"/>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+        <Property name="placeHolder" type="java.lang.String" value="xx-xxxxxxxx"/>
       </Properties>
     </Component>
     <Component class="com.megagroup.componentes.MTextField" name="telefono">

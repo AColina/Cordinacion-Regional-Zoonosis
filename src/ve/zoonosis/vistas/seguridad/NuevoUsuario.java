@@ -66,7 +66,7 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
         aceptar = new com.megagroup.componentes.MButton();
         cancelar = new com.megagroup.componentes.MButton();
         limpiar = new com.megagroup.componentes.MButton();
-        cedula = new com.megagroup.componentes.MTextField();
+        cardNumber = new com.megagroup.componentes.MTextField();
         com.megagroup.componentes.MLabel mLabel4 = new com.megagroup.componentes.MLabel();
         usr = new com.megagroup.componentes.MTextField();
         com.megagroup.componentes.MLabel mLabel5 = new com.megagroup.componentes.MLabel();
@@ -123,7 +123,7 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
 
         limpiar.setText("Limpiar");
 
-        cedula.setPlaceHolder("x-xxxxxxxx");
+        cardNumber.setPlaceHolder("xx-xxxxxxxx");
 
         mLabel4.setText("Usuario");
 
@@ -173,7 +173,7 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(cedula, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(buscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
@@ -214,7 +214,7 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
                     .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(buscar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(limpiar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cedula, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cardNumber, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -261,8 +261,8 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
         return apellido;
     }
 
-    public MTextField getCedula() {
-        return cedula;
+    public MTextField getCardNumber() {
+        return cardNumber;
     }
 
     public JPasswordField getContrasena() {
@@ -323,7 +323,7 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
     protected com.megagroup.componentes.MTextField apellido;
     protected com.megagroup.componentes.MButton buscar;
     protected com.megagroup.componentes.MButton cancelar;
-    protected com.megagroup.componentes.MTextField cedula;
+    protected com.megagroup.componentes.MTextField cardNumber;
     protected javax.swing.JPasswordField contrasena;
     protected com.megagroup.componentes.MLabel errorApellido;
     protected com.megagroup.componentes.MLabel errorContrasena;

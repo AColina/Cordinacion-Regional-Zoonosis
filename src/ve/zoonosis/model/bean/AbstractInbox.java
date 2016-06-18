@@ -21,7 +21,8 @@ import ve.zoonosis.model.entidades.EntidadGlobal;
  * @author angel.colina
  * @param <Entity>
  */
-public abstract class AbstractInbox<Entity extends EntidadGlobal> extends JPanel implements BandejaController {
+public abstract class AbstractInbox<Entity extends EntidadGlobal> extends JPanel
+        implements BandejaController {
 
     protected final JPopupMenu popupMenu;
 

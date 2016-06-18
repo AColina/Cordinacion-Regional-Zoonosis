@@ -83,14 +83,18 @@ public class Index extends javax.swing.JFrame {
         switch (permiso) {
             default:
                 modificarDatos.setVisible(false);
+                importar.setVisible(false);
+                exportar.setVisible(false);
             case "Usuario":
                 registarUsuario.setVisible(false);
             case "Coordinador":
         }
         ComponentUtils.removeListener(registarUsuario, TemplateListeners.CrearDialogo.class);
         ComponentUtils.removeListener(modificarDatos, TemplateListeners.CrearDialogo.class);
+        ComponentUtils.removeListener(importar, TemplateListeners.CrearDialogo.class);
         registarUsuario.addActionListener(listener.getNuevoUsuario());
         modificarDatos.addActionListener(listener.getDatosDeUsuario());
+        importar.addActionListener(listener.getImportar());
     }
 
     /**

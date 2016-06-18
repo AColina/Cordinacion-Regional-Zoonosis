@@ -87,10 +87,14 @@ public abstract class AbstractForm< Entity extends EntidadGlobal> extends JPanel
                         }
                     }
                     if (add) {
-                        Field f = ReflectionUtils.getField(this, field.getName());
-                        if (f != null && Component.class.isAssignableFrom(f.getType())) {
-                            Component c = ReflectionUtils.runGetter(f, this);
-                            agregarValidEvent(c, formularioActionListener);
+                        try {
+                            Field f = ReflectionUtils.getField(this, field.getName());
+                            if (f != null && Component.class.isAssignableFrom(f.getType())) {
+                                Component c = ReflectionUtils.runGetter(f, this);
+                                agregarValidEvent(c, formularioActionListener);
+                            }
+                        } catch (java.lang.NoSuchFieldError ex) {
+
                         }
                     }
                 }
