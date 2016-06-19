@@ -80,6 +80,7 @@ public class Index extends javax.swing.JFrame {
         TemplateListeners listener = new TemplateListeners();
         registarUsuario.setVisible(true);
         modificarDatos.setVisible(true);
+        importar.setVisible(true);
         switch (permiso) {
             default:
                 modificarDatos.setVisible(false);

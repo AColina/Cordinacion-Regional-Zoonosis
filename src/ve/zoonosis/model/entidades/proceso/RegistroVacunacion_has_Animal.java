@@ -34,7 +34,7 @@ public class RegistroVacunacion_has_Animal extends Entidad {
     private Animal animal;
     @NotNull(message = "Debe ingresar una cantidad")
     @Min(value = 0, message = "El valor minimo requrido es 0")
-    @Max(value = 100, message = "El valor maximo requerido es 100")
+    @Max(value = 400, message = "El valor maximo requerido es 400")
     private Integer cantidad;
 
     public RegistroVacunacion_has_Animal() {

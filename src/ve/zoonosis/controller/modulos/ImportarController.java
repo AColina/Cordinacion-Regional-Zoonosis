@@ -106,9 +106,9 @@ public class ImportarController extends Importar {
 
     @Override
     public boolean validar() {
-        System.out.println("valida");
+
         boolean valid = true;
-        if (year.getValue() > acualYear) {
+        if (year.getValue() > acualYear || year.getYear() < acualYear - 5) {
             valid = false;
         } else if (modulo.getSelectedItem() == null || municipio.getSelectedItem() == null) {
             valid = false;

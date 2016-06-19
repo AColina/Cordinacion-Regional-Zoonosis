@@ -21,6 +21,7 @@ import com.megagroup.binding.components.Bindings;
 import com.megagroup.componentes.MDialog;
 import com.megagroup.componentes.MGrowl;
 import com.megagroup.model.enums.MGrowlState;
+import com.megagroup.model.restricted.AbstractRestrictedTextField;
 import com.megagroup.utilidades.Logger;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -45,32 +46,34 @@ import windows.webservices.utilidades.MetodosDeEnvio;
  * @author angel.colina
  */
 public class CrearNovedadController extends CrearNovedad<Novedades> {
-    
+
     private static final Logger LOG = Logger.getLogger(CrearNovedadController.class);
-    
+
     private BandejaNovedadesController controller;
     private MDialog dialog;
     private RequestBuilder rb;
     private NuevoClienteController clienteController;
-    
+
     public CrearNovedadController(BandejaNovedadesController pantallaController, Novedades novedad) {
         super(novedad);
         this.controller = pantallaController;
         inicializar();
     }
-    
+
     public CrearNovedadController(BandejaNovedadesController novedadesController) {
         this(novedadesController, null);
     }
-    
+
     @Override
     public final void inicializar() {
         if (entity == null) {
             entity = new Novedades();
-             entity.setFechaElaboracion(new Date());
+            entity.setFechaElaboracion(new Date());
         }
         aceptar.setEnabled(false);
         iniForm();
+        descripcion.setLineWrap(true);
+        descripcion.setWrapStyleWord(true);
         
         BindObject<Novedades> bindObject = new BindObject(entity);
         Bindings.bind(nombre, bindObject.getBind("nombre"));
@@ -86,15 +89,19 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
             clientes = new ArrayList();
         }
         Bindings.bind(cliente, bindObject.getBind("cliente"), clientes, true);
+        nombre.setMaxLength(45);
+        String oldValue=descripcion.getText();
+        descripcion.setDocument(new AbstractRestrictedTextField(250));
+        descripcion.setText(oldValue);
         cliente.setEnabled(entity.getId() == null);
         nuevoCliente.setEnabled(entity.getId() == null);
         autoCreateValidateForm(Novedades.class);
         iniciarDialogo();
     }
-    
+
     private void iniciarDialogo() {
         nuevoCliente.addActionListener(new ActionListener() {
-            
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 clienteController = new NuevoClienteController(CrearNovedadController.this);
@@ -105,21 +112,21 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
         dialog.setResizable(false);
         dialog.showPanel(this);
         dialog.addWindowListener(new WindowAdapter() {
-            
+
             @Override
             public void windowClosed(WindowEvent e) {
                 controller.buscar();
             }
         });
-        
+
     }
-    
+
     @Override
     public boolean validar() {
         ValidateEntity validateEntity = new ValidateEntity(entity);
         return validateEntity.validate();
     }
-    
+
     @Override
     public void aceptar() {
         try {
@@ -137,12 +144,12 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
         }
         cancelar();
     }
-    
+
     @Override
     public void guardar() {
-        
+
     }
-    
+
     @Override
     public void cancelar() {
         dialog.close();
@@ -153,15 +160,15 @@ public class CrearNovedadController extends CrearNovedad<Novedades> {
     public JButton getAceptar() {
         return aceptar;
     }
-    
+
     @Override
     public JButton getGuardar() {
         return null;
     }
-    
+
     @Override
     public JButton getCancelar() {
         return cancelar;
     }
-    
+
 }

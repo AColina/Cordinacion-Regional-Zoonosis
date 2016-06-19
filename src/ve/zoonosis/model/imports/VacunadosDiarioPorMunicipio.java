@@ -21,10 +21,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -58,6 +59,7 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
     private final HSSFWorkbook workbook;
     private final int year;
     private final List<Vacunacion> lis = new ArrayList<>();
+    SimpleDateFormat format=new SimpleDateFormat("dd/MM/yyyy");
     //map 1 semana, map 2 parroquia
     private HashMap<String, HashMap<String, Vacunacion>> vacunacion;
 
@@ -110,7 +112,11 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
                     if (c == null) {
                         continue;
                     }
-                    cargarObjects(sheet, i, j, obtenrValor(c));
+                    try {
+                        cargarObjects(sheet, i, j, obtenrValor(c));
+                    } catch (ParseException ex) {
+                        Logger.getLogger(VacunadosDiarioPorMunicipio.class.getName()).log(Level.SEVERE, null, ex);
+                    }
 
                 }
             }
@@ -119,7 +125,7 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
         finalizar();
     }
 
-    private void cargarObjects(HSSFSheet sheet, int row, int column, Object value) {
+    private void cargarObjects(HSSFSheet sheet, int row, int column, Object value) throws ParseException {
 
         if (value != null) {
             int monthIndex = Arrays.binarySearch(months, sheet.getSheetName(), new Comparator<String>() {
@@ -144,7 +150,7 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
 
             Vacunacion v = m.get(parroquia);
             if (v == null) {
-                v = new Vacunacion(new Date(fecha + "/" + year),
+                v = new Vacunacion(format.parse(fecha+"/"+year),
                         new Semana((String) getCellHeaderValue(sheet, sheet.getPhysicalNumberOfRows() - 1, column), year));
                 v.setParroquia(new Parroquia(parroquia, municipio));
                 v.getRegistroVacunacion().add(new RegistroVacunacion(v, LoginController.getUsuario()));
