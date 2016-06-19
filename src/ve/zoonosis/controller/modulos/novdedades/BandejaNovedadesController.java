@@ -19,12 +19,20 @@ import com.megagroup.componentes.MDataTable;
 import com.megagroup.model.builder.LazyColumnListenerModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.URISyntaxException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.apache.commons.lang3.StringUtils;
+import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.datamodel.NovedadesTableModel;
 import ve.zoonosis.model.entidades.proceso.Novedades;
 import ve.zoonosis.model.listener.FechaListener;
 import ve.zoonosis.vistas.modulos.novedades.BandejaNovedades;
+import windows.RequestBuilder;
 
 /**
  *
@@ -49,6 +57,17 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
         nuevo.addActionListener(new CrearNovedad());
         desde.setMaxSelectableDate(new Date());
         hasta.setMaxSelectableDate(new Date());
+        try {
+            String municipios = new RequestBuilder("services/proceso/NovedadesWs/LastDate.php")
+                    .ejecutarJsonToString();
+            if (StringUtils.isNotEmpty(municipios)) {
+                Date min = new SimpleDateFormat("dd/MM/yyyy").parse(municipios);
+                hasta.setMinSelectableDate(min);
+                desde.setMinSelectableDate(min);
+            }
+        } catch (URISyntaxException | RuntimeException | ParseException ex) {
+            Logger.getLogger(BandejaCasosController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         bandeja.setModel(new NovedadesTableModel());
     }
 
