@@ -1,0 +1,8 @@
+jun 24, 2016 10:20:09 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 24, 2016 10:22:32 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 24, 2016 10:28:16 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 24, 2016 10:31:54 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

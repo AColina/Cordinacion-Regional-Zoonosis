@@ -121,7 +121,7 @@ public class ImportarController extends Importar {
     @Override
     public void aceptar() {
         try {
-            new VacunadosDiarioPorMunicipio(proccesFile, (Municipio) municipio.getSelectedItem(), acualYear).iniciarLectura();
+            new VacunadosDiarioPorMunicipio(proccesFile, (Municipio) municipio.getSelectedItem(), year.getValue()).iniciarLectura();
             MGrowl.showGrowl(MGrowlState.WAIT, "Se ha iniciado la importación");
             cancelar();
         } catch (IOException ex) {

@@ -59,7 +59,7 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
     private final HSSFWorkbook workbook;
     private final int year;
     private final List<Vacunacion> lis = new ArrayList<>();
-    SimpleDateFormat format=new SimpleDateFormat("dd/MM/yyyy");
+    SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
     //map 1 semana, map 2 parroquia
     private HashMap<String, HashMap<String, Vacunacion>> vacunacion;
 
@@ -102,25 +102,25 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
          * que nos permite recorrer cada una de las filas que contiene.	
          */
 
-        Iterator iterator = workbook.iterator();
-        while (iterator.hasNext()) {
-            HSSFSheet sheet = (HSSFSheet) iterator.next();
-            for (int i = 2; i < sheet.getPhysicalNumberOfRows() - 6; i++) {
-                Row r = sheet.getRow(i);
-                for (int j = 1; j < r.getPhysicalNumberOfCells(); j++) {
-                    Cell c = r.getCell(j);
-                    if (c == null) {
-                        continue;
-                    }
-                    try {
-                        cargarObjects(sheet, i, j, obtenrValor(c));
-                    } catch (ParseException ex) {
-                        Logger.getLogger(VacunadosDiarioPorMunicipio.class.getName()).log(Level.SEVERE, null, ex);
-                    }
-
+        for (int z = 0; z < workbook.getNumberOfSheets(); z++) {
+        vacunacion = new HashMap<>();
+        HSSFSheet sheet = (HSSFSheet) workbook.getSheetAt(z);
+        for (int i = 2; i < sheet.getPhysicalNumberOfRows() - 6; i++) {
+            Row r = sheet.getRow(i);
+            for (int j = 1; j < r.getPhysicalNumberOfCells(); j++) {
+                Cell c = r.getCell(j);
+                if (c == null) {
+                    continue;
                 }
+                try {
+                    cargarObjects(sheet, i, j, obtenrValor(c));
+                } catch (ParseException ex) {
+                    Logger.getLogger(VacunadosDiarioPorMunicipio.class.getName()).log(Level.SEVERE, null, ex);
+                }
+
             }
-            incremntarLista();
+        }
+        incremntarLista();
         }
         finalizar();
     }
@@ -150,7 +150,7 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
 
             Vacunacion v = m.get(parroquia);
             if (v == null) {
-                v = new Vacunacion(format.parse(fecha+"/"+year),
+                v = new Vacunacion(format.parse(fecha + "/" + year),
                         new Semana((String) getCellHeaderValue(sheet, sheet.getPhysicalNumberOfRows() - 1, column), year));
                 v.setParroquia(new Parroquia(parroquia, municipio));
                 v.getRegistroVacunacion().add(new RegistroVacunacion(v, LoginController.getUsuario()));
@@ -167,7 +167,6 @@ public class VacunadosDiarioPorMunicipio implements Runnable {
     }
 
     private void incremntarLista() {
-
         for (String keySet : vacunacion.keySet()) {
             HashMap<String, Vacunacion> value = vacunacion.get(keySet);
             for (String key : value.keySet()) {

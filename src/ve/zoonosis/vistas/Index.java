@@ -162,6 +162,7 @@ public class Index extends javax.swing.JFrame {
         ayuda = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Zoonosis  System");
 
         jMenu5.setText("Administrar");
 
