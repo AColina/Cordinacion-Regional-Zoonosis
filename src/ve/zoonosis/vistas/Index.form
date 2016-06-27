@@ -313,11 +313,6 @@
                 <Property name="text" type="java.lang.String" value="Acerca de"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="ayuda">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Ayuda"/>
-              </Properties>
-            </MenuItem>
           </SubComponents>
         </Menu>
       </SubComponents>

@@ -96,6 +96,7 @@ public class Index extends javax.swing.JFrame {
         registarUsuario.addActionListener(listener.getNuevoUsuario());
         modificarDatos.addActionListener(listener.getDatosDeUsuario());
         importar.addActionListener(listener.getImportar());
+        acercaDe.addActionListener(listener.getAcercaDe());
     }
 
     /**
@@ -159,7 +160,6 @@ public class Index extends javax.swing.JFrame {
         exportar = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator4 = new javax.swing.JPopupMenu.Separator();
         acercaDe = new javax.swing.JMenuItem();
-        ayuda = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Zoonosis  System");
@@ -307,9 +307,6 @@ public class Index extends javax.swing.JFrame {
         acercaDe.setText("Acerca de");
         opciones.add(acercaDe);
 
-        ayuda.setText("Ayuda");
-        opciones.add(ayuda);
-
         menu.add(opciones);
 
         setJMenuBar(menu);
@@ -356,7 +353,6 @@ public class Index extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem acercaDe;
-    private javax.swing.JMenuItem ayuda;
     private javax.swing.JMenuItem casos;
     private javax.swing.JMenuItem casosAnimalDiarioPorMunicipio;
     private javax.swing.JMenuItem casosAnimalDiarioPorParroquia;
