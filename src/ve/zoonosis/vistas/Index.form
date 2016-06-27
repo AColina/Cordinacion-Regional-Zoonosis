@@ -282,6 +282,91 @@
             <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
           </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="verNovedad">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Novedad"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenu6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vacunaciones"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeJornadaSemanalMunicipio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Semanal Por Municipio"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeJornadaMensualMunicipio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mensual Por Municipio"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeJornadaAnualMunicipio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Anual Por Municipio"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator6">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeJornadaSemanalParroquia">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Semanal Por Parroquia"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeJornadaMensualParroquia">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mensual Por Parroquia"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeJornadaAnualParroquia">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Anual Por Parroquia"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Caso"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeCasoSemanalMunicipio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Semanal por Municipio"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeCasoMensualMunicipio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mensual por Municipio"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeCasoAnualMunicipio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Anual por Municipio"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator7">
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeCasoSemanalParroquia">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Semanal por Parroquia"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeCasoMensualParroquia">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mensual por Parroquia"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="menuInformeCasoAnualParroquia">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Anual por Parroquia"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="opciones">
           <Properties>
