@@ -15,27 +15,47 @@
  */
 package ve.zoonosis.controller.modulos.informe.caso.parroquia;
 
-import com.toedter.calendar.JCalendar;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.URISyntaxException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.print.Doc;
+import javax.print.DocFlavor;
+import javax.print.DocPrintJob;
+import javax.print.PrintService;
+import javax.print.PrintServiceLookup;
+import javax.print.SimpleDoc;
+import javax.print.attribute.HashPrintRequestAttributeSet;
+import javax.print.attribute.PrintRequestAttributeSet;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.parroquia.CasoAnimalSemanalPorParroquiaController;
+import ve.zoonosis.controller.modulos.novdedades.VerNovedadController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
+import ve.zoonosis.model.entidades.administracion.Parroquia;
 import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.model.listener.MunicipioListener;
+import ve.zoonosis.utils.PDFCreator;
+import ve.zoonosis.utils.RandomColor;
 import ve.zoonosis.vistas.modulos.informes.caso.parroquia.InformeCasoParroquiaSemanal;
 import windows.RequestBuilder;
 
@@ -47,6 +67,8 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
 
     private static final Logger LOG = Logger.getLogger(InformeCasoParroquiaSemanalController.class.getName());
     private RequestBuilder rb;
+    private JFileChooser archivo;
+    private PDFCreator pdfc = new PDFCreator();
 
     public InformeCasoParroquiaSemanalController() {
         inicializar();
@@ -108,6 +130,7 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
                 years.setSelectedIndex(0);
             }
 
+            jLabel1.setText("");
             years.addItemListener(new ItemListener() {
 
                 @Override
@@ -120,10 +143,15 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
             mButton1.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    //obtenerEstadistica();
-                    //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                    try {
+                        obtenerInforme();
+                        //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                    } catch (IOException ex) {
+                        Logger.getLogger(InformeCasoParroquiaSemanalController.class.getName()).log(Level.SEVERE, null, ex);
+                    }
                 }
             });
+
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.log(Level.SEVERE, null, ex);
         }
@@ -150,19 +178,137 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
         }
     }
 
+    private void obtenerInforme() throws IOException {
+        RandomColor rc = new RandomColor();
+        pdfc.clearPage();
+        pdfc.addCenterText(20, "Informe");
+
+        try {
+            final String nombreParroquia = ((Parroquia) parroquias.getSelectedItem()).getNombre();
+            //    final Date fecha = dia.getDate();
+            rb = new RequestBuilder("services/funcionales/AnimalWs/ObtenerListaPorSemanaDeCasoPorParroquia.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("nombreParroquia", nombreParroquia);
+                            put("semana", ((Semana) semanas.getSelectedItem()).getNombre());
+                            put("year", years.getSelectedItem());
+                            //           put("dia", fecha);
+                        }
+                    });
+            List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
+            HashMap v = new HashMap();
+
+            if (valores == null || valores.isEmpty()) {
+                JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
+            } else {
+                for (HashMap valore : valores) {
+                    Iterator i = valore.entrySet().iterator();
+                    while (i.hasNext()) {
+                        Map.Entry e = (Map.Entry) i.next();
+                        if (!isNumeric((String) e.getKey()) && v.get(e.getKey()) != null) {
+                            v.put(e.getKey(), ((int) e.getValue()) + ((int) v.get(e.getKey())));
+                        } else if (!isNumeric((String) e.getKey())) {
+                            v.put(e.getKey(), e.getValue());
+                        }
+                    }
+                }
+                pdfc.addNewLine();
+                int positivos = Integer.valueOf((String) v.get("cantidadPositivos"));
+                int total = Integer.valueOf((String) v.get("cantidadIngresado"));
+                int negativos = total-positivos;
+                pdfc.addLeftText("Informe sobre los casos en la " + semanas.getSelectedItem() + " en la parroquia " + parroquias.getSelectedItem() + " del Municipio " + municipio.getSelectedItem()
+                        + ", durante este periodo de tiempo se pudo observar y llevar un registro de la cantidad de casos"
+                        + "recibidos por nuestra jurisdiccion dando los siguientes resultados: Casos positivos " + positivos + " (" + (((float)positivos/(float)total) * 100) + "%), "
+                        + "casos negativos "+negativos+" ("+(((float)negativos/(float)total) * 100)+"%), total de casos "+(total));
+                ImageIcon ii = new ImageIcon(pdfc.getImagePage(0));
+                jLabel1.setIcon(ii);
+                jLabel1.repaint();
+//                List<HashMap> ordValores = sumarRepetidos(valores);
+//                List<ChartObject> lista = new ArrayList<>();
+//                int maxval = 0;
+//                for (HashMap valor : ordValores) {
+//                    ChartObject chart = new ChartObject(valor.get("nombre").toString(), 
+//                            Double.parseDouble(valor.get("cantidadIngresado").toString()), rc.obtenerColorAleatorio());
+//                    lista.add(chart);
+//                    maxval = maxval + Integer.parseInt(valor.get("cantidadIngresado").toString());
+//                    System.out.println(valor.get("nombre"));
+//                    System.out.println(valor.get("cantidadIngresado"));
+//
+//                }
+//                pieChartPanel2.cargarPie(maxval, lista);
+//                pieChartPanel2.repaint();
+            }
+        } catch (URISyntaxException ex) {
+            java.util.logging.Logger.getLogger(CasoAnimalSemanalPorParroquiaController.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(InformeCasoParroquiaSemanalController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+    private boolean isNumeric(String valor) {
+        try {
+            Integer.valueOf(valor);
+            return true;
+        } catch (Exception e) {
+        }
+        return false;
+    }
+
+    public String nameOfDay(int x) {
+        switch (x) {
+            case 1:
+                return "Dom";
+            case 2:
+                return "Lun";
+            case 3:
+                return "Mar";
+            case 4:
+                return "Mie";
+            case 5:
+                return "Jue";
+            case 6:
+                return "Vie";
+            case 7:
+                return "Sab";
+            default:
+                throw new AssertionError();
+        }
+    }
+
+    public String[] getDiasSemana(Date fecha) {
+        Calendar c = Calendar.getInstance();
+        c.setTime(fecha);
+        String[] dias = new String[7];
+        int semana = c.get(Calendar.WEEK_OF_YEAR);
+        for (int i = 1; i <= 8; i++) {
+            c.add(Calendar.DAY_OF_YEAR, -1);
+            if (semana > c.get(Calendar.WEEK_OF_YEAR)) {
+                c.add(Calendar.DAY_OF_YEAR, 1);
+                break;
+            }
+        }
+
+        for (int i = 1; i <= 7; i++) {
+            dias[i - 1] = nameOfDay(c.get(Calendar.DAY_OF_WEEK)) + "(" + c.getTime().getDate() + ")";
+            c.add(Calendar.DAY_OF_YEAR, 1);
+        }
+        return dias;
+    }
+
     @Override
     public JButton getAceptar() {
-        return null; //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return btnImprimir;
     }
 
     @Override
     public JButton getGuardar() {
-        return null; //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return btnGuardar;
     }
 
     @Override
     public JButton getCancelar() {
-        return null; //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return btnCancelar;
     }
 
     @Override
@@ -172,17 +318,61 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
 
     @Override
     public void aceptar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            try {
+                pdfc.saveDocument("temp.pdf");
+            } catch (IOException ex) {
+                Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            FileInputStream inputStream = null;
+            try {
+                inputStream = new FileInputStream("temp.pdf");
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            if (inputStream == null) {
+                return;
+            }
+
+            DocFlavor docFormat = DocFlavor.INPUT_STREAM.AUTOSENSE;
+            Doc document = new SimpleDoc(inputStream, docFormat, null);
+
+            PrintRequestAttributeSet attributeSet = new HashPrintRequestAttributeSet();
+
+            PrintService defaultPrintService = PrintServiceLookup.lookupDefaultPrintService();
+
+            if (defaultPrintService != null) {
+                DocPrintJob printJob = defaultPrintService.createPrintJob();
+                try {
+                    printJob.print(document, attributeSet);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                System.err.println("No existen impresoras instaladas");
+            }
+
+            inputStream.close();
+        } catch (IOException ex) {
+            Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     @Override
     public void guardar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (archivo.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+            try {
+                pdfc.saveDocument(archivo.getSelectedFile().getAbsolutePath());
+            } catch (IOException ex) {
+                Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
     }
 
     @Override
     public void cancelar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       
     }
 
 }

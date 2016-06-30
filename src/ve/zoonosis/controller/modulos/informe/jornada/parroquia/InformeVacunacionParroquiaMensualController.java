@@ -22,17 +22,31 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
+import javax.print.Doc;
+import javax.print.DocFlavor;
+import javax.print.DocPrintJob;
+import javax.print.PrintService;
+import javax.print.PrintServiceLookup;
+import javax.print.SimpleDoc;
+import javax.print.attribute.HashPrintRequestAttributeSet;
+import javax.print.attribute.PrintRequestAttributeSet;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
+import ve.zoonosis.controller.modulos.novdedades.VerNovedadController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.listener.MunicipioListener;
+import ve.zoonosis.utils.PDFCreator;
 import ve.zoonosis.vistas.modulos.informes.jornada.parroquia.InformeVacunacionParroquiaMensual;
 import windows.RequestBuilder;
 
@@ -44,6 +58,8 @@ public class InformeVacunacionParroquiaMensualController extends InformeVacunaci
 
     private static final Logger LOG = Logger.getLogger(NuevoCasoController.class);
     private RequestBuilder rb;
+    private JFileChooser archivo;
+    private PDFCreator pdfc = new PDFCreator();
 
     public InformeVacunacionParroquiaMensualController() {
         inicializar();
@@ -115,17 +131,17 @@ public class InformeVacunacionParroquiaMensualController extends InformeVacunaci
 
     @Override
     public JButton getAceptar() {
-        return null; //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return btnImprimir;
     }
 
     @Override
     public JButton getGuardar() {
-        return null; //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return btnGuardar;
     }
 
     @Override
     public JButton getCancelar() {
-        return null; //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return btnCancelar;
     }
 
     @Override
@@ -135,17 +151,61 @@ public class InformeVacunacionParroquiaMensualController extends InformeVacunaci
 
     @Override
     public void aceptar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            try {
+                pdfc.saveDocument("temp.pdf");
+            } catch (IOException ex) {
+                java.util.logging.Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            FileInputStream inputStream = null;
+            try {
+                inputStream = new FileInputStream("temp.pdf");
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            if (inputStream == null) {
+                return;
+            }
+
+            DocFlavor docFormat = DocFlavor.INPUT_STREAM.AUTOSENSE;
+            Doc document = new SimpleDoc(inputStream, docFormat, null);
+
+            PrintRequestAttributeSet attributeSet = new HashPrintRequestAttributeSet();
+
+            PrintService defaultPrintService = PrintServiceLookup.lookupDefaultPrintService();
+
+            if (defaultPrintService != null) {
+                DocPrintJob printJob = defaultPrintService.createPrintJob();
+                try {
+                    printJob.print(document, attributeSet);
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            } else {
+                System.err.println("No existen impresoras instaladas");
+            }
+
+            inputStream.close();
+        } catch (IOException ex) {
+            java.util.logging.Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     @Override
     public void guardar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        if (archivo.showSaveDialog(this) == JFileChooser.APPROVE_OPTION) {
+            try {
+                pdfc.saveDocument(archivo.getSelectedFile().getAbsolutePath());
+            } catch (IOException ex) {
+                java.util.logging.Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
     }
 
     @Override
     public void cancelar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       
     }
 
 }

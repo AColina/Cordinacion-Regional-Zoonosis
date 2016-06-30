@@ -46,6 +46,16 @@ public class PDFCreator {
         linePos = 1;
     }
 
+    public void clearPage() throws IOException {
+        if (pageActual != null) {
+            document.removePage(pageActual);
+            pageActual = new PDPage();
+            document.addPage(pageActual);
+            contentStream = new PDPageContentStream(document, pageActual);
+            linePos = 1;
+        }
+    }
+
     public void addLeftText(String text) throws IOException {
         addLeftText(PDType1Font.HELVETICA, 12, text);
     }
@@ -107,14 +117,16 @@ public class PDFCreator {
     }
 
     public void addCenterText(PDFont font, int fontSize, String text) throws IOException {
+        if (contentStream == null) {
+            addPage();
+        }
         float titleWidth = font.getStringWidth(text) / 1000 * fontSize;
         float titleHeight = font.getFontDescriptor().getFontBoundingBox().getHeight() / 1000 * fontSize;
-        contentStream.setFont(font, 16);
+        contentStream.setFont(font, fontSize);
         contentStream.beginText();
         contentStream.moveTextPositionByAmount((pageActual.getMediaBox().getWidth() - titleWidth) / 2, 750 - (20 * linePos++));
         contentStream.drawString(text);
         contentStream.endText();
-
     }
 
     public void addNewLine() throws IOException {
@@ -134,7 +146,7 @@ public class PDFCreator {
     public BufferedImage getImagePage(int index) throws IOException {
         contentStream.close();
         PDFRenderer pdfRenderer = new PDFRenderer(document);
-        return pdfRenderer.renderImageWithDPI(index, 110, ImageType.RGB);
+        return pdfRenderer.renderImage(index,1f,ImageType.RGB);
     }
 
     public void saveDocument(String path) throws IOException {
@@ -153,8 +165,10 @@ public class PDFCreator {
 //       
 //        pdfc.saveDocument("C:\\Users\\Gustavo\\Desktop\\temp.pdf");
 //    }
-
     public void drawTable(String[][] content) throws IOException {
+        if (pageActual == null) {
+            addPage();
+        }
         float y = 750 - (20 * linePos++);
         final int rows = content.length;
         final int cols = content[0].length;

@@ -50,8 +50,6 @@ public class VerNovedadController extends VerNovedad<Novedades> {
 
     private MDialog dialog;
     private JFileChooser archivo;
-    private PDDocument document = new PDDocument();
-    private int linePos = 1;
     private PDFCreator pdfc = new PDFCreator();
 
     public VerNovedadController(Novedades novedad) {
@@ -169,8 +167,8 @@ public class VerNovedadController extends VerNovedad<Novedades> {
             pdfc.addCenterText(entity.getCliente().getPersona().getNombre() + " " + entity.getCliente().getPersona().getApellido());
            
             ImageIcon ii = new ImageIcon(pdfc.getImagePage(0));
-            Icon icono = new ImageIcon(ii.getImage().getScaledInstance(513, 557, Image.SCALE_DEFAULT));
-            jLabel1.setIcon(icono);
+            //Icon icono = new ImageIcon(ii.getImage().getScaledInstance(513, 557, Image.SCALE_DEFAULT));
+            jLabel1.setIcon(ii);
             this.repaint();
         } catch (IOException ex) {
             Logger.getLogger(VerNovedadController.class.getName()).log(Level.SEVERE, null, ex);
@@ -179,18 +177,7 @@ public class VerNovedadController extends VerNovedad<Novedades> {
         iniciarDialogo();
     }
 
-    public void addLineText(PDPageContentStream contentStream, String text) throws IOException {
-        contentStream.beginText();
-        contentStream.moveTextPositionByAmount(50, 750 - (20 * linePos++));
-        contentStream.drawString(text);
-        contentStream.endText();
-    }
-
-    public void textSinPosicion(PDPageContentStream contentStream, String text) throws IOException {
-
-        contentStream.drawString(text);
-        contentStream.endText();
-    }
+   
 
     private void iniciarDialogo() {
         dialog = new MDialog(Application.getAPLICATION_FRAME());
