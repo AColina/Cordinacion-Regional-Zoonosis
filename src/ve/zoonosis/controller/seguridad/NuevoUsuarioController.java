@@ -201,7 +201,7 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
             persona = rb.ejecutarJson(Persona.class);
             if (persona != null && persona.getUsuario() != null) {
                 MGrowl.showGrowl(MGrowlState.ERROR,
-                        String.format("El usuario con la cedula \"%s\" ya ha sido regisrtado", c));
+                        String.format("El usuario con la cedula \"%s\" ya ha sido registrado", c));
                 limpiar();
                 return;
             }
@@ -282,6 +282,8 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
                 MGrowl.showGrowl(MGrowlState.SUCCESS, entity.getId() == null
                         ? "Usuario creado con exito"
                         : "Datos modificados con exito");
+            }else{
+                 MGrowl.showGrowl(MGrowlState.ERROR, "Los Datos no han sido guardados");
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);

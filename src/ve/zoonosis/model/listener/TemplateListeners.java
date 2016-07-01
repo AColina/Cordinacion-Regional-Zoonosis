@@ -22,6 +22,7 @@ import java.awt.event.ActionListener;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JComponent;
+import ve.zoonosis.controller.funcionales.CrearEspecieController;
 import ve.zoonosis.controller.modulos.ImportarController;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.modulos.estadistica.ComparativaAnualController;
@@ -185,6 +186,10 @@ public class TemplateListeners {
 
     public CrearDialogo getImportar() {
         return new CrearDialogo(ImportarController.class);
+    }
+
+    public CrearDialogo getNuevaEspecie() {
+        return new CrearDialogo(CrearEspecieController.class);
     }
 
     public SingleInstance getAcercaDe() {
