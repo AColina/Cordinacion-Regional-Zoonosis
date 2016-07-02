@@ -23,10 +23,13 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.print.Doc;
@@ -38,14 +41,17 @@ import javax.print.SimpleDoc;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
-import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
-import ve.zoonosis.controller.modulos.estadistica.caso.animales.municipio.CasoAnimalSemanalPorMunicipioController;
+import javax.swing.JOptionPane;
+import ve.zoonosis.controller.modulos.estadistica.caso.animales.parroquia.CasoAnimalSemanalPorParroquiaController;
+import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaSemanalController;
 import ve.zoonosis.controller.modulos.novdedades.VerNovedadController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.utils.PDFCreator;
+import ve.zoonosis.utils.RandomColor;
 import ve.zoonosis.vistas.modulos.informes.jornada.municipio.InformeVacunacionMunicipioSemanal;
 import windows.RequestBuilder;
 
@@ -59,6 +65,7 @@ public class InformeVacunacionMunicipioSemanalController extends InformeVacunaci
     private RequestBuilder rb;
     private JFileChooser archivo;
     private PDFCreator pdfc = new PDFCreator();
+    private DecimalFormat decimalFormat = new DecimalFormat("#.##");
 
     public InformeVacunacionMunicipioSemanalController() {
         inicializar();
@@ -67,6 +74,11 @@ public class InformeVacunacionMunicipioSemanalController extends InformeVacunaci
     @Override
     public final void inicializar() {
         iniForm();
+        jLabel1.setText("");
+        jLabel1.setIcon(null);
+        jLabel1.repaint();
+        btnImprimir.setEnabled(false);
+        btnGuardar.setEnabled(false);
         try {
             semanas.addItemListener(new ItemListener() {
 
@@ -118,8 +130,12 @@ public class InformeVacunacionMunicipioSemanalController extends InformeVacunaci
             mButton1.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    //obtenerEstadistica();
-                    //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                    try {
+                        obtenerInforme();
+                        //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                    } catch (IOException ex) {
+                        Logger.getLogger(InformeVacunacionMunicipioSemanalController.class.getName()).log(Level.SEVERE, null, ex);
+                    }
                 }
             });
         } catch (URISyntaxException | RuntimeException ex) {
@@ -147,6 +163,75 @@ public class InformeVacunacionMunicipioSemanalController extends InformeVacunaci
             java.util.logging.Logger.getLogger(InformeVacunacionMunicipioSemanalController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    private void obtenerInforme() throws IOException {
+        RandomColor rc = new RandomColor();
+        pdfc.clearPage();
+        pdfc.addCenterText(20, "Informe");
+        jLabel1.setIcon(null);
+        jLabel1.repaint();
+        btnImprimir.setEnabled(false);
+        btnGuardar.setEnabled(false);
+
+        try {
+            final String nombreParroquia = ((Municipio) municipios.getSelectedItem()).getNombre();
+            //    final Date fecha = dia.getDate();
+            rb = new RequestBuilder("services/funcionales/AnimalWs/ObtenerListaPorSemanaDeCasoPorMunicipio.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("nombreMunicipio", nombreParroquia);
+                            put("semana", ((Semana) semanas.getSelectedItem()).getNombre());
+                            put("year", years.getSelectedItem());
+                            //           put("dia", fecha);
+                        }
+                    });
+            List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
+            HashMap v = new HashMap();
+
+            if (valores == null || valores.isEmpty()) {
+                JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
+            } else {
+                btnImprimir.setEnabled(true);
+                btnGuardar.setEnabled(true);
+                for (HashMap valore : valores) {
+                    Iterator i = valore.entrySet().iterator();
+                    while (i.hasNext()) {
+                        Map.Entry e = (Map.Entry) i.next();
+                        if (v.get(e.getKey()) != null && isNumeric((String) e.getValue())) {
+                            v.put(e.getKey(), (int) v.get(e.getKey()) + Integer.valueOf((String) e.getValue()));
+                        } else if (isNumeric((String) e.getValue())) {
+                            v.put(e.getKey(), Integer.valueOf((String) e.getValue()));
+                        }
+                    }
+                }
+                pdfc.addNewLine();
+                int positivos = ((int) v.get("cantidadPositivos"));
+                int total = ((int) v.get("cantidadIngresado"));
+                int negativos = total - positivos;
+                pdfc.addLeftText("Informe sobre los casos en la " + semanas.getSelectedItem() + " en el Municipio " + municipios.getSelectedItem()
+                        + ", durante este periodo de tiempo se pudo observar y llevar un registro de la cantidad de casos"
+                        + "recibidos por nuestra jurisdiccion dando los siguientes resultados: Casos positivos " + positivos + " (" + decimalFormat.format(((float) positivos / (float) total) * 100) + "%), "
+                        + "casos negativos " + negativos + " (" + decimalFormat.format(((float) negativos / (float) total) * 100) + "%), total de casos " + (total) + ".");
+                ImageIcon ii = new ImageIcon(pdfc.getImagePage(0));
+                jLabel1.setIcon(ii);
+                jLabel1.repaint();
+            }
+        } catch (URISyntaxException ex) {
+            java.util.logging.Logger.getLogger(CasoAnimalSemanalPorParroquiaController.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(InformeCasoParroquiaSemanalController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+    public boolean isNumeric(String value) {
+        try {
+            Integer.valueOf(value);
+            return true;
+        } catch (Exception e) {
+        }
+        return false;
+    }
 
     @Override
     public JButton getAceptar() {
@@ -160,7 +245,7 @@ public class InformeVacunacionMunicipioSemanalController extends InformeVacunaci
 
     @Override
     public JButton getCancelar() {
-        return btnCancelar;
+        return null;
     }
 
     @Override

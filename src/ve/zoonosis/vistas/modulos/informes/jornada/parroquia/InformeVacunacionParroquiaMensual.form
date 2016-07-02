@@ -26,18 +26,16 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="mHeader1" alignment="0" max="32767" attributes="0"/>
                   <Component id="mPanel1" alignment="0" max="32767" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="296" max="-2" attributes="0"/>
-                      <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnImprimir" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
-                  </Group>
                   <Component id="mPanel2" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnImprimir" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -50,13 +48,12 @@
               <Component id="mPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="mPanel2" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnImprimir" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -95,7 +92,7 @@
                   <Component id="mLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="parroquias" min="-2" pref="180" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="109" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -239,7 +236,7 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" pref="426" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" pref="418" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -285,14 +282,6 @@
     <Component class="com.megagroup.componentes.MButton" name="btnImprimir">
       <Properties>
         <Property name="text" type="java.lang.String" value="Imprimir"/>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
-      </AuxValues>
-    </Component>
-    <Component class="com.megagroup.componentes.MButton" name="btnCancelar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Cancelar"/>
       </Properties>
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>

@@ -57,7 +57,6 @@ public abstract class InformeVacunacionParroquiaSemanal<E extends Entidad> exten
         jLabel1 = new javax.swing.JLabel();
         btnGuardar = new com.megagroup.componentes.MButton();
         btnImprimir = new com.megagroup.componentes.MButton();
-        btnCancelar = new com.megagroup.componentes.MButton();
 
         setPreferredSize(new java.awt.Dimension(854, 663));
 
@@ -162,15 +161,13 @@ public abstract class InformeVacunacionParroquiaSemanal<E extends Entidad> exten
             mPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(mPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 431, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 423, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         btnGuardar.setText("Guardar");
 
         btnImprimir.setText("Imprimir");
-
-        btnCancelar.setText("Cancelar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -187,8 +184,6 @@ public abstract class InformeVacunacionParroquiaSemanal<E extends Entidad> exten
                         .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -204,15 +199,13 @@ public abstract class InformeVacunacionParroquiaSemanal<E extends Entidad> exten
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(14, 14, 14))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    protected com.megagroup.componentes.MButton btnCancelar;
     protected com.megagroup.componentes.MButton btnGuardar;
     protected com.megagroup.componentes.MButton btnImprimir;
     protected javax.swing.JLabel jLabel1;

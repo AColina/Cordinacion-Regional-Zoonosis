@@ -23,8 +23,13 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.text.DecimalFormat;
 import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.print.Doc;
@@ -36,13 +41,18 @@ import javax.print.SimpleDoc;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
+import ve.zoonosis.controller.modulos.estadistica.caso.animales.parroquia.CasoAnimalSemanalPorParroquiaController;
+import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaSemanalController;
 import ve.zoonosis.controller.modulos.novdedades.VerNovedadController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.utils.PDFCreator;
+import ve.zoonosis.utils.RandomColor;
 import ve.zoonosis.vistas.modulos.informes.jornada.municipio.InformeVacunacionMunicipioMensual;
 import windows.RequestBuilder;
 
@@ -56,6 +66,7 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
     private RequestBuilder rb;
     private JFileChooser archivo;
     private PDFCreator pdfc = new PDFCreator();
+    private DecimalFormat decimalFormat = new DecimalFormat("#.##");
 
     public InformeVacunacionMunicipioMensualController() {
         inicializar();
@@ -64,6 +75,11 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
     @Override
     public final void inicializar() {
         iniForm();
+        jLabel1.setText("");
+        jLabel1.setIcon(null);
+        jLabel1.repaint();
+        btnImprimir.setEnabled(false);
+        btnGuardar.setEnabled(false);
         JSpinner s = (JSpinner) año.getSpinner();
         JTextField t = (JTextField) s.getEditor();
         t.setEditable(false);
@@ -102,13 +118,121 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
             mButton1.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    //obtenerEstadistica();
-                    //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                    try {
+                        obtenerInforme();
+                        //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+                    } catch (IOException ex) {
+                        Logger.getLogger(InformeVacunacionMunicipioMensualController.class.getName()).log(Level.SEVERE, null, ex);
+                    }
                 }
             });
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.log(Level.SEVERE, null, ex);
         }
+    }
+
+    private void obtenerInforme() throws IOException {
+        RandomColor rc = new RandomColor();
+        pdfc.clearPage();
+        pdfc.addCenterText(20, "Informe");
+        jLabel1.setIcon(null);
+        jLabel1.repaint();
+        btnImprimir.setEnabled(false);
+        btnGuardar.setEnabled(false);
+        jLabel1.setText("");
+        try {
+            final String nombreParroquia = ((Municipio) municipios.getSelectedItem()).getNombre();
+            //    final Date fecha = dia.getDate();
+            int numeroMes = mes.getMonth();
+            int numeroAño = año.getYear();
+            GregorianCalendar gc = new GregorianCalendar(numeroAño, numeroMes, 1);
+            System.out.println(gc.getTime());
+            final Date fecha = gc.getTime();
+            //    final Date fecha = dia.getDate();
+            rb = new RequestBuilder("services/funcionales/AnimalWs/ObtenerListaPorMesDeCasoPorMunicipio.php",
+                    new HashMap<String, Object>() {
+                        {
+                            put("nombreMunicipio", nombreParroquia);
+                            put("dia", fecha);
+                        }
+                    });
+            List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
+            HashMap v = new HashMap();
+
+            if (valores == null || valores.isEmpty()) {
+                JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
+            } else {
+                btnImprimir.setEnabled(true);
+                btnGuardar.setEnabled(true);
+                for (HashMap valore : valores) {
+                    Iterator i = valore.entrySet().iterator();
+                    while (i.hasNext()) {
+                        Map.Entry e = (Map.Entry) i.next();
+                        if (v.get(e.getKey()) != null && isNumeric((String) e.getValue())) {
+                            v.put(e.getKey(), (int) v.get(e.getKey()) + Integer.valueOf((String) e.getValue()));
+                        } else if (isNumeric((String) e.getValue())) {
+                            v.put(e.getKey(), Integer.valueOf((String) e.getValue()));
+                        }
+                    }
+                }
+                pdfc.addNewLine();
+                int positivos = ((int) v.get("cantidadPositivos"));
+                int total = ((int) v.get("cantidadIngresado"));
+                int negativos = total - positivos;
+                pdfc.addLeftText("Informe sobre los casos en el mes de " + obtenerNombreMes(numeroMes) + " en el Municipio " + municipios.getSelectedItem()
+                        + ", durante este periodo de tiempo se pudo observar y llevar un registro de la cantidad de casos"
+                        + "recibidos por nuestra jurisdiccion dando los siguientes resultados: Casos positivos " + positivos + " (" + decimalFormat.format(((float) positivos / (float) total) * 100) + "%), "
+                        + "casos negativos " + negativos + " (" + decimalFormat.format(((float) negativos / (float) total) * 100) + "%), total de casos " + (total) + ".");
+                ImageIcon ii = new ImageIcon(pdfc.getImagePage(0));
+                jLabel1.setIcon(ii);
+                jLabel1.repaint();
+            }
+        } catch (URISyntaxException ex) {
+            java.util.logging.Logger.getLogger(CasoAnimalSemanalPorParroquiaController.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(InformeCasoParroquiaSemanalController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+    private String obtenerNombreMes(int numeroMes) {
+        switch (numeroMes) {
+            case 1:
+                return "Enero";
+            case 2:
+                return "Febrero";
+            case 3:
+                return "Marzo";
+            case 4:
+                return "Abril";
+            case 5:
+                return "Mayo";
+            case 6:
+                return "Junio";
+            case 7:
+                return "Julio";
+            case 8:
+                return "Agosto";
+            case 9:
+                return "Septiembre";
+            case 10:
+                return "Octubre";
+            case 11:
+                return "Noviembre";
+            case 12:
+                return "Diciembre";
+
+        }
+        return null;
+    }
+
+    public boolean isNumeric(String value) {
+        try {
+            Integer.valueOf(value);
+            return true;
+        } catch (Exception e) {
+        }
+        return false;
     }
 
     @Override
@@ -123,7 +247,7 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
 
     @Override
     public JButton getCancelar() {
-        return btnCancelar;
+        return null;
     }
 
     @Override
@@ -187,7 +311,7 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
 
     @Override
     public void cancelar() {
-        
+
     }
 
 }

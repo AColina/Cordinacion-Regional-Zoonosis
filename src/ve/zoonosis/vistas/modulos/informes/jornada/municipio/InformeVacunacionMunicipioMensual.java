@@ -56,7 +56,6 @@ public abstract class InformeVacunacionMunicipioMensual<E extends Entidad> exten
         jLabel1 = new javax.swing.JLabel();
         btnGuardar = new com.megagroup.componentes.MButton();
         btnImprimir = new com.megagroup.componentes.MButton();
-        btnCancelar = new com.megagroup.componentes.MButton();
 
         mHeader1.setText("Informe mensual de jornadas por municipio");
 
@@ -159,8 +158,6 @@ public abstract class InformeVacunacionMunicipioMensual<E extends Entidad> exten
 
         btnImprimir.setText("Imprimir");
 
-        btnCancelar.setText("Cancelar");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -176,8 +173,6 @@ public abstract class InformeVacunacionMunicipioMensual<E extends Entidad> exten
                         .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -193,8 +188,7 @@ public abstract class InformeVacunacionMunicipioMensual<E extends Entidad> exten
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(9, 9, 9))
         );
     }// </editor-fold>//GEN-END:initComponents
@@ -202,7 +196,6 @@ public abstract class InformeVacunacionMunicipioMensual<E extends Entidad> exten
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     protected com.toedter.calendar.JYearChooser año;
-    protected com.megagroup.componentes.MButton btnCancelar;
     protected com.megagroup.componentes.MButton btnGuardar;
     protected com.megagroup.componentes.MButton btnImprimir;
     protected javax.swing.JLabel jLabel1;

@@ -15,7 +15,6 @@
  */
 package ve.zoonosis.controller.modulos.informe.caso.parroquia;
 
-import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
@@ -24,8 +23,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URISyntaxException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -43,7 +41,6 @@ import javax.print.SimpleDoc;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
 import javax.swing.DefaultComboBoxModel;
-import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
@@ -69,6 +66,7 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
     private RequestBuilder rb;
     private JFileChooser archivo;
     private PDFCreator pdfc = new PDFCreator();
+    private DecimalFormat decimalFormat = new DecimalFormat("#.##");
 
     public InformeCasoParroquiaSemanalController() {
         inicializar();
@@ -77,6 +75,11 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
     @Override
     public final void inicializar() {
         iniForm();
+        jLabel1.setText("");
+        btnImprimir.setEnabled(false);
+        btnGuardar.setEnabled(false);
+        jLabel1.setIcon(null);
+        jLabel1.repaint();
         semanas.addItemListener(new ItemListener() {
 
             @Override
@@ -182,6 +185,10 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
         RandomColor rc = new RandomColor();
         pdfc.clearPage();
         pdfc.addCenterText(20, "Informe");
+        jLabel1.setIcon(null);
+        jLabel1.repaint();
+        btnImprimir.setEnabled(false);
+        btnGuardar.setEnabled(false);
 
         try {
             final String nombreParroquia = ((Parroquia) parroquias.getSelectedItem()).getNombre();
@@ -201,42 +208,30 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
             if (valores == null || valores.isEmpty()) {
                 JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
             } else {
+                btnImprimir.setEnabled(false);
+                btnGuardar.setEnabled(false);
                 for (HashMap valore : valores) {
                     Iterator i = valore.entrySet().iterator();
                     while (i.hasNext()) {
                         Map.Entry e = (Map.Entry) i.next();
-                        if (!isNumeric((String) e.getKey()) && v.get(e.getKey()) != null) {
-                            v.put(e.getKey(), ((int) e.getValue()) + ((int) v.get(e.getKey())));
-                        } else if (!isNumeric((String) e.getKey())) {
-                            v.put(e.getKey(), e.getValue());
+                        if (v.get(e.getKey()) != null && isNumeric((String) e.getValue())) {
+                            v.put(e.getKey(), (int) v.get(e.getKey()) + Integer.valueOf((String) e.getValue()));
+                        } else if (isNumeric((String) e.getValue())) {
+                            v.put(e.getKey(), Integer.valueOf((String) e.getValue()));
                         }
                     }
                 }
                 pdfc.addNewLine();
-                int positivos = Integer.valueOf((String) v.get("cantidadPositivos"));
-                int total = Integer.valueOf((String) v.get("cantidadIngresado"));
-                int negativos = total-positivos;
+                int positivos = ((int) v.get("cantidadPositivos"));
+                int total = ((int) v.get("cantidadIngresado"));
+                int negativos = total - positivos;
                 pdfc.addLeftText("Informe sobre los casos en la " + semanas.getSelectedItem() + " en la parroquia " + parroquias.getSelectedItem() + " del Municipio " + municipio.getSelectedItem()
                         + ", durante este periodo de tiempo se pudo observar y llevar un registro de la cantidad de casos"
-                        + "recibidos por nuestra jurisdiccion dando los siguientes resultados: Casos positivos " + positivos + " (" + (((float)positivos/(float)total) * 100) + "%), "
-                        + "casos negativos "+negativos+" ("+(((float)negativos/(float)total) * 100)+"%), total de casos "+(total));
+                        + "recibidos por nuestra jurisdiccion dando los siguientes resultados: Casos positivos " + positivos + " (" + decimalFormat.format(((float) positivos / (float) total) * 100) + "%), "
+                        + "casos negativos " + negativos + " (" + decimalFormat.format(((float) negativos / (float) total) * 100) + "%), total de casos " + (total) + ".");
                 ImageIcon ii = new ImageIcon(pdfc.getImagePage(0));
                 jLabel1.setIcon(ii);
                 jLabel1.repaint();
-//                List<HashMap> ordValores = sumarRepetidos(valores);
-//                List<ChartObject> lista = new ArrayList<>();
-//                int maxval = 0;
-//                for (HashMap valor : ordValores) {
-//                    ChartObject chart = new ChartObject(valor.get("nombre").toString(), 
-//                            Double.parseDouble(valor.get("cantidadIngresado").toString()), rc.obtenerColorAleatorio());
-//                    lista.add(chart);
-//                    maxval = maxval + Integer.parseInt(valor.get("cantidadIngresado").toString());
-//                    System.out.println(valor.get("nombre"));
-//                    System.out.println(valor.get("cantidadIngresado"));
-//
-//                }
-//                pieChartPanel2.cargarPie(maxval, lista);
-//                pieChartPanel2.repaint();
             }
         } catch (URISyntaxException ex) {
             java.util.logging.Logger.getLogger(CasoAnimalSemanalPorParroquiaController.class.getName()).log(Level.SEVERE, null, ex);
@@ -246,9 +241,9 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
 
     }
 
-    private boolean isNumeric(String valor) {
+    public boolean isNumeric(String value) {
         try {
-            Integer.valueOf(valor);
+            Integer.valueOf(value);
             return true;
         } catch (Exception e) {
         }
@@ -308,7 +303,7 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
 
     @Override
     public JButton getCancelar() {
-        return btnCancelar;
+        return null;
     }
 
     @Override
@@ -372,7 +367,7 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
 
     @Override
     public void cancelar() {
-       
+
     }
 
 }

@@ -16,18 +16,16 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnImprimir" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnImprimir" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
                   <Component id="mHeader1" alignment="0" max="32767" attributes="0"/>
                   <Component id="mPanel1" alignment="0" max="32767" attributes="0"/>
                   <Component id="mPanel2" alignment="1" max="32767" attributes="0"/>
@@ -49,7 +47,6 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnImprimir" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
@@ -225,14 +222,6 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="com.megagroup.componentes.MButton" name="btnCancelar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Cancelar"/>
-      </Properties>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="4"/>
-      </AuxValues>
-    </Component>
     <Component class="com.megagroup.componentes.MButton" name="btnImprimir">
       <Properties>
         <Property name="text" type="java.lang.String" value="Imprimir"/>

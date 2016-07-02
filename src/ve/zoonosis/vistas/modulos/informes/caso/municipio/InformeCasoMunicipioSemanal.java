@@ -57,7 +57,6 @@ public abstract class InformeCasoMunicipioSemanal<E extends Entidad> extends Abs
         jLabel1 = new javax.swing.JLabel();
         btnGuardar = new com.megagroup.componentes.MButton();
         btnImprimir = new com.megagroup.componentes.MButton();
-        btnCancelar = new com.megagroup.componentes.MButton();
 
         mPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -67,7 +66,7 @@ public abstract class InformeCasoMunicipioSemanal<E extends Entidad> extends Abs
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        mButton1.setText("Ver Formato");
+        mButton1.setText("Generar Informe");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -158,8 +157,6 @@ public abstract class InformeCasoMunicipioSemanal<E extends Entidad> extends Abs
 
         btnImprimir.setText("Imprimir");
 
-        btnCancelar.setText("Cancelar");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -178,8 +175,6 @@ public abstract class InformeCasoMunicipioSemanal<E extends Entidad> extends Abs
                 .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -194,15 +189,13 @@ public abstract class InformeCasoMunicipioSemanal<E extends Entidad> extends Abs
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnImprimir, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 19, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    protected com.megagroup.componentes.MButton btnCancelar;
     protected com.megagroup.componentes.MButton btnGuardar;
     protected com.megagroup.componentes.MButton btnImprimir;
     protected javax.swing.JLabel jLabel1;

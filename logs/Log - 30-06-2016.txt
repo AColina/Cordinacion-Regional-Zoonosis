@@ -46,3 +46,87 @@ jun 30, 2016 4:59:49 PM ve.zoonosis.controller.seguridad.LoginController run
 INFORMACIÓN: Usuario : admin inicia sesion
 jun 30, 2016 5:20:27 PM ve.zoonosis.controller.seguridad.LoginController run
 INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:02:42 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:16:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:19:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 30, 2016 7:19:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 30, 2016 7:19:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:28:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:31:50 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:36:14 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:39:44 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:41:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:43:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:49:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 8:24:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
