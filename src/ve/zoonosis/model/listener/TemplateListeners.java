@@ -46,12 +46,16 @@ import ve.zoonosis.controller.modulos.estadistica.jornada.especies.municipio.Jor
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.JornadaEspecieDiarioPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.JornadaEspecieMensualPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.JornadaEspecieSemanalPorParroquiaController;
+import ve.zoonosis.controller.modulos.informe.caso.municipio.InformeCasoMunicipioAnualController;
 import ve.zoonosis.controller.modulos.informe.caso.municipio.InformeCasoMunicipioMensualController;
 import ve.zoonosis.controller.modulos.informe.caso.municipio.InformeCasoMunicipioSemanalController;
+import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaAnualController;
 import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaMensualController;
 import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaSemanalController;
+import ve.zoonosis.controller.modulos.informe.jornada.municipio.InformeVacunacionMunicipioAnualController;
 import ve.zoonosis.controller.modulos.informe.jornada.municipio.InformeVacunacionMunicipioMensualController;
 import ve.zoonosis.controller.modulos.informe.jornada.municipio.InformeVacunacionMunicipioSemanalController;
+import ve.zoonosis.controller.modulos.informe.jornada.parroquia.InformeVacunacionParroquiaAnualController;
 import ve.zoonosis.controller.modulos.informe.jornada.parroquia.InformeVacunacionParroquiaMensualController;
 import ve.zoonosis.controller.modulos.informe.jornada.parroquia.InformeVacunacionParroquiaSemanalController;
 import ve.zoonosis.controller.modulos.jornadasvacunaciones.BandejaJornadaVacunacionController;
@@ -82,59 +86,59 @@ public class TemplateListeners {
     public static Bandeja getNovedadesBandeja() {
         return new Bandeja("Novedades", BandejaNovedadesController.class);
     }
-    
+
     public static Bandeja getNovedadesBandejaVer() {
-        return new Bandeja("Novedades", BandejaNovedadesController.class,true);
+        return new Bandeja("Novedades", BandejaNovedadesController.class, true);
     }
 
-    public static Bandeja getInformeJornadaSemanalMunicipio(){
-        return new Bandeja("Informe semanal por municipio",InformeVacunacionMunicipioSemanalController.class);
+    public static Bandeja getInformeJornadaSemanalMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeVacunacionMunicipioSemanalController.class);
     }
-    
-    public static Bandeja getInformeJornadaMensualMunicipio(){
-        return new Bandeja("Informe mensual por municipio",InformeVacunacionMunicipioMensualController.class);
+
+    public static Bandeja getInformeJornadaMensualMunicipio() {
+        return new Bandeja("Informe mensual por municipio", InformeVacunacionMunicipioMensualController.class);
     }
-    
-    /*public static Bandeja getInformeJornadaAnualMunicipio(){
-        return new Bandeja("Informe semanal por municipio",InformeVacunacionMunicipioAnualController.class);
-    }*/
-    
-     public static Bandeja getInformeJornadaSemanalParroquia(){
-        return new Bandeja("Informe semanal por parroquia",InformeVacunacionParroquiaSemanalController.class);
+
+    public static Bandeja getInformeJornadaAnualMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeVacunacionMunicipioAnualController.class);
     }
-    
-    public static Bandeja getInformeJornadaMensualParroquia(){
-        return new Bandeja("Informe mensual por parroquia",InformeVacunacionParroquiaMensualController.class);
+
+    public static Bandeja getInformeJornadaSemanalParroquia() {
+        return new Bandeja("Informe semanal por parroquia", InformeVacunacionParroquiaSemanalController.class);
     }
-    
-   /* public static Bandeja getInformeJornadaAnualParroquia(){
-        return new Bandeja("Informe semanal por municipio",InformeVacunacionParroquiaAnualController.class);
-    }*/
-    
-    public static Bandeja getInformeCasoSemanalMunicipio(){
-        return new Bandeja("Informe semanal por municipio",InformeCasoMunicipioSemanalController.class);
+
+    public static Bandeja getInformeJornadaMensualParroquia() {
+        return new Bandeja("Informe mensual por parroquia", InformeVacunacionParroquiaMensualController.class);
     }
-    
-    public static Bandeja getInformeCasoMensualMunicipio(){
-        return new Bandeja("Informe mensual por municipio",InformeCasoMunicipioMensualController.class);
+
+    public static Bandeja getInformeJornadaAnualParroquia() {
+        return new Bandeja("Informe semanal por municipio", InformeVacunacionParroquiaAnualController.class);
     }
-    
-    /*public static Bandeja getInformeJornadaAnualMunicipio(){
-        return new Bandeja("Informe semanal por municipio",InformeVacunacionMunicipioAnualController.class);
-    }*/
-    
-     public static Bandeja getInformeCasoSemanalParroquia(){
-        return new Bandeja("Informe semanal por parroquia",InformeCasoParroquiaSemanalController.class);
+
+    public static Bandeja getInformeCasoSemanalMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeCasoMunicipioSemanalController.class);
     }
-    
-    public static Bandeja getInformeCasoMensualParroquia(){
-        return new Bandeja("Informe mensual por parroquia",InformeCasoParroquiaMensualController.class);
+
+    public static Bandeja getInformeCasoMensualMunicipio() {
+        return new Bandeja("Informe mensual por municipio", InformeCasoMunicipioMensualController.class);
     }
-    
-   /* public static Bandeja getInformeJornadaAnualParroquia(){
-        return new Bandeja("Informe semanal por municipio",InformeVacunacionParroquiaAnualController.class);
-    }*/
-    
+
+    public static Bandeja getInformeCasoAnualMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeCasoMunicipioAnualController.class);
+    }
+
+    public static Bandeja getInformeCasoSemanalParroquia() {
+        return new Bandeja("Informe semanal por parroquia", InformeCasoParroquiaSemanalController.class);
+    }
+
+    public static Bandeja getInformeCasoMensualParroquia() {
+        return new Bandeja("Informe mensual por parroquia", InformeCasoParroquiaMensualController.class);
+    }
+
+    public static Bandeja getInformeCasoAnualParroquia() {
+        return new Bandeja("Informe semanal por municipio", InformeCasoParroquiaAnualController.class);
+    }
+
     public static Bandeja getJornadaAnimalDiarioPorMunicipio() {
         return new Bandeja("Estadistica animal diaria por municipio", JornadaAnimalDiarioPorMunicipioController.class);
     }
@@ -249,7 +253,7 @@ public class TemplateListeners {
         private final Class clase;
         private final Object[] objects;
 
-        public Bandeja(String titulo, Class clase,Object... objects) {
+        public Bandeja(String titulo, Class clase, Object... objects) {
             this.titulo = titulo;
             this.clase = clase;
             this.objects = objects;
@@ -257,7 +261,7 @@ public class TemplateListeners {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            crearInternalFrame(titulo, clase,objects);
+            crearInternalFrame(titulo, clase, objects);
         }
     }
 
