@@ -24,6 +24,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
@@ -149,7 +150,7 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
             System.out.println(gc.getTime());
             final Date fecha = gc.getTime();
             //    final Date fecha = dia.getDate();
-            rb = new RequestBuilder("services/funcionales/AnimalWs/ObtenerListaPorMesDeCasoPorMunicipio.php",
+            rb = new RequestBuilder("services/funcionales/AnimalWs/ObtenerListaAnimalesPorMesDeJornadaPorMunicipio.php",
                     new HashMap<String, Object>() {
                         {
                             put("nombreMunicipio", nombreParroquia);
@@ -157,32 +158,31 @@ public class InformeVacunacionMunicipioMensualController extends InformeVacunaci
                         }
                     });
             List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
-            HashMap v = new HashMap();
 
+            List<Object[]> v = new ArrayList();
+            
             if (valores == null || valores.isEmpty()) {
                 JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
             } else {
                 btnImprimir.setEnabled(true);
                 btnGuardar.setEnabled(true);
+                int total = 0;
                 for (HashMap valore : valores) {
                     Iterator i = valore.entrySet().iterator();
-                    while (i.hasNext()) {
-                        Map.Entry e = (Map.Entry) i.next();
-                        if (v.get(e.getKey()) != null && isNumeric((String) e.getValue())) {
-                            v.put(e.getKey(), (int) v.get(e.getKey()) + Integer.valueOf((String) e.getValue()));
-                        } else if (isNumeric((String) e.getValue())) {
-                            v.put(e.getKey(), Integer.valueOf((String) e.getValue()));
-                        }
-                    }
+                    v.add(new Object[]{valore.get("nombre"), Integer.valueOf((String)valore.get("cantidad"))});
+                    total+= Integer.valueOf((String)valore.get("cantidad"));
                 }
+                String s = "";
+                for (int i = 0; i < v.size(); i++) {
+                    Object[] arr = v.get(i);
+                    s = s.concat(arr[0]+" "+arr[1]+" ("+decimalFormat.format((double)((int)arr[1]/(double)total)*100)+"%), ");
+                            
+                }
+                s = s.substring(0,s.length()-2);
                 pdfc.addNewLine();
-                int positivos = ((int) v.get("cantidadPositivos"));
-                int total = ((int) v.get("cantidadIngresado"));
-                int negativos = total - positivos;
-                pdfc.addLeftText("Informe sobre los casos en el mes de " + obtenerNombreMes(numeroMes) + " en el Municipio " + municipios.getSelectedItem()
-                        + ", durante este periodo de tiempo se pudo observar y llevar un registro de la cantidad de casos"
-                        + "recibidos por nuestra jurisdiccion dando los siguientes resultados: Casos positivos " + positivos + " (" + decimalFormat.format(((float) positivos / (float) total) * 100) + "%), "
-                        + "casos negativos " + negativos + " (" + decimalFormat.format(((float) negativos / (float) total) * 100) + "%), total de casos " + (total) + ".");
+                pdfc.addLeftText("Informe sobre las jornada de vacunacion animal en el mes de " + obtenerNombreMes(numeroMes) + " en el Municipio " + municipios.getSelectedItem()
+                        + ", durante este periodo de tiempo se llevaron a cabo un total de vacunaciones animales: "+s
+                        + " con un total " + (total) + " animales vacunados.");
                 ImageIcon ii = new ImageIcon(pdfc.getImagePage(0));
                 jLabel1.setIcon(ii);
                 jLabel1.repaint();
