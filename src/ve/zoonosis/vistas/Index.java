@@ -75,19 +75,19 @@ public class Index extends javax.swing.JFrame {
         verNovedad.addActionListener(TemplateListeners.getNovedadesBandejaVer());
         menuInformeJornadaSemanalMunicipio.addActionListener(TemplateListeners.getInformeJornadaSemanalMunicipio());
         menuInformeJornadaMensualMunicipio.addActionListener(TemplateListeners.getInformeJornadaMensualMunicipio());
-        //menuInformeJornadaAnualMunicipio.addActionListener(TemplateListeners.getInformeJornadaAnualMunicipio());
+        menuInformeJornadaAnualMunicipio.addActionListener(TemplateListeners.getInformeJornadaAnualMunicipio());
         menuInformeJornadaAnualMunicipio.setVisible(false);
         menuInformeJornadaSemanalParroquia.addActionListener(TemplateListeners.getInformeJornadaSemanalParroquia());
         menuInformeJornadaMensualParroquia.addActionListener(TemplateListeners.getInformeJornadaMensualParroquia());
-        //menuInformeJornadaAnualParroquia.addActionListener(TemplateListeners.getInformeJornadaAnualParroquia());
+        menuInformeJornadaAnualParroquia.addActionListener(TemplateListeners.getInformeJornadaAnualParroquia());
         menuInformeJornadaAnualParroquia.setVisible(false);
         menuInformeCasoSemanalMunicipio.addActionListener(TemplateListeners.getInformeCasoSemanalMunicipio());
         menuInformeCasoMensualMunicipio.addActionListener(TemplateListeners.getInformeCasoMensualMunicipio());
-        //menuInformeCasoAnualMunicipio.addActionListener(TemplateListeners.getInformeCasoAnualMunicipio());
+        menuInformeCasoAnualMunicipio.addActionListener(TemplateListeners.getInformeCasoAnualMunicipio());
         menuInformeCasoAnualMunicipio.setVisible(false);
         menuInformeCasoSemanalParroquia.addActionListener(TemplateListeners.getInformeCasoSemanalParroquia());
         menuInformeCasoMensualParroquia.addActionListener(TemplateListeners.getInformeCasoMensualParroquia());
-        //menuInformeCasoAnualParroquia.addActionListener(TemplateListeners.getInformeCasoAnualParroquia());
+        menuInformeCasoAnualParroquia.addActionListener(TemplateListeners.getInformeCasoAnualParroquia());
         menuInformeCasoAnualParroquia.setVisible(false);
     }
 
