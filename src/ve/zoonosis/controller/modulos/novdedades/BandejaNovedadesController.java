@@ -41,9 +41,16 @@ import windows.RequestBuilder;
 public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
 
     private CrearNovedadController novedadController;
+    private VerNovedadController verNovedadController;
+    private boolean verReporte;
+
+    public BandejaNovedadesController(Boolean verReporte) {
+        this.verReporte = verReporte;
+        inicializar();
+    }
 
     public BandejaNovedadesController() {
-        inicializar();
+        this(false);
     }
 
     @Override
@@ -84,8 +91,12 @@ public class BandejaNovedadesController extends BandejaNovedades<Novedades> {
     @Override
     public void abrir(int index) {
         if (LoginController.getUsuario() != null) {
-            novedadController = new CrearNovedadController(BandejaNovedadesController.this,
-                    bandeja.getModel().getValueAt(index));
+            if (!verReporte) {
+                novedadController = new CrearNovedadController(BandejaNovedadesController.this,
+                        bandeja.getModel().getValueAt(index));
+            }else{
+                verNovedadController = new VerNovedadController(bandeja.getModel().getValueAt(index));
+            }
         }
     }
 
