@@ -43,6 +43,11 @@ public class Caso extends Entidad {
     public Caso() {
     }
 
+    public Caso(Date fechaElaboracion, Semana semana) {
+        this.fechaElaboracion = fechaElaboracion;
+        this.semana = semana;
+    }
+
     public Date getFechaElaboracion() {
         return fechaElaboracion;
     }

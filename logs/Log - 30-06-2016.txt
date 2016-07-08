@@ -1,0 +1,132 @@
+jun 30, 2016 2:00:52 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 2:03:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 2:09:21 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 2:13:12 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 2:21:18 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 2:23:23 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 2:43:02 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 3:21:41 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 3:31:00 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 3:33:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 3:38:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 3:57:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 3:59:26 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:01:28 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:10:23 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:13:11 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:20:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:24:20 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:26:40 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:31:21 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:33:28 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:43:12 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 4:59:49 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 5:20:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:02:42 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:16:43 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:19:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 30, 2016 7:19:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 30, 2016 7:19:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:19:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 30, 2016 7:28:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:31:50 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:36:14 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:39:44 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:41:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:43:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 7:49:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 30, 2016 8:24:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

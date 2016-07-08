@@ -44,6 +44,11 @@ public class Parroquia extends Entidad {
         this.nombre = nombre;
     }
 
+    public Parroquia(String nombre, Municipio municipio) {
+        this.nombre = nombre;
+        this.municipio = municipio;
+    }
+
     public String getNombre() {
         return nombre;
     }

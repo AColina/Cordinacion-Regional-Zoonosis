@@ -21,9 +21,8 @@ package ve.zoonosis.model.enums;
  */
 public enum Modulos implements IEnum<String> {
 
-    CASOS("Casos"),
-    JORNADA("Jornada de VAcunación"),
-    NOVEDADES("Novedades");
+//    CASOS("Casos"),
+    JORNADA("Jornada de Vacunación");
 
     private final String value;
 

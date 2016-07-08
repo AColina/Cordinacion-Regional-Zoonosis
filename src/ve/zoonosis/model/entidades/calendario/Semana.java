@@ -38,6 +38,11 @@ public class Semana extends Entidad {
     public Semana() {
     }
 
+    public Semana(String nombre, Integer year) {
+        this.nombre = nombre;
+        this.year = year;
+    }
+
     public String getNombre() {
         return nombre;
     }

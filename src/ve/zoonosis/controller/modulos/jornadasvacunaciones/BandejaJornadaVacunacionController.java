@@ -20,6 +20,8 @@ import com.megagroup.model.builder.LazyColumnListenerModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URISyntaxException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -27,6 +29,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JMenuItem;
+import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.seguridad.LoginController;
@@ -99,6 +102,17 @@ public class BandejaJornadaVacunacionController extends BandejaJornadaVacunacion
         municipio.addActionListener(new MunicipioListener(parroquia));
         hasta.setMaxSelectableDate(new Date());
         desde.setMaxSelectableDate(new Date());
+        try {
+            String municipios = new RequestBuilder("services/proceso/VacunacionWs/LastDate.php")
+                    .ejecutarJsonToString();
+            if (StringUtils.isNotEmpty(municipios)) {
+                Date min = new SimpleDateFormat("dd/MM/yyyy").parse(municipios);
+                hasta.setMinSelectableDate(min);
+                desde.setMinSelectableDate(min);
+            }
+        } catch (URISyntaxException | RuntimeException | ParseException ex) {
+            Logger.getLogger(BandejaCasosController.class.getName()).log(Level.SEVERE, null, ex);
+        }
         bandeja.setModel(new JornadaTableModel());
     }
 

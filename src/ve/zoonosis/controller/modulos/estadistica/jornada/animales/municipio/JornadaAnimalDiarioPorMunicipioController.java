@@ -45,7 +45,7 @@ public class JornadaAnimalDiarioPorMunicipioController extends JornadaAnimalDiar
 
     public JornadaAnimalDiarioPorMunicipioController() {
         inicializar();
-
+        
     }
 
     @Override

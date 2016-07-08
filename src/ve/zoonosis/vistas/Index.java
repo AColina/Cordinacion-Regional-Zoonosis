@@ -72,7 +72,19 @@ public class Index extends javax.swing.JFrame {
         casosEspecieSemanalPorMunicipio.addActionListener(TemplateListeners.getCasoEspecieSemanalPorMunicipio());
         casosEspecieSemanalPorParroquia.addActionListener(TemplateListeners.getCasoEspecieSemanalPorParroquia());
         comparativaAnual.addActionListener(TemplateListeners.getComparativaAnual());
-
+        verNovedad.addActionListener(TemplateListeners.getNovedadesBandejaVer());
+        menuInformeJornadaSemanalMunicipio.addActionListener(TemplateListeners.getInformeJornadaSemanalMunicipio());
+        menuInformeJornadaMensualMunicipio.addActionListener(TemplateListeners.getInformeJornadaMensualMunicipio());
+        menuInformeJornadaAnualMunicipio.addActionListener(TemplateListeners.getInformeJornadaAnualMunicipio());
+        menuInformeJornadaSemanalParroquia.addActionListener(TemplateListeners.getInformeJornadaSemanalParroquia());
+        menuInformeJornadaMensualParroquia.addActionListener(TemplateListeners.getInformeJornadaMensualParroquia());
+        menuInformeJornadaAnualParroquia.addActionListener(TemplateListeners.getInformeJornadaAnualParroquia());
+        menuInformeCasoSemanalMunicipio.addActionListener(TemplateListeners.getInformeCasoSemanalMunicipio());
+        menuInformeCasoMensualMunicipio.addActionListener(TemplateListeners.getInformeCasoMensualMunicipio());
+        menuInformeCasoAnualMunicipio.addActionListener(TemplateListeners.getInformeCasoAnualMunicipio());
+        menuInformeCasoSemanalParroquia.addActionListener(TemplateListeners.getInformeCasoSemanalParroquia());
+        menuInformeCasoMensualParroquia.addActionListener(TemplateListeners.getInformeCasoMensualParroquia());
+        menuInformeCasoAnualParroquia.addActionListener(TemplateListeners.getInformeCasoAnualParroquia());
     }
 
     public final void addListeners(Usuario usuario) {
@@ -80,6 +92,8 @@ public class Index extends javax.swing.JFrame {
         TemplateListeners listener = new TemplateListeners();
         registarUsuario.setVisible(true);
         modificarDatos.setVisible(true);
+        importar.setVisible(true);
+        registrarEspecie.setVisible(true);
         switch (permiso) {
             default:
                 modificarDatos.setVisible(false);
@@ -87,14 +101,19 @@ public class Index extends javax.swing.JFrame {
                 exportar.setVisible(false);
             case "Usuario":
                 registarUsuario.setVisible(false);
+                registrarEspecie.setVisible(false);
             case "Coordinador":
         }
         ComponentUtils.removeListener(registarUsuario, TemplateListeners.CrearDialogo.class);
         ComponentUtils.removeListener(modificarDatos, TemplateListeners.CrearDialogo.class);
         ComponentUtils.removeListener(importar, TemplateListeners.CrearDialogo.class);
+        ComponentUtils.removeListener(registrarEspecie, TemplateListeners.CrearDialogo.class);
         registarUsuario.addActionListener(listener.getNuevoUsuario());
         modificarDatos.addActionListener(listener.getDatosDeUsuario());
         importar.addActionListener(listener.getImportar());
+        exportar.addActionListener(listener.getExportar());
+        acercaDe.addActionListener(listener.getAcercaDe());
+        registrarEspecie.addActionListener(listener.getNuevaEspecie());
     }
 
     /**
@@ -106,9 +125,10 @@ public class Index extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        menu = new javax.swing.JMenuBar();
+        javax.swing.JMenuBar menu = new javax.swing.JMenuBar();
         javax.swing.JMenu jMenu5 = new javax.swing.JMenu();
         registarUsuario = new javax.swing.JMenuItem();
+        registrarEspecie = new javax.swing.JMenuItem();
         modificarDatos = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator2 = new javax.swing.JPopupMenu.Separator();
         cerrarSesion = new javax.swing.JMenuItem();
@@ -150,22 +170,42 @@ public class Index extends javax.swing.JFrame {
         vacunacionEspecieDiariaPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieMensualPorParroquia = new javax.swing.JMenuItem();
-        jSeparator5 = new javax.swing.JPopupMenu.Separator();
+        javax.swing.JPopupMenu.Separator jSeparator5 = new javax.swing.JPopupMenu.Separator();
         comparativaAnual = new javax.swing.JMenuItem();
         javax.swing.JMenu jMenu3 = new javax.swing.JMenu();
+        verNovedad = new javax.swing.JMenuItem();
+        jMenu6 = new javax.swing.JMenu();
+        menuInformeJornadaSemanalMunicipio = new javax.swing.JMenuItem();
+        menuInformeJornadaMensualMunicipio = new javax.swing.JMenuItem();
+        menuInformeJornadaAnualMunicipio = new javax.swing.JMenuItem();
+        jSeparator6 = new javax.swing.JPopupMenu.Separator();
+        menuInformeJornadaSemanalParroquia = new javax.swing.JMenuItem();
+        menuInformeJornadaMensualParroquia = new javax.swing.JMenuItem();
+        menuInformeJornadaAnualParroquia = new javax.swing.JMenuItem();
+        jMenu8 = new javax.swing.JMenu();
+        menuInformeCasoSemanalMunicipio = new javax.swing.JMenuItem();
+        menuInformeCasoMensualMunicipio = new javax.swing.JMenuItem();
+        menuInformeCasoAnualMunicipio = new javax.swing.JMenuItem();
+        jSeparator7 = new javax.swing.JPopupMenu.Separator();
+        menuInformeCasoSemanalParroquia = new javax.swing.JMenuItem();
+        menuInformeCasoMensualParroquia = new javax.swing.JMenuItem();
+        menuInformeCasoAnualParroquia = new javax.swing.JMenuItem();
         javax.swing.JMenu opciones = new javax.swing.JMenu();
         importar = new javax.swing.JMenuItem();
         exportar = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator4 = new javax.swing.JPopupMenu.Separator();
         acercaDe = new javax.swing.JMenuItem();
-        ayuda = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Zoonosis  System");
 
         jMenu5.setText("Administrar");
 
         registarUsuario.setText("Registrar Usuario");
         jMenu5.add(registarUsuario);
+
+        registrarEspecie.setText("Registrar Especies");
+        jMenu5.add(registrarEspecie);
 
         modificarDatos.setText("Datos Personales");
         jMenu5.add(modificarDatos);
@@ -291,6 +331,56 @@ public class Index extends javax.swing.JFrame {
         menu.add(jMenu2);
 
         jMenu3.setText("Informes");
+
+        verNovedad.setText("Novedad");
+        jMenu3.add(verNovedad);
+
+        jMenu6.setText("Vacunaciones");
+
+        menuInformeJornadaSemanalMunicipio.setText("Semanal Por Municipio");
+        jMenu6.add(menuInformeJornadaSemanalMunicipio);
+
+        menuInformeJornadaMensualMunicipio.setText("Mensual Por Municipio");
+        jMenu6.add(menuInformeJornadaMensualMunicipio);
+
+        menuInformeJornadaAnualMunicipio.setText("Anual Por Municipio");
+        jMenu6.add(menuInformeJornadaAnualMunicipio);
+        jMenu6.add(jSeparator6);
+
+        menuInformeJornadaSemanalParroquia.setText("Semanal Por Parroquia");
+        jMenu6.add(menuInformeJornadaSemanalParroquia);
+
+        menuInformeJornadaMensualParroquia.setText("Mensual Por Parroquia");
+        jMenu6.add(menuInformeJornadaMensualParroquia);
+
+        menuInformeJornadaAnualParroquia.setText("Anual Por Parroquia");
+        jMenu6.add(menuInformeJornadaAnualParroquia);
+
+        jMenu3.add(jMenu6);
+
+        jMenu8.setText("Caso");
+
+        menuInformeCasoSemanalMunicipio.setText("Semanal por Municipio");
+        jMenu8.add(menuInformeCasoSemanalMunicipio);
+
+        menuInformeCasoMensualMunicipio.setText("Mensual por Municipio");
+        jMenu8.add(menuInformeCasoMensualMunicipio);
+
+        menuInformeCasoAnualMunicipio.setText("Anual por Municipio");
+        jMenu8.add(menuInformeCasoAnualMunicipio);
+        jMenu8.add(jSeparator7);
+
+        menuInformeCasoSemanalParroquia.setText("Semanal por Parroquia");
+        jMenu8.add(menuInformeCasoSemanalParroquia);
+
+        menuInformeCasoMensualParroquia.setText("Mensual por Parroquia");
+        jMenu8.add(menuInformeCasoMensualParroquia);
+
+        menuInformeCasoAnualParroquia.setText("Anual por Parroquia");
+        jMenu8.add(menuInformeCasoAnualParroquia);
+
+        jMenu3.add(jMenu8);
+
         menu.add(jMenu3);
 
         opciones.setText("Opciones");
@@ -304,9 +394,6 @@ public class Index extends javax.swing.JFrame {
 
         acercaDe.setText("Acerca de");
         opciones.add(acercaDe);
-
-        ayuda.setText("Ayuda");
-        opciones.add(ayuda);
 
         menu.add(opciones);
 
@@ -354,7 +441,6 @@ public class Index extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem acercaDe;
-    private javax.swing.JMenuItem ayuda;
     private javax.swing.JMenuItem casos;
     private javax.swing.JMenuItem casosAnimalDiarioPorMunicipio;
     private javax.swing.JMenuItem casosAnimalDiarioPorParroquia;
@@ -372,12 +458,29 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JMenuItem comparativaAnual;
     private javax.swing.JMenuItem exportar;
     private javax.swing.JMenuItem importar;
+    private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu8;
     private javax.swing.JPopupMenu.Separator jSeparator5;
+    private javax.swing.JPopupMenu.Separator jSeparator6;
+    private javax.swing.JPopupMenu.Separator jSeparator7;
     private javax.swing.JMenuItem jornadasVacunacion;
     private javax.swing.JMenuBar menu;
+    private javax.swing.JMenuItem menuInformeCasoAnualMunicipio;
+    private javax.swing.JMenuItem menuInformeCasoAnualParroquia;
+    private javax.swing.JMenuItem menuInformeCasoMensualMunicipio;
+    private javax.swing.JMenuItem menuInformeCasoMensualParroquia;
+    private javax.swing.JMenuItem menuInformeCasoSemanalMunicipio;
+    private javax.swing.JMenuItem menuInformeCasoSemanalParroquia;
+    private javax.swing.JMenuItem menuInformeJornadaAnualMunicipio;
+    private javax.swing.JMenuItem menuInformeJornadaAnualParroquia;
+    private javax.swing.JMenuItem menuInformeJornadaMensualMunicipio;
+    private javax.swing.JMenuItem menuInformeJornadaMensualParroquia;
+    private javax.swing.JMenuItem menuInformeJornadaSemanalMunicipio;
+    private javax.swing.JMenuItem menuInformeJornadaSemanalParroquia;
     private javax.swing.JMenuItem modificarDatos;
     private javax.swing.JMenuItem novedades;
     private javax.swing.JMenuItem registarUsuario;
+    private javax.swing.JMenuItem registrarEspecie;
     private javax.swing.JMenuItem vacunacionAnimalDiariaPorMunicipio;
     private javax.swing.JMenuItem vacunacionAnimalDiariaPorParroquia;
     private javax.swing.JMenuItem vacunacionAnimalMensualPorMunicipio;
@@ -390,5 +493,6 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JMenuItem vacunacionEspecieMensualPorParroquia;
     private javax.swing.JMenuItem vacunacionEspecieSemanalPorMunicipio;
     private javax.swing.JMenuItem vacunacionEspecieSemanalPorParroquia;
+    private javax.swing.JMenuItem verNovedad;
     // End of variables declaration//GEN-END:variables
 }

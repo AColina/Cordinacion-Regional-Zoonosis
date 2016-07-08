@@ -120,6 +120,8 @@ public class NuevoCasoController extends NuevoCaso<Animal_has_Caso> {
         Bindings.bind(animal, bindObject2.getBind("animal"), ((ListComboBoxModel) animal.getModel()).getItems(), true);
         Bindings.bind(cantidadIngresado, bindObject2.getBind("cantidadIngresado"));
         Bindings.bind(cantidadPositivos, bindObject2.getBind("cantidadPositivos"));
+        cantidadIngresado.setMaxLength(3);
+        cantidadPositivos.setMaxLength(3);
         autoCreateValidateForm(Caso.class, Animal_has_Caso.class);
         if (entity.getAnimal() != null) {
             animal.setEnabled(false);
@@ -145,19 +147,19 @@ public class NuevoCasoController extends NuevoCaso<Animal_has_Caso> {
 
     @Override
     public boolean validar() {
-        boolean v = new ValidateEntity(entity).validate(this);
+        boolean v = new ValidateEntity(caso).validate(this);
 
         if (v) {
-            if (new ValidateEntity(caso).validate(this)) {
+            if (v = new ValidateEntity(entity).validate(this)) {
                 if (entity.getCantidadIngresado() < entity.getCantidadPositivos()) {
                     v = false;
                     positivosError.setText("<html><p>La cantidad de casos positivos <br>"
                             + " no debe ser mayor a la cantidad <br>"
                             + " de animales ingresados</p></html>");
                     positivosError.setVisible(true);
-                }else{
+                } else {
                     positivosError.setText(null);
-                      positivosError.setVisible(false);
+                    positivosError.setVisible(false);
                 }
             }
         }

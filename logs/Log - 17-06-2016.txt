@@ -30,3 +30,95 @@ jun 17, 2016 9:47:30 PM ve.zoonosis.controller.seguridad.LoginController$3 actio
 Información: Usuario : Sesion de invitado
 jun 17, 2016 9:49:16 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
 Información: Usuario : Sesion de invitado
+jun 17, 2016 6:25:24 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:362)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:260)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:205)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+jun 17, 2016 6:25:24 PM ve.zoonosis.controller.seguridad.LoginController run
+ADVERTENCIA: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:209)
+	at ve.zoonosis.controller.seguridad.LoginController.run(LoginController.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+jun 17, 2016 6:26:30 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 6:26:50 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 17, 2016 6:26:50 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 17, 2016 6:26:50 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 17, 2016 6:26:50 PM windows.ValidateEntity validateSize
+INFORMACIÓN: El atributo descripcion debe contener entre 5 y 2.147.483.647 caracteres
+jun 17, 2016 6:27:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 17, 2016 6:27:47 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 17, 2016 6:27:48 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jun 17, 2016 6:28:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 17, 2016 6:28:51 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 17, 2016 6:28:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:54 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 17, 2016 6:28:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:58 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:59 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:59 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:59 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:28:59 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:29:01 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:29:01 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:29:01 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:29:01 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 17, 2016 6:45:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 6:48:06 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:08:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:11:15 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:13:41 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 17, 2016 7:18:18 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion

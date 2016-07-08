@@ -107,6 +107,7 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
             persona = entity.getPersona();
             permiso.setEnabled(false);
             buscar.setVisible(false);
+            limpiar.setVisible(false);
             BindObject bindObject2 = new BindObject(persona);
             Bindings.bind(cardNumber, bindObject2.getBind("cedula"));
             Bindings.bind(nombre, bindObject2.getBind("nombre"));
@@ -114,7 +115,10 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         }
 
         aceptar.setEnabled(false);
-
+        nombre.setMaxLength(45);
+        apellido.setMaxLength(45);
+        cardNumber.setMaxLength(20);
+        usr.setMaxLength(20);
         iniForm();
 
         try {
@@ -140,7 +144,8 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         DateTime d = new DateTime();
         Date dia = new Date(d.getDayOfMonth() + "/" + d.getMonthOfYear() + "/" + (d.getYear() - 18));
         fechaNacimiento.setMaxSelectableDate(dia);
-
+        Date dia2 = new Date(d.getDayOfMonth() + "/" + d.getMonthOfYear() + "/" + (d.getYear() - 80));
+        fechaNacimiento.setMinSelectableDate(dia2);
         iniciarDialogo();
     }
 
@@ -196,7 +201,7 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
             persona = rb.ejecutarJson(Persona.class);
             if (persona != null && persona.getUsuario() != null) {
                 MGrowl.showGrowl(MGrowlState.ERROR,
-                        String.format("El usuario con la cedula \"%s\" ya ha sido regisrtado", c));
+                        String.format("El usuario con la cedula \"%s\" ya ha sido registrado", c));
                 limpiar();
                 return;
             }
@@ -277,6 +282,8 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
                 MGrowl.showGrowl(MGrowlState.SUCCESS, entity.getId() == null
                         ? "Usuario creado con exito"
                         : "Datos modificados con exito");
+            }else{
+                 MGrowl.showGrowl(MGrowlState.ERROR, "Los Datos no han sido guardados");
             }
         } catch (URISyntaxException | RuntimeException ex) {
             LOG.LOGGER.log(Level.SEVERE, null, ex);

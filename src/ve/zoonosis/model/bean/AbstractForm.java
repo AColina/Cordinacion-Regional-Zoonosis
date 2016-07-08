@@ -182,6 +182,14 @@ public abstract class AbstractForm< Entity extends EntidadGlobal> extends JPanel
                 if (getGuardar() != null) {
                     getGuardar().setEnabled(enable);
                 }
+            } else if ("year".equals(evt.getPropertyName())) {
+                boolean enable = validar();
+                if (getAceptar() != null) {
+                    getAceptar().setEnabled(enable);
+                }
+                if (getGuardar() != null) {
+                    getGuardar().setEnabled(enable);
+                }
             }
         }
 

@@ -17,7 +17,7 @@ package ve.zoonosis.vistas.modulos.novedades;
 
 import com.megagroup.componentes.MTextField;
 import javax.swing.JComboBox;
-import javax.swing.JTextPane;
+import javax.swing.JTextArea;
 import ve.zoonosis.model.bean.AbstractForm;
 import ve.zoonosis.model.entidades.Entidad;
 import ve.zoonosis.model.entidades.administracion.Cliente;
@@ -55,8 +55,6 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
         java.awt.GridBagConstraints gridBagConstraints;
 
         nombre = new com.megagroup.componentes.MTextField();
-        javax.swing.JScrollPane jScrollPane1 = new javax.swing.JScrollPane();
-        descripcion = new javax.swing.JTextPane();
         cliente = new javax.swing.JComboBox<Cliente>();
         nuevoCliente = new com.megagroup.componentes.MButton();
         javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
@@ -65,10 +63,10 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
         com.megagroup.componentes.MLabel mLabel1 = new com.megagroup.componentes.MLabel();
         com.megagroup.componentes.MLabel mLabel2 = new com.megagroup.componentes.MLabel();
         com.megagroup.componentes.MLabel mLabel3 = new com.megagroup.componentes.MLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        descripcion = new javax.swing.JTextArea();
 
         setBackground(new java.awt.Color(255, 255, 255));
-
-        jScrollPane1.setViewportView(descripcion);
 
         cliente.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -102,6 +100,10 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
         mLabel3.setRequired(true);
         mLabel3.setText("Cliente");
 
+        descripcion.setColumns(20);
+        descripcion.setRows(5);
+        jScrollPane1.setViewportView(descripcion);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -122,10 +124,10 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
                             .addComponent(mLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane1)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(nombre, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE)))))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(jScrollPane1))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -138,8 +140,8 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
                 .addGap(22, 22, 22)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(mLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(mLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -154,7 +156,7 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
         return cliente;
     }
 
-    public JTextPane getDescripcion() {
+    public JTextArea getDescripcion() {
         return descripcion;
     }
 
@@ -167,7 +169,8 @@ public abstract class CrearNovedad<E extends Entidad> extends AbstractForm<E> {
     protected com.megagroup.componentes.MButton aceptar;
     protected com.megagroup.componentes.MButton cancelar;
     protected javax.swing.JComboBox<Cliente> cliente;
-    protected javax.swing.JTextPane descripcion;
+    protected javax.swing.JTextArea descripcion;
+    protected javax.swing.JScrollPane jScrollPane1;
     protected com.megagroup.componentes.MTextField nombre;
     protected com.megagroup.componentes.MButton nuevoCliente;
     // End of variables declaration//GEN-END:variables

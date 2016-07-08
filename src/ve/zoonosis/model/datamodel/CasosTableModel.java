@@ -39,6 +39,7 @@ public class CasosTableModel extends AbstractLazyDataModel<Animal_has_Caso> {
 
     private static final Logger LOG = Logger.getLogger(CasosTableModel.class.getName());
     private final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+    private HashMap<Long, Parroquia> parroquias;
     private RequestBuilder builder;
     private Semana semana;
     private Parroquia parroquia;
@@ -86,7 +87,7 @@ public class CasosTableModel extends AbstractLazyDataModel<Animal_has_Caso> {
     @Override
     public IRegistrar crearSubLista(int posicionInical) {
         try {
-
+            parroquias = new HashMap<>();
             HashMap map = new HashMap();
             if (semana != null) {
                 map.put("idSemana", semana.getId());
@@ -112,14 +113,21 @@ public class CasosTableModel extends AbstractLazyDataModel<Animal_has_Caso> {
                 for (Animal_has_Caso resultado : pojo.getResultados()) {
                     final Parroquia p = resultado.getCaso().getParroquia();
                     try {
-                        builder = new RequestBuilder("services/administracion/MunicipioWs/BuscarMunicipioPorParroquia.php",
-                                new HashMap<String, Object>() {
-                                    {
-                                        put("idParroquia", p.getId());
-                                    }
-                                }, MetodosDeEnvio.GET);
-                        Municipio municipios = builder.ejecutarJson(Municipio.class);
-                        p.setMunicipio(municipios);
+                        Parroquia pp = parroquias.get(p.getId());
+                        if (pp == null) {
+                            builder = new RequestBuilder("services/administracion/MunicipioWs/BuscarMunicipioPorParroquia.php",
+                                    new HashMap<String, Object>() {
+                                        {
+                                            put("idParroquia", p.getId());
+                                        }
+                                    }, MetodosDeEnvio.GET);
+
+                            Municipio municipios = builder.ejecutarJson(Municipio.class);
+                            p.setMunicipio(municipios);
+                            parroquias.put(p.getId(), p);
+                        } else {
+                            p.setMunicipio(pp.getMunicipio());
+                        }
                     } catch (URISyntaxException | RuntimeException ex) {
                         LOG.LOGGER.log(Level.SEVERE, null, ex);
                     }

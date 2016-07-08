@@ -52,12 +52,25 @@ public class EnumComboBoxModel extends AbstractListModel implements ComboBoxMode
 
     @Override
     public void setSelectedItem(Object anItem) {
-        index = enumItems.indexOf(anItem);
+        if (anItem == null) {
+            index = -1;
+            return;
+        }
+        for (int i = 0; i < getSize(); i++) {
+            if (enumItems.get(i).getValue().equals(anItem)) {
+                index = i;
+                break;
+            }
+        }
+    }
+
+    public <E extends IEnum> E getEnumItem() {
+        return (E) enumItems.get(index);
     }
 
     @Override
     public Object getSelectedItem() {
-        return index == -1 ? null : enumItems.get(index);
+        return index == -1 ? null : enumItems.get(index).getValue();
     }
 
 }

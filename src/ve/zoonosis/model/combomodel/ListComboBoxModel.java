@@ -38,7 +38,7 @@ public class ListComboBoxModel<E> extends AbstractListModel<E> implements Mutabl
     }
 
     public ListComboBoxModel(List<E> items) {
-        this.items = items;
+        this.items = items == null ? new ArrayList<E>() : items;
         verificarSelectItem();
     }
 

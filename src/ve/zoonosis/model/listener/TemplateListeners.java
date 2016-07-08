@@ -19,6 +19,11 @@ import com.megagroup.reflection.ReflectionUtils;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JComponent;
+import ve.zoonosis.controller.funcionales.CrearEspecieController;
+import ve.zoonosis.controller.modulos.ExportarController;
 import ve.zoonosis.controller.modulos.ImportarController;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
 import ve.zoonosis.controller.modulos.estadistica.ComparativaAnualController;
@@ -46,11 +51,24 @@ import ve.zoonosis.controller.modulos.estadistica.jornada.especies.municipio.Jor
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.JornadaEspecieDiarioPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.JornadaEspecieMensualPorParroquiaController;
 import ve.zoonosis.controller.modulos.estadistica.jornada.especies.parroquia.JornadaEspecieSemanalPorParroquiaController;
+import ve.zoonosis.controller.modulos.informe.caso.municipio.InformeCasoMunicipioAnualController;
+import ve.zoonosis.controller.modulos.informe.caso.municipio.InformeCasoMunicipioMensualController;
+import ve.zoonosis.controller.modulos.informe.caso.municipio.InformeCasoMunicipioSemanalController;
+import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaAnualController;
+import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaMensualController;
+import ve.zoonosis.controller.modulos.informe.caso.parroquia.InformeCasoParroquiaSemanalController;
+import ve.zoonosis.controller.modulos.informe.jornada.municipio.InformeVacunacionMunicipioAnualController;
+import ve.zoonosis.controller.modulos.informe.jornada.municipio.InformeVacunacionMunicipioMensualController;
+import ve.zoonosis.controller.modulos.informe.jornada.municipio.InformeVacunacionMunicipioSemanalController;
+import ve.zoonosis.controller.modulos.informe.jornada.parroquia.InformeVacunacionParroquiaAnualController;
+import ve.zoonosis.controller.modulos.informe.jornada.parroquia.InformeVacunacionParroquiaMensualController;
+import ve.zoonosis.controller.modulos.informe.jornada.parroquia.InformeVacunacionParroquiaSemanalController;
 import ve.zoonosis.controller.modulos.jornadasvacunaciones.BandejaJornadaVacunacionController;
 import ve.zoonosis.controller.modulos.novdedades.BandejaNovedadesController;
 import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.controller.seguridad.NuevoUsuarioController;
 import ve.zoonosis.model.components.AbstractInternalListener;
+import ve.zoonosis.vistas.otros.AcercaDe;
 
 /**
  *
@@ -73,6 +91,58 @@ public class TemplateListeners {
 
     public static Bandeja getNovedadesBandeja() {
         return new Bandeja("Novedades", BandejaNovedadesController.class);
+    }
+
+    public static Bandeja getNovedadesBandejaVer() {
+        return new Bandeja("Novedades", BandejaNovedadesController.class, true);
+    }
+
+    public static Bandeja getInformeJornadaSemanalMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeVacunacionMunicipioSemanalController.class);
+    }
+
+    public static Bandeja getInformeJornadaMensualMunicipio() {
+        return new Bandeja("Informe mensual por municipio", InformeVacunacionMunicipioMensualController.class);
+    }
+
+    public static Bandeja getInformeJornadaAnualMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeVacunacionMunicipioAnualController.class);
+    }
+
+    public static Bandeja getInformeJornadaSemanalParroquia() {
+        return new Bandeja("Informe semanal por parroquia", InformeVacunacionParroquiaSemanalController.class);
+    }
+
+    public static Bandeja getInformeJornadaMensualParroquia() {
+        return new Bandeja("Informe mensual por parroquia", InformeVacunacionParroquiaMensualController.class);
+    }
+
+    public static Bandeja getInformeJornadaAnualParroquia() {
+        return new Bandeja("Informe semanal por municipio", InformeVacunacionParroquiaAnualController.class);
+    }
+
+    public static Bandeja getInformeCasoSemanalMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeCasoMunicipioSemanalController.class);
+    }
+
+    public static Bandeja getInformeCasoMensualMunicipio() {
+        return new Bandeja("Informe mensual por municipio", InformeCasoMunicipioMensualController.class);
+    }
+
+    public static Bandeja getInformeCasoAnualMunicipio() {
+        return new Bandeja("Informe semanal por municipio", InformeCasoMunicipioAnualController.class);
+    }
+
+    public static Bandeja getInformeCasoSemanalParroquia() {
+        return new Bandeja("Informe semanal por parroquia", InformeCasoParroquiaSemanalController.class);
+    }
+
+    public static Bandeja getInformeCasoMensualParroquia() {
+        return new Bandeja("Informe mensual por parroquia", InformeCasoParroquiaMensualController.class);
+    }
+
+    public static Bandeja getInformeCasoAnualParroquia() {
+        return new Bandeja("Informe semanal por municipio", InformeCasoParroquiaAnualController.class);
     }
 
     public static Bandeja getJornadaAnimalDiarioPorMunicipio() {
@@ -178,24 +248,38 @@ public class TemplateListeners {
     public CrearDialogo getDatosDeUsuario() {
         return new CrearDialogo(NuevoUsuarioController.class, LoginController.getUsuario());
     }
+    
+    public CrearDialogo getExportar(){
+        return new CrearDialogo(ExportarController.class);
+    }
 
     public CrearDialogo getImportar() {
         return new CrearDialogo(ImportarController.class);
+    }
+
+    public CrearDialogo getNuevaEspecie() {
+        return new CrearDialogo(CrearEspecieController.class);
+    }
+
+    public SingleInstance getAcercaDe() {
+        return new SingleInstance(AcercaDe.class);
     }
 
     public static class Bandeja extends AbstractInternalListener implements ActionListener {
 
         private final String titulo;
         private final Class clase;
+        private final Object[] objects;
 
-        public Bandeja(String titulo, Class clase) {
+        public Bandeja(String titulo, Class clase, Object... objects) {
             this.titulo = titulo;
             this.clase = clase;
+            this.objects = objects;
         }
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            crearInternalFrame(titulo, clase);
+            crearInternalFrame(titulo, clase, objects);
         }
     }
 
@@ -213,6 +297,27 @@ public class TemplateListeners {
 
         public void actionPerformed(ActionEvent e) {
             ReflectionUtils.newInstanceForVector(container, values);
+        }
+
+    }
+
+    public class SingleInstance implements ActionListener {
+
+        private final Class<? extends Container> container;
+
+        public SingleInstance(Class<? extends Container> container) {
+            this.container = container;
+        }
+
+        @Override
+
+        public void actionPerformed(ActionEvent e) {
+            try {
+                JComponent c = ReflectionUtils.runMethod(container, container.getDeclaredMethod("getInstance"));
+                c.show();
+            } catch (NoSuchMethodException | SecurityException ex) {
+                Logger.getLogger(TemplateListeners.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
 
     }

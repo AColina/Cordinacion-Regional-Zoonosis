@@ -125,6 +125,7 @@ public class NuevaJornadaController extends NuevaJornada<RegistroVacunacion_has_
         Bindings.bind(animal, bindObject2.getBind("animal"), true);
         Bindings.bind(cantidad, bindObject2.getBind("cantidad"));
         autoCreateValidateForm(Vacunacion.class, RegistroVacunacion_has_Animal.class);
+        cantidad.setMaxLength(3);
         iniciarDialogo();
     }
 

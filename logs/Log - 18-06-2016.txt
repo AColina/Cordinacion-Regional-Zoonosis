@@ -1,0 +1,668 @@
+jun 18, 2016 10:19:34 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:21:55 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:27:29 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:31:05 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:42:08 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:44:20 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:56:02 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:59:32 AM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:02:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:08:10 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:10:07 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:13:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:28:13 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:48:09 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:50:17 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:52:12 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:53:32 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 12:59:56 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 1:41:20 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 5:22:54 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 5:34:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 5:41:02 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 5:52:17 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 5:59:23 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 6:33:08 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:46 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:47 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 18, 2016 6:34:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:52 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:53 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:54 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:55 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:56 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:34:57 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:35:02 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:35:02 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:35:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:35:06 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 6:35:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 6:35:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 6:35:19 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 6:36:03 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 6:36:03 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 6:43:21 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 7:23:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 7:32:20 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:07:59 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:08:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:08:50 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:08:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:08:52 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:08:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:08:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:08:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:08:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:08:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:08:55 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:08:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:08:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:08:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:08:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:08:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:08:56 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:09:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:09:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:09:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:09:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:10:36 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:11:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:11:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:11:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:11:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:11:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:11:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:11:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:11:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:48:24 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:49:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:53:38 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:14 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:14 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:54:20 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:54:20 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadIngresado no debe ser nulo
+jun 18, 2016 10:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:22 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 18, 2016 10:54:22 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadIngresado debe tener un valor maximo de 100
+jun 18, 2016 10:54:24 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:24 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:25 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:54:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:54:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:55:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:55:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:56:45 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 10:57:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:30 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:38 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 10:57:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:57:39 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jun 18, 2016 10:57:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:57:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidadPositivos no debe ser nulo
+jun 18, 2016 10:57:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:46 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:47 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:47 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:47 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:47 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:47 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 10:57:47 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 100
+jun 18, 2016 11:00:56 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:01:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 11:01:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 11:01:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jun 18, 2016 11:01:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidad debe tener un valor maximo de 400
+jun 18, 2016 11:01:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidad debe tener un valor maximo de 400
+jun 18, 2016 11:01:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidad debe tener un valor maximo de 400
+jun 18, 2016 11:01:41 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidad debe tener un valor maximo de 400
+jun 18, 2016 11:01:42 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidad debe tener un valor maximo de 400
+jun 18, 2016 11:06:46 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:09:25 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:12:33 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:16:32 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:18:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:21:48 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:22:00 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:01 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:02 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:03 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:04 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:05 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:06 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:07 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:08 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:09 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:10 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:11 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:12 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:26 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:34 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:37 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:40 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:41 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:43 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:44 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:22:45 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:24:54 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:25:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:25:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:25:19 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:25:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo descripcion no debe ser nulo
+jun 18, 2016 11:35:37 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:38:08 PM windows.ValidateEntity validateMax
+INFORMACIÓN: El atributo cantidadPositivos debe tener un valor maximo de 300
+jun 18, 2016 11:39:27 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:47:52 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:49:56 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jun 18, 2016 11:50:27 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:50:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:50:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:50:32 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:50:33 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cliente no debe ser nulo
+jun 18, 2016 11:51:12 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:13 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:13 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:14 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:15 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cedula no debe ser nulo
+jun 18, 2016 11:51:15 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:16 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:16 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:17 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:18 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:19 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:21 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:23 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:25 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:26 PM windows.ValidateEntity validatePattern
+INFORMACIÓN: El atributo cedula no posee concidencia
+jun 18, 2016 11:51:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 11:51:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 11:51:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 11:51:29 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo
+jun 18, 2016 11:51:31 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo nombre no debe ser nulo

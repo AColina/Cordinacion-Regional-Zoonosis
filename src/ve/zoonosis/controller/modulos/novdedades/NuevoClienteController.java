@@ -113,6 +113,12 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         Bindings.bind(direccion, bindObject2.getBind("direccion"));
         Bindings.bind(telefono, bindObject2.getBind("telefono"));
         Bindings.bind(parroquia, bindObject2.getBind("parroquia"), true);
+        nombre.setMaxLength(45);
+        apellido.setMaxLength(45);
+        cardNumber.setMaxLength(20);
+        correo.setMaxLength(45);
+        telefono.setMaxLength(12);
+        direccion.setMaxLength(200);
 
         try {
             rb = new RequestBuilder("services/administracion/MunicipioWs/ListaMunicipios.php");
@@ -242,7 +248,7 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         boolean v = new ValidateEntity(persona).validate(this, "cedula");
 
         if (v) {
-            v = new ValidateEntity(entity).validate(this, new String[]{"correo", "direccion","telefono", "parroquia"}, null);
+            v = new ValidateEntity(entity).validate(this, new String[]{"correo", "direccion", "telefono", "parroquia"}, null);
         }
         dialog.revalidate();
         if (dialog.getDialogScroll().getHorizontalScrollBar().isVisible()) {

@@ -93,8 +93,8 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
 
         apellido.setName("apellido"); // NOI18N
 
-        mLabel1.setRequired(true);
         mLabel1.setText("Cedula");
+        mLabel1.setRequired(true);
 
         mLabel2.setRequired(true);
         mLabel2.setText("Nombre");
@@ -126,15 +126,18 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
         cardNumber.setPlaceHolder("xx-xxxxxxxx");
 
         mLabel4.setText("Usuario");
+        mLabel4.setRequired(true);
 
         usr.setName("usr"); // NOI18N
 
         mLabel5.setText("Contraseña");
+        mLabel5.setRequired(true);
 
         contrasena.setName("contrasena"); // NOI18N
         contrasena.setPreferredSize(new java.awt.Dimension(100, 24));
 
         mLabel6.setText("Repetir Contraseña");
+        mLabel6.setRequired(true);
 
         repeatPass.setName("repeat"); // NOI18N
         repeatPass.setPreferredSize(new java.awt.Dimension(100, 24));
@@ -143,8 +146,10 @@ public abstract class NuevoUsuario<E extends Entidad> extends AbstractForm<E> {
         fechaNacimiento.setPreferredSize(new java.awt.Dimension(100, 24));
 
         mLabel7.setText("Fecha Nacimiento");
+        mLabel7.setRequired(true);
 
         mLabel8.setText("Permiso");
+        mLabel8.setRequired(true);
 
         permiso.setName("permiso"); // NOI18N
 

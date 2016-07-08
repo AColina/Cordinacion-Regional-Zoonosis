@@ -15,9 +15,9 @@
  */
 package ve.zoonosis.model.entidades.funcionales;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.ArrayList;
 import java.util.List;
 import ve.zoonosis.model.entidades.Entidad;
 
@@ -25,7 +25,6 @@ import ve.zoonosis.model.entidades.Entidad;
  *
  * @author angel.colina
  */
-@JsonIgnoreProperties(ignoreUnknown=true)
 public class Especie extends Entidad {
 
     private String nombre;
@@ -40,6 +39,11 @@ public class Especie extends Entidad {
         this.nombre = nombre;
     }
 
+    public Especie(String nombre, Long id) {
+        super(id);
+        this.nombre = nombre;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -49,6 +53,9 @@ public class Especie extends Entidad {
     }
 
     public List<Animal> getAnimalesAsociados() {
+        if (animalesAsociados == null) {
+            animalesAsociados = new ArrayList<>();
+        }
         return animalesAsociados;
     }
 
