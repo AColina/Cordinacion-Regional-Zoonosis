@@ -5,7 +5,6 @@
  */
 package windows;
 
-import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.megagroup.Application;
 import com.megagroup.componentes.MGrowl;
 import com.megagroup.model.enums.MGrowlState;
@@ -199,10 +198,10 @@ public class RequestBuilder extends EjecutorJson {
      * @return
      */
     @Override
-    public <T> T ejecutarJson(Class<T> entidad, SimpleModule... modulus) {
+    public <T> T ejecutarJson(Class<T> entidad) {
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(entidad, modulus);
+            return super.ejecutarJson(entidad);
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
@@ -221,12 +220,11 @@ public class RequestBuilder extends EjecutorJson {
      * @return
      */
     @Override
-    public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad,
-            SimpleModule... modulus) {
+    public <T> List<T> ejecutarJson(Class<? extends List> colleccion, Class<T> entidad) {
 
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(colleccion, entidad, modulus);
+            return super.ejecutarJson(colleccion, entidad);
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);
@@ -239,11 +237,11 @@ public class RequestBuilder extends EjecutorJson {
 
     @Override
     public <K, V> Map<K, V> ejecutarJson(Class<? extends Map> mapClass,
-            Class<K> classKey, Class<V> classValue, SimpleModule... modulus) {
+            Class<K> classKey, Class<V> classValue) {
 
         index.setCursor(Recursos.WAIT_CURSOR);
         try {
-            return super.ejecutarJson(mapClass, classKey, classValue, modulus);
+            return super.ejecutarJson(mapClass, classKey, classValue);
         } catch (Exception ex) {
             alerta(ex);
             LOG.LOGGER.log(Level.SEVERE, null, ex);

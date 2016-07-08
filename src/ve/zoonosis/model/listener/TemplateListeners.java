@@ -19,6 +19,10 @@ import com.megagroup.reflection.ReflectionUtils;
 import java.awt.Container;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JComponent;
+import ve.zoonosis.controller.funcionales.CrearEspecieController;
 import ve.zoonosis.controller.modulos.ExportarController;
 import ve.zoonosis.controller.modulos.ImportarController;
 import ve.zoonosis.controller.modulos.casos.BandejaCasosController;
@@ -64,6 +68,7 @@ import ve.zoonosis.controller.modulos.novdedades.BandejaNovedadesController;
 import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.controller.seguridad.NuevoUsuarioController;
 import ve.zoonosis.model.components.AbstractInternalListener;
+import ve.zoonosis.vistas.otros.AcercaDe;
 
 /**
  *
@@ -252,6 +257,14 @@ public class TemplateListeners {
         return new CrearDialogo(ImportarController.class);
     }
 
+    public CrearDialogo getNuevaEspecie() {
+        return new CrearDialogo(CrearEspecieController.class);
+    }
+
+    public SingleInstance getAcercaDe() {
+        return new SingleInstance(AcercaDe.class);
+    }
+
     public static class Bandeja extends AbstractInternalListener implements ActionListener {
 
         private final String titulo;
@@ -284,6 +297,27 @@ public class TemplateListeners {
 
         public void actionPerformed(ActionEvent e) {
             ReflectionUtils.newInstanceForVector(container, values);
+        }
+
+    }
+
+    public class SingleInstance implements ActionListener {
+
+        private final Class<? extends Container> container;
+
+        public SingleInstance(Class<? extends Container> container) {
+            this.container = container;
+        }
+
+        @Override
+
+        public void actionPerformed(ActionEvent e) {
+            try {
+                JComponent c = ReflectionUtils.runMethod(container, container.getDeclaredMethod("getInstance"));
+                c.show();
+            } catch (NoSuchMethodException | SecurityException ex) {
+                Logger.getLogger(TemplateListeners.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
 
     }

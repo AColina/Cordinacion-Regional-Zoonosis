@@ -93,6 +93,7 @@ public class Index extends javax.swing.JFrame {
         registarUsuario.setVisible(true);
         modificarDatos.setVisible(true);
         importar.setVisible(true);
+        registrarEspecie.setVisible(true);
         switch (permiso) {
             default:
                 modificarDatos.setVisible(false);
@@ -100,15 +101,19 @@ public class Index extends javax.swing.JFrame {
                 exportar.setVisible(false);
             case "Usuario":
                 registarUsuario.setVisible(false);
+                registrarEspecie.setVisible(false);
             case "Coordinador":
         }
         ComponentUtils.removeListener(registarUsuario, TemplateListeners.CrearDialogo.class);
         ComponentUtils.removeListener(modificarDatos, TemplateListeners.CrearDialogo.class);
         ComponentUtils.removeListener(importar, TemplateListeners.CrearDialogo.class);
+        ComponentUtils.removeListener(registrarEspecie, TemplateListeners.CrearDialogo.class);
         registarUsuario.addActionListener(listener.getNuevoUsuario());
         modificarDatos.addActionListener(listener.getDatosDeUsuario());
         importar.addActionListener(listener.getImportar());
         exportar.addActionListener(listener.getExportar());
+        acercaDe.addActionListener(listener.getAcercaDe());
+        registrarEspecie.addActionListener(listener.getNuevaEspecie());
     }
 
     /**
@@ -120,9 +125,10 @@ public class Index extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        menu = new javax.swing.JMenuBar();
+        javax.swing.JMenuBar menu = new javax.swing.JMenuBar();
         javax.swing.JMenu jMenu5 = new javax.swing.JMenu();
         registarUsuario = new javax.swing.JMenuItem();
+        registrarEspecie = new javax.swing.JMenuItem();
         modificarDatos = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator2 = new javax.swing.JPopupMenu.Separator();
         cerrarSesion = new javax.swing.JMenuItem();
@@ -164,7 +170,7 @@ public class Index extends javax.swing.JFrame {
         vacunacionEspecieDiariaPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieSemanalPorParroquia = new javax.swing.JMenuItem();
         vacunacionEspecieMensualPorParroquia = new javax.swing.JMenuItem();
-        jSeparator5 = new javax.swing.JPopupMenu.Separator();
+        javax.swing.JPopupMenu.Separator jSeparator5 = new javax.swing.JPopupMenu.Separator();
         comparativaAnual = new javax.swing.JMenuItem();
         javax.swing.JMenu jMenu3 = new javax.swing.JMenu();
         verNovedad = new javax.swing.JMenuItem();
@@ -189,7 +195,6 @@ public class Index extends javax.swing.JFrame {
         exportar = new javax.swing.JMenuItem();
         javax.swing.JPopupMenu.Separator jSeparator4 = new javax.swing.JPopupMenu.Separator();
         acercaDe = new javax.swing.JMenuItem();
-        ayuda = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Zoonosis  System");
@@ -198,6 +203,9 @@ public class Index extends javax.swing.JFrame {
 
         registarUsuario.setText("Registrar Usuario");
         jMenu5.add(registarUsuario);
+
+        registrarEspecie.setText("Registrar Especies");
+        jMenu5.add(registrarEspecie);
 
         modificarDatos.setText("Datos Personales");
         jMenu5.add(modificarDatos);
@@ -387,9 +395,6 @@ public class Index extends javax.swing.JFrame {
         acercaDe.setText("Acerca de");
         opciones.add(acercaDe);
 
-        ayuda.setText("Ayuda");
-        opciones.add(ayuda);
-
         menu.add(opciones);
 
         setJMenuBar(menu);
@@ -436,7 +441,6 @@ public class Index extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem acercaDe;
-    private javax.swing.JMenuItem ayuda;
     private javax.swing.JMenuItem casos;
     private javax.swing.JMenuItem casosAnimalDiarioPorMunicipio;
     private javax.swing.JMenuItem casosAnimalDiarioPorParroquia;
@@ -476,6 +480,7 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JMenuItem modificarDatos;
     private javax.swing.JMenuItem novedades;
     private javax.swing.JMenuItem registarUsuario;
+    private javax.swing.JMenuItem registrarEspecie;
     private javax.swing.JMenuItem vacunacionAnimalDiariaPorMunicipio;
     private javax.swing.JMenuItem vacunacionAnimalDiariaPorParroquia;
     private javax.swing.JMenuItem vacunacionAnimalMensualPorMunicipio;

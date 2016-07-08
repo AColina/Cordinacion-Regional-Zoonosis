@@ -3,6 +3,10 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="menu">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+      </AuxValues>
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="jMenu5">
           <Properties>
@@ -16,6 +20,11 @@
             <MenuItem class="javax.swing.JMenuItem" name="registarUsuario">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Registrar Usuario"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="registrarEspecie">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registrar Especies"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="modificarDatos">
@@ -266,6 +275,10 @@
               </SubComponents>
             </Menu>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator5">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="comparativaAnual">
               <Properties>
@@ -396,11 +409,6 @@
             <MenuItem class="javax.swing.JMenuItem" name="acercaDe">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Acerca de"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="ayuda">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Ayuda"/>
               </Properties>
             </MenuItem>
           </SubComponents>
