@@ -1,0 +1,36 @@
+jul 07, 2016 7:20:42 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jul 07, 2016 11:02:15 PM ve.zoonosis.controller.seguridad.LoginController run
+INFORMACIÓN: Usuario : admin inicia sesion
+jul 07, 2016 11:03:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:03:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:03:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:03:13 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:03:14 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:03:16 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:03:19 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jul 07, 2016 11:03:35 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
+jul 07, 2016 11:04:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:04:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:04:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:04:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:04:17 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:04:18 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo parroquia no debe ser nulo
+jul 07, 2016 11:04:22 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo animal no debe ser nulo
+jul 07, 2016 11:04:23 PM windows.ValidateEntity validateNotNull
+INFORMACIÓN: El atributo cantidad no debe ser nulo
