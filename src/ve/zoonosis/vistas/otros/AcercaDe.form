@@ -163,6 +163,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/windows/resources/secretaria_de_salud_del_estado_zulia.png"/>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

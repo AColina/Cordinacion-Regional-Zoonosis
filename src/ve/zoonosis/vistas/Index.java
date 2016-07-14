@@ -17,6 +17,13 @@ package ve.zoonosis.vistas;
 
 import com.megagroup.Application;
 import com.megagroup.utilidades.ComponentUtils;
+import java.awt.Image;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.imageio.ImageIO;
 import ve.zoonosis.controller.seguridad.LoginController;
 import ve.zoonosis.model.entidades.administracion.Usuario;
 import ve.zoonosis.model.listener.TemplateListeners;
@@ -30,6 +37,20 @@ import windows.Recursos;
 public class Index extends javax.swing.JFrame {
 
     private static Template template;
+    private  List<Image> iconos;
+
+    {
+        try {
+            iconos = new ArrayList<>();
+            iconos.add(ImageIO.read(Index.class.getResource("/windows/resources/favicons/favicon16.png")));
+            iconos.add(ImageIO.read(Index.class.getResource("/windows/resources/favicons/favicon32.png")));
+            iconos.add(ImageIO.read(Index.class.getResource("/windows/resources/favicons/favicon64.png")));
+            iconos.add(ImageIO.read(Index.class.getResource("/windows/resources/favicons/favicon96.png")));
+            iconos.add(ImageIO.read(Index.class.getResource("/windows/resources/favicons/favicon128.png")));
+        } catch (IOException ex) {
+            Logger.getLogger(Index.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 
     /**
      * Creates new form Index
@@ -40,6 +61,7 @@ public class Index extends javax.swing.JFrame {
         this.setExtendedState(MAXIMIZED_BOTH);
         Recursos.inicializarRecursos();
         this.setContentPane(new LoginController(Index.this));
+        this.setIconImages(iconos);
     }
 
     private void addListeners() {
