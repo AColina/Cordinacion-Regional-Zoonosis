@@ -482,11 +482,9 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JMenuItem importar;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu8;
-    private javax.swing.JPopupMenu.Separator jSeparator5;
     private javax.swing.JPopupMenu.Separator jSeparator6;
     private javax.swing.JPopupMenu.Separator jSeparator7;
     private javax.swing.JMenuItem jornadasVacunacion;
-    private javax.swing.JMenuBar menu;
     private javax.swing.JMenuItem menuInformeCasoAnualMunicipio;
     private javax.swing.JMenuItem menuInformeCasoAnualParroquia;
     private javax.swing.JMenuItem menuInformeCasoMensualMunicipio;

@@ -1,0 +1,634 @@
+jul 17, 2016 3:14:42 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:14:45 PM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:166)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:15 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:15:17 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:17 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:17 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:36 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:38 PM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:166)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:46 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:15:48 PM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:166)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:08 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:10 PM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:166)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:24 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:16:42 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:16:44 PM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:166)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:18 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:17:25 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:259)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:204)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJsonToString
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:208)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonToString(EjecutorJson.java:247)
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:182)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJsonToString(RequestBuilder.java:186)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:236)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:162)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:27 PM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:166)
+	at windows.ScanWeek.run(ScanWeek.java:60)
+
+jul 17, 2016 3:17:46 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 17, 2016 3:17:57 PM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
