@@ -68,6 +68,10 @@ public class CasosTableModel extends AbstractLazyDataModel<Animal_has_Caso> {
             case 4:
                 return "{animal.nombre}";
             case 5:
+                return "{cantidadIngresado}";
+            case 6:
+                return "{cantidadPositivos}";
+            case 7:
                 return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
@@ -81,6 +85,8 @@ public class CasosTableModel extends AbstractLazyDataModel<Animal_has_Caso> {
         list.add("Parroquia");
         list.add("Municipio");
         list.add("Animal");
+        list.add("Cantidad Ingresado");
+        list.add("Cantidad Positivos");
         list.add("Opciones");
     }
 

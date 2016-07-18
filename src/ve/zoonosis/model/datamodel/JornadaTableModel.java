@@ -64,6 +64,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
         nombres.add("Parroquia");
         nombres.add("Usuario");
         nombres.add("Animal");
+        nombres.add("Cantidad");
         nombres.add("Opciones");
 
     }
@@ -84,6 +85,8 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
             case 5:
                 return "{animal.nombre}";
             case 6:
+                return "{cantidad}";
+            case 7:
                 return "Ver";
             default:
                 throw new UnsupportedOperationException("El índice: " + columnIndex + " aún no se ha programado.");
@@ -119,7 +122,7 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
                 for (final RegistroVacunacion_has_Animal resultado : pojo.getResultados()) {
 
                     try {
-                        Vacunacion v=vacunacion.get(resultado.getRegistroVacunacion().getVacunacion().getId());
+                        Vacunacion v = vacunacion.get(resultado.getRegistroVacunacion().getVacunacion().getId());
                         if (v == null) {
                             builder = new RequestBuilder("services/proceso/VacunacionWs/ObtenerVacunacion.php",
                                     new HashMap<String, Object>() {
@@ -127,9 +130,9 @@ public class JornadaTableModel extends AbstractLazyDataModel<RegistroVacunacion_
                                             put("idVacunacion", resultado.getRegistroVacunacion().getVacunacion().getId());
                                         }
                                     }, MetodosDeEnvio.GET);
-                        
-                        v = builder.ejecutarJson(Vacunacion.class);
-                        vacunacion.put(resultado.getRegistroVacunacion().getVacunacion().getId(), v);
+
+                            v = builder.ejecutarJson(Vacunacion.class);
+                            vacunacion.put(resultado.getRegistroVacunacion().getVacunacion().getId(), v);
                         }
                         resultado.getRegistroVacunacion().setVacunacion(v);
                     } catch (URISyntaxException | RuntimeException ex) {

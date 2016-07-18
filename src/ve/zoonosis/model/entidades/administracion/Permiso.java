@@ -35,6 +35,10 @@ public class Permiso extends Entidad {
     public Permiso() {
     }
 
+    public Permiso(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getNombre() {
         return nombre;
     }

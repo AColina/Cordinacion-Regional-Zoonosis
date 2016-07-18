@@ -1,0 +1,32 @@
+jul 18, 2016 11:28:40 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 18, 2016 11:28:44 AM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:271)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:227)
+	at windows.ScanWeek.run(ScanWeek.java:39)
+
+jul 18, 2016 11:28:44 AM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:231)
+	at windows.ScanWeek.run(ScanWeek.java:39)
+
+jul 18, 2016 11:29:28 AM ve.zoonosis.controller.seguridad.LoginController$3 actionPerformed
+INFORMACIÓN: Usuario : Sesion de invitado
+jul 18, 2016 11:29:31 AM windows.RequestBuilder ejecutarJson
+GRAVE: null
+java.net.ConnectException: No se pudo conectar al servidor
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJsonGeneral(EjecutorJson.java:355)
+	at windows.webservices.utilidades.EjecutorJson.ejecutarJson(EjecutorJson.java:271)
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:227)
+	at windows.ScanWeek.run(ScanWeek.java:39)
+
+jul 18, 2016 11:29:31 AM windows.ScanWeek run
+GRAVE: null
+java.lang.RuntimeException
+	at windows.RequestBuilder.ejecutarJson(RequestBuilder.java:231)
+	at windows.ScanWeek.run(ScanWeek.java:39)
+

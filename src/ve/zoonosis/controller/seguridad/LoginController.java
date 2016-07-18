@@ -36,6 +36,7 @@ import ve.zoonosis.vistas.seguridad.Login;
 import windows.Recursos;
 import windows.RequestBuilder;
 import windows.ScanWeek;
+import windows.webservices.utilidades.MetodosDeEnvio;
 
 /**
  *
@@ -86,23 +87,23 @@ public class LoginController extends Login implements Runnable {
 
     //METODOS PUBLICOS
     public static void cerrarSesion() {
-//        try {
+        try {
         System.gc();
-//            Boolean b = new RequestBuilder("rest/seguridad/logout",
-//                    new HashMap<String, Object>() {
-//                        {
-//                            put("idUsuario", usuario.getId());
-//                        }
-//                    }, MetodosDeEnvio.POST)
-//                    .ejecutarJson(Boolean.class);
+            Boolean b = new RequestBuilder("rest/seguridad/logout",
+                    new HashMap<String, Object>() {
+                        {
+                            put("idUsuario", usuario.getId());
+                        }
+                    }, MetodosDeEnvio.POST)
+                    .ejecutarJson(Boolean.class);
         if (true) {
             LOG.LOGGER.log(Level.INFO, "Usuario : cerro sesion");
             usuario = null;
             Index.cambiarPagina(new LoginController());
         }
-//        } catch (URISyntaxException ex) {
-//            LOG.LOGGER.log(Level.SEVERE, null, ex);
-//        }
+        } catch (URISyntaxException ex) {
+            LOG.LOGGER.log(Level.SEVERE, null, ex);
+        }
         System.gc();
     }
 
