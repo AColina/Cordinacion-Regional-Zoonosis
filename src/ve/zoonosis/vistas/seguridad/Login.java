@@ -28,7 +28,7 @@ public abstract class Login extends javax.swing.JPanel {
      */
     protected Login() {
         initComponents();
-        
+        //new DialogMessageController("mensaje","aviso");
     }
 
     /**

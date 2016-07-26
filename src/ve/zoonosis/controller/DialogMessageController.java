@@ -28,11 +28,12 @@ import ve.zoonosis.vistas.DialogMessage;
 public class DialogMessageController extends DialogMessage<Entidad>{
 
     private MDialog dialog;
+    private String title;
 
     public DialogMessageController(String msg, String title) {
-        inicializar();
         jLabel2.setText(msg);
-        dialog.setTitle(title);
+        this.title = (title);
+        inicializar();
     }
     
     
@@ -79,7 +80,7 @@ public class DialogMessageController extends DialogMessage<Entidad>{
     
     private void iniciarDialogo() {
         dialog = new MDialog(Application.getAPLICATION_FRAME());
-        dialog.setTitle("Error");
+        dialog.setTitle(title);
         dialog.setResizable(false);
         dialog.showPanel(this);
     }
