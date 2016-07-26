@@ -15,6 +15,8 @@
  */
 package ve.zoonosis.vistas.seguridad;
 
+import ve.zoonosis.controller.DialogMessageController;
+
 /**
  *
  * @author angel.colina
@@ -26,6 +28,7 @@ public abstract class Login extends javax.swing.JPanel {
      */
     protected Login() {
         initComponents();
+        
     }
 
     /**

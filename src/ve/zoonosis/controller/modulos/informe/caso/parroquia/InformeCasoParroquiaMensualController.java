@@ -46,14 +46,13 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
+import ve.zoonosis.controller.DialogMessageController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.parroquia.CasoAnimalSemanalPorParroquiaController;
 import ve.zoonosis.controller.modulos.novdedades.VerNovedadController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.model.entidades.administracion.Parroquia;
-import ve.zoonosis.model.entidades.calendario.Semana;
 import ve.zoonosis.model.listener.MunicipioListener;
 import ve.zoonosis.utils.PDFCreator;
 import ve.zoonosis.utils.RandomColor;
@@ -186,7 +185,8 @@ public class InformeCasoParroquiaMensualController extends InformeCasoParroquiaM
             HashMap v = new HashMap();
 
             if (valores == null || valores.isEmpty()) {
-                JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
+                new DialogMessageController("No se encontraron registros", "Aviso");
+                //JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
             } else {
                 btnImprimir.setEnabled(true);
                 btnGuardar.setEnabled(true);

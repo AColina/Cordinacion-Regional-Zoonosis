@@ -43,6 +43,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.WindowConstants;
 import org.apache.commons.lang3.StringUtils;
+import ve.zoonosis.controller.DialogMessageController;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Cliente;
 import ve.zoonosis.model.entidades.administracion.Municipio;
@@ -220,8 +221,8 @@ public class NuevoClienteController extends NuevoCliente<Cliente> {
         apellido.setEnabled(persona == null);
 
         if (persona == null) {
-            JOptionPane.showMessageDialog(this, "La persona con la cedula especificada "
-                    + "no fue encontrada", "Información", JOptionPane.INFORMATION_MESSAGE);
+            new DialogMessageController("La persona con la cedula especificada "
+                    + "no fue encontrada", "Información");
             persona = new Persona();
             persona.setCedula(c);
         }

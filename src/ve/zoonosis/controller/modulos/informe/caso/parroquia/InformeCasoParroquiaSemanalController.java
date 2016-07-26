@@ -44,7 +44,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
+import ve.zoonosis.controller.DialogMessageController;
 import ve.zoonosis.controller.modulos.estadistica.caso.animales.parroquia.CasoAnimalSemanalPorParroquiaController;
 import ve.zoonosis.controller.modulos.novdedades.VerNovedadController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
@@ -164,10 +164,10 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
         try {
             RequestBuilder rb = new RequestBuilder("services/calendario/WeeksForYear.php",
                     new HashMap<String, Object>() {
-                        {
-                            put("year", years.getSelectedItem());
-                        }
-                    });
+                {
+                    put("year", years.getSelectedItem());
+                }
+            });
             List<Semana> listaSemanas = rb.ejecutarJson(List.class, Semana.class);
             if (listaSemanas == null || listaSemanas.isEmpty()) {
                 mButton1.setEnabled(false);
@@ -195,18 +195,19 @@ public class InformeCasoParroquiaSemanalController extends InformeCasoParroquiaS
             //    final Date fecha = dia.getDate();
             rb = new RequestBuilder("services/funcionales/AnimalWs/ObtenerListaPorSemanaDeCasoPorParroquia.php",
                     new HashMap<String, Object>() {
-                        {
-                            put("nombreParroquia", nombreParroquia);
-                            put("semana", ((Semana) semanas.getSelectedItem()).getNombre());
-                            put("year", years.getSelectedItem());
-                            //           put("dia", fecha);
-                        }
-                    });
+                {
+                    put("nombreParroquia", nombreParroquia);
+                    put("semana", ((Semana) semanas.getSelectedItem()).getNombre());
+                    put("year", years.getSelectedItem());
+                    //           put("dia", fecha);
+                }
+            });
             List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
             HashMap v = new HashMap();
 
             if (valores == null || valores.isEmpty()) {
-                JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
+                new DialogMessageController("No se encontraron registros", "Aviso");
+//JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
             } else {
                 btnImprimir.setEnabled(false);
                 btnGuardar.setEnabled(false);

@@ -41,6 +41,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import org.apache.commons.lang3.StringUtils;
 import org.joda.time.DateTime;
+import ve.zoonosis.controller.DialogMessageController;
 import ve.zoonosis.model.combomodel.ListComboBoxModel;
 import ve.zoonosis.model.entidades.administracion.Permiso;
 import ve.zoonosis.model.entidades.administracion.Persona;
@@ -217,8 +218,8 @@ public class NuevoUsuarioController extends NuevoUsuario<Usuario> {
         apellido.setEnabled(persona == null);
 
         if (persona == null) {
-            JOptionPane.showMessageDialog(this, "La persona con la cedula especificada "
-                    + "no fue encontrada", "Información", JOptionPane.INFORMATION_MESSAGE);
+            new DialogMessageController("La persona con la cedula especificada "
+                    + "no fue encontrada", "Información");
             persona = new Persona();
             persona.setCedula(c);
         }

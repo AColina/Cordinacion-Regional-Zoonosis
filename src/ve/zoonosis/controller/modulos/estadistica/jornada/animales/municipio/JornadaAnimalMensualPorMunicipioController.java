@@ -22,7 +22,6 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashMap;
@@ -30,9 +29,9 @@ import java.util.List;
 import java.util.logging.Level;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JButton;
-import javax.swing.JOptionPane;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
+import ve.zoonosis.controller.DialogMessageController;
 import ve.zoonosis.controller.modulos.casos.NuevoCasoController;
 import ve.zoonosis.model.entidades.administracion.Municipio;
 import ve.zoonosis.utils.RandomColor;
@@ -130,7 +129,8 @@ public class JornadaAnimalMensualPorMunicipioController extends JornadaAnimalMen
             List<HashMap> valores = rb.ejecutarJson(List.class, HashMap.class);
 
             if (valores == null || valores.isEmpty()) {
-                JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
+                new DialogMessageController("No se encontraron registros", "Aviso");
+                //JOptionPane.showMessageDialog(null, "No se encontraron registros", "Aviso", JOptionPane.WARNING_MESSAGE);
             } else {
                 List<HashMap> ordValores = sumarRepetidos(valores);
                 List<ChartObject> lista = new ArrayList<>();
